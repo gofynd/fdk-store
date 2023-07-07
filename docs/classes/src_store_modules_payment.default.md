@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[src/store/modules/payment.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L5)
+src/store/modules/payment.ts:5
 
 ## Methods
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[src/store/modules/payment.ts:45](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L45)
+src/store/modules/payment.ts:45
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:37](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L37)
+src/store/modules/payment.ts:37
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:41](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L41)
+src/store/modules/payment.ts:41
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:21](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L21)
+src/store/modules/payment.ts:21
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:29](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L29)
+src/store/modules/payment.ts:29
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:13](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L13)
+src/store/modules/payment.ts:13
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:9](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L9)
+src/store/modules/payment.ts:9
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:33](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L33)
+src/store/modules/payment.ts:33
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:25](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L25)
+src/store/modules/payment.ts:25
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/payment.ts:17](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/payment.ts#L17)
+src/store/modules/payment.ts:17

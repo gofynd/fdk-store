@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/types/product.ts:4](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/types/product.ts#L4)
+src/types/product.ts:4
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/types/product.ts:7](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/types/product.ts#L7)
+src/types/product.ts:7
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[src/types/product.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/types/product.ts#L5)
+src/types/product.ts:5

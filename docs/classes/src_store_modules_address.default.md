@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/store/modules/address.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/address.ts#L5)
+src/store/modules/address.ts:5
 
 ## Methods
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[src/store/modules/address.ts:22](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/address.ts#L22)
+src/store/modules/address.ts:22
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/address.ts:10](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/address.ts#L10)
+src/store/modules/address.ts:10
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/address.ts:14](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/address.ts#L14)
+src/store/modules/address.ts:14
 
 ___
 
@@ -111,4 +111,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/address.ts:18](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/address.ts#L18)
+src/store/modules/address.ts:18

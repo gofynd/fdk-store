@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/types/index.ts:7](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/types/index.ts#L7)
+src/types/index.ts:7
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-[src/types/index.ts:10](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/types/index.ts#L10)
+src/types/index.ts:10

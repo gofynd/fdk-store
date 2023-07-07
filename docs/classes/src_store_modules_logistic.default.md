@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/store/modules/logistic.ts:6](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/logistic.ts#L6)
+src/store/modules/logistic.ts:6
 
 ## Methods
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/store/modules/logistic.ts:10](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/logistic.ts#L10)
+src/store/modules/logistic.ts:10
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/logistic.ts:18](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/logistic.ts#L18)
+src/store/modules/logistic.ts:18
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/logistic.ts:14](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/logistic.ts#L14)
+src/store/modules/logistic.ts:14

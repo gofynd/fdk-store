@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/store/modules/brands.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/brands.ts#L5)
+src/store/modules/brands.ts:5
 
 ## Methods
 
@@ -48,4 +48,4 @@
 
 #### Defined in
 
-[src/store/modules/brands.ts:9](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/brands.ts#L9)
+src/store/modules/brands.ts:9

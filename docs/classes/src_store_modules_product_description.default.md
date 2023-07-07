@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/store/modules/product-description.ts:8](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L8)
+src/store/modules/product-description.ts:8
 
 ## Methods
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/store/modules/product-description.ts:27](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L27)
+src/store/modules/product-description.ts:27
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:35](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L35)
+src/store/modules/product-description.ts:35
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `params` | [`getProductDetailBySlug`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getproductdetailbyslug) |
+| `params` | [`GetProductDetailBySlugParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getproductdetailbyslugparam) |
 
 #### Returns
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:13](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L13)
+src/store/modules/product-description.ts:13
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:23](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L23)
+src/store/modules/product-description.ts:23
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:39](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L39)
+src/store/modules/product-description.ts:39
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:43](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L43)
+src/store/modules/product-description.ts:43
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-description.ts:31](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-description.ts#L31)
+src/store/modules/product-description.ts:31

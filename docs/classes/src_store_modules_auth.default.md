@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[src/store/modules/auth.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L5)
+src/store/modules/auth.ts:5
 
 ## Methods
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[src/store/modules/auth.ts:23](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L23)
+src/store/modules/auth.ts:23
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:51](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L51)
+src/store/modules/auth.ts:51
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:11](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L11)
+src/store/modules/auth.ts:11
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:19](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L19)
+src/store/modules/auth.ts:19
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:59](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L59)
+src/store/modules/auth.ts:59
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:55](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L55)
+src/store/modules/auth.ts:55
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:63](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L63)
+src/store/modules/auth.ts:63
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:67](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L67)
+src/store/modules/auth.ts:67
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:91](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L91)
+src/store/modules/auth.ts:91
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:47](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L47)
+src/store/modules/auth.ts:47
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:75](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L75)
+src/store/modules/auth.ts:75
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:71](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L71)
+src/store/modules/auth.ts:71
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:43](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L43)
+src/store/modules/auth.ts:43
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:39](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L39)
+src/store/modules/auth.ts:39
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:31](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L31)
+src/store/modules/auth.ts:31
 
 ___
 
@@ -355,7 +355,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:35](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L35)
+src/store/modules/auth.ts:35
 
 ___
 
@@ -375,7 +375,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:87](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L87)
+src/store/modules/auth.ts:87
 
 ___
 
@@ -395,7 +395,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:27](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L27)
+src/store/modules/auth.ts:27
 
 ___
 
@@ -415,7 +415,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:83](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L83)
+src/store/modules/auth.ts:83
 
 ___
 
@@ -435,4 +435,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/auth.ts:79](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/auth.ts#L79)
+src/store/modules/auth.ts:79

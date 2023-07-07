@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/store/modules/share.ts:5](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/share.ts#L5)
+src/store/modules/share.ts:5
 
 ## Methods
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[src/store/modules/share.ts:11](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/share.ts#L11)
+src/store/modules/share.ts:11
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/share.ts:15](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/share.ts#L15)
+src/store/modules/share.ts:15

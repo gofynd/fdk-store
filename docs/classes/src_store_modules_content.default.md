@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/store/modules/content.ts:6](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L6)
+src/store/modules/content.ts:6
 
 ## Methods
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[src/store/modules/content.ts:51](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L51)
+src/store/modules/content.ts:51
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:15](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L15)
+src/store/modules/content.ts:15
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:19](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L19)
+src/store/modules/content.ts:19
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:23](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L23)
+src/store/modules/content.ts:23
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:27](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L27)
+src/store/modules/content.ts:27
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:59](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L59)
+src/store/modules/content.ts:59
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:31](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L31)
+src/store/modules/content.ts:31
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:55](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L55)
+src/store/modules/content.ts:55
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:39](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L39)
+src/store/modules/content.ts:39
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:11](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L11)
+src/store/modules/content.ts:11
 
 ___
 
@@ -242,7 +242,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:43](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L43)
+src/store/modules/content.ts:43
 
 ___
 
@@ -256,7 +256,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:47](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L47)
+src/store/modules/content.ts:47
 
 ___
 
@@ -270,4 +270,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/content.ts:35](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/content.ts#L35)
+src/store/modules/content.ts:35

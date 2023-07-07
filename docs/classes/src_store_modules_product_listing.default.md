@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:9](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L9)
+src/store/modules/product-listing.ts:9
 
 ## Methods
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:30](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L30)
+src/store/modules/product-listing.ts:30
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`getBrandDetailBySlug`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getbranddetailbyslug) |
+| `options` | [`GetBrandDetailBySlugParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getbranddetailbyslugparam) |
 
 #### Returns
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:34](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L34)
+src/store/modules/product-listing.ts:34
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:23](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L23)
+src/store/modules/product-listing.ts:23
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`getCategoryDetailBySlug`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getcategorydetailbyslug) |
+| `options` | [`GetCategoryDetailBySlugParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getcategorydetailbyslugparam) |
 
 #### Returns
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:26](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L26)
+src/store/modules/product-listing.ts:26
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:37](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L37)
+src/store/modules/product-listing.ts:37
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`getCollectionDetailBySlug`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getcollectiondetailbyslug) |
+| `options` | [`GetCollectionDetailBySlugParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getcollectiondetailbyslugparam) |
 
 #### Returns
 
@@ -158,7 +158,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:40](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L40)
+src/store/modules/product-listing.ts:40
 
 ___
 
@@ -180,7 +180,7 @@ Fetch products from API
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:17](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L17)
+src/store/modules/product-listing.ts:17
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`getProductDetailBySlug`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getproductdetailbyslug) |
+| `options` | [`GetProductDetailBySlugParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getproductdetailbyslugparam) |
 
 #### Returns
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:20](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L20)
+src/store/modules/product-listing.ts:20
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:51](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L51)
+src/store/modules/product-listing.ts:51
 
 ___
 
@@ -232,7 +232,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `params` | [`getSearchResults`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getsearchresults) |
+| `params` | [`GetSearchResultsParam`](../modules/node_modules_fdk_client_javascript_sdk_application_Catalog_CatalogApplicationValidator.export_.md#getsearchresultsparam) |
 
 #### Returns
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:47](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L47)
+src/store/modules/product-listing.ts:47
 
 ___
 
@@ -254,4 +254,4 @@ ___
 
 #### Defined in
 
-[src/store/modules/product-listing.ts:43](https://gitlab.com/fynd/regrowth/fynd-platform/themes/shadowfire/-/blob/ef78e90/src/store/modules/product-listing.ts#L43)
+src/store/modules/product-listing.ts:43
