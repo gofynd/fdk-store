@@ -1,4 +1,4 @@
-fdk-store / [Modules](modules.md)
+fdk-store / [Exports](modules.md)
 
 # FPI POC
 
