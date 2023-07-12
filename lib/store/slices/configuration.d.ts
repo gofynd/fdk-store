@@ -1,10 +1,11 @@
-import { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchApplication: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+import { AppCurrencyResponse, AppFeatureResponse, Application, ApplicationInformation, AppStaffResponse, AppTokenResponse, OrderingStore, OrderingStores } from 'fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel';
+import { GetAppStaffsParam, GetOrderingStoresParam, GetStoreDetailByIdParam } from 'fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationValidator';
+import { ConfigurationSlice } from '../../types/configuration';
+export declare const fetchApplication: import("@reduxjs/toolkit").AsyncThunk<Application, void, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -12,11 +13,11 @@ export declare const fetchApplication: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchContactInfo: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchContactInfo: import("@reduxjs/toolkit").AsyncThunk<ApplicationInformation, void, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -24,11 +25,11 @@ export declare const fetchContactInfo: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchAppFeatures: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAppFeatures: import("@reduxjs/toolkit").AsyncThunk<AppFeatureResponse, void, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -36,11 +37,11 @@ export declare const fetchAppFeatures: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchAppIntegrationTokens: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAppIntegrationTokens: import("@reduxjs/toolkit").AsyncThunk<AppTokenResponse, void, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -48,11 +49,11 @@ export declare const fetchAppIntegrationTokens: import("@reduxjs/toolkit").Async
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchDeploymentStores: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchDeploymentStores: import("@reduxjs/toolkit").AsyncThunk<OrderingStores, GetOrderingStoresParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -60,11 +61,11 @@ export declare const fetchDeploymentStores: import("@reduxjs/toolkit").AsyncThun
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchStaff: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchStaff: import("@reduxjs/toolkit").AsyncThunk<AppStaffResponse, GetAppStaffsParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -72,11 +73,11 @@ export declare const fetchStaff: import("@reduxjs/toolkit").AsyncThunk<any, any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchStoreById: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchStoreById: import("@reduxjs/toolkit").AsyncThunk<OrderingStore, GetStoreDetailByIdParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -84,11 +85,11 @@ export declare const fetchStoreById: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchAppCurrencies: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAppCurrencies: import("@reduxjs/toolkit").AsyncThunk<AppCurrencyResponse, void, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -96,13 +97,4 @@ export declare const fetchAppCurrencies: import("@reduxjs/toolkit").AsyncThunk<a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const configurationReducer: import("redux").Reducer<{
-    application: any;
-    contact_info: any;
-    app_features: any;
-    integration_tokens: any;
-    deployment_stores: any;
-    staff: any;
-    store_details: any;
-    currencies: any;
-}, import("redux").AnyAction>;
+export declare const configurationReducer: import("redux").Reducer<ConfigurationSlice, import("redux").AnyAction>;

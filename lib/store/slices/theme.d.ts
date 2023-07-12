@@ -1,7 +1,10 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
+import { AvailablePageSchema, ThemesSchema } from 'fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel';
+import { GetPageParam, GetThemeForPreviewParam } from 'fdk-client-javascript/sdk/application/Theme/ThemeApplicationValidator';
+import { ThemeSlice, UpdateSectionsForPreview } from '../../types/theme';
 import { STORE_KEYS } from '../enums/keys';
-export declare const fetchAppliedTheme: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAppliedTheme: import("@reduxjs/toolkit").AsyncThunk<ThemesSchema, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -13,7 +16,7 @@ export declare const fetchAppliedTheme: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchThemeById: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchThemeById: import("@reduxjs/toolkit").AsyncThunk<ThemesSchema, GetThemeForPreviewParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -25,7 +28,7 @@ export declare const fetchThemeById: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchPage: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchPage: import("@reduxjs/toolkit").AsyncThunk<AvailablePageSchema, GetPageParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -37,21 +40,12 @@ export declare const fetchPage: import("@reduxjs/toolkit").AsyncThunk<any, any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-declare const themeSlice: import("@reduxjs/toolkit").Slice<{
-    theme: any;
-    page: any;
-}, {
-    updateSectionsForPreview(state: import("immer/dist/internal").WritableDraft<{
-        theme: any;
-        page: any;
-    }>, action: {
-        payload: any;
+declare const themeSlice: import("@reduxjs/toolkit").Slice<ThemeSlice, {
+    updateSectionsForPreview(state: import("immer/dist/internal").WritableDraft<ThemeSlice>, action: {
         type: string;
+        payload: UpdateSectionsForPreview;
     }): void;
 }, STORE_KEYS.THEME>;
-export declare const themeReducer: import("redux").Reducer<{
-    theme: any;
-    page: any;
-}, import("redux").AnyAction>;
-export declare const updateSectionsForPreview: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/updateSectionsForPreview">;
+export declare const themeReducer: import("redux").Reducer<ThemeSlice, import("redux").AnyAction>;
+export declare const updateSectionsForPreview: import("@reduxjs/toolkit").ActionCreatorWithPayload<UpdateSectionsForPreview, "theme/updateSectionsForPreview">;
 export default themeSlice;

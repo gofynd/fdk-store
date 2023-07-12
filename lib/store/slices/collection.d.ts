@@ -1,10 +1,11 @@
-import { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchCollection: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { GetCollectionListingResponse } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
+import { GetCollectionsParam } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
+import { CollectionsSlice } from '../../types/collection';
+export declare const fetchCollection: import("@reduxjs/toolkit").AsyncThunk<GetCollectionListingResponse, GetCollectionsParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -12,6 +13,4 @@ export declare const fetchCollection: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const collectionReducer: import("redux").Reducer<{
-    collection: any;
-}, import("redux").AnyAction>;
+export declare const collectionReducer: import("redux").Reducer<CollectionsSlice, import("redux").AnyAction>;

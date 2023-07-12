@@ -1,7 +1,7 @@
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-import productsModule from './modules/product-listing';
-import productModule from './modules/product-description';
-import cartModule from './modules/cart-landing';
+import { ProductsModule } from './modules/products';
+import { ProductModule } from './modules/product';
+import { CartModule } from './modules/cart';
 import brandsModule from './modules/brands';
 import categoriesModule from './modules/categories';
 import authModule from './modules/auth';
@@ -17,9 +17,9 @@ import OrderModule from './modules/order';
 declare class ApplicationStore {
     private store;
     getters: any;
-    products: productsModule;
-    product: productModule;
-    cart: cartModule;
+    products: ProductsModule;
+    product: ProductModule;
+    cart: CartModule;
     brands: brandsModule;
     address: addressModule;
     content: contentModule;

@@ -1,6 +1,9 @@
 import type { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchAllCountries: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+import { LogisticSlice } from '../../types/logistic';
+import { CountryListResponse, PincodeApiResponse, TATViewResponse } from 'fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel';
+import { GetPincodeCityParam, GetTatProductParam } from 'fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator';
+export declare const fetchAllCountries: import("@reduxjs/toolkit").AsyncThunk<CountryListResponse, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -12,7 +15,7 @@ export declare const fetchAllCountries: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getTatProduct: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const getTatProduct: import("@reduxjs/toolkit").AsyncThunk<TATViewResponse, GetTatProductParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -24,7 +27,7 @@ export declare const getTatProduct: import("@reduxjs/toolkit").AsyncThunk<any, a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchPincodeDetails: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchPincodeDetails: import("@reduxjs/toolkit").AsyncThunk<PincodeApiResponse, GetPincodeCityParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -36,8 +39,4 @@ export declare const fetchPincodeDetails: import("@reduxjs/toolkit").AsyncThunk<
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const logisticsReducer: import("redux").Reducer<{
-    countries: any;
-    product_tat: any;
-    pincode_details: any;
-}, import("redux").AnyAction>;
+export declare const logisticsReducer: import("redux").Reducer<LogisticSlice, import("redux").AnyAction>;

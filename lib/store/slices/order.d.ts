@@ -1,6 +1,8 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const getOrderById: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { OrderById } from 'fdk-client-javascript/sdk/application/Order/OrderApplicationModel';
+import { GetOrderByIdParam } from 'fdk-client-javascript/sdk/application/Order/OrderApplicationValidator';
+export declare const getOrderById: import("@reduxjs/toolkit").AsyncThunk<OrderById, GetOrderByIdParam, {
     extra: {
         sdk: ApplicationClient;
     };

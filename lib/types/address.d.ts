@@ -6,4 +6,4 @@ export type AddressSlice = {
     address: any;
     address_item: AddressItemType;
 };
-export type UpdateAddress = AddAddressParam & UpdateAddressParam;
+export type UpdateAddress = Partial<AddAddressParam & UpdateAddressParam>;

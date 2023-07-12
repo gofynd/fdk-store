@@ -9,7 +9,7 @@ export interface ExtraArguments {
 }
 export type CommonAsyncLoadingTypes = {
     loading?: boolean;
-    error?: unknown;
+    error?: any;
 };
 export type AsyncThunkPromise<T> = Promise<{
     meta?: any;

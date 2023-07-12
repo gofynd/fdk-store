@@ -11,7 +11,7 @@
     "build:tsc": "tsc -m es6 --outDir lib",
     "build:watch": "tsc -m es6 --outDir lib --watch",
     "test": "jest --config jest.config.js",
-    "doc": "typedoc --plugin typedoc-plugin-markdown --plugin typedoc-plugin-missing-exports"
+    "doc": "typedoc --plugin typedoc-plugin-missing-exports --plugin typedoc-plugin-markdown"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",

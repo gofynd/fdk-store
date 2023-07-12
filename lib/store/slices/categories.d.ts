@@ -1,10 +1,11 @@
-import { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchCategories: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { CategoryListingResponse } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
+import { GetCategoriesParam } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
+import { CategoriesSlice } from '../../types/categories';
+export declare const fetchCategories: import("@reduxjs/toolkit").AsyncThunk<CategoryListingResponse, GetCategoriesParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
     dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
@@ -12,6 +13,4 @@ export declare const fetchCategories: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const categoriesReducer: import("redux").Reducer<{
-    categories: any;
-}, import("redux").AnyAction>;
+export declare const categoriesReducer: import("redux").Reducer<CategoriesSlice, import("redux").AnyAction>;

@@ -1,8 +1,10 @@
 import { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchBrands: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { BrandListingResponse } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
+import { GetBrandsParam } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
+import { BrandsSlice } from '../../types/brands';
+export declare const fetchBrands: import("@reduxjs/toolkit").AsyncThunk<BrandListingResponse, GetBrandsParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
     rejectValue: SerializedError;
     state?: unknown;
@@ -12,6 +14,4 @@ export declare const fetchBrands: import("@reduxjs/toolkit").AsyncThunk<any, any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const brandsReducer: import("redux").Reducer<{
-    brands: any;
-}, import("redux").AnyAction>;
+export declare const brandsReducer: import("redux").Reducer<BrandsSlice, import("redux").AnyAction>;

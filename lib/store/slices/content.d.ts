@@ -1,9 +1,9 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchNavigation: import("@reduxjs/toolkit").AsyncThunk<any, {
-    pageNo: number;
-    pageSize: number;
-}, {
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from 'fdk-client-javascript/sdk/application/Content/ContentApplicationModel';
+import { GetBlogParam, GetBlogsParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from 'fdk-client-javascript/sdk/application/Content/ContentApplicationValidator';
+import { ContentSlice } from '../../types/content';
+export declare const fetchNavigation: import("@reduxjs/toolkit").AsyncThunk<NavigationGetResponse, GetNavigationsParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -15,7 +15,7 @@ export declare const fetchNavigation: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchAppSeo: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAppSeo: import("@reduxjs/toolkit").AsyncThunk<SeoComponent, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -27,9 +27,7 @@ export declare const fetchAppSeo: import("@reduxjs/toolkit").AsyncThunk<any, voi
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchBlog: import("@reduxjs/toolkit").AsyncThunk<any, {
-    slug: string;
-}, {
+export declare const fetchBlog: import("@reduxjs/toolkit").AsyncThunk<BlogSchema, GetBlogParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -41,10 +39,7 @@ export declare const fetchBlog: import("@reduxjs/toolkit").AsyncThunk<any, {
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchBlogs: import("@reduxjs/toolkit").AsyncThunk<any, {
-    pageNo: number;
-    pageSize: number;
-}, {
+export declare const fetchBlogs: import("@reduxjs/toolkit").AsyncThunk<BlogGetResponse, GetBlogsParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -56,10 +51,7 @@ export declare const fetchBlogs: import("@reduxjs/toolkit").AsyncThunk<any, {
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchCustomPage: import("@reduxjs/toolkit").AsyncThunk<any, {
-    slug: string;
-    rootId: string;
-}, {
+export declare const fetchCustomPage: import("@reduxjs/toolkit").AsyncThunk<PageSchema, GetPageParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -71,9 +63,7 @@ export declare const fetchCustomPage: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchFaqByCategory: import("@reduxjs/toolkit").AsyncThunk<any, {
-    slug: string;
-}, {
+export declare const fetchFaqByCategory: import("@reduxjs/toolkit").AsyncThunk<GetFaqSchema, GetFaqsByCategorySlugParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -85,7 +75,7 @@ export declare const fetchFaqByCategory: import("@reduxjs/toolkit").AsyncThunk<a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchTags: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchTags: import("@reduxjs/toolkit").AsyncThunk<TagsSchema, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -97,7 +87,7 @@ export declare const fetchTags: import("@reduxjs/toolkit").AsyncThunk<any, void,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchLegalData: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchLegalData: import("@reduxjs/toolkit").AsyncThunk<ApplicationLegal, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -109,7 +99,7 @@ export declare const fetchLegalData: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchScreenSaver: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchScreenSaver: import("@reduxjs/toolkit").AsyncThunk<SlideshowGetResponse, GetSlideshowsParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -121,7 +111,7 @@ export declare const fetchScreenSaver: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchSupportInformation: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchSupportInformation: import("@reduxjs/toolkit").AsyncThunk<Support, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -133,7 +123,7 @@ export declare const fetchSupportInformation: import("@reduxjs/toolkit").AsyncTh
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchAnnouncement: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchAnnouncement: import("@reduxjs/toolkit").AsyncThunk<AnnouncementsResponseSchema, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -145,7 +135,7 @@ export declare const fetchAnnouncement: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchLandingPage: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchLandingPage: import("@reduxjs/toolkit").AsyncThunk<LandingPageSchema, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -157,7 +147,7 @@ export declare const fetchLandingPage: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchDataLoaders: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchDataLoaders: import("@reduxjs/toolkit").AsyncThunk<DataLoadersSchema, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -169,18 +159,4 @@ export declare const fetchDataLoaders: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const contentReducer: import("redux").Reducer<{
-    navigation: any;
-    seo: any;
-    blog: any;
-    blogs: any;
-    custom_page: any;
-    faq_data: any;
-    tags: any;
-    legal_data: any;
-    screen_saver: any;
-    support_information: any;
-    announcement: any;
-    landing_page: any;
-    data_loaders: any;
-}, import("redux").AnyAction>;
+export declare const contentReducer: import("redux").Reducer<ContentSlice, import("redux").AnyAction>;

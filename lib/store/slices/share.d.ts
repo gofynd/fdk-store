@@ -1,8 +1,9 @@
 import { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const createShortLink: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { QRCodeResp, ShortLinkRes } from 'fdk-client-javascript/sdk/application/Share/ShareApplicationModel';
+import { CreateShortLinkParam, GetUrlQRCodeParam } from 'fdk-client-javascript/sdk/application/Share/ShareApplicationValidator';
+export declare const createShortLink: import("@reduxjs/toolkit").AsyncThunk<ShortLinkRes, CreateShortLinkParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
     rejectValue: SerializedError;
     state?: unknown;
@@ -12,9 +13,9 @@ export declare const createShortLink: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getUrlQRCode: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const getUrlQRCode: import("@reduxjs/toolkit").AsyncThunk<QRCodeResp, GetUrlQRCodeParam, {
     extra: {
-        sdk: ApplicationClient;
+        sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
     rejectValue: SerializedError;
     state?: unknown;
