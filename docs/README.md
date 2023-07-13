@@ -1,4 +1,6 @@
-fdk-store / [Exports](modules.md)
+[**fdk-store**](README.md) ( Readme \| [API](API.md) )
+
+---
 
 # FDK Store
 
@@ -55,7 +57,8 @@ The `fpi` client exposes the standard redux store at `fpi.store`. Developers can
 
 FDK Store uses Redux Toolkit to manage slices of state internally. Theme developers can leverage the `useGlobalStore` hook provided by the theme engine through a global package called `fdk-core/utils`. The `useGlobalStore` hook is similar to the standard `useSelector` hook provided by redux toolkit. Developers can use `useGlobalStore` and pass the required getters provided in `fpi.getters` to subscribe to state changes in a React Component.
 
-##### Example 
+##### Example
+
 ```
 import React from 'react';
 import { useGlobalStore } from 'fdk-core/utils';
@@ -74,7 +77,11 @@ function Home({ fpi }) {
   return (
     <p>Home Component</p>
   );
-  
+
 }
 
 ```
+
+---
+
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
