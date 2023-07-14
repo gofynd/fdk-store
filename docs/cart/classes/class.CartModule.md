@@ -24,367 +24,367 @@
 
 #### Source
 
-src/store/modules/cart.ts:5
+src/store/modules/cart.ts:9
 
 ## Methods
 
 ### addCartItem()
 
-> **addCartItem**(`params` = `{}`): `Promise`\< `any` \>
+> **addCartItem**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                         |
+| :-------- | :--------------------------------------------------------------------------- |
+| `params`  | [`AddToCartParams`](../internal_/type-aliases/type-alias.AddToCartParams.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:20
+src/store/modules/cart.ts:23
 
 ---
 
 ### applyCoupon()
 
-> **applyCoupon**(`params` = `{}`): `Promise`\< `void` \>
+> **applyCoupon**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                           |
+| :-------- | :----------------------------------------------------------------------------- |
+| `params`  | [`ApplyCouponParam`](../internal_/type-aliases/type-alias.ApplyCouponParam.md) |
 
 #### Returns
 
-`Promise`\< `void` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:57
+src/store/modules/cart.ts:60
 
 ---
 
 ### checkoutCart()
 
-> **checkoutCart**(`params` = `{}`): `Promise`\< `any` \>
+> **checkoutCart**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartCheckoutResponse`](../internal_/type-aliases/type-alias.CartCheckoutResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                             |
+| :-------- | :------------------------------------------------------------------------------- |
+| `params`  | [`CheckoutCartParam`](../internal_/type-aliases/type-alias.CheckoutCartParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartCheckoutResponse`](../internal_/type-aliases/type-alias.CartCheckoutResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:36
+src/store/modules/cart.ts:39
 
 ---
 
 ### fetchCartShareLink()
 
-> **fetchCartShareLink**(`params` = `{}`): `any`
+> **fetchCartShareLink**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                     |
+| :-------- | :--------------------------------------------------------------------------------------- |
+| `params`  | [`GetCartShareLinkParam`](../internal_/type-aliases/type-alias.GetCartShareLinkParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:93
+src/store/modules/cart.ts:92
 
 ---
 
 ### fetchCoupons()
 
-> **fetchCoupons**(`params` = `{}`): `void`
+> **fetchCoupons**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                         |
+| :-------- | :--------------------------------------------------------------------------- |
+| `params`  | [`GetCouponsParam`](../internal_/type-aliases/type-alias.GetCouponsParam.md) |
 
 #### Returns
 
-`void`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:53
+src/store/modules/cart.ts:56
 
 ---
 
 ### fetchLadderOffers()
 
-> **fetchLadderOffers**(`params` = `{}`): `any`
+> **fetchLadderOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                   |
+| :-------- | :------------------------------------------------------------------------------------- |
+| `params`  | [`GetLadderOffersParam`](../internal_/type-aliases/type-alias.GetLadderOffersParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:85
+src/store/modules/cart.ts:84
 
 ---
 
 ### fetchPromotionOffers()
 
-> **fetchPromotionOffers**(`params` = `{}`): `any`
+> **fetchPromotionOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                         |
+| :-------- | :------------------------------------------------------------------------------------------- |
+| `params`  | [`GetPromotionOffersParam`](../internal_/type-aliases/type-alias.GetPromotionOffersParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:89
+src/store/modules/cart.ts:88
 
 ---
 
 ### getCartItems()
 
-> **getCartItems**(`params` = `{}`): `any`
+> **getCartItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                   |
+| :-------- | :--------------------------------------------------------------------- |
+| `params`  | [`GetCartParam`](../internal_/type-aliases/type-alias.GetCartParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:10
+src/store/modules/cart.ts:14
 
 ---
 
 ### getCartItemsCount()
 
-> **getCartItemsCount**(`params` = `{}`): `Promise`\< `any` \>
+> **getCartItemsCount**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartItemCountResponse`](../internal_/type-aliases/type-alias.CartItemCountResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                             |
+| :-------- | :------------------------------------------------------------------------------- |
+| `params`  | [`GetItemCountParam`](../internal_/type-aliases/type-alias.GetItemCountParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartItemCountResponse`](../internal_/type-aliases/type-alias.CartItemCountResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:49
+src/store/modules/cart.ts:52
 
 ---
 
 ### getShipments()
 
-> **getShipments**(`params` = `{}`): `any`
+> **getShipments**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartShipmentsResponse`](../internal_/type-aliases/type-alias.CartShipmentsResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                             |
+| :-------- | :------------------------------------------------------------------------------- |
+| `params`  | [`GetShipmentsParam`](../internal_/type-aliases/type-alias.GetShipmentsParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartShipmentsResponse`](../internal_/type-aliases/type-alias.CartShipmentsResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:73
+src/store/modules/cart.ts:76
 
 ---
 
 ### removeCartItem()
 
-> **removeCartItem**(`params` = `{}`): `Promise`\< `any` \>
+> **removeCartItem**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                     |
+| :-------- | :--------------------------------------------------------------------------------------- |
+| `params`  | [`UpdateCartItemsParams`](../internal_/type-aliases/type-alias.UpdateCartItemsParams.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:40
+src/store/modules/cart.ts:43
 
 ---
 
 ### removeCoupon()
 
-> **removeCoupon**(`params` = `{}`): `Promise`\< `void` \>
+> **removeCoupon**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                             |
+| :-------- | :------------------------------------------------------------------------------- |
+| `params`  | [`RemoveCouponParam`](../internal_/type-aliases/type-alias.RemoveCouponParam.md) |
 
 #### Returns
 
-`Promise`\< `void` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:61
+src/store/modules/cart.ts:64
 
 ---
 
 ### selectAddress()
 
-> **selectAddress**(`params` = `{}`): `any`
+> **selectAddress**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                               |
+| :-------- | :--------------------------------------------------------------------------------- |
+| `params`  | [`SelectAddressParam`](../internal_/type-aliases/type-alias.SelectAddressParam.md) |
 
 #### Returns
 
-`any`
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:77
+src/store/modules/cart.ts:80
 
 ---
 
 ### selectPaymentMode()
 
-> **selectPaymentMode**(`params` = `{}`): `Promise`\< `any` \>
+> **selectPaymentMode**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                       |
+| :-------- | :----------------------------------------------------------------------------------------- |
+| `params`  | [`SelectPaymentModeParam`](../internal_/type-aliases/type-alias.SelectPaymentModeParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:32
+src/store/modules/cart.ts:35
 
 ---
 
 ### updateCartItems()
 
-> **updateCartItems**(`params` = `{}`): `Promise`\< `any` \>
+> **updateCartItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                     |
+| :-------- | :--------------------------------------------------------------------------------------- |
+| `params`  | [`UpdateCartItemsParams`](../internal_/type-aliases/type-alias.UpdateCartItemsParams.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:28
+src/store/modules/cart.ts:31
 
 ---
 
 ### updateCartMeta()
 
-> **updateCartMeta**(`params` = `{}`): `Promise`\< `void` \>
+> **updateCartMeta**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartMetaResponse`](../internal_/type-aliases/type-alias.CartMetaResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                 |
+| :-------- | :----------------------------------------------------------------------------------- |
+| `params`  | [`UpdateCartMetaParam`](../internal_/type-aliases/type-alias.UpdateCartMetaParam.md) |
 
 #### Returns
 
-`Promise`\< `void` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartMetaResponse`](../internal_/type-aliases/type-alias.CartMetaResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:69
+src/store/modules/cart.ts:72
 
 ---
 
 ### updateCheckoutMode()
 
-> **updateCheckoutMode**(`params` = `{}`): `Promise`\< `any` \>
+> **updateCheckoutMode**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CheckoutMode`](../internal_/type-aliases/type-alias.CheckoutMode.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                           |
+| :-------- | :--------------------------------------------------------------------------------------------- |
+| `params`  | [`UpdateCheckoutModeParams`](../internal_/type-aliases/type-alias.UpdateCheckoutModeParams.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CheckoutMode`](../internal_/type-aliases/type-alias.CheckoutMode.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:44
+src/store/modules/cart.ts:47
 
 ---
 
 ### updateRewardPoints()
 
-> **updateRewardPoints**(`params` = `{}`): `Promise`\< `void` \>
+> **updateRewardPoints**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                         |
+| :-------- | :------------------------------------------------------------------------------------------- |
+| `params`  | [`ApplyRewardPointsParams`](../internal_/type-aliases/type-alias.ApplyRewardPointsParams.md) |
 
 #### Returns
 
-`Promise`\< `void` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
 
 #### Source
 
-src/store/modules/cart.ts:65
+src/store/modules/cart.ts:68
 
 ---
 

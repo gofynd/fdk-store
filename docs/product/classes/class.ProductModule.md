@@ -24,47 +24,47 @@
 
 #### Source
 
-src/store/modules/product.ts:8
+src/store/modules/product.ts:10
 
 ## Methods
 
 ### fetchBulkPrice()
 
-> **fetchBulkPrice**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchBulkPrice**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BulkPriceResponse`](../internal_/type-aliases/type-alias.BulkPriceResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                               |
+| :-------- | :------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetBulkDiscountOffersParam`](../internal_/type-aliases/type-alias.GetBulkDiscountOffersParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BulkPriceResponse`](../internal_/type-aliases/type-alias.BulkPriceResponse.md) \>
 
 #### Source
 
-src/store/modules/product.ts:27
+src/store/modules/product.ts:29
 
 ---
 
 ### fetchFrequentlyComparedProducts()
 
-> **fetchFrequentlyComparedProducts**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchFrequentlyComparedProducts**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductFrequentlyComparedSimilarResponse`](../internal_/type-aliases/type-alias.ProductFrequentlyComparedSimilarResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                                                         |
+| :-------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetComparedFrequentlyProductBySlugParam`](../internal_/type-aliases/type-alias.GetComparedFrequentlyProductBySlugParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductFrequentlyComparedSimilarResponse`](../internal_/type-aliases/type-alias.ProductFrequentlyComparedSimilarResponse.md) \>
 
 #### Source
 
-src/store/modules/product.ts:35
+src/store/modules/product.ts:37
 
 ---
 
@@ -84,87 +84,87 @@ src/store/modules/product.ts:35
 
 #### Source
 
-src/store/modules/product.ts:13
+src/store/modules/product.ts:15
 
 ---
 
 ### fetchProductMeta()
 
-> **fetchProductMeta**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchProductMeta**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizes`](../internal_/type-aliases/type-alias.ProductSizes.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                               |
+| :-------- | :------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetProductSizesBySlugParam`](../internal_/type-aliases/type-alias.GetProductSizesBySlugParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizes`](../internal_/type-aliases/type-alias.ProductSizes.md) \>
 
 #### Source
 
-src/store/modules/product.ts:23
+src/store/modules/product.ts:25
 
 ---
 
 ### fetchProductPriceBySlug()
 
-> **fetchProductPriceBySlug**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchProductPriceBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizePriceResponseV3`](../internal_/type-aliases/type-alias.ProductSizePriceResponseV3.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                               |
+| :-------- | :------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetProductPriceBySlugParam`](../internal_/type-aliases/type-alias.GetProductPriceBySlugParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizePriceResponseV3`](../internal_/type-aliases/type-alias.ProductSizePriceResponseV3.md) \>
 
 #### Source
 
-src/store/modules/product.ts:39
+src/store/modules/product.ts:41
 
 ---
 
 ### fetchProductSellerBySlug()
 
-> **fetchProductSellerBySlug**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchProductSellerBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizeSellersResponseV3`](../internal_/type-aliases/type-alias.ProductSizeSellersResponseV3.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                                   |
+| :-------- | :----------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetProductSellersBySlugParam`](../internal_/type-aliases/type-alias.GetProductSellersBySlugParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductSizeSellersResponseV3`](../internal_/type-aliases/type-alias.ProductSizeSellersResponseV3.md) \>
 
 #### Source
 
-src/store/modules/product.ts:43
+src/store/modules/product.ts:45
 
 ---
 
 ### fetchSimilarCompareProduct()
 
-> **fetchSimilarCompareProduct**(`params` = `{}`): `Promise`\< `any` \>
+> **fetchSimilarCompareProduct**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductCompareResponse`](../internal_/type-aliases/type-alias.ProductCompareResponse.md) \>
 
 #### Parameters
 
-| Parameter | Type  |
-| :-------- | :---- |
-| `params`  | `any` |
+| Parameter | Type                                                                                                                       |
+| :-------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `params`  | [`GetSimilarComparisonProductBySlugParam`](../internal_/type-aliases/type-alias.GetSimilarComparisonProductBySlugParam.md) |
 
 #### Returns
 
-`Promise`\< `any` \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductCompareResponse`](../internal_/type-aliases/type-alias.ProductCompareResponse.md) \>
 
 #### Source
 
-src/store/modules/product.ts:31
+src/store/modules/product.ts:33
 
 ---
 

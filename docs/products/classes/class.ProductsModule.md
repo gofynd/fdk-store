@@ -172,7 +172,7 @@ src/store/modules/products.ts:16
 
 ### fetchProductListingMeta()
 
-> **fetchProductListingMeta**(`options`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+> **fetchProductListingMeta**(`options`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../../product/internal_/type-aliases/type-alias.ProductDetail.md) \>
 
 #### Parameters
 
@@ -182,7 +182,7 @@ src/store/modules/products.ts:16
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../../product/internal_/type-aliases/type-alias.ProductDetail.md) \>
 
 #### Source
 

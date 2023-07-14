@@ -1,6 +1,10 @@
 import { AnyAction, Reducer, SerializedError } from '@reduxjs/toolkit';
-import { ProductDetail } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
-export declare const fetchProductDetails: import("@reduxjs/toolkit").AsyncThunk<ProductDetail, any, {
+import { BulkPriceResponse } from 'fdk-client-javascript/sdk/application/Cart/CartApplicationModel';
+import { GetBulkDiscountOffersParam } from 'fdk-client-javascript/sdk/application/Cart/CartApplicationValidator';
+import type { ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
+import type { GetComparedFrequentlyProductBySlugParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSimilarComparisonProductBySlugParam } from 'fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
+import { ProductSlice } from '../../types/product';
+export declare const fetchProductDetails: import("@reduxjs/toolkit").AsyncThunk<ProductDetail, GetProductDetailBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -12,7 +16,7 @@ export declare const fetchProductDetails: import("@reduxjs/toolkit").AsyncThunk<
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchProductVariants: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchProductVariants: import("@reduxjs/toolkit").AsyncThunk<ProductVariantsResponse, GetProductVariantsBySlugParam | null, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -24,7 +28,7 @@ export declare const fetchProductVariants: import("@reduxjs/toolkit").AsyncThunk
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchProductMeta: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchProductMeta: import("@reduxjs/toolkit").AsyncThunk<ProductSizes, GetProductSizesBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -36,7 +40,7 @@ export declare const fetchProductMeta: import("@reduxjs/toolkit").AsyncThunk<any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchBulkPrice: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchBulkPrice: import("@reduxjs/toolkit").AsyncThunk<BulkPriceResponse, GetBulkDiscountOffersParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -48,7 +52,7 @@ export declare const fetchBulkPrice: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchSimilarCompareProduct: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchSimilarCompareProduct: import("@reduxjs/toolkit").AsyncThunk<ProductCompareResponse, GetSimilarComparisonProductBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -60,7 +64,7 @@ export declare const fetchSimilarCompareProduct: import("@reduxjs/toolkit").Asyn
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchFrequentlyComparedProducts: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchFrequentlyComparedProducts: import("@reduxjs/toolkit").AsyncThunk<ProductFrequentlyComparedSimilarResponse, GetComparedFrequentlyProductBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -72,7 +76,7 @@ export declare const fetchFrequentlyComparedProducts: import("@reduxjs/toolkit")
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchProductPriceBySlug: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchProductPriceBySlug: import("@reduxjs/toolkit").AsyncThunk<ProductSizePriceResponseV3, GetProductPriceBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -84,7 +88,7 @@ export declare const fetchProductPriceBySlug: import("@reduxjs/toolkit").AsyncTh
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchProductSellerBySlug: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchProductSellerBySlug: import("@reduxjs/toolkit").AsyncThunk<ProductSizeSellersResponseV3, GetProductSellersBySlugParam, {
     extra: {
         sdk: import("fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -96,13 +100,4 @@ export declare const fetchProductSellerBySlug: import("@reduxjs/toolkit").AsyncT
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const pdpReducer: Reducer<{
-    product_details: any;
-    product_variants: any;
-    product_meta: any;
-    bulk_price: any;
-    similar_compare_products: any;
-    frequently_compared_products: any;
-    product_price_by_slug: any;
-    product_seller_by_slug: any;
-}, AnyAction>;
+export declare const pdpReducer: Reducer<ProductSlice, AnyAction>;

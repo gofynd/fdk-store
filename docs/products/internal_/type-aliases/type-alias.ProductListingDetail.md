@@ -36,19 +36,19 @@
 
 ### brand
 
-`optional` **brand**: [`ProductBrand`](type-alias.ProductBrand.md)
+`optional` **brand**: [`ProductBrand`](../../../product/internal_/type-aliases/type-alias.ProductBrand.md)
 
 ---
 
 ### categories
 
-`optional` **categories**: [`ProductBrand`](type-alias.ProductBrand.md)[]
+`optional` **categories**: [`ProductBrand`](../../../product/internal_/type-aliases/type-alias.ProductBrand.md)[]
 
 ---
 
 ### category_map
 
-`optional` **category_map**: [`ProductCategoryMap`](type-alias.ProductCategoryMap.md)
+`optional` **category_map**: [`ProductCategoryMap`](../../../product/internal_/type-aliases/type-alias.ProductCategoryMap.md)
 
 ---
 
@@ -60,7 +60,7 @@
 
 ### custom_order
 
-`optional` **custom_order**: [`ProductDetailCustomOrder`](type-alias.ProductDetailCustomOrder.md)
+`optional` **custom_order**: [`ProductDetailCustomOrder`](../../../product/internal_/type-aliases/type-alias.ProductDetailCustomOrder.md)
 
 ---
 
@@ -78,7 +78,7 @@
 
 ### grouped_attributes
 
-`optional` **grouped_attributes**: [`ProductDetailGroupedAttribute`](type-alias.ProductDetailGroupedAttribute.md)[]
+`optional` **grouped_attributes**: [`ProductDetailGroupedAttribute`](../../../product/internal_/type-aliases/type-alias.ProductDetailGroupedAttribute.md)[]
 
 ---
 
@@ -132,7 +132,7 @@
 
 ### moq
 
-`optional` **moq**: [`ApplicationItemMOQ`](type-alias.ApplicationItemMOQ.md)
+`optional` **moq**: [`ApplicationItemMOQ`](../../../product/internal_/type-aliases/type-alias.ApplicationItemMOQ.md)
 
 ---
 
@@ -144,13 +144,13 @@
 
 ### net_quantity
 
-`optional` **net_quantity**: [`NetQuantity`](type-alias.NetQuantity.md)
+`optional` **net_quantity**: [`NetQuantity`](../../../product/internal_/type-aliases/type-alias.NetQuantity.md)
 
 ---
 
 ### price
 
-`optional` **price**: [`ProductListingPrice`](type-alias.ProductListingPrice.md)
+`optional` **price**: [`ProductListingPrice`](../../../product/internal_/type-aliases/type-alias.ProductListingPrice.md)
 
 ---
 
@@ -186,7 +186,7 @@
 
 ### seo
 
-`optional` **seo**: [`ApplicationItemSEO`](type-alias.ApplicationItemSEO.md)
+`optional` **seo**: [`ApplicationItemSEO`](../../../product/internal_/type-aliases/type-alias.ApplicationItemSEO.md)
 
 ---
 

@@ -8,6 +8,10 @@
 
 ## Index
 
+### Modules
+
+- [\<internal\>](internal_/README.md)
+
 ### Classes
 
 - [CartModule](classes/class.CartModule.md)

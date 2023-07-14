@@ -1,6 +1,9 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const fetchCartItems: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+import { AddCartDetailResponse, CartCheckoutResponse, CartDetailResponse, CartItemCountResponse, CartMetaResponse, CartShipmentsResponse, GetCouponResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, UpdateCartDetailResponse } from 'fdk-client-javascript/sdk/application/Cart/CartApplicationModel';
+import { ApplyCouponParam, CheckoutCartParam, GetCartParam, GetCartShareLinkParam, GetCouponsParam, GetItemCountParam, GetLadderOffersParam, GetPromotionOffersParam, GetShipmentsParam, RemoveCouponParam, SelectAddressParam, SelectPaymentModeParam, UpdateCartMetaParam } from 'fdk-client-javascript/sdk/application/Cart/CartApplicationValidator';
+import { AddToCartParams, ApplyRewardPointsParams, CartSlice, CheckoutMode, UpdateCartItemsParams, UpdateCheckoutModeParams } from '../../types/cart';
+export declare const fetchCartItems: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, GetCartParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -12,7 +15,7 @@ export declare const fetchCartItems: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchBuyNowCartItems: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchBuyNowCartItems: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, GetCartParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -24,7 +27,7 @@ export declare const fetchBuyNowCartItems: import("@reduxjs/toolkit").AsyncThunk
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchShipments: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchShipments: import("@reduxjs/toolkit").AsyncThunk<CartShipmentsResponse, GetShipmentsParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -36,7 +39,7 @@ export declare const fetchShipments: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchLadderOffers: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchLadderOffers: import("@reduxjs/toolkit").AsyncThunk<LadderPriceOffers, GetLadderOffersParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -48,7 +51,7 @@ export declare const fetchLadderOffers: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchPromotionOffers: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchPromotionOffers: import("@reduxjs/toolkit").AsyncThunk<PromotionOffersResponse, GetPromotionOffersParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -60,7 +63,7 @@ export declare const fetchPromotionOffers: import("@reduxjs/toolkit").AsyncThunk
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchCoupons: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchCoupons: import("@reduxjs/toolkit").AsyncThunk<GetCouponResponse, GetCouponsParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -72,7 +75,7 @@ export declare const fetchCoupons: import("@reduxjs/toolkit").AsyncThunk<any, an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchCartShareLink: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchCartShareLink: import("@reduxjs/toolkit").AsyncThunk<GetShareCartLinkResponse, GetCartShareLinkParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -84,7 +87,7 @@ export declare const fetchCartShareLink: import("@reduxjs/toolkit").AsyncThunk<a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const selectPaymentMode: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const selectPaymentMode: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, SelectPaymentModeParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -96,7 +99,7 @@ export declare const selectPaymentMode: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const checkoutCart: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const checkoutCart: import("@reduxjs/toolkit").AsyncThunk<CartCheckoutResponse, CheckoutCartParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -108,7 +111,7 @@ export declare const checkoutCart: import("@reduxjs/toolkit").AsyncThunk<any, an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const addToCartBuyNow: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const addToCartBuyNow: import("@reduxjs/toolkit").AsyncThunk<AddCartDetailResponse, AddToCartParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -120,7 +123,7 @@ export declare const addToCartBuyNow: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const addToCart: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const addToCart: import("@reduxjs/toolkit").AsyncThunk<AddCartDetailResponse, AddToCartParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -132,7 +135,7 @@ export declare const addToCart: import("@reduxjs/toolkit").AsyncThunk<any, any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getCartItemsCount: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const getCartItemsCount: import("@reduxjs/toolkit").AsyncThunk<CartItemCountResponse, GetItemCountParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -144,7 +147,7 @@ export declare const getCartItemsCount: import("@reduxjs/toolkit").AsyncThunk<an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const updateCartItems: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const updateCartItems: import("@reduxjs/toolkit").AsyncThunk<UpdateCartDetailResponse, UpdateCartItemsParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -156,7 +159,7 @@ export declare const updateCartItems: import("@reduxjs/toolkit").AsyncThunk<any,
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const removeCartItem: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const removeCartItem: import("@reduxjs/toolkit").AsyncThunk<UpdateCartDetailResponse, UpdateCartItemsParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -168,7 +171,7 @@ export declare const removeCartItem: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const updateCheckoutMode: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const updateCheckoutMode: import("@reduxjs/toolkit").AsyncThunk<CheckoutMode, UpdateCheckoutModeParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -180,7 +183,7 @@ export declare const updateCheckoutMode: import("@reduxjs/toolkit").AsyncThunk<a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const applyCoupon: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const applyCoupon: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, ApplyCouponParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -192,7 +195,7 @@ export declare const applyCoupon: import("@reduxjs/toolkit").AsyncThunk<any, any
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const removeCoupon: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const removeCoupon: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, RemoveCouponParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -204,7 +207,7 @@ export declare const removeCoupon: import("@reduxjs/toolkit").AsyncThunk<any, an
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const updateRewardPoints: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const updateRewardPoints: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, ApplyRewardPointsParams, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -216,7 +219,7 @@ export declare const updateRewardPoints: import("@reduxjs/toolkit").AsyncThunk<a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const selectAddress: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const selectAddress: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, SelectAddressParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -228,7 +231,7 @@ export declare const selectAddress: import("@reduxjs/toolkit").AsyncThunk<any, a
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const updateCartMeta: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const updateCartMeta: import("@reduxjs/toolkit").AsyncThunk<CartMetaResponse, UpdateCartMetaParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -240,14 +243,4 @@ export declare const updateCartMeta: import("@reduxjs/toolkit").AsyncThunk<any, 
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const cartReducer: import("redux").Reducer<{
-    cart_items: any;
-    buy_now_cart_items: any;
-    checkout_mode: any;
-    cart_items_count: any;
-    shipments: any;
-    ladder_offers: any;
-    promotion_offers: any;
-    coupons: any;
-    cart_share_link: any;
-}, import("redux").AnyAction>;
+export declare const cartReducer: import("redux").Reducer<CartSlice, import("redux").AnyAction>;
