@@ -53,7 +53,6 @@
 - [ThunkAction](type-aliases/type-alias.ThunkAction.md)
 - [ThunkActionDispatch](type-aliases/type-alias.ThunkActionDispatch.md)
 - [UmdJs](type-aliases/type-alias.UmdJs.md)
-- [UpdateSectionsForPreview](type-aliases/type-alias.UpdateSectionsForPreview.md)
 - [Variants](type-aliases/type-alias.Variants.md)
 - [availableSectionSchema](type-aliases/type-alias.availableSectionSchema.md)
 

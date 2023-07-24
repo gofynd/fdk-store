@@ -24,9 +24,51 @@
 
 #### Source
 
-src/store/modules/theme.ts:9
+src/store/modules/theme.ts:17
 
 ## Methods
+
+### addSection()
+
+> **addSection**(`params` = `{}`): `any`
+
+#### Parameters
+
+| Parameter | Type  |
+| :-------- | :---- |
+| `params`  | `any` |
+
+#### Returns
+
+`any`
+
+#### Source
+
+src/store/modules/theme.ts:34
+
+---
+
+### dragSection()
+
+> **dragSection**(`params`): `any`
+
+#### Parameters
+
+| Parameter         | Type     |
+| :---------------- | :------- |
+| `params`          | `object` |
+| `params.index`    | `number` |
+| `params.newIndex` | `number` |
+
+#### Returns
+
+`any`
+
+#### Source
+
+src/store/modules/theme.ts:31
+
+---
 
 ### fetchAppliedTheme()
 
@@ -38,7 +80,7 @@ src/store/modules/theme.ts:9
 
 #### Source
 
-src/store/modules/theme.ts:13
+src/store/modules/theme.ts:19
 
 ---
 
@@ -58,7 +100,7 @@ src/store/modules/theme.ts:13
 
 #### Source
 
-src/store/modules/theme.ts:21
+src/store/modules/theme.ts:27
 
 ---
 
@@ -78,19 +120,19 @@ src/store/modules/theme.ts:21
 
 #### Source
 
-src/store/modules/theme.ts:17
+src/store/modules/theme.ts:23
 
 ---
 
-### updateSectionsForPreview()
+### removeSection()
 
-> **updateSectionsForPreview**(`params`): `any`
+> **removeSection**(`params` = `{}`): `any`
 
 #### Parameters
 
-| Parameter | Type                                                                                           |
-| :-------- | :--------------------------------------------------------------------------------------------- |
-| `params`  | [`UpdateSectionsForPreview`](../internal_/type-aliases/type-alias.UpdateSectionsForPreview.md) |
+| Parameter | Type  |
+| :-------- | :---- |
+| `params`  | `any` |
 
 #### Returns
 
@@ -98,7 +140,27 @@ src/store/modules/theme.ts:17
 
 #### Source
 
-src/store/modules/theme.ts:25
+src/store/modules/theme.ts:37
+
+---
+
+### updateSection()
+
+> **updateSection**(`params` = `{}`): `any`
+
+#### Parameters
+
+| Parameter | Type  |
+| :-------- | :---- |
+| `params`  | `any` |
+
+#### Returns
+
+`any`
+
+#### Source
+
+src/store/modules/theme.ts:40
 
 ---
 
