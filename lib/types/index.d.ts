@@ -46,3 +46,7 @@ export type GetPageOptions = {
 export type ActionGenerators = {
     [k in string]: (arg0: any) => AnyAction;
 };
+export type CustomAction<T> = {
+    type: string;
+    payload: T;
+};
