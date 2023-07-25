@@ -15,5 +15,6 @@ declare class themeModule {
     addSection(params?: any): any;
     removeSection(params?: any): any;
     updateSection(params?: any): any;
+    setTheme(params: ThemesSchema): any;
 }
 export default themeModule;

@@ -60,10 +60,14 @@ declare const themeSlice: import("@reduxjs/toolkit").Slice<ThemeSlice, {
         payload: any;
         type: string;
     }): void;
+    setTheme(state: import("immer/dist/internal").WritableDraft<ThemeSlice>, action: {
+        type: string;
+        payload: ThemesSchema;
+    }): void;
 }, STORE_KEYS.THEME>;
 export declare const themeReducer: import("redux").Reducer<ThemeSlice, import("redux").AnyAction>;
 export declare const dragSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<{
     index: number;
     newIndex: number;
-}, "theme/dragSection">, addSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/addSection">, removeSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/removeSection">, updateSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/updateSection">;
+}, "theme/dragSection">, addSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/addSection">, removeSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/removeSection">, updateSection: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, "theme/updateSection">, setTheme: import("@reduxjs/toolkit").ActionCreatorWithPayload<ThemesSchema, "theme/setTheme">;
 export default themeSlice;

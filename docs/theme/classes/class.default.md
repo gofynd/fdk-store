@@ -144,6 +144,26 @@ src/store/modules/theme.ts:37
 
 ---
 
+### setTheme()
+
+> **setTheme**(`params`): `any`
+
+#### Parameters
+
+| Parameter | Type                                                                   |
+| :-------- | :--------------------------------------------------------------------- |
+| `params`  | [`ThemesSchema`](../internal_/type-aliases/type-alias.ThemesSchema.md) |
+
+#### Returns
+
+`any`
+
+#### Source
+
+src/store/modules/theme.ts:43
+
+---
+
 ### updateSection()
 
 > **updateSection**(`params` = `{}`): `any`
