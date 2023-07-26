@@ -24,7 +24,7 @@
 
 #### Source
 
-src/store/modules/theme.ts:17
+src/store/modules/theme.ts:18
 
 ## Methods
 
@@ -44,7 +44,7 @@ src/store/modules/theme.ts:17
 
 #### Source
 
-src/store/modules/theme.ts:34
+src/store/modules/theme.ts:35
 
 ---
 
@@ -66,7 +66,7 @@ src/store/modules/theme.ts:34
 
 #### Source
 
-src/store/modules/theme.ts:31
+src/store/modules/theme.ts:32
 
 ---
 
@@ -80,7 +80,7 @@ src/store/modules/theme.ts:31
 
 #### Source
 
-src/store/modules/theme.ts:19
+src/store/modules/theme.ts:20
 
 ---
 
@@ -100,7 +100,7 @@ src/store/modules/theme.ts:19
 
 #### Source
 
-src/store/modules/theme.ts:27
+src/store/modules/theme.ts:28
 
 ---
 
@@ -120,7 +120,7 @@ src/store/modules/theme.ts:27
 
 #### Source
 
-src/store/modules/theme.ts:23
+src/store/modules/theme.ts:24
 
 ---
 
@@ -140,7 +140,27 @@ src/store/modules/theme.ts:23
 
 #### Source
 
-src/store/modules/theme.ts:37
+src/store/modules/theme.ts:38
+
+---
+
+### setGlobalConfig()
+
+> **setGlobalConfig**(`params`): `any`
+
+#### Parameters
+
+| Parameter | Type                                                                   |
+| :-------- | :--------------------------------------------------------------------- |
+| `params`  | [`ThemesSchema`](../internal_/type-aliases/type-alias.ThemesSchema.md) |
+
+#### Returns
+
+`any`
+
+#### Source
+
+src/store/modules/theme.ts:47
 
 ---
 
@@ -160,7 +180,7 @@ src/store/modules/theme.ts:37
 
 #### Source
 
-src/store/modules/theme.ts:43
+src/store/modules/theme.ts:44
 
 ---
 
@@ -180,7 +200,7 @@ src/store/modules/theme.ts:43
 
 #### Source
 
-src/store/modules/theme.ts:40
+src/store/modules/theme.ts:41
 
 ---
 

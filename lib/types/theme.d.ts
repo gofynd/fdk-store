@@ -7,7 +7,18 @@ export type ThemeSlice = {
     sectionKeys: any;
     page: Page;
 };
-export type UpdateSectionsForPreview = {
+export type DragSectionEvent = {
     index: number;
     newIndex: number;
+};
+export type AddSectionEvent = {
+    name: string;
+    counter: number;
+};
+export type RemoveSection = {
+    removedIndex: number;
+};
+export type UpdateSection = {
+    section: object;
+    index: number;
 };
