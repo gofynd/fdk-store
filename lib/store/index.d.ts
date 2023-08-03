@@ -1,0 +1,38 @@
+import type ApplicationClient from "fdk-client-javascript/sdk/application/ApplicationClient";
+import { ProductsModule } from "./modules/products";
+import { ProductModule } from "./modules/product";
+import { CartModule } from "./modules/cart";
+import brandsModule from "./modules/brands";
+import categoriesModule from "./modules/categories";
+import authModule from "./modules/auth";
+import paymentModule from "./modules/payment";
+import { AddressModule } from "./modules/address";
+import contentModule from "./modules/content";
+import themeModule from "./modules/theme";
+import configurationModule from "./modules/configuration";
+import logisticModule from "./modules/logistic";
+import shareModule from "./modules/share";
+import collectionModule from "./modules/collection";
+import OrderModule from "./modules/order";
+declare class ApplicationStore {
+    private store;
+    getters: any;
+    products: ProductsModule;
+    product: ProductModule;
+    cart: CartModule;
+    brands: brandsModule;
+    address: AddressModule;
+    content: contentModule;
+    theme: themeModule;
+    configuration: configurationModule;
+    logistic: logisticModule;
+    payment: paymentModule;
+    auth: authModule;
+    share: shareModule;
+    collection: collectionModule;
+    categories: categoriesModule;
+    order: OrderModule;
+    constructor(sdk: ApplicationClient, initialData: any);
+    observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
+}
+export default ApplicationStore;

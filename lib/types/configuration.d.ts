@@ -1,0 +1,20 @@
+import { AppCurrencyResponse, AppFeatureResponse, Application, ApplicationInformation, AppStaffResponse, AppTokenResponse, OrderingStore, OrderingStores } from "fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel";
+import { CommonAsyncLoadingTypes } from ".";
+export type ApplicationType = Partial<Application & CommonAsyncLoadingTypes>;
+export type ContactInfo = Partial<ApplicationInformation & CommonAsyncLoadingTypes>;
+export type AppFeatures = Partial<AppFeatureResponse & CommonAsyncLoadingTypes>;
+export type IntegrationTokens = Partial<AppTokenResponse & CommonAsyncLoadingTypes>;
+export type DeploymentStores = Partial<OrderingStores & CommonAsyncLoadingTypes>;
+export type Staff = Partial<AppStaffResponse & CommonAsyncLoadingTypes>;
+export type StoreDetails = Partial<OrderingStore & CommonAsyncLoadingTypes>;
+export type Currencies = Partial<AppCurrencyResponse & CommonAsyncLoadingTypes>;
+export type ConfigurationSlice = {
+    application: ApplicationType;
+    contact_info: ContactInfo;
+    app_features: AppFeatures;
+    integration_tokens: IntegrationTokens;
+    deployment_stores: DeploymentStores;
+    staff: Staff;
+    store_details: StoreDetails;
+    currencies: Currencies;
+};
