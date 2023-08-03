@@ -1,8 +1,8 @@
-import type { SerializedError } from '@reduxjs/toolkit';
-import type ApplicationClient from 'fdk-client-javascript/sdk/application/ApplicationClient';
-import { LogisticSlice } from '../../types/logistic';
-import { CountryListResponse, PincodeApiResponse, TATViewResponse } from 'fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel';
-import { GetPincodeCityParam, GetTatProductParam } from 'fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator';
+import type { SerializedError } from "@reduxjs/toolkit";
+import type ApplicationClient from "fdk-client-javascript/sdk/application/ApplicationClient";
+import { LogisticSlice } from "../../types/logistic";
+import { CountryListResponse, PincodeApiResponse, TATViewResponse } from "fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel";
+import { GetPincodeCityParam, GetTatProductParam } from "fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator";
 export declare const fetchAllCountries: import("@reduxjs/toolkit").AsyncThunk<CountryListResponse, void, {
     extra: {
         sdk: ApplicationClient;
