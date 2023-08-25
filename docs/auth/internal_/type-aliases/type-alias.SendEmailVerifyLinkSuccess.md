@@ -1,0 +1,25 @@
+[**fdk-store**](../../../README.md) ( [Readme](../../../README.md) \| [API](../../../API.md) )
+
+---
+
+[fdk-store](../../../API.md) > [auth](../../README.md) > [<internal>](../README.md) > SendEmailVerifyLinkSuccess
+
+# Type alias: SendEmailVerifyLinkSuccess
+
+> **SendEmailVerifyLinkSuccess**: `object`
+
+## Type declaration
+
+### verify_email_link
+
+`optional` **verify_email_link**: `boolean`
+
+## Source
+
+node_modules/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:825
+
+node_modules/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:826
+
+---
+
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
