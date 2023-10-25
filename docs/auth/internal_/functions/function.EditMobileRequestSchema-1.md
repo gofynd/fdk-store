@@ -1,0 +1,19 @@
+[**fdk-store**](../../../README.md)
+***
+
+[Index](../../../API.md) > [auth](../../README.md) > [<internal>](../README.md) > EditMobileRequestSchema
+
+# Function: EditMobileRequestSchema
+
+> **EditMobileRequestSchema**(): [`EditMobileRequestSchema`](../type-aliases/type-alias.EditMobileRequestSchema.md)
+
+## Returns
+
+[`EditMobileRequestSchema`](../type-aliases/type-alias.EditMobileRequestSchema.md)
+
+## Defined In
+
+node\_modules/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:525
+
+***
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
