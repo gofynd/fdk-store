@@ -1,0 +1,19 @@
+[**fdk-store**](../../../README.md)
+***
+
+[Index](../../../API.md) > [cart](../../README.md) > [<internal>](../README.md) > ArticleGiftDetail
+
+# Function: ArticleGiftDetail
+
+> **ArticleGiftDetail**(): [`ArticleGiftDetail`](../type-aliases/type-alias.ArticleGiftDetail.md)
+
+## Returns
+
+[`ArticleGiftDetail`](../type-aliases/type-alias.ArticleGiftDetail.md)
+
+## Defined In
+
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1018
+
+***
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
