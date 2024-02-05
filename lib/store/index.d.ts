@@ -1,0 +1,38 @@
+import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
+import { CatalogModule } from "./modules/catalog";
+import { CartModule } from "./modules/cart";
+import { BrandsModule } from "./modules/brands";
+import { CategoriesModule } from "./modules/categories";
+import { AuthModule } from "./modules/auth";
+import { PaymentModule } from "./modules/payment";
+import { AddressModule } from "./modules/address";
+import { ContentModule } from "./modules/content";
+import { ThemeModule } from "./modules/theme";
+import { ConfigurationModule } from "./modules/configuration";
+import { LogisticModule } from "./modules/logistic";
+import { ShareModule } from "./modules/share";
+import { CollectionModule } from "./modules/collection";
+import { OrderModule } from "./modules/order";
+import { CustomModule } from "./modules/custom";
+declare class ApplicationStore {
+    private store;
+    getters: any;
+    catalog: CatalogModule;
+    cart: CartModule;
+    brands: BrandsModule;
+    address: AddressModule;
+    content: ContentModule;
+    theme: ThemeModule;
+    configuration: ConfigurationModule;
+    logistic: LogisticModule;
+    payment: PaymentModule;
+    auth: AuthModule;
+    share: ShareModule;
+    collection: CollectionModule;
+    categories: CategoriesModule;
+    order: OrderModule;
+    custom: CustomModule;
+    constructor(sdk: ApplicationClient, initialData: any);
+    observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
+}
+export default ApplicationStore;
