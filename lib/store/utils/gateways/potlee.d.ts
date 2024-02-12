@@ -20,7 +20,6 @@ export default class PotleePayment {
         address_id?: any;
         billing_address_id?: any;
         bag_data?: any;
-        fingerprint?: any;
     }): Promise<unknown>;
     checkPotleeApproval(data: {
         [x: string]: any;
