@@ -1,9 +1,14 @@
 import { SerializedError } from "@reduxjs/toolkit";
 import type { Options } from "@gofynd/fdk-client-javascript/sdk/application/ApplicationAPIClient";
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
-import { GetBlogParam, GetBlogsParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { GetBlogParam, GetBlogsParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
 import { ContentSlice } from "../../types/content";
+declare global {
+    interface Window {
+        APP_DATA: any;
+    }
+}
 export declare const fetchNavigation: import("@reduxjs/toolkit").AsyncThunk<NavigationGetResponse, GetNavigationsParam | undefined, {
     extra: {
         sdk: ApplicationClient;
@@ -65,6 +70,18 @@ export declare const fetchCustomPage: import("@reduxjs/toolkit").AsyncThunk<Page
     rejectedMeta?: unknown;
 }>;
 export declare const fetchFaqByCategory: import("@reduxjs/toolkit").AsyncThunk<GetFaqSchema, GetFaqsByCategorySlugParam, {
+    extra: {
+        sdk: ApplicationClient;
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getFaqCategoryBySlug: import("@reduxjs/toolkit").AsyncThunk<GetFaqCategoryBySlugSchema, GetFaqCategoryBySlugParam, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -173,6 +190,18 @@ export declare const fetchLandingPage: import("@reduxjs/toolkit").AsyncThunk<Lan
     rejectedMeta?: unknown;
 }>;
 export declare const fetchDataLoaders: import("@reduxjs/toolkit").AsyncThunk<DataLoadersSchema, void, {
+    extra: {
+        sdk: ApplicationClient;
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const setDataLoaders: import("@reduxjs/toolkit").AsyncThunk<DataLoadersSchema | null, string, {
     extra: {
         sdk: ApplicationClient;
     };
