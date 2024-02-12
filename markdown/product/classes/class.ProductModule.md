@@ -43,7 +43,7 @@ src/store/modules/product.ts:10
 
 #### Defined In
 
-src/store/modules/product.ts:53
+src/store/modules/product.ts:59
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/product.ts:53
 
 #### Defined In
 
-src/store/modules/product.ts:46
+src/store/modules/product.ts:52
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/product.ts:46
 
 #### Defined In
 
-src/store/modules/product.ts:43
+src/store/modules/product.ts:49
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/product.ts:43
 
 #### Defined In
 
-src/store/modules/product.ts:37
+src/store/modules/product.ts:43
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/product.ts:37
 
 #### Defined In
 
-src/store/modules/product.ts:61
+src/store/modules/product.ts:67
 
 ***
 
@@ -163,7 +163,7 @@ src/store/modules/product.ts:16
 
 #### Defined In
 
-src/store/modules/product.ts:31
+src/store/modules/product.ts:37
 
 ***
 
@@ -183,7 +183,7 @@ src/store/modules/product.ts:31
 
 #### Defined In
 
-src/store/modules/product.ts:65
+src/store/modules/product.ts:71
 
 ***
 
@@ -203,7 +203,7 @@ src/store/modules/product.ts:65
 
 #### Defined In
 
-src/store/modules/product.ts:69
+src/store/modules/product.ts:75
 
 ***
 
@@ -223,7 +223,7 @@ src/store/modules/product.ts:69
 
 #### Defined In
 
-src/store/modules/product.ts:27
+src/store/modules/product.ts:33
 
 ***
 
@@ -243,7 +243,7 @@ src/store/modules/product.ts:27
 
 #### Defined In
 
-src/store/modules/product.ts:57
+src/store/modules/product.ts:63
 
 ***
 
@@ -263,7 +263,7 @@ src/store/modules/product.ts:57
 
 #### Defined In
 
-src/store/modules/product.ts:34
+src/store/modules/product.ts:40
 
 ***
 
@@ -283,7 +283,27 @@ src/store/modules/product.ts:34
 
 #### Defined In
 
-src/store/modules/product.ts:40
+src/store/modules/product.ts:46
+
+***
+
+### getProductDetailBySlug
+
+> **getProductDetailBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetProductDetailBySlugParam`](../../products/internal_/type-aliases/type-alias.GetProductDetailBySlugParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+
+#### Defined In
+
+src/store/modules/product.ts:27
 
 ***
 
@@ -303,7 +323,7 @@ src/store/modules/product.ts:40
 
 #### Defined In
 
-src/store/modules/product.ts:49
+src/store/modules/product.ts:55
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

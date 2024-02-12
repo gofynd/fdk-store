@@ -8,6 +8,7 @@ export declare class ProductModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
     fetchProductBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
+    getProductDetailBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     fetchProductVariants(params: GetProductVariantsBySlugParam): AsyncThunkPromise<ProductVariantsResponse>;
     fetchProductMeta(params: GetProductSizesBySlugParam): AsyncThunkPromise<ProductSizes>;
     followById(params: FollowByIdParam): AsyncThunkPromise<FollowPostResponse>;
