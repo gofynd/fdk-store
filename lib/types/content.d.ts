@@ -1,4 +1,4 @@
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
 export type NavigationType = Partial<NavigationGetResponse & CommonAsyncLoadingTypes>;
 export type SEO = Partial<SeoComponent & CommonAsyncLoadingTypes>;
@@ -13,10 +13,16 @@ export type SupportInformation = Partial<Support & CommonAsyncLoadingTypes>;
 export type Announcement = Partial<AnnouncementsResponseSchema & CommonAsyncLoadingTypes>;
 export type LandingPage = Partial<LandingPageSchema & CommonAsyncLoadingTypes>;
 export type DataLoaders = Partial<DataLoadersSchema & CommonAsyncLoadingTypes>;
+export type FAQS = Partial<FaqResponseSchema & CommonAsyncLoadingTypes>;
+export type FaqCategory = Partial<GetFaqCategoryBySlugSchema & CommonAsyncLoadingTypes>;
+export type FaqCategories = Partial<GetFaqCategoriesSchema & CommonAsyncLoadingTypes>;
 export type ContentSlice = {
     navigation: NavigationType;
     seo: SEO;
+    faqs: FAQS;
     blog: Blog;
+    faqCategories: FaqCategories;
+    faqCategory: FaqCategory;
     blogs: Blogs;
     custom_page: CustomPage;
     faq_data: FAQData;
