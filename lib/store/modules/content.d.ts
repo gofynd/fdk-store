@@ -1,6 +1,6 @@
 import { Options } from "@gofynd/fdk-client-javascript/sdk/application/ApplicationAPIClient";
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
-import { GetBlogParam, GetBlogsParam, GetFaqCategoriesParam, GetFaqsByCategorySlugParam, GetFaqsParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { GetBlogParam, GetBlogsParam, GetFaqCategoriesParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetFaqsParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 export declare class ContentModule {
@@ -13,6 +13,7 @@ export declare class ContentModule {
     fetchCustomPageData(params: GetPageParam): AsyncThunkPromise<PageSchema>;
     fetchFaqByCategory(params: GetFaqsByCategorySlugParam): AsyncThunkPromise<GetFaqSchema>;
     getFaqCategories(params: GetFaqCategoriesParam): AsyncThunkPromise<GetFaqCategoriesSchema>;
+    getFaqCategoryBySlug(params: GetFaqCategoryBySlugParam): AsyncThunkPromise<GetFaqCategoryBySlugSchema>;
     getFaqs(params: GetFaqsParam): AsyncThunkPromise<FaqResponseSchema>;
     fetchTags(): AsyncThunkPromise<TagsSchema>;
     fetchLegalData(): AsyncThunkPromise<ApplicationLegal>;
@@ -21,4 +22,5 @@ export declare class ContentModule {
     fetchAnnouncement(params?: Options): AsyncThunkPromise<AnnouncementsResponseSchema>;
     fetchLandingPage(): AsyncThunkPromise<LandingPageSchema>;
     fetchDataLoaders(): AsyncThunkPromise<DataLoadersSchema>;
+    setDataLoaders(): AsyncThunkPromise<DataLoadersSchema>;
 }

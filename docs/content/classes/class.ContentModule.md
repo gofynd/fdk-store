@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/content.ts:50
+src/store/modules/content.ts:55
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/content.ts:50
 
 #### Defined In
 
-src/store/modules/content.ts:113
+src/store/modules/content.ts:123
 
 ***
 
@@ -57,7 +57,7 @@ src/store/modules/content.ts:113
 
 #### Defined In
 
-src/store/modules/content.ts:61
+src/store/modules/content.ts:66
 
 ***
 
@@ -77,7 +77,7 @@ src/store/modules/content.ts:61
 
 #### Defined In
 
-src/store/modules/content.ts:65
+src/store/modules/content.ts:70
 
 ***
 
@@ -97,7 +97,7 @@ src/store/modules/content.ts:65
 
 #### Defined In
 
-src/store/modules/content.ts:69
+src/store/modules/content.ts:74
 
 ***
 
@@ -117,7 +117,7 @@ src/store/modules/content.ts:69
 
 #### Defined In
 
-src/store/modules/content.ts:73
+src/store/modules/content.ts:78
 
 ***
 
@@ -131,7 +131,7 @@ src/store/modules/content.ts:73
 
 #### Defined In
 
-src/store/modules/content.ts:123
+src/store/modules/content.ts:133
 
 ***
 
@@ -151,7 +151,7 @@ src/store/modules/content.ts:123
 
 #### Defined In
 
-src/store/modules/content.ts:79
+src/store/modules/content.ts:84
 
 ***
 
@@ -165,7 +165,7 @@ src/store/modules/content.ts:79
 
 #### Defined In
 
-src/store/modules/content.ts:119
+src/store/modules/content.ts:129
 
 ***
 
@@ -179,7 +179,7 @@ src/store/modules/content.ts:119
 
 #### Defined In
 
-src/store/modules/content.ts:99
+src/store/modules/content.ts:109
 
 ***
 
@@ -199,7 +199,7 @@ src/store/modules/content.ts:99
 
 #### Defined In
 
-src/store/modules/content.ts:52
+src/store/modules/content.ts:57
 
 ***
 
@@ -219,7 +219,7 @@ src/store/modules/content.ts:52
 
 #### Defined In
 
-src/store/modules/content.ts:103
+src/store/modules/content.ts:113
 
 ***
 
@@ -233,7 +233,7 @@ src/store/modules/content.ts:103
 
 #### Defined In
 
-src/store/modules/content.ts:109
+src/store/modules/content.ts:119
 
 ***
 
@@ -247,7 +247,7 @@ src/store/modules/content.ts:109
 
 #### Defined In
 
-src/store/modules/content.ts:95
+src/store/modules/content.ts:105
 
 ***
 
@@ -267,7 +267,27 @@ src/store/modules/content.ts:95
 
 #### Defined In
 
-src/store/modules/content.ts:84
+src/store/modules/content.ts:89
+
+***
+
+### getFaqCategoryBySlug
+
+> **getFaqCategoryBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqCategoryBySlugSchema`](../internal_/type-aliases/type-alias.GetFaqCategoryBySlugSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetFaqCategoryBySlugParam`](../internal_/type-aliases/type-alias.GetFaqCategoryBySlugParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqCategoryBySlugSchema`](../internal_/type-aliases/type-alias.GetFaqCategoryBySlugSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:94
 
 ***
 
@@ -287,7 +307,21 @@ src/store/modules/content.ts:84
 
 #### Defined In
 
-src/store/modules/content.ts:89
+src/store/modules/content.ts:99
+
+***
+
+### setDataLoaders
+
+> **setDataLoaders**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`DataLoadersSchema`](../internal_/type-aliases/type-alias.DataLoadersSchema.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`DataLoadersSchema`](../internal_/type-aliases/type-alias.DataLoadersSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:137
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
