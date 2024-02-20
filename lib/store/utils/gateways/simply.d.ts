@@ -1,4 +1,5 @@
 import type ApplicationClient from '@gofynd/fdk-client-javascript/sdk/application/ApplicationClient';
+import { SimplPaymentConfig } from '../../../types';
 interface SelectedPayment {
     aggregator_name: any;
     amount: any;
@@ -39,5 +40,6 @@ export default class SimplypayPayment {
         order_id: any;
         amount: any;
     }): Promise<void>;
+    injectScript(payment_config: SimplPaymentConfig): Promise<void>;
 }
 export {};
