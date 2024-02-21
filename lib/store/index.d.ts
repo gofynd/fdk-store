@@ -1,6 +1,5 @@
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
-import { ProductsModule } from "./modules/products";
-import { ProductModule } from "./modules/product";
+import { CatalogModule } from "./modules/catalog";
 import { CartModule } from "./modules/cart";
 import { BrandsModule } from "./modules/brands";
 import { CategoriesModule } from "./modules/categories";
@@ -18,8 +17,7 @@ import { CustomModule } from "./modules/custom";
 declare class ApplicationStore {
     private store;
     getters: any;
-    products: ProductsModule;
-    product: ProductModule;
+    catalog: CatalogModule;
     cart: CartModule;
     brands: BrandsModule;
     address: AddressModule;
