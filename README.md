@@ -81,4 +81,4 @@ function Home({ fpi }) {
 
 ## API Guide
 
-Check [docs](markdown/API.md) for full API guide.
+Check [docs](docs/API.md) for full API guide.

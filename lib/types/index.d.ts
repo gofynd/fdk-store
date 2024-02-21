@@ -23,6 +23,12 @@ export type AsyncThunkCompleted<T> = {
     payload?: T;
     error?: unknown;
 };
+export type SimplPaymentConfig = {
+    env: string;
+    simpl: {
+        key: string;
+    };
+};
 export type FPIClientOptions = {
     applicationID: string;
     applicationToken: string;
