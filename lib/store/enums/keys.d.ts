@@ -1,6 +1,6 @@
 export declare enum STORE_KEYS {
     PRODUCTS = "products",
-    PRODUCT_DETAILS = "product",
+    CATALOG = "catalog",
     CART = "cart",
     CHECKOUT = "checkout",
     BRANDS = "brands",

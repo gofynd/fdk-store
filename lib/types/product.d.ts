@@ -1,10 +1,8 @@
-import { BulkPriceResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
-import type { FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductDetails, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
-export type ProductDetails = Partial<ProductDetail & CommonAsyncLoadingTypes>;
+export type productDetails = Partial<ProductDetail & CommonAsyncLoadingTypes>;
 export type ProductVariants = Partial<ProductVariantsResponse & CommonAsyncLoadingTypes>;
 export type ProductMeta = Partial<ProductSizes & CommonAsyncLoadingTypes>;
-export type BulkPrice = Partial<BulkPriceResponse & CommonAsyncLoadingTypes>;
 export type SimilarCompareProducts = Partial<ProductCompareResponse & CommonAsyncLoadingTypes>;
 export type FrequentlyComparedProducts = Partial<ProductFrequentlyComparedSimilarResponse & CommonAsyncLoadingTypes>;
 export type ProductPriceBySlug = Partial<ProductSizePriceResponseV3 & CommonAsyncLoadingTypes>;
@@ -13,11 +11,29 @@ export type FollowByIdParamSlug = Partial<FollowPostResponse & CommonAsyncLoadin
 export type FollowerCountByIdSlug = Partial<FollowerCountResponse & CommonAsyncLoadingTypes>;
 export type FollowedList = Partial<GetFollowListingResponse & CommonAsyncLoadingTypes>;
 export type FollowIdsResponseSlug = Partial<FollowIdsResponse & CommonAsyncLoadingTypes>;
+export type FetchProductsOptions = {
+    f: any;
+    q: any;
+    pageId: any;
+    pageSize: number;
+    sortOn: string;
+    pageNo: any;
+    filters: any;
+};
+export type FetchProductsResponse = {
+    data: ProductListingResponse;
+    options: FetchProductsOptions;
+};
+export type ProductLists = Partial<ProductListingResponse & CommonAsyncLoadingTypes>;
+export type ProductDetaill = Partial<ProductDetails & CommonAsyncLoadingTypes>;
+export type CategoryDetail = Partial<CategoryMetaResponse & CommonAsyncLoadingTypes>;
+export type BrandDetail = Partial<BrandDetailResponse & CommonAsyncLoadingTypes>;
+export type CollectionDetail = Partial<CollectionDetailResponse & CommonAsyncLoadingTypes>;
+export type SearchResults = Partial<AutoCompleteResponse & CommonAsyncLoadingTypes>;
 export type ProductSlice = {
-    product_details: ProductDetails;
+    product_details: productDetails;
     product_variants: ProductVariants;
     product_meta: ProductMeta;
-    bulk_price: BulkPrice;
     similar_compare_products: SimilarCompareProducts;
     frequently_compared_products: FrequentlyComparedProducts;
     product_price_by_slug: ProductPriceBySlug;
@@ -27,4 +43,11 @@ export type ProductSlice = {
     followed_listing: FollowedList;
     fetch_follow_ids: FollowIdsResponseSlug;
     unfollow_by_id: FollowByIdParamSlug;
+    product_lists: ProductLists;
+    product_listing_meta: ProductDetaill;
+    search_results: SearchResults;
+    product_search_results: ProductLists;
+    category_listing_meta: CategoryDetail;
+    collection_listing_meta: BrandDetail;
+    brand_listing_meta: CollectionDetail;
 };
