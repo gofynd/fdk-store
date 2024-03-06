@@ -11,6 +11,12 @@ export type CommonAsyncLoadingTypes = {
     loading?: boolean;
     error?: any;
 };
+export type SimplPaymentConfig = {
+    env: string;
+    simpl: {
+        key: string;
+    };
+};
 export type AsyncThunkPromise<T> = Promise<{
     meta?: any;
     type: string;
