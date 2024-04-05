@@ -49,9 +49,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:956
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1254
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:957
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1255
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

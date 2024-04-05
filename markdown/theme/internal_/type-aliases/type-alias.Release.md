@@ -25,9 +25,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:992
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1186
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:993
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1187
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

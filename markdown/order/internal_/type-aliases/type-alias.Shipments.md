@@ -105,6 +105,12 @@
 
 ***
 
+### `order`
+
+> `optional` **order**: [`OrderRequest`](type-alias.OrderRequest.md)
+
+***
+
 ### `order_id`
 
 > `optional` **order\_id**: `string`
@@ -120,6 +126,12 @@
 ### `payment`
 
 > `optional` **payment**: [`ShipmentPayment`](type-alias.ShipmentPayment.md)
+
+***
+
+### `payment_info`
+
+> `optional` **payment\_info**: [`ShipmentPayment`](type-alias.ShipmentPayment.md)[]
 
 ***
 
@@ -156,6 +168,12 @@
 ### `shipment_created_at`
 
 > `optional` **shipment\_created\_at**: `string`
+
+***
+
+### `shipment_created_ts`
+
+> `optional` **shipment\_created\_ts**: `string`
 
 ***
 
@@ -225,9 +243,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:959
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:825
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:960
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:826
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -21,6 +21,12 @@
 
 ***
 
+### `attributes`
+
+> `optional` **attributes**: `any`
+
+***
+
 ### `brand`
 
 > `optional` **brand**: [`BaseInfo`](type-alias.BaseInfo.md)
@@ -84,9 +90,9 @@ name and other meta data
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1215
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1325
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1216
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1326
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

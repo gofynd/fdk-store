@@ -131,9 +131,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:154
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:165
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:155
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:166
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

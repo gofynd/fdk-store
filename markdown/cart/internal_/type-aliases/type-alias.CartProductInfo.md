@@ -27,6 +27,12 @@
 
 ***
 
+### `charges`
+
+> `optional` **charges**: [`Charges`](type-alias.Charges.md)[]
+
+***
+
 ### `coupon`
 
 > `optional` **coupon**: [`CouponDetails`](type-alias.CouponDetails.md)
@@ -111,6 +117,12 @@
 
 ***
 
+### `product_ean_id`
+
+> `optional` **product\_ean\_id**: `string`
+
+***
+
 ### `promo_meta`
 
 > `optional` **promo\_meta**: [`PromoMeta`](type-alias.PromoMeta.md)
@@ -129,9 +141,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1243
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1353
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1244
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1354
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

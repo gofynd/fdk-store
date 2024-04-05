@@ -11,13 +11,13 @@
 
 ### `email`
 
-> `optional` **email**: `string`[]
+> `optional` **email**: [`InformationSupportEmail`](type-alias.InformationSupportEmail.md)[]
 
 ***
 
 ### `phone`
 
-> `optional` **phone**: `string`[]
+> `optional` **phone**: [`InformationSupportPhone`](type-alias.InformationSupportPhone.md)[]
 
 ***
 
@@ -29,9 +29,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1631
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2000
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1632
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2001
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -9,6 +9,12 @@
 
 ## Type declaration
 
+### `_id`
+
+> `optional` **\_id**: `string`
+
+***
+
 ### `application`
 
 > `optional` **application**: `string`
@@ -18,9 +24,21 @@
 
 ***
 
+### `created_at`
+
+> `optional` **created\_at**: `string`
+
+***
+
 ### `default_currency`
 
 > `optional` **default\_currency**: [`DefaultCurrency`](type-alias.DefaultCurrency.md)
+
+***
+
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
 
 ***
 
@@ -30,9 +48,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:749
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2246
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:750
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2247
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

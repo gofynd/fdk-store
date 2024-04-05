@@ -39,6 +39,18 @@
 
 ***
 
+### `international_shipping`
+
+> `optional` **international\_shipping**: [`InternationalShipping`](type-alias.InternationalShipping.md)
+
+***
+
+### `listing_page`
+
+> `optional` **listing\_page**: [`ListingPageFeature`](type-alias.ListingPageFeature.md)
+
+***
+
 ### `listing_price`
 
 > `optional` **listing\_price**: [`ListingPriceFeature`](type-alias.ListingPriceFeature.md)
@@ -57,9 +69,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1199
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1365
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1200
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1366
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

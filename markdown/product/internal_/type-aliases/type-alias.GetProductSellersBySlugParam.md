@@ -26,15 +26,6 @@ set of results.
 
 ***
 
-### `pincode`
-
-> `optional` **pincode**: `string`
-
-- The 6-digit PIN Code of the area near which
-the selling locations should be searched, e.g. 400059
-
-***
-
 ### `size`
 
 > **size**: `string`
@@ -64,7 +55,7 @@ fast-delivery, low-price, optimal.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:602
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:594
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

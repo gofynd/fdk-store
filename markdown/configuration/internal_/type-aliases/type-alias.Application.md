@@ -149,6 +149,20 @@ internal or not
 
 ***
 
+### `mode`
+
+> `optional` **mode**: `string`
+
+***
+
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
+
+- ISO 8601 timestamp of sales channel updation
+
+***
+
 ### `name`
 
 > `optional` **name**: `string`
@@ -172,6 +186,18 @@ of owner who owns the application
 
 ***
 
+### `slug`
+
+> `optional` **slug**: `string`
+
+***
+
+### `status`
+
+> `optional` **status**: `string`
+
+***
+
 ### `token`
 
 > `optional` **token**: `string`
@@ -181,11 +207,9 @@ channel. It is required and auto-generated.
 
 ***
 
-### `updated_at`
+### `tokens`
 
-> `optional` **updated\_at**: `string`
-
-- ISO 8601 timestamp of sales channel updation
+> `optional` **tokens**: [`TokenSchema`](type-alias.TokenSchema.md)[]
 
 ***
 
@@ -195,9 +219,9 @@ channel. It is required and auto-generated.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:801
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1680
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:802
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1681
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

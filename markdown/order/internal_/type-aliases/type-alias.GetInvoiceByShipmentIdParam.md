@@ -17,7 +17,7 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:128
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:134
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

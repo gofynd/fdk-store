@@ -11,6 +11,7 @@
 
 - [AppliedFreeArticles](type-aliases/type-alias.AppliedFreeArticles.md)
 - [AppliedPromos](type-aliases/type-alias.AppliedPromos.md)
+- [Article](type-aliases/type-alias.Article.md)
 - [BagReasonMeta](type-aliases/type-alias.BagReasonMeta.md)
 - [BagReasons](type-aliases/type-alias.BagReasons.md)
 - [Bags](type-aliases/type-alias.Bags.md)
@@ -44,6 +45,7 @@
 - [OrderFilters](type-aliases/type-alias.OrderFilters.md)
 - [OrderList](type-aliases/type-alias.OrderList.md)
 - [OrderPage](type-aliases/type-alias.OrderPage.md)
+- [OrderRequest](type-aliases/type-alias.OrderRequest.md)
 - [OrderSchema](type-aliases/type-alias.OrderSchema.md)
 - [OrderStatuses](type-aliases/type-alias.OrderStatuses.md)
 - [Prices](type-aliases/type-alias.Prices.md)
@@ -88,6 +90,7 @@
 
 - [AppliedFreeArticles](functions/function.AppliedFreeArticles-1.md)
 - [AppliedPromos](functions/function.AppliedPromos-1.md)
+- [Article](functions/function.Article-1.md)
 - [BagReasonMeta](functions/function.BagReasonMeta-1.md)
 - [BagReasons](functions/function.BagReasons-1.md)
 - [Bags](functions/function.Bags-1.md)
@@ -113,6 +116,7 @@
 - [OrderFilters](functions/function.OrderFilters-1.md)
 - [OrderList](functions/function.OrderList-1.md)
 - [OrderPage](functions/function.OrderPage-1.md)
+- [OrderRequest](functions/function.OrderRequest-1.md)
 - [OrderSchema](functions/function.OrderSchema-1.md)
 - [OrderStatuses](functions/function.OrderStatuses-1.md)
 - [Prices](functions/function.Prices-1.md)

@@ -61,7 +61,7 @@ number is verified 1. True - Number is verified 2.False - Number is not verified
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:314
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:332
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

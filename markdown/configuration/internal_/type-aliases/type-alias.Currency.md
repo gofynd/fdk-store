@@ -26,6 +26,18 @@ of the current sales channel supported currency
 
 ***
 
+### `country_code`
+
+> `optional` **country\_code**: `string`
+
+***
+
+### `country_name`
+
+> `optional` **country\_name**: `string`
+
+***
+
 ### `created_at`
 
 > `optional` **created\_at**: `string`
@@ -54,6 +66,15 @@ sales channel
 
 ***
 
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
+
+- ISO 8601 timestamp of sales channel
+support currency updation
+
+***
+
 ### `name`
 
 > `optional` **name**: `string`
@@ -68,20 +89,11 @@ sales channel
 
 - Unique symbol for identifying the currency, e.g. ₹
 
-***
-
-### `updated_at`
-
-> `optional` **updated\_at**: `string`
-
-- ISO 8601 timestamp of sales channel support
-currency updation
-
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1328
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1543
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1329
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1544
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

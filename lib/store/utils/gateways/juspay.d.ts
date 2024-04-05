@@ -30,5 +30,9 @@ export default class JuspayPayment {
         nickname: any;
         card_token?: undefined;
     };
-    transaction(obj: any): Promise<void>;
+    createUPIPaymentData(obj: any): {
+        upi_vpa: any;
+        payment_method: any;
+    };
+    transaction(obj: any, payload: any): Promise<void>;
 }

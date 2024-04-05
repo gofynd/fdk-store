@@ -35,15 +35,13 @@
 
 ### `loc`
 
-> `optional` **loc**: `string`
-
-- Co-ordinates of the location
+> `optional` **loc**: [`InformationLoc`](type-alias.InformationLoc.md)
 
 ***
 
 ### `phone`
 
-> `optional` **phone**: [`InformationPhone`](type-alias.InformationPhone.md)
+> `optional` **phone**: [`InformationPhone`](type-alias.InformationPhone.md)[]
 
 ***
 
@@ -55,9 +53,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1594
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1932
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1595
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1933
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

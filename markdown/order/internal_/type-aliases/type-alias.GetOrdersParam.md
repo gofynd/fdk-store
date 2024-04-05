@@ -9,12 +9,29 @@
 
 ## Type declaration
 
+### `allowInactive`
+
+> `optional` **allowInactive**: `boolean`
+
+- Flag indicating whether inactive
+shipments are allowed
+
+***
+
 ### `customMeta`
 
 > `optional` **customMeta**: `string`
 
 - A filter and retrieve data using special
 fields included for special use-cases
+
+***
+
+### `endDate`
+
+> `optional` **endDate**: `string`
+
+- UTC Start Date in ISO format
 
 ***
 
@@ -44,6 +61,14 @@ Default value is 10.
 
 ***
 
+### `startDate`
+
+> `optional` **startDate**: `string`
+
+- UTC Start Date in ISO format
+
+***
+
 ### `status`
 
 > `optional` **status**: `number`
@@ -61,7 +86,7 @@ status such as _placed_, _delivered_, etc.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:141
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:151
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

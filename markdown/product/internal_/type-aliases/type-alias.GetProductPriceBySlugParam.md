@@ -18,15 +18,6 @@ of a product, e.g. 100.
 
 ***
 
-### `pincode`
-
-> `optional` **pincode**: `string`
-
-- The PIN Code of the area near which the
-selling locations should be searched, e.g. 400059.
-
-***
-
 ### `size`
 
 > **size**: `string`
@@ -56,7 +47,7 @@ product, e.g. 1,2,3.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:573
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:570
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

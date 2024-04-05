@@ -9,9 +9,9 @@
 
 ## Type declaration
 
-### `account_kit`
+### `accountkit`
 
-> `optional` **account\_kit**: [`Accountkit`](type-alias.Accountkit.md)
+> `optional` **accountkit**: [`Accountkit`](type-alias.Accountkit.md)
 
 ***
 
@@ -27,9 +27,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:987
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1029
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:988
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1030
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

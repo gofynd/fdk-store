@@ -53,7 +53,7 @@ is verified 1. True - Email ID is verified 2.False - Email ID is not verified ye
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:288
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:306
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

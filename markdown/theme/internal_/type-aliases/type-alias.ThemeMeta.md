@@ -1,11 +1,11 @@
 [**fdk-store**](../../../README.md)
 ***
 
-[Index](../../../API.md) > [theme](../../README.md) > [<internal>](../README.md) > Meta
+[Index](../../../API.md) > [theme](../../README.md) > [<internal>](../README.md) > ThemeMeta
 
-# Type alias: Meta
+# Type alias: ThemeMeta
 
-> **Meta**: `object`
+> **ThemeMeta**: `object`
 
 ## Type declaration
 
@@ -59,9 +59,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:892
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1151
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:893
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1152
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
