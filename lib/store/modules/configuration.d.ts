@@ -5,12 +5,12 @@ import { AsyncThunkPromise } from "../../types";
 export declare class ConfigurationModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    fetchApplication(): AsyncThunkPromise<Application>;
-    fetchContactInfo(): AsyncThunkPromise<ApplicationInformation>;
-    fetchAppFeatures(): AsyncThunkPromise<AppFeatureResponse>;
-    fetchAppIntegrationTokens(): AsyncThunkPromise<AppTokenResponse>;
-    fetchDeploymentStores(params: GetOrderingStoresParam): AsyncThunkPromise<OrderingStores>;
-    fetchStaff(params: GetAppStaffsParam): AsyncThunkPromise<AppStaffResponse>;
-    fetchStoreById(params: GetStoreDetailByIdParam): AsyncThunkPromise<OrderingStore>;
-    fetchAppCurrencies(): AsyncThunkPromise<AppCurrencyResponse>;
+    getApplication(): AsyncThunkPromise<Application>;
+    getContactInfo(): AsyncThunkPromise<ApplicationInformation>;
+    getFeatures(): AsyncThunkPromise<AppFeatureResponse>;
+    getIntegrationTokens(): AsyncThunkPromise<AppTokenResponse>;
+    getOrderingStores(params: GetOrderingStoresParam): AsyncThunkPromise<OrderingStores>;
+    getAppStaffs(params: GetAppStaffsParam): AsyncThunkPromise<AppStaffResponse>;
+    getStoreDetailById(params: GetStoreDetailByIdParam): AsyncThunkPromise<OrderingStore>;
+    getAppCurrencies(): AsyncThunkPromise<AppCurrencyResponse>;
 }
