@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/auth.ts:84
+src/store/modules/auth.ts:94
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/auth.ts:84
 
 #### Defined In
 
-src/store/modules/auth.ts:199
+src/store/modules/auth.ts:209
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/auth.ts:199
 
 #### Defined In
 
-src/store/modules/auth.ts:194
+src/store/modules/auth.ts:204
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/auth.ts:194
 
 #### Defined In
 
-src/store/modules/auth.ts:189
+src/store/modules/auth.ts:199
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/auth.ts:189
 
 #### Defined In
 
-src/store/modules/auth.ts:184
+src/store/modules/auth.ts:194
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/auth.ts:184
 
 #### Defined In
 
-src/store/modules/auth.ts:94
+src/store/modules/auth.ts:104
 
 ***
 
@@ -143,7 +143,7 @@ src/store/modules/auth.ts:94
 
 #### Defined In
 
-src/store/modules/auth.ts:140
+src/store/modules/auth.ts:150
 
 ***
 
@@ -157,7 +157,7 @@ src/store/modules/auth.ts:140
 
 #### Defined In
 
-src/store/modules/auth.ts:90
+src/store/modules/auth.ts:100
 
 ***
 
@@ -178,7 +178,7 @@ src/store/modules/auth.ts:90
 
 #### Defined In
 
-src/store/modules/auth.ts:152
+src/store/modules/auth.ts:162
 
 ***
 
@@ -198,7 +198,7 @@ src/store/modules/auth.ts:152
 
 #### Defined In
 
-src/store/modules/auth.ts:179
+src/store/modules/auth.ts:189
 
 ***
 
@@ -218,7 +218,7 @@ src/store/modules/auth.ts:179
 
 #### Defined In
 
-src/store/modules/auth.ts:103
+src/store/modules/auth.ts:113
 
 ***
 
@@ -238,7 +238,7 @@ src/store/modules/auth.ts:103
 
 #### Defined In
 
-src/store/modules/auth.ts:86
+src/store/modules/auth.ts:96
 
 ***
 
@@ -258,7 +258,7 @@ src/store/modules/auth.ts:86
 
 #### Defined In
 
-src/store/modules/auth.ts:146
+src/store/modules/auth.ts:156
 
 ***
 
@@ -278,7 +278,7 @@ src/store/modules/auth.ts:146
 
 #### Defined In
 
-src/store/modules/auth.ts:174
+src/store/modules/auth.ts:184
 
 ***
 
@@ -298,7 +298,7 @@ src/store/modules/auth.ts:174
 
 #### Defined In
 
-src/store/modules/auth.ts:169
+src/store/modules/auth.ts:179
 
 ***
 
@@ -318,7 +318,7 @@ src/store/modules/auth.ts:169
 
 #### Defined In
 
-src/store/modules/auth.ts:116
+src/store/modules/auth.ts:126
 
 ***
 
@@ -332,7 +332,7 @@ src/store/modules/auth.ts:116
 
 #### Defined In
 
-src/store/modules/auth.ts:107
+src/store/modules/auth.ts:117
 
 ***
 
@@ -352,7 +352,7 @@ src/store/modules/auth.ts:107
 
 #### Defined In
 
-src/store/modules/auth.ts:111
+src/store/modules/auth.ts:121
 
 ***
 
@@ -372,7 +372,7 @@ src/store/modules/auth.ts:111
 
 #### Defined In
 
-src/store/modules/auth.ts:158
+src/store/modules/auth.ts:168
 
 ***
 
@@ -392,7 +392,7 @@ src/store/modules/auth.ts:158
 
 #### Defined In
 
-src/store/modules/auth.ts:164
+src/store/modules/auth.ts:174
 
 ***
 
@@ -412,7 +412,7 @@ src/store/modules/auth.ts:164
 
 #### Defined In
 
-src/store/modules/auth.ts:134
+src/store/modules/auth.ts:144
 
 ***
 
@@ -432,7 +432,7 @@ src/store/modules/auth.ts:134
 
 #### Defined In
 
-src/store/modules/auth.ts:211
+src/store/modules/auth.ts:221
 
 ***
 
@@ -452,7 +452,7 @@ src/store/modules/auth.ts:211
 
 #### Defined In
 
-src/store/modules/auth.ts:205
+src/store/modules/auth.ts:215
 
 ***
 
@@ -472,7 +472,7 @@ src/store/modules/auth.ts:205
 
 #### Defined In
 
-src/store/modules/auth.ts:235
+src/store/modules/auth.ts:265
 
 ***
 
@@ -492,7 +492,7 @@ src/store/modules/auth.ts:235
 
 #### Defined In
 
-src/store/modules/auth.ts:122
+src/store/modules/auth.ts:132
 
 ***
 
@@ -512,7 +512,7 @@ src/store/modules/auth.ts:122
 
 #### Defined In
 
-src/store/modules/auth.ts:229
+src/store/modules/auth.ts:259
 
 ***
 
@@ -532,7 +532,47 @@ src/store/modules/auth.ts:229
 
 #### Defined In
 
-src/store/modules/auth.ts:100
+src/store/modules/auth.ts:110
+
+***
+
+### verifyEmail
+
+> **verifyEmail**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`VerifyEmailParam`](../internal_/type-aliases/type-alias.VerifyEmailParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:232
+
+***
+
+### verifyEmailForgotOTP
+
+> **verifyEmailForgotOTP**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyForgotOtpSuccess`](../internal_/type-aliases/type-alias.VerifyForgotOtpSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`VerifyEmailForgotOTPParam`](../internal_/type-aliases/type-alias.VerifyEmailForgotOTPParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyForgotOtpSuccess`](../internal_/type-aliases/type-alias.VerifyForgotOtpSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:242
 
 ***
 
@@ -552,7 +592,47 @@ src/store/modules/auth.ts:100
 
 #### Defined In
 
-src/store/modules/auth.ts:223
+src/store/modules/auth.ts:253
+
+***
+
+### verifyMobile
+
+> **verifyMobile**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`VerifyMobileParam`](../internal_/type-aliases/type-alias.VerifyMobileParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:237
+
+***
+
+### verifyMobileForgotOTP
+
+> **verifyMobileForgotOTP**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyForgotOtpSuccess`](../internal_/type-aliases/type-alias.VerifyForgotOtpSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`VerifyMobileForgotOTPParam`](../internal_/type-aliases/type-alias.VerifyMobileForgotOTPParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyForgotOtpSuccess`](../internal_/type-aliases/type-alias.VerifyForgotOtpSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:247
 
 ***
 
@@ -572,7 +652,7 @@ src/store/modules/auth.ts:223
 
 #### Defined In
 
-src/store/modules/auth.ts:128
+src/store/modules/auth.ts:138
 
 ***
 
@@ -592,7 +672,7 @@ src/store/modules/auth.ts:128
 
 #### Defined In
 
-src/store/modules/auth.ts:217
+src/store/modules/auth.ts:227
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
