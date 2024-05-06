@@ -91,7 +91,7 @@ or descending order. See the supported values below.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:383
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator.d.ts:380
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

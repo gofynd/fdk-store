@@ -26,7 +26,7 @@ set of results. Default value is 1.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator.d.ts:163
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator.d.ts:191
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:852
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1016
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

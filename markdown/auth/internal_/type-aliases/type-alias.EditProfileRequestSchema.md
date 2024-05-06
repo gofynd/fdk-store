@@ -33,6 +33,14 @@
 
 ***
 
+### `encrypt_otp`
+
+> `optional` **encrypt\_otp**: `boolean`
+
+- Set to true if you want to encrypt the OTP.
+
+***
+
 ### `first_name`
 
 > `optional` **first\_name**: `string`
@@ -75,9 +83,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:590
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:552
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:591
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:553
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

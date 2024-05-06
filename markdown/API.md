@@ -14,6 +14,7 @@
 - [configuration](configuration/README.md)
 - [content](content/README.md)
 - [custom](custom/README.md)
+- [lead](lead/README.md)
 - [logistic](logistic/README.md)
 - [order](order/README.md)
 - [payment](payment/README.md)

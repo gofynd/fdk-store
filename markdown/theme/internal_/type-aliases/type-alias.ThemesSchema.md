@@ -47,6 +47,14 @@
 
 ***
 
+### `company_id`
+
+> `optional` **company\_id**: `number`
+
+- The company id in which sales channel exists
+
+***
+
 ### `config`
 
 > `optional` **config**: [`Config`](type-alias.Config.md)
@@ -85,7 +93,7 @@
 
 ### `meta`
 
-> `optional` **meta**: [`Meta`](type-alias.Meta.md)
+> `optional` **meta**: [`ThemeMeta`](type-alias.ThemeMeta.md)
 
 ***
 
@@ -121,6 +129,12 @@
 
 ***
 
+### `theme_type`
+
+> `optional` **theme\_type**: `string`
+
+***
+
 ### `updated_at`
 
 > `optional` **updated\_at**: `string`
@@ -137,9 +151,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1175
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:654
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1176
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:655
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

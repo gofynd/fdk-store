@@ -9,6 +9,22 @@
 
 ## Type declaration
 
+### `company`
+
+> `optional` **company**: `number`
+
+- Company id of the application
+
+***
+
+### `filters`
+
+> `optional` **filters**: `string`
+
+- Filters on sections to be applied or not
+
+***
+
 ### `pageValue`
 
 > **pageValue**: `string`
@@ -25,7 +41,7 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationValidator.d.ts:35
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationValidator.d.ts:37
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

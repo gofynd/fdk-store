@@ -21,9 +21,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:578
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:546
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:579
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:547
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

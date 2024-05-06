@@ -15,12 +15,6 @@
 
 ***
 
-### `captcha_code`
-
-> `optional` **captcha\_code**: `string`
-
-***
-
 ### `email`
 
 > `optional` **email**: `string`
@@ -39,9 +33,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:881
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:577
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:882
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:578
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

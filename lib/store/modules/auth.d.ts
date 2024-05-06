@@ -1,5 +1,5 @@
-import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SessionListSuccess, UserObjectSchema, VerifyMobileOTPSuccess, VerifyOtpSuccess } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
-import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetListOfActiveSessionsParam, GetPlatformConfigParam, HasPasswordParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
+import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SessionListSuccess, UserObjectSchema, VerifyEmailSuccess, VerifyForgotOtpSuccess, VerifyMobileOTPSuccess, VerifyOtpSuccess } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
+import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetListOfActiveSessionsParam, GetPlatformConfigParam, HasPasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 import { AuthSlice, LogInOTPParam, loginWithAppleIOSParam, OAuthLoginParam, ResetPasswordWithEmail, ResetPasswordWithMobile, SendEmailVerificationLink, SendOTPOnEmail, SendOTPOnMobile, SignInUserWithPassword, SignUpUserParam, UpdateProfileType, VerifyEmailOTP, VerifyMobileOTP, verifyOTPParam } from "../../types/auth";
@@ -32,6 +32,10 @@ export declare class AuthModule {
     sendOtpMobile(params: SendOTPOnMobile): AsyncThunkPromise<OtpSuccess>;
     sendOtpEmail(params: SendOTPOnEmail): AsyncThunkPromise<EmailOtpSuccess>;
     verifyMobileOtp(params: VerifyMobileOTP): AsyncThunkPromise<VerifyOtpSuccess>;
+    verifyEmail(params: VerifyEmailParam): AsyncThunkPromise<VerifyEmailSuccess>;
+    verifyMobile(params: VerifyMobileParam): AsyncThunkPromise<VerifyEmailSuccess>;
+    verifyEmailForgotOTP(params: VerifyEmailForgotOTPParam): AsyncThunkPromise<VerifyForgotOtpSuccess>;
+    verifyMobileForgotOTP(params: VerifyMobileForgotOTPParam): AsyncThunkPromise<VerifyForgotOtpSuccess>;
     verifyEmailOtp(params: VerifyEmailOTP): AsyncThunkPromise<VerifyOtpSuccess>;
     updateProfile(params: UpdateProfileType): AsyncThunkPromise<ProfileEditSuccess>;
     sendEmailVerificationLink(params: SendEmailVerificationLink): AsyncThunkPromise<SendEmailVerifyLinkSuccess>;

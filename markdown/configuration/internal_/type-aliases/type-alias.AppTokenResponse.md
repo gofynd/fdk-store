@@ -43,23 +43,23 @@ application created within the current business account
 
 ***
 
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
+
+- ISO 8601 timestamp of token updation
+
+***
+
 ### `tokens`
 
 > `optional` **tokens**: [`Tokens`](type-alias.Tokens.md)
 
-***
-
-### `updated_at`
-
-> `optional` **updated\_at**: `string`
-
-- ISO 8601 timestamp of token updation
-
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1106
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:982
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1107
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:983
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

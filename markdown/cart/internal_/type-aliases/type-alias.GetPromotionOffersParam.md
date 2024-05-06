@@ -9,6 +9,14 @@
 
 ## Type declaration
 
+### `cartType`
+
+> `optional` **cartType**: `string`
+
+- The type of cart
+
+***
+
 ### `pageSize`
 
 > `optional` **pageSize**: `number`
@@ -43,7 +51,7 @@ of a product. You can get slug value from the endpoint
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:397
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:488
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

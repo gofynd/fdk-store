@@ -13,23 +13,11 @@
 
 > `optional` **hash**: `string`
 
-***
-
-### `original`
-
-> `optional` **original**: `string`
-
-***
-
-### `short`
-
-> `optional` **short**: `string`
-
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:188
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:160
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:189
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:161
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

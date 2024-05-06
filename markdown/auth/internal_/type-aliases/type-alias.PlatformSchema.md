@@ -9,6 +9,12 @@
 
 ## Type declaration
 
+### `__v`
+
+> `optional` **\_\_v**: `number`
+
+***
+
 ### `_id`
 
 > `optional` **\_id**: `string`
@@ -29,7 +35,7 @@
 
 ### `delete_account_consent`
 
-> `optional` **delete\_account\_consent**: `any`
+> `optional` **delete\_account\_consent**: [`DeleteAccountConsent`](type-alias.DeleteAccountConsent.md)
 
 ***
 
@@ -119,7 +125,7 @@
 
 ### `session_config`
 
-> `optional` **session\_config**: `any`
+> `optional` **session\_config**: [`SessionExpiry`](type-alias.SessionExpiry.md)
 
 ***
 
@@ -159,9 +165,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:775
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:931
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:776
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:932
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

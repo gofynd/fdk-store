@@ -39,6 +39,12 @@
 
 ***
 
+### `card_id`
+
+> `optional` **card\_id**: `string`
+
+***
+
 ### `custom_meta`
 
 > `optional` **custom\_meta**: [`CartCheckoutCustomMeta`](type-alias.CartCheckoutCustomMeta.md)[]
@@ -71,6 +77,12 @@
 
 ***
 
+### `iin`
+
+> `optional` **iin**: `string`
+
+***
+
 ### `merchant_code`
 
 > `optional` **merchant\_code**: `string`
@@ -80,6 +92,12 @@
 ### `meta`
 
 > `optional` **meta**: `any`
+
+***
+
+### `network`
+
+> `optional` **network**: `string`
 
 ***
 
@@ -129,11 +147,17 @@
 
 > `optional` **staff**: [`StaffCheckout`](type-alias.StaffCheckout.md)
 
+***
+
+### `type`
+
+> `optional` **type**: `string`
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1083
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1902
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1084
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1903
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

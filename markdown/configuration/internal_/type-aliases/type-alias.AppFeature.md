@@ -67,6 +67,15 @@ the features were configured
 
 ***
 
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
+
+- ISO 8601 timestamp of last known
+modifications to the sales channel feature configuration
+
+***
+
 ### `order`
 
 > `optional` **order**: [`OrderFeature`](type-alias.OrderFeature.md)
@@ -95,20 +104,11 @@ the features were configured
 
 > `optional` **registration\_page**: [`RegistrationPageFeature`](type-alias.RegistrationPageFeature.md)
 
-***
-
-### `updated_at`
-
-> `optional` **updated\_at**: `string`
-
-- ISO 8601 timestamp of last known
-modifications to the sales channel feature configuration
-
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:760
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1320
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:761
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1321
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -87,9 +87,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:129
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:135
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:130
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:136
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

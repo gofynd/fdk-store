@@ -15,7 +15,7 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:344
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:362
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

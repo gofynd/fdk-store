@@ -43,7 +43,7 @@ channel application created within a business account
 
 ### `business_highlights`
 
-> `optional` **business\_highlights**: [`BusinessHighlights`](type-alias.BusinessHighlights.md)
+> `optional` **business\_highlights**: [`BusinessHighlights`](type-alias.BusinessHighlights.md)[]
 
 ***
 
@@ -67,7 +67,16 @@ application information
 
 ### `links`
 
-> `optional` **links**: [`Links`](type-alias.Links.md)
+> `optional` **links**: [`Links`](type-alias.Links.md)[]
+
+***
+
+### `modified_at`
+
+> `optional` **modified\_at**: `string`
+
+- ISO 8601 timestamp of updation of the
+application information
 
 ***
 
@@ -81,20 +90,11 @@ application information
 
 > `optional` **support**: [`InformationSupport`](type-alias.InformationSupport.md)
 
-***
-
-### `updated_at`
-
-> `optional` **updated\_at**: `string`
-
-- ISO 8601 timestamp of updation of the
-application information
-
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:968
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1894
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:969
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1895
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

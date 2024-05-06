@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/content.ts:55
+src/store/modules/content.ts:58
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/content.ts:55
 
 #### Defined In
 
-src/store/modules/content.ts:123
+src/store/modules/content.ts:129
 
 ***
 
@@ -57,7 +57,7 @@ src/store/modules/content.ts:123
 
 #### Defined In
 
-src/store/modules/content.ts:66
+src/store/modules/content.ts:69
 
 ***
 
@@ -77,7 +77,7 @@ src/store/modules/content.ts:66
 
 #### Defined In
 
-src/store/modules/content.ts:70
+src/store/modules/content.ts:76
 
 ***
 
@@ -97,7 +97,7 @@ src/store/modules/content.ts:70
 
 #### Defined In
 
-src/store/modules/content.ts:74
+src/store/modules/content.ts:80
 
 ***
 
@@ -117,7 +117,7 @@ src/store/modules/content.ts:74
 
 #### Defined In
 
-src/store/modules/content.ts:78
+src/store/modules/content.ts:84
 
 ***
 
@@ -131,7 +131,7 @@ src/store/modules/content.ts:78
 
 #### Defined In
 
-src/store/modules/content.ts:133
+src/store/modules/content.ts:139
 
 ***
 
@@ -151,7 +151,7 @@ src/store/modules/content.ts:133
 
 #### Defined In
 
-src/store/modules/content.ts:84
+src/store/modules/content.ts:90
 
 ***
 
@@ -165,7 +165,7 @@ src/store/modules/content.ts:84
 
 #### Defined In
 
-src/store/modules/content.ts:129
+src/store/modules/content.ts:135
 
 ***
 
@@ -179,7 +179,7 @@ src/store/modules/content.ts:129
 
 #### Defined In
 
-src/store/modules/content.ts:109
+src/store/modules/content.ts:115
 
 ***
 
@@ -199,7 +199,7 @@ src/store/modules/content.ts:109
 
 #### Defined In
 
-src/store/modules/content.ts:57
+src/store/modules/content.ts:60
 
 ***
 
@@ -219,7 +219,7 @@ src/store/modules/content.ts:57
 
 #### Defined In
 
-src/store/modules/content.ts:113
+src/store/modules/content.ts:119
 
 ***
 
@@ -233,7 +233,7 @@ src/store/modules/content.ts:113
 
 #### Defined In
 
-src/store/modules/content.ts:119
+src/store/modules/content.ts:125
 
 ***
 
@@ -247,7 +247,27 @@ src/store/modules/content.ts:119
 
 #### Defined In
 
-src/store/modules/content.ts:105
+src/store/modules/content.ts:111
+
+***
+
+### getCustomObject
+
+> **getCustomObject**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCustomObjectParam`](../internal_/type-aliases/type-alias.GetCustomObjectParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:72
 
 ***
 
@@ -267,7 +287,7 @@ src/store/modules/content.ts:105
 
 #### Defined In
 
-src/store/modules/content.ts:89
+src/store/modules/content.ts:95
 
 ***
 
@@ -287,7 +307,7 @@ src/store/modules/content.ts:89
 
 #### Defined In
 
-src/store/modules/content.ts:94
+src/store/modules/content.ts:100
 
 ***
 
@@ -307,7 +327,7 @@ src/store/modules/content.ts:94
 
 #### Defined In
 
-src/store/modules/content.ts:99
+src/store/modules/content.ts:105
 
 ***
 
@@ -321,7 +341,7 @@ src/store/modules/content.ts:99
 
 #### Defined In
 
-src/store/modules/content.ts:137
+src/store/modules/content.ts:143
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

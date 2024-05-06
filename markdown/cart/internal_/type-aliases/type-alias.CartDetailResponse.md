@@ -27,6 +27,12 @@
 
 ***
 
+### `cart_id`
+
+> `optional` **cart\_id**: `number`
+
+***
+
 ### `checkout_mode`
 
 > `optional` **checkout\_mode**: `string`
@@ -36,6 +42,18 @@
 ### `comment`
 
 > `optional` **comment**: `string`
+
+***
+
+### `common_config`
+
+> `optional` **common\_config**: [`CartCommonConfig`](type-alias.CartCommonConfig.md)
+
+***
+
+### `coupon`
+
+> `optional` **coupon**: [`CartDetailCoupon`](type-alias.CartDetailCoupon.md)
 
 ***
 
@@ -99,6 +117,12 @@
 
 ***
 
+### `notification`
+
+> `optional` **notification**: `any`
+
+***
+
 ### `pan_config`
 
 > `optional` **pan\_config**: `any`
@@ -121,11 +145,29 @@
 
 > `optional` **restrict\_checkout**: `boolean`
 
+***
+
+### `staff_user_id`
+
+> `optional` **staff\_user\_id**: `string`
+
+***
+
+### `success`
+
+> `optional` **success**: `boolean`
+
+***
+
+### `uid`
+
+> `optional` **uid**: `string`
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1159
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1488
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1160
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1489
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -39,7 +39,7 @@
 
 ## Defined In
 
-src/types/index.ts:25
+src/types/index.ts:34
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

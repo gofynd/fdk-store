@@ -1,8 +1,8 @@
 import { SerializedError } from "@reduxjs/toolkit";
 import type { Options } from "@gofynd/fdk-client-javascript/sdk/application/ApplicationAPIClient";
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
-import { GetBlogParam, GetBlogsParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, CustomObjectByIdSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { GetBlogParam, GetBlogsParam, GetCustomObjectParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
 import { ContentSlice } from "../../types/content";
 declare global {
     interface Window {
@@ -202,6 +202,18 @@ export declare const fetchDataLoaders: import("@reduxjs/toolkit").AsyncThunk<Dat
     rejectedMeta?: unknown;
 }>;
 export declare const setDataLoaders: import("@reduxjs/toolkit").AsyncThunk<DataLoadersSchema | null, string, {
+    extra: {
+        sdk: ApplicationClient;
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getCustomObject: import("@reduxjs/toolkit").AsyncThunk<CustomObjectByIdSchema, GetCustomObjectParam, {
     extra: {
         sdk: ApplicationClient;
     };
