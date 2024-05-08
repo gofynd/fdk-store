@@ -5,6 +5,6 @@ import { AsyncThunkPromise } from "../../types";
 export declare class CollectionModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    fetchCollection(params: GetCollectionsParam): AsyncThunkPromise<GetCollectionListingResponse>;
-    fetchCollectionItem(params: GetCollectionItemsBySlugParam): AsyncThunkPromise<ProductListingResponse>;
+    getCollections(params: GetCollectionsParam): AsyncThunkPromise<GetCollectionListingResponse>;
+    getCollectionItemsBySlug(params: GetCollectionItemsBySlugParam): AsyncThunkPromise<ProductListingResponse>;
 }
