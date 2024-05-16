@@ -42,4 +42,5 @@ export default class RazorpayPayment {
             };
         };
     }): Promise<unknown>;
+    injectScript(): Promise<void>;
 }

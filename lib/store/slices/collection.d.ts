@@ -2,7 +2,7 @@ import { GetCollectionListingResponse } from '@gofynd/fdk-client-javascript/sdk/
 import { GetCollectionItemsBySlugParam, GetCollectionsParam } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
 import { ProductListingResponse } from '@gofynd/fdk-client-javascript/sdk/platform/Catalog/CatalogPlatformModel';
 import { CollectionsSlice } from '../../types/collection';
-export declare const fetchCollection: import("@reduxjs/toolkit").AsyncThunk<GetCollectionListingResponse, GetCollectionsParam, {
+export declare const getCollections: import("@reduxjs/toolkit").AsyncThunk<GetCollectionListingResponse, GetCollectionsParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -14,7 +14,7 @@ export declare const fetchCollection: import("@reduxjs/toolkit").AsyncThunk<GetC
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const fetchCollectionItem: import("@reduxjs/toolkit").AsyncThunk<ProductListingResponse, GetCollectionItemsBySlugParam, {
+export declare const getCollectionItemsBySlug: import("@reduxjs/toolkit").AsyncThunk<ProductListingResponse, GetCollectionItemsBySlugParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
