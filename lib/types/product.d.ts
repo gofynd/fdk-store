@@ -1,5 +1,5 @@
 import { BulkPriceResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
-import type { FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import type { ApplicationStoreListing, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
 export type ProductDetails = Partial<ProductDetail & CommonAsyncLoadingTypes>;
 export type ProductVariants = Partial<ProductVariantsResponse & CommonAsyncLoadingTypes>;
@@ -13,6 +13,9 @@ export type FollowByIdParamSlug = Partial<FollowPostResponse & CommonAsyncLoadin
 export type FollowerCountByIdSlug = Partial<FollowerCountResponse & CommonAsyncLoadingTypes>;
 export type FollowedList = Partial<GetFollowListingResponse & CommonAsyncLoadingTypes>;
 export type FollowIdsResponseSlug = Partial<FollowIdsResponse & CommonAsyncLoadingTypes>;
+export type StoresDetails = Partial<StoreListingResponse & CommonAsyncLoadingTypes>;
+export type InStockLocations = Partial<ApplicationStoreListing & CommonAsyncLoadingTypes>;
+export type LocationDetailsById = Partial<StoreDetails & CommonAsyncLoadingTypes>;
 export type ProductSlice = {
     product_details: ProductDetails;
     product_variants: ProductVariants;
@@ -27,4 +30,7 @@ export type ProductSlice = {
     followed_listing: FollowedList;
     fetch_follow_ids: FollowIdsResponseSlug;
     unfollow_by_id: FollowByIdParamSlug;
+    stores_details: StoresDetails;
+    instock_locations: InStockLocations;
+    location_details: LocationDetailsById;
 };
