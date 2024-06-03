@@ -11,6 +11,13 @@ export type CommonAsyncLoadingTypes = {
     loading?: boolean;
     error?: any;
 };
+export type SimplPaymentConfig = {
+    env: string;
+    simpl: {
+        key: string;
+    };
+};
+export type EventEmitterFunction = (event: string, payload: any) => void;
 export type AsyncThunkPromise<T> = Promise<{
     meta?: any;
     type: string;
@@ -28,6 +35,7 @@ export type FPIClientOptions = {
     applicationToken: string;
     domain: string;
     storeInitialData: unknown;
+    eventEmitter?: EventEmitterFunction;
 };
 export type ProductListingOptions = {
     q?: string;
