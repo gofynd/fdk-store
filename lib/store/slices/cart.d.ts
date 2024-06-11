@@ -1,7 +1,7 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from '@gofynd/fdk-client-javascript/sdk/application/ApplicationClient';
-import { AddCartDetailResponse, CartCheckoutResponse, CartDetailResponse, CartItemCountResponse, CartMetaResponse, CartShipmentsResponse, GetCouponResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, UpdateCartDetailResponse } from '@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel';
-import { ApplyCouponParam, CheckoutCartParam, GetCartParam, GetCartShareLinkParam, GetCouponsParam, GetItemCountParam, GetLadderOffersParam, GetPromotionOffersParam, GetShipmentsParam, RemoveCouponParam, SelectAddressParam, SelectPaymentModeParam, UpdateCartMetaParam } from '@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator';
+import { AddCartDetailResponse, CartCheckoutResponse, CartDetailResponse, CartItemCountResponse, CartMetaResponse, CartShipmentsResponse, GetCouponResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, SharedCartResponse, UpdateCartDetailResponse } from '@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel';
+import { ApplyCouponParam, CheckoutCartParam, GetCartParam, GetCartSharedItemsParam, GetCartShareLinkParam, GetCouponsParam, GetItemCountParam, GetLadderOffersParam, GetPromotionOffersParam, GetShipmentsParam, RemoveCouponParam, SelectAddressParam, SelectPaymentModeParam, UpdateCartMetaParam, UpdateCartWithSharedItemsParam } from '@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator';
 import { AddToCartParams, ApplyRewardPointsParams, CartSlice, CheckoutMode, UpdateCartItemsParams, UpdateCheckoutModeParams } from '../../types/cart';
 export declare const fetchCartItems: import("@reduxjs/toolkit").AsyncThunk<CartDetailResponse, GetCartParam, {
     extra: {
@@ -76,6 +76,30 @@ export declare const fetchCoupons: import("@reduxjs/toolkit").AsyncThunk<GetCoup
     rejectedMeta?: unknown;
 }>;
 export declare const fetchCartShareLink: import("@reduxjs/toolkit").AsyncThunk<GetShareCartLinkResponse, GetCartShareLinkParam, {
+    extra: {
+        sdk: ApplicationClient;
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getCartSharedItems: import("@reduxjs/toolkit").AsyncThunk<SharedCartResponse, GetCartSharedItemsParam, {
+    extra: {
+        sdk: ApplicationClient;
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const updateCartWithSharedItems: import("@reduxjs/toolkit").AsyncThunk<SharedCartResponse, UpdateCartWithSharedItemsParam, {
     extra: {
         sdk: ApplicationClient;
     };

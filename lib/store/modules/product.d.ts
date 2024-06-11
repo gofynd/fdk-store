@@ -1,7 +1,7 @@
 import { BulkPriceResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
 import { GetBulkDiscountOffersParam } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator";
-import type { FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
-import { FollowByIdParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetProductBundlesBySlugParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSimilarComparisonProductBySlugParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
+import type { ApplicationStoreListing, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import { FollowByIdParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 export declare class ProductModule {
@@ -13,6 +13,9 @@ export declare class ProductModule {
     fetchProductMeta(params: GetProductSizesBySlugParam): AsyncThunkPromise<ProductSizes>;
     followById(params: FollowByIdParam): AsyncThunkPromise<FollowPostResponse>;
     fetchFollowerCountById(params: GetFollowerCountByIdParam): AsyncThunkPromise<FollowerCountResponse>;
+    getStores(params: GetStoresParam): AsyncThunkPromise<StoreListingResponse>;
+    getLocationDetailsById(params: GetLocationDetailsByIdParam): AsyncThunkPromise<StoreDetails>;
+    getInStockLocations(params: GetInStockLocationsParam): AsyncThunkPromise<ApplicationStoreListing>;
     getProductBundlesBySlug(params: GetProductBundlesBySlugParam): AsyncThunkPromise<ProductBundle>;
     fetchFollowedListing(params: GetFollowedListingParam): AsyncThunkPromise<GetFollowListingResponse>;
     fetchFollowIds(params: GetFollowIdsParam): AsyncThunkPromise<FollowIdsResponse>;
