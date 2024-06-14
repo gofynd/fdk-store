@@ -12,9 +12,7 @@
     "build:watch": "tsc -m es6 --outDir lib --watch",
     "test": "jest --config jest.config.js --json --outputFile='./coverage/coverage.json'",
     "test:coverage": "jest --coverage",
-    "doc:markdown": "typedoc --plugin typedoc-plugin-missing-exports --plugin typedoc-plugin-markdown --out markdown",
-    "doc:html": "typedoc --plugin typedoc-plugin-missing-exports",
-    "doc": "npm run doc:html && npm run doc:markdown"
+    "doc": "typedoc --plugin typedoc-plugin-missing-exports --plugin typedoc-plugin-markdown"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",

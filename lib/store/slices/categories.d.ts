@@ -1,7 +1,7 @@
 import { CategoryListingResponse } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
 import { GetCategoriesParam } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
 import { CategoriesSlice } from '../../types/categories';
-export declare const fetchCategories: import("@reduxjs/toolkit").AsyncThunk<CategoryListingResponse, GetCategoriesParam, {
+export declare const getCategories: import("@reduxjs/toolkit").AsyncThunk<CategoryListingResponse, GetCategoriesParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };

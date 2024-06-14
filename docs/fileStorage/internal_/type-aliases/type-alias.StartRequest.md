@@ -1,0 +1,47 @@
+[**fdk-store**](../../../README.md)
+***
+
+[Index](../../../API.md) > [fileStorage](../../README.md) > [<internal>](../README.md) > StartRequest
+
+# Type alias: StartRequest
+
+> **StartRequest**: `object`
+
+## Type declaration
+
+### `content_type`
+
+> **content\_type**: `string`
+
+***
+
+### `file_name`
+
+> **file\_name**: `string`
+
+***
+
+### `params`
+
+> `optional` **params**: [`Params`](type-alias.Params.md)
+
+***
+
+### `size`
+
+> **size**: `number`
+
+***
+
+### `tags`
+
+> `optional` **tags**: `string`[]
+
+## Defined In
+
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:129
+
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:130
+
+***
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

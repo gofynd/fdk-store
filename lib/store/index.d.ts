@@ -1,6 +1,5 @@
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
-import { ProductsModule } from "./modules/products";
-import { ProductModule } from "./modules/product";
+import { CatalogModule } from "./modules/catalog";
 import { CartModule } from "./modules/cart";
 import { BrandsModule } from "./modules/brands";
 import { CategoriesModule } from "./modules/categories";
@@ -15,11 +14,12 @@ import { ShareModule } from "./modules/share";
 import { CollectionModule } from "./modules/collection";
 import { OrderModule } from "./modules/order";
 import { CustomModule } from "./modules/custom";
+import { fileStorageModule } from "./modules/fileStorage";
+import { LeadModule } from "./modules/lead";
 declare class ApplicationStore {
     private store;
     getters: any;
-    products: ProductsModule;
-    product: ProductModule;
+    catalog: CatalogModule;
     cart: CartModule;
     brands: BrandsModule;
     address: AddressModule;
@@ -33,7 +33,9 @@ declare class ApplicationStore {
     collection: CollectionModule;
     categories: CategoriesModule;
     order: OrderModule;
+    fileStorage: fileStorageModule;
     custom: CustomModule;
+    lead: LeadModule;
     constructor(sdk: ApplicationClient, initialData: any);
     observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
 }
