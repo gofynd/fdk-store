@@ -1,0 +1,55 @@
+[**fdk-store**](../../../README.md)
+***
+
+[Index](../../../API.md) > [cart](../../README.md) > [<internal>](../README.md) > SharedCartDetails
+
+# Type alias: SharedCartDetails
+
+> **SharedCartDetails**: `object`
+
+## Type declaration
+
+### `created_on`
+
+> `optional` **created\_on**: `string`
+
+***
+
+### `meta`
+
+> `optional` **meta**: `any`
+
+- Meta data sent while generating share cart link
+
+***
+
+### `source`
+
+> `optional` **source**: `any`
+
+- Share link device and other source information
+
+***
+
+### `token`
+
+> `optional` **token**: `string`
+
+- Short link id
+
+***
+
+### `user`
+
+> `optional` **user**: `any`
+
+- User details of who generated share link
+
+## Defined In
+
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2039
+
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2040
+
+***
+Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

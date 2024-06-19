@@ -1,5 +1,5 @@
-import { AddCartDetailResponse, CartCheckoutResponse, CartDetailResponse, CartItemCountResponse, CartMetaResponse, CartShipmentsResponse, GetCouponResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, UpdateCartDetailResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
-import { ApplyCouponParam, CheckoutCartParam, GetCartParam, GetCartShareLinkParam, GetCouponsParam, GetItemCountParam, GetLadderOffersParam, GetPromotionOffersParam, GetShipmentsParam, RemoveCouponParam, SelectAddressParam, SelectPaymentModeParam, UpdateCartMetaParam } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator";
+import { AddCartDetailResponse, CartCheckoutResponse, CartDetailResponse, CartItemCountResponse, CartMetaResponse, CartShipmentsResponse, GetCouponResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, SharedCartResponse, UpdateCartDetailResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
+import { ApplyCouponParam, CheckoutCartParam, GetCartParam, GetCartSharedItemsParam, GetCartShareLinkParam, GetCouponsParam, GetItemCountParam, GetLadderOffersParam, GetPromotionOffersParam, GetShipmentsParam, RemoveCouponParam, SelectAddressParam, SelectPaymentModeParam, UpdateCartMetaParam, UpdateCartWithSharedItemsParam } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 import { AddToCartParams, ApplyRewardPointsParams, CheckoutMode, UpdateCartItemsParams, UpdateCheckoutModeParams } from "../../types/cart";
@@ -23,5 +23,7 @@ export declare class CartModule {
     selectAddress(params: SelectAddressParam): AsyncThunkPromise<CartDetailResponse>;
     fetchLadderOffers(params: GetLadderOffersParam): AsyncThunkPromise<LadderPriceOffers>;
     fetchPromotionOffers(params: GetPromotionOffersParam): AsyncThunkPromise<PromotionOffersResponse>;
+    getCartSharedItems(params: GetCartSharedItemsParam): AsyncThunkPromise<SharedCartResponse>;
+    updateCartWithSharedItems(params: UpdateCartWithSharedItemsParam): AsyncThunkPromise<SharedCartResponse>;
     fetchCartShareLink(params: GetCartShareLinkParam): AsyncThunkPromise<GetShareCartLinkResponse>;
 }

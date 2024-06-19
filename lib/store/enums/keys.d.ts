@@ -15,7 +15,8 @@ export declare enum STORE_KEYS {
     LOGISTIC = "logistic",
     SHARE = "share",
     ORDER = "order",
-    CUSTOM = "custom"
+    CUSTOM = "custom",
+    LEAD = "lead"
 }
 export declare enum COOKIE_KEYS {
     LOCATION_DATA = "app_location_details",
