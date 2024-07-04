@@ -1,8 +1,8 @@
 import { SerializedError } from "@reduxjs/toolkit";
 import type { Options } from "@gofynd/fdk-client-javascript/sdk/application/ApplicationAPIClient";
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, CustomFieldsResponseByResourceIdSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
-import { GetBlogParam, GetBlogsParam, GetCustomFieldsParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { GetBlogParam, GetBlogsParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
 import { ContentSlice } from "../../types/content";
 declare global {
     interface Window {
