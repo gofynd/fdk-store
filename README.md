@@ -68,7 +68,7 @@ function Home({ fpi }) {
   const page = useGlobalStore(fpi.getters.PAGE) || {};
 
   /**
-   * Rendering Logic Here
+   * Rendering Logic is Here
    */
 
   return (
