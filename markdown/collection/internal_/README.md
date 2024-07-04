@@ -12,7 +12,6 @@
 - [CollectionListingFilter](type-aliases/type-alias.CollectionListingFilter.md)
 - [CollectionListingFilterTag](type-aliases/type-alias.CollectionListingFilterTag.md)
 - [CollectionListingFilterType](type-aliases/type-alias.CollectionListingFilterType.md)
-- [CollectionQuery](type-aliases/type-alias.CollectionQuery.md)
 - [GetCollectionDetailNest](type-aliases/type-alias.GetCollectionDetailNest.md)
 - [GetCollectionItemsBySlugParam](type-aliases/type-alias.GetCollectionItemsBySlugParam.md)
 - [GetCollectionListingResponse](type-aliases/type-alias.GetCollectionListingResponse.md)
@@ -23,7 +22,6 @@
 - [CollectionListingFilter](functions/function.CollectionListingFilter-1.md)
 - [CollectionListingFilterTag](functions/function.CollectionListingFilterTag-1.md)
 - [CollectionListingFilterType](functions/function.CollectionListingFilterType-1.md)
-- [CollectionQuery](functions/function.CollectionQuery-1.md)
 - [GetCollectionDetailNest](functions/function.GetCollectionDetailNest-1.md)
 - [GetCollectionListingResponse](functions/function.GetCollectionListingResponse-1.md)
 

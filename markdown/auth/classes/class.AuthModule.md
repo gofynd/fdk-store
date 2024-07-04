@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/auth.ts:92
+src/store/modules/auth.ts:96
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/auth.ts:92
 
 #### Defined In
 
-src/store/modules/auth.ts:205
+src/store/modules/auth.ts:216
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/auth.ts:205
 
 #### Defined In
 
-src/store/modules/auth.ts:200
+src/store/modules/auth.ts:211
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/auth.ts:200
 
 #### Defined In
 
-src/store/modules/auth.ts:195
+src/store/modules/auth.ts:206
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/auth.ts:195
 
 #### Defined In
 
-src/store/modules/auth.ts:190
+src/store/modules/auth.ts:201
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/auth.ts:190
 
 #### Defined In
 
-src/store/modules/auth.ts:102
+src/store/modules/auth.ts:106
 
 ***
 
@@ -143,27 +143,7 @@ src/store/modules/auth.ts:102
 
 #### Defined In
 
-src/store/modules/auth.ts:146
-
-***
-
-### fetchPlatformData
-
-> **fetchPlatformData**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PlatformSchema`](../internal_/type-aliases/type-alias.PlatformSchema.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetPlatformConfigParam`](../internal_/type-aliases/type-alias.GetPlatformConfigParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PlatformSchema`](../internal_/type-aliases/type-alias.PlatformSchema.md) \>
-
-#### Defined In
-
-src/store/modules/auth.ts:94
+src/store/modules/auth.ts:157
 
 ***
 
@@ -177,7 +157,7 @@ src/store/modules/auth.ts:94
 
 #### Defined In
 
-src/store/modules/auth.ts:98
+src/store/modules/auth.ts:102
 
 ***
 
@@ -198,7 +178,7 @@ src/store/modules/auth.ts:98
 
 #### Defined In
 
-src/store/modules/auth.ts:158
+src/store/modules/auth.ts:169
 
 ***
 
@@ -218,7 +198,47 @@ src/store/modules/auth.ts:158
 
 #### Defined In
 
-src/store/modules/auth.ts:185
+src/store/modules/auth.ts:196
+
+***
+
+### getLoggedInUser
+
+> **getLoggedInUser**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserObjectSchema`](../internal_/type-aliases/type-alias.UserObjectSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | `any` |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserObjectSchema`](../internal_/type-aliases/type-alias.UserObjectSchema.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:115
+
+***
+
+### getPlatformConfig
+
+> **getPlatformConfig**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PlatformSchema`](../internal_/type-aliases/type-alias.PlatformSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetPlatformConfigParam`](../internal_/type-aliases/type-alias.GetPlatformConfigParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PlatformSchema`](../internal_/type-aliases/type-alias.PlatformSchema.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:98
 
 ***
 
@@ -238,7 +258,7 @@ src/store/modules/auth.ts:185
 
 #### Defined In
 
-src/store/modules/auth.ts:152
+src/store/modules/auth.ts:163
 
 ***
 
@@ -258,7 +278,7 @@ src/store/modules/auth.ts:152
 
 #### Defined In
 
-src/store/modules/auth.ts:180
+src/store/modules/auth.ts:191
 
 ***
 
@@ -278,7 +298,61 @@ src/store/modules/auth.ts:180
 
 #### Defined In
 
-src/store/modules/auth.ts:175
+src/store/modules/auth.ts:186
+
+***
+
+### loginWithEmailAndPassword
+
+> **loginWithEmailAndPassword**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`LoginWithEmailAndPasswordParam`](../internal_/type-aliases/type-alias.LoginWithEmailAndPasswordParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:128
+
+***
+
+### logout
+
+> **logout**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LogoutSuccess`](../internal_/type-aliases/type-alias.LogoutSuccess.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LogoutSuccess`](../internal_/type-aliases/type-alias.LogoutSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:119
+
+***
+
+### registerWithForm
+
+> **registerWithForm**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`RegisterFormSuccess`](../internal_/type-aliases/type-alias.RegisterFormSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`SignUpUserParam`](../internal_/type-aliases/type-alias.SignUpUserParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`RegisterFormSuccess`](../internal_/type-aliases/type-alias.RegisterFormSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:123
 
 ***
 
@@ -298,7 +372,7 @@ src/store/modules/auth.ts:175
 
 #### Defined In
 
-src/store/modules/auth.ts:164
+src/store/modules/auth.ts:175
 
 ***
 
@@ -318,33 +392,13 @@ src/store/modules/auth.ts:164
 
 #### Defined In
 
-src/store/modules/auth.ts:170
-
-***
-
-### sendEmailVerificationLink
-
-> **sendEmailVerificationLink**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SendEmailVerifyLinkSuccess`](../internal_/type-aliases/type-alias.SendEmailVerifyLinkSuccess.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`SendEmailVerificationLink`](../internal_/type-aliases/type-alias.SendEmailVerificationLink.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SendEmailVerifyLinkSuccess`](../internal_/type-aliases/type-alias.SendEmailVerifyLinkSuccess.md) \>
-
-#### Defined In
-
-src/store/modules/auth.ts:261
+src/store/modules/auth.ts:181
 
 ***
 
 ### sendOtp
 
-> **sendOtp**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+> **sendOtp**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserObjectSchema`](../internal_/type-aliases/type-alias.UserObjectSchema.md) \>
 
 #### Parameters
 
@@ -354,11 +408,11 @@ src/store/modules/auth.ts:261
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserObjectSchema`](../internal_/type-aliases/type-alias.UserObjectSchema.md) \>
 
 #### Defined In
 
-src/store/modules/auth.ts:134
+src/store/modules/auth.ts:151
 
 ***
 
@@ -378,7 +432,7 @@ src/store/modules/auth.ts:134
 
 #### Defined In
 
-src/store/modules/auth.ts:217
+src/store/modules/auth.ts:228
 
 ***
 
@@ -398,47 +452,27 @@ src/store/modules/auth.ts:217
 
 #### Defined In
 
-src/store/modules/auth.ts:211
+src/store/modules/auth.ts:222
 
 ***
 
-### setMobileNumberAsPrimary
+### sendVerificationLinkToEmail
 
-> **setMobileNumberAsPrimary**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+> **sendVerificationLinkToEmail**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SendEmailVerifyLinkSuccess`](../internal_/type-aliases/type-alias.SendEmailVerifyLinkSuccess.md) \>
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `params` | [`SetMobileNumberAsPrimaryParam`](../internal_/type-aliases/type-alias.SetMobileNumberAsPrimaryParam.md) |
+| `params` | [`SendEmailVerificationLink`](../internal_/type-aliases/type-alias.SendEmailVerificationLink.md) |
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LoginSuccess`](../internal_/type-aliases/type-alias.LoginSuccess.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SendEmailVerifyLinkSuccess`](../internal_/type-aliases/type-alias.SendEmailVerifyLinkSuccess.md) \>
 
 #### Defined In
 
-src/store/modules/auth.ts:140
-
-***
-
-### signInUserWithOtp
-
-> **signInUserWithOtp**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyOtpSuccess`](../internal_/type-aliases/type-alias.VerifyOtpSuccess.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`verifyOTPParam`](../internal_/type-aliases/type-alias.verifyOTPParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyOtpSuccess`](../internal_/type-aliases/type-alias.VerifyOtpSuccess.md) \>
-
-#### Defined In
-
-src/store/modules/auth.ts:128
+src/store/modules/auth.ts:272
 
 ***
 
@@ -458,41 +492,27 @@ src/store/modules/auth.ts:128
 
 #### Defined In
 
-src/store/modules/auth.ts:122
+src/store/modules/auth.ts:134
 
 ***
 
-### signOutUser
+### updatePassword
 
-> **signOutUser**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LogoutSuccess`](../internal_/type-aliases/type-alias.LogoutSuccess.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LogoutSuccess`](../internal_/type-aliases/type-alias.LogoutSuccess.md) \>
-
-#### Defined In
-
-src/store/modules/auth.ts:112
-
-***
-
-### signUpUser
-
-> **signUpUser**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`RegisterFormSuccess`](../internal_/type-aliases/type-alias.RegisterFormSuccess.md) \>
+> **updatePassword**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `params` | [`SignUpUserParam`](../internal_/type-aliases/type-alias.SignUpUserParam.md) |
+| `params` | [`UpdatePasswordParam`](../../fileStorage/internal_/type-aliases/type-alias.UpdatePasswordParam.md) |
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`RegisterFormSuccess`](../internal_/type-aliases/type-alias.RegisterFormSuccess.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Defined In
 
-src/store/modules/auth.ts:116
+src/store/modules/auth.ts:145
 
 ***
 
@@ -512,7 +532,7 @@ src/store/modules/auth.ts:116
 
 #### Defined In
 
-src/store/modules/auth.ts:255
+src/store/modules/auth.ts:266
 
 ***
 
@@ -532,13 +552,13 @@ src/store/modules/auth.ts:255
 
 #### Defined In
 
-src/store/modules/auth.ts:108
+src/store/modules/auth.ts:112
 
 ***
 
 ### verifyEmail
 
-> **verifyEmail**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+> **verifyEmail**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Parameters
 
@@ -548,11 +568,11 @@ src/store/modules/auth.ts:108
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Defined In
 
-src/store/modules/auth.ts:228
+src/store/modules/auth.ts:239
 
 ***
 
@@ -572,7 +592,7 @@ src/store/modules/auth.ts:228
 
 #### Defined In
 
-src/store/modules/auth.ts:238
+src/store/modules/auth.ts:249
 
 ***
 
@@ -592,13 +612,13 @@ src/store/modules/auth.ts:238
 
 #### Defined In
 
-src/store/modules/auth.ts:249
+src/store/modules/auth.ts:260
 
 ***
 
 ### verifyMobile
 
-> **verifyMobile**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+> **verifyMobile**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Parameters
 
@@ -608,11 +628,11 @@ src/store/modules/auth.ts:249
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyEmailSuccess`](../../fileStorage/internal_/type-aliases/type-alias.VerifyEmailSuccess.md) \>
 
 #### Defined In
 
-src/store/modules/auth.ts:233
+src/store/modules/auth.ts:244
 
 ***
 
@@ -632,7 +652,27 @@ src/store/modules/auth.ts:233
 
 #### Defined In
 
-src/store/modules/auth.ts:243
+src/store/modules/auth.ts:254
+
+***
+
+### verifyMobileOTP
+
+> **verifyMobileOTP**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyOtpSuccess`](../internal_/type-aliases/type-alias.VerifyOtpSuccess.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`verifyOTPParam`](../internal_/type-aliases/type-alias.verifyOTPParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`VerifyOtpSuccess`](../internal_/type-aliases/type-alias.VerifyOtpSuccess.md) \>
+
+#### Defined In
+
+src/store/modules/auth.ts:140
 
 ***
 
@@ -652,7 +692,7 @@ src/store/modules/auth.ts:243
 
 #### Defined In
 
-src/store/modules/auth.ts:223
+src/store/modules/auth.ts:234
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

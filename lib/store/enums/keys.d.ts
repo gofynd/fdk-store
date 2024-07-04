@@ -1,6 +1,6 @@
 export declare enum STORE_KEYS {
     PRODUCTS = "products",
-    PRODUCT_DETAILS = "product",
+    CATALOG = "catalog",
     CART = "cart",
     CHECKOUT = "checkout",
     BRANDS = "brands",
@@ -16,7 +16,8 @@ export declare enum STORE_KEYS {
     SHARE = "share",
     ORDER = "order",
     CUSTOM = "custom",
-    LEAD = "lead"
+    LEAD = "lead",
+    FILE_STORAGE = "fileStorage"
 }
 export declare enum COOKIE_KEYS {
     LOCATION_DATA = "app_location_details",

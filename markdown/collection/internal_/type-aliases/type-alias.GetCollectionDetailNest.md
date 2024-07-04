@@ -101,7 +101,7 @@
 
 ### `query`
 
-> `optional` **query**: [`CollectionQuery`](type-alias.CollectionQuery.md)[]
+> `optional` **query**: [`CollectionQuery`](../../../catalog/internal_/type-aliases/type-alias.CollectionQuery.md)[]
 
 ***
 

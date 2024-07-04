@@ -27,9 +27,29 @@ src/store/modules/collection.ts:8
 
 ## Methods
 
-### fetchCollection
+### getCollectionItemsBySlug
 
-> **fetchCollection**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCollectionListingResponse`](../internal_/type-aliases/type-alias.GetCollectionListingResponse.md) \>
+> **getCollectionItemsBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductListingResponse`](../../catalog/internal_/type-aliases/type-alias.ProductListingResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCollectionItemsBySlugParam`](../internal_/type-aliases/type-alias.GetCollectionItemsBySlugParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductListingResponse`](../../catalog/internal_/type-aliases/type-alias.ProductListingResponse.md) \>
+
+#### Defined In
+
+src/store/modules/collection.ts:17
+
+***
+
+### getCollections
+
+> **getCollections**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCollectionListingResponse`](../internal_/type-aliases/type-alias.GetCollectionListingResponse.md) \>
 
 #### Parameters
 
@@ -44,26 +64,6 @@ src/store/modules/collection.ts:8
 #### Defined In
 
 src/store/modules/collection.ts:13
-
-***
-
-### fetchCollectionItem
-
-> **fetchCollectionItem**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductListingResponse`](../../products/internal_/type-aliases/type-alias.ProductListingResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetCollectionItemsBySlugParam`](../internal_/type-aliases/type-alias.GetCollectionItemsBySlugParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductListingResponse`](../../products/internal_/type-aliases/type-alias.ProductListingResponse.md) \>
-
-#### Defined In
-
-src/store/modules/collection.ts:17
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

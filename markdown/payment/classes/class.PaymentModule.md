@@ -127,9 +127,9 @@ src/store/modules/payment.ts:29
 
 ***
 
-### fetchAggregatorsConfig
+### getAggregatorsConfig
 
-> **fetchAggregatorsConfig**(): `any`
+> **getAggregatorsConfig**(): `any`
 
 #### Returns
 
@@ -138,26 +138,6 @@ src/store/modules/payment.ts:29
 #### Defined In
 
 src/store/modules/payment.ts:13
-
-***
-
-### fetchPaymentOptions
-
-> **fetchPaymentOptions**(`params` = `{}`): `any`
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined In
-
-src/store/modules/payment.ts:9
 
 ***
 
@@ -178,6 +158,26 @@ src/store/modules/payment.ts:9
 #### Defined In
 
 src/store/modules/payment.ts:33
+
+***
+
+### getPaymentModeRoutes
+
+> **getPaymentModeRoutes**(`params` = `{}`): `any`
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined In
+
+src/store/modules/payment.ts:9
 
 ***
 

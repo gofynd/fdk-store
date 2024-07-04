@@ -27,9 +27,9 @@ src/store/modules/categories.ts:8
 
 ## Methods
 
-### fetchCategories
+### getCategories
 
-> **fetchCategories**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CategoryListingResponse`](../internal_/type-aliases/type-alias.CategoryListingResponse.md) \>
+> **getCategories**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CategoryListingResponse`](../internal_/type-aliases/type-alias.CategoryListingResponse.md) \>
 
 #### Parameters
 

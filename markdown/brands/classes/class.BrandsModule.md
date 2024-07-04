@@ -27,9 +27,9 @@ src/store/modules/brands.ts:8
 
 ## Methods
 
-### fetchBrands
+### getBrands
 
-> **fetchBrands**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BrandListingResponse`](../internal_/type-aliases/type-alias.BrandListingResponse.md) \>
+> **getBrands**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BrandListingResponse`](../internal_/type-aliases/type-alias.BrandListingResponse.md) \>
 
 #### Parameters
 

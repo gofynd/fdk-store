@@ -15,7 +15,7 @@
 
 ## Defined In
 
-src/types/index.ts:28
+src/types/index.ts:18
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
