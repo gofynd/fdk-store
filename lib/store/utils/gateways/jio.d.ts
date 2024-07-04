@@ -1,13 +1,16 @@
 export default class JioPayment {
     selectedPayment: {
-        mode_name: any;
         paymentFlowMeta: any;
         aggregator_name: any;
         name: any;
     };
     paymentFlow: any;
     payment_mode: any;
-    constructor(selectedPayment: any, payment_mode: any);
+    constructor(selectedPayment: {
+        paymentFlowMeta: any;
+        aggregator_name: any;
+        name: any;
+    }, payment_mode: any);
     createCardPaymentData(obj: any): {
         token: any;
         cvv: any;

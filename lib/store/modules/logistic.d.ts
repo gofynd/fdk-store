@@ -5,8 +5,7 @@ import { AsyncThunkPromise } from "../../types";
 export declare class LogisticModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    getAllCountries(): AsyncThunkPromise<CountryListResponse>;
+    fetchAllCountries(): AsyncThunkPromise<CountryListResponse>;
     getTatProduct(params: GetTatProductParam): AsyncThunkPromise<TATViewResponse>;
-    getPincodeCity(params: GetPincodeCityParam): AsyncThunkPromise<PincodeApiResponse>;
     fetchPincodeDetails(params: GetPincodeCityParam): AsyncThunkPromise<PincodeApiResponse>;
 }

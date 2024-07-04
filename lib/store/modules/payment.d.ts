@@ -2,8 +2,8 @@ import type { ThunkActionDispatch } from "redux-thunk";
 export declare class PaymentModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    getPaymentModeRoutes(params?: any): any;
-    getAggregatorsConfig(): any;
+    fetchPaymentOptions(params?: any): any;
+    fetchAggregatorsConfig(): any;
     verifyCustomerForPayment(params: any): any;
     customerCreditSummary(payload: any): any;
     redirectToAggregator(payload: any): any;

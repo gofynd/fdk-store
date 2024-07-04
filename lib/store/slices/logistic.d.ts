@@ -3,7 +3,7 @@ import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/applicatio
 import { LogisticSlice } from "../../types/logistic";
 import { CountryListResponse, PincodeApiResponse, TATViewResponse } from "@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel";
 import { GetPincodeCityParam, GetTatProductParam } from "@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator";
-export declare const getAllCountries: import("@reduxjs/toolkit").AsyncThunk<CountryListResponse, void, {
+export declare const fetchAllCountries: import("@reduxjs/toolkit").AsyncThunk<CountryListResponse, void, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -16,18 +16,6 @@ export declare const getAllCountries: import("@reduxjs/toolkit").AsyncThunk<Coun
     rejectedMeta?: unknown;
 }>;
 export declare const getTatProduct: import("@reduxjs/toolkit").AsyncThunk<TATViewResponse, GetTatProductParam, {
-    extra: {
-        sdk: ApplicationClient;
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
-export declare const getPincodeCity: import("@reduxjs/toolkit").AsyncThunk<PincodeApiResponse, GetPincodeCityParam, {
     extra: {
         sdk: ApplicationClient;
     };
