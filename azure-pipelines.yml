@@ -22,41 +22,39 @@ jobs:
 
   - script: |
       TAG_NAME=$(Build.SourceBranchName)
+      BRANCH_NAME=$(echo $TAG_NAME | sed 's/^refs\/tags\///' | sed 's/\./_/g')
+
+      git config --global user.email "jigar.dafda@gmail.com"
+      git config --global user.name "Jigar Dafda"
+
+      git clone https://$(GITHUB_USERNAME):$(GITHUB_PERSONAL_TOKEN)@github.com/gofynd/fdk-store.git
+      cd fdk-store
+      git checkout -b $BRANCH_NAME
+      rm -rf ./*
+      cd ..
+
+      cp -R `ls | grep -v "fdk-store"` ./fdk-store
+      cp .gitignore.ci ./fdk-store/.gitignore
+
+      cd fdk-store
+      NODE_ENV=development npm i
+      npm run build
+      npm run doc
+
+      git add .
+      git commit -m "[Auto Generated]"
+      git push origin $BRANCH_NAME
+
+      git tag $TAG_NAME
+      git push origin $TAG_NAME
+
       if [[ "$TAG_NAME" == v2* ]]; then
-        echo "Tag starts with v2. Sync starting..."
-        BRANCH_NAME=$(echo $TAG_NAME | sed 's/^refs\/tags\///' | sed 's/\./_/g')
-
-        git config --global user.email "jigar.dafda@gmail.com"
-        git config --global user.name "Jigar Dafda"
-
-        git clone https://$(GITHUB_USERNAME):$(GITHUB_PERSONAL_TOKEN)@github.com/gofynd/fdk-store.git
-        cd fdk-store
-        git checkout -b $BRANCH_NAME
-        rm -rf ./*
-        cd ..
-
-        cp -R `ls | grep -v "fdk-store"` ./fdk-store
-        cp .gitignore.ci ./fdk-store/.gitignore
-
-        cd fdk-store
-        NODE_ENV=development npm i
-        npm run build
-        npm run doc
-
-        git add .
-        git commit -m "[Auto Generated]"
-        git push origin $BRANCH_NAME
-
-        git tag $TAG_NAME
-        git push origin $TAG_NAME
-
-        # Push to master branch
+        echo "Tag starts with v2. Pushing to master branch..."
         git checkout master
         git pull origin master
         git merge $BRANCH_NAME
         git push origin master
       else
-        echo "This is not a v2 tag push. Exiting..."
-        exit 0
+        echo "Tag does not start with v2. Skipping push to master branch..."
       fi
     displayName: 'Sync with GitHub'

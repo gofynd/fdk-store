@@ -27,6 +27,80 @@ src/store/modules/content.ts:58
 
 ## Methods
 
+### fetchAnnouncement
+
+> **fetchAnnouncement**(`params` = `...`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AnnouncementsResponseSchema`](../internal_/type-aliases/type-alias.AnnouncementsResponseSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`Options`](../internal_/type-aliases/type-alias.Options.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AnnouncementsResponseSchema`](../internal_/type-aliases/type-alias.AnnouncementsResponseSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:129
+
+***
+
+### fetchAppSeo
+
+> **fetchAppSeo**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SeoComponent`](../internal_/type-aliases/type-alias.SeoComponent.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SeoComponent`](../internal_/type-aliases/type-alias.SeoComponent.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:69
+
+***
+
+### fetchBlogData
+
+> **fetchBlogData**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogSchema`](../internal_/type-aliases/type-alias.BlogSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetBlogParam`](../internal_/type-aliases/type-alias.GetBlogParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogSchema`](../internal_/type-aliases/type-alias.BlogSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:76
+
+***
+
+### fetchBlogs
+
+> **fetchBlogs**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogGetResponse`](../internal_/type-aliases/type-alias.BlogGetResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetBlogsParam`](../internal_/type-aliases/type-alias.GetBlogsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogGetResponse`](../internal_/type-aliases/type-alias.BlogGetResponse.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:80
+
+***
+
 ### fetchCustomPageData
 
 > **fetchCustomPageData**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PageSchema`](../internal_/type-aliases/type-alias.PageSchema.md) \>
@@ -43,93 +117,13 @@ src/store/modules/content.ts:58
 
 #### Defined In
 
-src/store/modules/content.ts:78
+src/store/modules/content.ts:84
 
 ***
 
-### getAnnouncements
+### fetchDataLoaders
 
-> **getAnnouncements**(`params` = `...`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AnnouncementsResponseSchema`](../internal_/type-aliases/type-alias.AnnouncementsResponseSchema.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`Options`](../internal_/type-aliases/type-alias.Options.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AnnouncementsResponseSchema`](../internal_/type-aliases/type-alias.AnnouncementsResponseSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:128
-
-***
-
-### getBlog
-
-> **getBlog**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogSchema`](../internal_/type-aliases/type-alias.BlogSchema.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetBlogParam`](../internal_/type-aliases/type-alias.GetBlogParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogSchema`](../internal_/type-aliases/type-alias.BlogSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:70
-
-***
-
-### getBlogs
-
-> **getBlogs**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogGetResponse`](../internal_/type-aliases/type-alias.BlogGetResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetBlogsParam`](../internal_/type-aliases/type-alias.GetBlogsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`BlogGetResponse`](../internal_/type-aliases/type-alias.BlogGetResponse.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:74
-
-***
-
-### getCustomFields
-
-> **getCustomFields**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomFieldsResponseByResourceIdSchema`](../internal_/type-aliases/type-alias.CustomFieldsResponseByResourceIdSchema.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetCustomFieldsParam`](../internal_/type-aliases/type-alias.GetCustomFieldsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomFieldsResponseByResourceIdSchema`](../internal_/type-aliases/type-alias.CustomFieldsResponseByResourceIdSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:94
-
-***
-
-### getDataLoaders
-
-> **getDataLoaders**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`DataLoadersSchema`](../internal_/type-aliases/type-alias.DataLoadersSchema.md) \>
+> **fetchDataLoaders**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`DataLoadersSchema`](../internal_/type-aliases/type-alias.DataLoadersSchema.md) \>
 
 #### Returns
 
@@ -137,7 +131,143 @@ src/store/modules/content.ts:94
 
 #### Defined In
 
-src/store/modules/content.ts:138
+src/store/modules/content.ts:139
+
+***
+
+### fetchFaqByCategory
+
+> **fetchFaqByCategory**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqSchema`](../internal_/type-aliases/type-alias.GetFaqSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetFaqsByCategorySlugParam`](../internal_/type-aliases/type-alias.GetFaqsByCategorySlugParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqSchema`](../internal_/type-aliases/type-alias.GetFaqSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:90
+
+***
+
+### fetchLandingPage
+
+> **fetchLandingPage**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LandingPageSchema`](../internal_/type-aliases/type-alias.LandingPageSchema.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LandingPageSchema`](../internal_/type-aliases/type-alias.LandingPageSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:135
+
+***
+
+### fetchLegalData
+
+> **fetchLegalData**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationLegal`](../internal_/type-aliases/type-alias.ApplicationLegal.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationLegal`](../internal_/type-aliases/type-alias.ApplicationLegal.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:115
+
+***
+
+### fetchNavigation
+
+> **fetchNavigation**(`params`): `null` \| [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`NavigationGetResponse`](../internal_/type-aliases/type-alias.NavigationGetResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | `undefined` \| [`GetNavigationsParam`](../internal_/type-aliases/type-alias.GetNavigationsParam.md) |
+
+#### Returns
+
+`null` \| [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`NavigationGetResponse`](../internal_/type-aliases/type-alias.NavigationGetResponse.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:60
+
+***
+
+### fetchScreenSaver
+
+> **fetchScreenSaver**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SlideshowGetResponse`](../internal_/type-aliases/type-alias.SlideshowGetResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetSlideshowsParam`](../internal_/type-aliases/type-alias.GetSlideshowsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SlideshowGetResponse`](../internal_/type-aliases/type-alias.SlideshowGetResponse.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:119
+
+***
+
+### fetchSupportInformation
+
+> **fetchSupportInformation**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`Support`](../internal_/type-aliases/type-alias.Support.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`Support`](../internal_/type-aliases/type-alias.Support.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:125
+
+***
+
+### fetchTags
+
+> **fetchTags**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`TagsSchema`](../internal_/type-aliases/type-alias.TagsSchema.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`TagsSchema`](../internal_/type-aliases/type-alias.TagsSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:111
+
+***
+
+### getCustomObject
+
+> **getCustomObject**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCustomObjectParam`](../internal_/type-aliases/type-alias.GetCustomObjectParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:72
 
 ***
 
@@ -157,7 +287,7 @@ src/store/modules/content.ts:138
 
 #### Defined In
 
-src/store/modules/content.ts:89
+src/store/modules/content.ts:95
 
 ***
 
@@ -177,7 +307,7 @@ src/store/modules/content.ts:89
 
 #### Defined In
 
-src/store/modules/content.ts:99
+src/store/modules/content.ts:100
 
 ***
 
@@ -197,137 +327,7 @@ src/store/modules/content.ts:99
 
 #### Defined In
 
-src/store/modules/content.ts:104
-
-***
-
-### getFaqsByCategorySlug
-
-> **getFaqsByCategorySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqSchema`](../internal_/type-aliases/type-alias.GetFaqSchema.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetFaqsByCategorySlugParam`](../internal_/type-aliases/type-alias.GetFaqsByCategorySlugParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetFaqSchema`](../internal_/type-aliases/type-alias.GetFaqSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:84
-
-***
-
-### getLandingPage
-
-> **getLandingPage**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LandingPageSchema`](../internal_/type-aliases/type-alias.LandingPageSchema.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LandingPageSchema`](../internal_/type-aliases/type-alias.LandingPageSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:134
-
-***
-
-### getLegalInformation
-
-> **getLegalInformation**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationLegal`](../internal_/type-aliases/type-alias.ApplicationLegal.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationLegal`](../internal_/type-aliases/type-alias.ApplicationLegal.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:114
-
-***
-
-### getNavigations
-
-> **getNavigations**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`NavigationGetResponse`](../internal_/type-aliases/type-alias.NavigationGetResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetNavigationsParam`](../internal_/type-aliases/type-alias.GetNavigationsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`NavigationGetResponse`](../internal_/type-aliases/type-alias.NavigationGetResponse.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:60
-
-***
-
-### getSEOConfiguration
-
-> **getSEOConfiguration**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SeoComponent`](../internal_/type-aliases/type-alias.SeoComponent.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SeoComponent`](../internal_/type-aliases/type-alias.SeoComponent.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:66
-
-***
-
-### getSlideshows
-
-> **getSlideshows**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SlideshowGetResponse`](../internal_/type-aliases/type-alias.SlideshowGetResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetSlideshowsParam`](../internal_/type-aliases/type-alias.GetSlideshowsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SlideshowGetResponse`](../internal_/type-aliases/type-alias.SlideshowGetResponse.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:118
-
-***
-
-### getSupportInformation
-
-> **getSupportInformation**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`Support`](../internal_/type-aliases/type-alias.Support.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`Support`](../internal_/type-aliases/type-alias.Support.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:124
-
-***
-
-### getTags
-
-> **getTags**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`TagsSchema`](../internal_/type-aliases/type-alias.TagsSchema.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`TagsSchema`](../internal_/type-aliases/type-alias.TagsSchema.md) \>
-
-#### Defined In
-
-src/store/modules/content.ts:110
+src/store/modules/content.ts:105
 
 ***
 
@@ -341,7 +341,7 @@ src/store/modules/content.ts:110
 
 #### Defined In
 
-src/store/modules/content.ts:142
+src/store/modules/content.ts:143
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

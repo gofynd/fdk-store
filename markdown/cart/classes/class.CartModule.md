@@ -47,26 +47,6 @@ src/store/modules/cart.ts:23
 
 ***
 
-### addItems
-
-> **addItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`AddToCartParams`](../internal_/type-aliases/type-alias.AddToCartParams.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:48
-
-***
-
 ### applyCoupon
 
 > **applyCoupon**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
@@ -83,27 +63,7 @@ src/store/modules/cart.ts:48
 
 #### Defined In
 
-src/store/modules/cart.ts:69
-
-***
-
-### applyRewardPoints
-
-> **applyRewardPoints**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`ApplyRewardPointsParam`](../internal_/type-aliases/type-alias.ApplyRewardPointsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:34
+src/store/modules/cart.ts:60
 
 ***
 
@@ -123,7 +83,87 @@ src/store/modules/cart.ts:34
 
 #### Defined In
 
-src/store/modules/cart.ts:45
+src/store/modules/cart.ts:39
+
+***
+
+### fetchCartShareLink
+
+> **fetchCartShareLink**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCartShareLinkParam`](../internal_/type-aliases/type-alias.GetCartShareLinkParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:98
+
+***
+
+### fetchCoupons
+
+> **fetchCoupons**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCouponsParam`](../internal_/type-aliases/type-alias.GetCouponsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:56
+
+***
+
+### fetchLadderOffers
+
+> **fetchLadderOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetLadderOffersParam`](../internal_/type-aliases/type-alias.GetLadderOffersParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:84
+
+***
+
+### fetchPromotionOffers
+
+> **fetchPromotionOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetPromotionOffersParam`](../internal_/type-aliases/type-alias.GetPromotionOffersParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:88
 
 ***
 
@@ -147,49 +187,9 @@ src/store/modules/cart.ts:14
 
 ***
 
-### getCartShareLink
+### getCartItemsCount
 
-> **getCartShareLink**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetCartShareLinkParam`](../internal_/type-aliases/type-alias.GetCartShareLinkParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetShareCartLinkResponse`](../internal_/type-aliases/type-alias.GetShareCartLinkResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:101
-
-***
-
-### getCoupons
-
-> **getCoupons**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetCouponsParam`](../internal_/type-aliases/type-alias.GetCouponsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`GetCouponResponse`](../internal_/type-aliases/type-alias.GetCouponResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:65
-
-***
-
-### getItemCount
-
-> **getItemCount**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartItemCountResponse`](../internal_/type-aliases/type-alias.CartItemCountResponse.md) \>
+> **getCartItemsCount**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartItemCountResponse`](../internal_/type-aliases/type-alias.CartItemCountResponse.md) \>
 
 #### Parameters
 
@@ -203,47 +203,27 @@ src/store/modules/cart.ts:65
 
 #### Defined In
 
-src/store/modules/cart.ts:61
+src/store/modules/cart.ts:52
 
 ***
 
-### getLadderOffers
+### getCartSharedItems
 
-> **getLadderOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
+> **getCartSharedItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
 
 #### Parameters
 
 | Parameter | Type |
 | :------ | :------ |
-| `params` | [`GetLadderOffersParam`](../internal_/type-aliases/type-alias.GetLadderOffersParam.md) |
+| `params` | [`GetCartSharedItemsParam`](../internal_/type-aliases/type-alias.GetCartSharedItemsParam.md) |
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`LadderPriceOffers`](../internal_/type-aliases/type-alias.LadderPriceOffers.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
 
 #### Defined In
 
-src/store/modules/cart.ts:93
-
-***
-
-### getPromotionOffers
-
-> **getPromotionOffers**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetPromotionOffersParam`](../internal_/type-aliases/type-alias.GetPromotionOffersParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PromotionOffersResponse`](../internal_/type-aliases/type-alias.PromotionOffersResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:97
+src/store/modules/cart.ts:91
 
 ***
 
@@ -263,7 +243,7 @@ src/store/modules/cart.ts:97
 
 #### Defined In
 
-src/store/modules/cart.ts:85
+src/store/modules/cart.ts:76
 
 ***
 
@@ -283,7 +263,7 @@ src/store/modules/cart.ts:85
 
 #### Defined In
 
-src/store/modules/cart.ts:52
+src/store/modules/cart.ts:43
 
 ***
 
@@ -303,7 +283,7 @@ src/store/modules/cart.ts:52
 
 #### Defined In
 
-src/store/modules/cart.ts:73
+src/store/modules/cart.ts:64
 
 ***
 
@@ -323,7 +303,7 @@ src/store/modules/cart.ts:73
 
 #### Defined In
 
-src/store/modules/cart.ts:89
+src/store/modules/cart.ts:80
 
 ***
 
@@ -343,27 +323,7 @@ src/store/modules/cart.ts:89
 
 #### Defined In
 
-src/store/modules/cart.ts:41
-
-***
-
-### updateCart
-
-> **updateCart**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`UpdateCartParam`](../internal_/type-aliases/type-alias.UpdateCartParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UpdateCartDetailResponse`](../internal_/type-aliases/type-alias.UpdateCartDetailResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:37
+src/store/modules/cart.ts:35
 
 ***
 
@@ -403,7 +363,27 @@ src/store/modules/cart.ts:31
 
 #### Defined In
 
-src/store/modules/cart.ts:81
+src/store/modules/cart.ts:72
+
+***
+
+### updateCartWithSharedItems
+
+> **updateCartWithSharedItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`UpdateCartWithSharedItemsParam`](../internal_/type-aliases/type-alias.UpdateCartWithSharedItemsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:94
 
 ***
 
@@ -423,7 +403,7 @@ src/store/modules/cart.ts:81
 
 #### Defined In
 
-src/store/modules/cart.ts:56
+src/store/modules/cart.ts:47
 
 ***
 
@@ -443,7 +423,7 @@ src/store/modules/cart.ts:56
 
 #### Defined In
 
-src/store/modules/cart.ts:77
+src/store/modules/cart.ts:68
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

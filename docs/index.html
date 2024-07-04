@@ -28,7 +28,7 @@
 <a id="md:subscribe-to-a-slice-of-state" class="tsd-anchor"></a><h4><a href="#md:subscribe-to-a-slice-of-state">Subscribe to a slice of state</a></h4><p>FDK Store uses Redux Toolkit to manage slices of state internally. Theme developers can leverage the <code>useGlobalStore</code> hook provided by the theme engine through a global package called <code>fdk-core/utils</code>. The <code>useGlobalStore</code> hook is similar to the standard <code>useSelector</code> hook provided by redux toolkit. Developers can use <code>useGlobalStore</code> and pass the required getters provided in <code>fpi.getters</code> to subscribe to state changes in a React Component.</p>
 <a id="md:example" class="tsd-anchor"></a><h5><a href="#md:example">Example</a></h5><pre><code><span class="hl-3">import</span><span class="hl-1"> </span><span class="hl-0">React</span><span class="hl-1"> </span><span class="hl-3">from</span><span class="hl-1"> </span><span class="hl-4">&#39;react&#39;</span><span class="hl-1">;</span><br/><span class="hl-3">import</span><span class="hl-1"> { </span><span class="hl-0">useGlobalStore</span><span class="hl-1"> } </span><span class="hl-3">from</span><span class="hl-1"> </span><span class="hl-4">&#39;fdk-core/utils&#39;</span><span class="hl-1">;</span><br/><br/><span class="hl-5">function</span><span class="hl-1"> </span><span class="hl-7">Home</span><span class="hl-1">({ </span><span class="hl-0">fpi</span><span class="hl-1"> }) {</span><br/><br/><span class="hl-1">  </span><span class="hl-8">/**</span><br/><span class="hl-8">   * Get PAGE data from store</span><br/><span class="hl-8">   */</span><br/><span class="hl-1">  </span><span class="hl-5">const</span><span class="hl-1"> </span><span class="hl-6">page</span><span class="hl-1"> = </span><span class="hl-7">useGlobalStore</span><span class="hl-1">(</span><span class="hl-0">fpi</span><span class="hl-1">.</span><span class="hl-0">getters</span><span class="hl-1">.</span><span class="hl-6">PAGE</span><span class="hl-1">) || {};</span><br/><br/><span class="hl-1">  </span><span class="hl-8">/**</span><br/><span class="hl-8">   * Rendering Logic Here</span><br/><span class="hl-8">   */</span><br/><br/><span class="hl-1">  </span><span class="hl-3">return</span><span class="hl-1"> (</span><br/><span class="hl-1">    &lt;</span><span class="hl-9">p</span><span class="hl-1">&gt;</span><span class="hl-0">Home</span><span class="hl-1"> </span><span class="hl-0">Component</span><span class="hl-1">&lt;/</span><span class="hl-0">p</span><span class="hl-1">&gt;</span><br/><span class="hl-1">  );</span><br/><span class="hl-1">  </span><br/><span class="hl-1">}</span><br/>
 </code><button>Copy</button></pre>
-<a id="md:api-guide" class="tsd-anchor"></a><h2><a href="#md:api-guide">API Guide</a></h2><p>Check <a href="docs/API.md">docs</a> for full API guide.</p>
+<a id="md:api-guide" class="tsd-anchor"></a><h2><a href="#md:api-guide">API Guide</a></h2><p>Check <a href="markdown/API.md">docs</a> for full API guide.</p>
 </div></div>
 <div class="col-sidebar">
 <div class="page-menu">
@@ -77,17 +77,17 @@
 <li><a href="modules/auth.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>auth</span></a></li>
 <li><a href="modules/brands.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>brands</span></a></li>
 <li><a href="modules/cart.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>cart</span></a></li>
-<li><a href="modules/catalog.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>catalog</span></a></li>
 <li><a href="modules/categories.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>categories</span></a></li>
 <li><a href="modules/collection.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>collection</span></a></li>
 <li><a href="modules/configuration.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>configuration</span></a></li>
 <li><a href="modules/content.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>content</span></a></li>
 <li><a href="modules/custom.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>custom</span></a></li>
-<li><a href="modules/fileStorage.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>file<wbr/>Storage</span></a></li>
 <li><a href="modules/lead.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>lead</span></a></li>
 <li><a href="modules/logistic.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>logistic</span></a></li>
 <li><a href="modules/order.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>order</span></a></li>
 <li><a href="modules/payment.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>payment</span></a></li>
+<li><a href="modules/product.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>product</span></a></li>
+<li><a href="modules/products.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>products</span></a></li>
 <li><a href="modules/share.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>share</span></a></li>
 <li><a href="modules/theme.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>theme</span></a></li></ul></nav></div></div></div>
 <div class="tsd-generator">

@@ -1,6 +1,6 @@
 import { SerializedError } from '@reduxjs/toolkit';
 import type ApplicationClient from '@gofynd/fdk-client-javascript/sdk/application/ApplicationClient';
-export declare const getPaymentModeRoutes: import("@reduxjs/toolkit").AsyncThunk<any, any, {
+export declare const fetchPaymentOptions: import("@reduxjs/toolkit").AsyncThunk<any, any, {
     extra: {
         sdk: ApplicationClient;
     };
@@ -12,7 +12,7 @@ export declare const getPaymentModeRoutes: import("@reduxjs/toolkit").AsyncThunk
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getAggregatorsConfig: import("@reduxjs/toolkit").AsyncThunk<any, void, {
+export declare const fetchAggregatorsConfig: import("@reduxjs/toolkit").AsyncThunk<any, void, {
     extra: {
         sdk: ApplicationClient;
     };

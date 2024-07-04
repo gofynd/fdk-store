@@ -27,6 +27,20 @@ src/store/modules/logistic.ts:9
 
 ## Methods
 
+### fetchAllCountries
+
+> **fetchAllCountries**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CountryListResponse`](../internal_/type-aliases/type-alias.CountryListResponse.md) \>
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CountryListResponse`](../internal_/type-aliases/type-alias.CountryListResponse.md) \>
+
+#### Defined In
+
+src/store/modules/logistic.ts:13
+
+***
+
 ### fetchPincodeDetails
 
 > **fetchPincodeDetails**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PincodeApiResponse`](../internal_/type-aliases/type-alias.PincodeApiResponse.md) \>
@@ -43,41 +57,7 @@ src/store/modules/logistic.ts:9
 
 #### Defined In
 
-src/store/modules/logistic.ts:24
-
-***
-
-### getAllCountries
-
-> **getAllCountries**(): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CountryListResponse`](../internal_/type-aliases/type-alias.CountryListResponse.md) \>
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CountryListResponse`](../internal_/type-aliases/type-alias.CountryListResponse.md) \>
-
-#### Defined In
-
-src/store/modules/logistic.ts:13
-
-***
-
-### getPincodeCity
-
-> **getPincodeCity**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PincodeApiResponse`](../internal_/type-aliases/type-alias.PincodeApiResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`GetPincodeCityParam`](../internal_/type-aliases/type-alias.GetPincodeCityParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`PincodeApiResponse`](../internal_/type-aliases/type-alias.PincodeApiResponse.md) \>
-
-#### Defined In
-
-src/store/modules/logistic.ts:20
+src/store/modules/logistic.ts:21
 
 ***
 

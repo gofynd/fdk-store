@@ -82,7 +82,7 @@ function Home({ fpi }) {
 
 ## API Guide
 
-Check [docs](docs/API.md) for full API guide.
+Check [docs](markdown/API.md) for full API guide.
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
