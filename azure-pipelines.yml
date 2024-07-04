@@ -21,10 +21,10 @@ jobs:
   - checkout: self
 
   - script: |
-      if [ "$(Build.SourceBranch)" != "refs/tags/*" ]; then
-
-        echo "This is a tag push. Sync starting..."
-        BRANCH_NAME=$(echo $(Build.SourceBranchName) | sed 's/^refs\/tags\///' | sed 's/\./_/g')
+      TAG_NAME=$(Build.SourceBranchName)
+      if [[ "$TAG_NAME" == v2* ]]; then
+        echo "Tag starts with v2. Sync starting..."
+        BRANCH_NAME=$(echo $TAG_NAME | sed 's/^refs\/tags\///' | sed 's/\./_/g')
 
         git config --global user.email "jigar.dafda@gmail.com"
         git config --global user.name "Jigar Dafda"
@@ -47,11 +47,16 @@ jobs:
         git commit -m "[Auto Generated]"
         git push origin $BRANCH_NAME
 
-        git tag $(Build.SourceBranchName)
-        git push origin $(Build.SourceBranchName)
+        git tag $TAG_NAME
+        git push origin $TAG_NAME
 
+        # Push to master branch
+        git checkout master
+        git pull origin master
+        git merge $BRANCH_NAME
+        git push origin master
       else
-        echo "This is not a tag push. Exiting..."
+        echo "This is not a v2 tag push. Exiting..."
         exit 0
       fi
     displayName: 'Sync with GitHub'
