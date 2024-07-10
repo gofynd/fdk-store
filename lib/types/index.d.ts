@@ -29,11 +29,13 @@ export type SimplPaymentConfig = {
         key: string;
     };
 };
+export type EventEmitterFunction = (event: string, payload: any) => void;
 export type FPIClientOptions = {
     applicationID: string;
     applicationToken: string;
     domain: string;
     storeInitialData: unknown;
+    eventEmitter?: EventEmitterFunction;
 };
 export type ProductListingOptions = {
     q?: string;

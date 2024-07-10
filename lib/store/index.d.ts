@@ -1,4 +1,5 @@
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
+import { ToolkitStore } from "@reduxjs/toolkit/dist/configureStore";
 import { CatalogModule } from "./modules/catalog";
 import { CartModule } from "./modules/cart";
 import { BrandsModule } from "./modules/brands";
@@ -14,10 +15,11 @@ import { ShareModule } from "./modules/share";
 import { CollectionModule } from "./modules/collection";
 import { OrderModule } from "./modules/order";
 import { CustomModule } from "./modules/custom";
+import { EventEmitterFunction } from "../types";
 import { fileStorageModule } from "./modules/fileStorage";
 import { LeadModule } from "./modules/lead";
 declare class ApplicationStore {
-    private store;
+    store: ToolkitStore;
     getters: any;
     catalog: CatalogModule;
     cart: CartModule;
@@ -36,7 +38,7 @@ declare class ApplicationStore {
     fileStorage: fileStorageModule;
     custom: CustomModule;
     lead: LeadModule;
-    constructor(sdk: ApplicationClient, initialData: any);
+    constructor(sdk: ApplicationClient, initialData: any, eventEmitter?: EventEmitterFunction);
     observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
 }
 export default ApplicationStore;
