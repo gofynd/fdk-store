@@ -5,5 +5,5 @@ import { AsyncThunkPromise } from "../../types";
 export declare class BrandsModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    getBrands(params: GetBrandsParam): AsyncThunkPromise<BrandListingResponse>;
+    fetchBrands(params: GetBrandsParam): AsyncThunkPromise<BrandListingResponse>;
 }

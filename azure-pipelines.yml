@@ -21,40 +21,37 @@ jobs:
   - checkout: self
 
   - script: |
-      TAG_NAME=$(Build.SourceBranchName)
-      BRANCH_NAME=$(echo $TAG_NAME | sed 's/^refs\/tags\///' | sed 's/\./_/g')
+      if [ "$(Build.SourceBranch)" != "refs/tags/*" ]; then
 
-      git config --global user.email "jigar.dafda@gmail.com"
-      git config --global user.name "Jigar Dafda"
+        echo "This is a tag push. Sync starting..."
+        BRANCH_NAME=$(echo $(Build.SourceBranchName) | sed 's/^refs\/tags\///' | sed 's/\./_/g')
 
-      git clone https://$(GITHUB_USERNAME):$(GITHUB_PERSONAL_TOKEN)@github.com/gofynd/fdk-store.git
-      cd fdk-store
-      git checkout -b $BRANCH_NAME
-      rm -rf ./*
-      cd ..
+        git config --global user.email "jigar.dafda@gmail.com"
+        git config --global user.name "Jigar Dafda"
 
-      cp -R `ls | grep -v "fdk-store"` ./fdk-store
-      cp .gitignore.ci ./fdk-store/.gitignore
+        git clone https://$(GITHUB_USERNAME):$(GITHUB_PERSONAL_TOKEN)@github.com/gofynd/fdk-store.git
+        cd fdk-store
+        git checkout -b $BRANCH_NAME
+        rm -rf ./*
+        cd ..
 
-      cd fdk-store
-      NODE_ENV=development npm i
-      npm run build
-      npm run doc
+        cp -R `ls | grep -v "fdk-store"` ./fdk-store
+        cp .gitignore.ci ./fdk-store/.gitignore
 
-      git add .
-      git commit -m "[Auto Generated]"
-      git push origin $BRANCH_NAME
+        cd fdk-store
+        NODE_ENV=development npm i
+        npm run build
+        npm run doc
 
-      git tag $TAG_NAME
-      git push origin $TAG_NAME
+        git add .
+        git commit -m "[Auto Generated]"
+        git push origin $BRANCH_NAME
 
-      if [[ "$TAG_NAME" == v2* ]]; then
-        echo "Tag starts with v2. Pushing to master branch..."
-        git checkout master
-        git pull origin master
-        git merge $BRANCH_NAME
-        git push origin master
+        git tag $(Build.SourceBranchName)
+        git push origin $(Build.SourceBranchName)
+
       else
-        echo "Tag does not start with v2. Skipping push to master branch..."
+        echo "This is not a tag push. Exiting..."
+        exit 0
       fi
     displayName: 'Sync with GitHub'

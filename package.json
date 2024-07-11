@@ -14,7 +14,7 @@
     "test:coverage": "jest --coverage",
     "doc:markdown": "typedoc --plugin typedoc-plugin-missing-exports --plugin typedoc-plugin-markdown --out markdown",
     "doc:html": "typedoc --plugin typedoc-plugin-missing-exports",
-    "doc": "npm run doc:html && npm run doc:markdown",
+    "doc": "typedoc --plugin typedoc-plugin-missing-exports --plugin typedoc-plugin-markdown",
     "local": "webpack --watch"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
-    "@gofynd/fdk-client-javascript": "1.4.5"
+    "@gofynd/fdk-client-javascript": "^1.3.6-beta.1"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

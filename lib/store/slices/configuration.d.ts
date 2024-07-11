@@ -1,7 +1,7 @@
 import { AppCurrencyResponse, AppFeatureResponse, Application, ApplicationInformation, AppStaffResponse, AppTokenResponse, OrderingStore, OrderingStores } from "@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel";
 import { GetAppStaffsParam, GetOrderingStoresParam, GetStoreDetailByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationValidator";
 import { ConfigurationSlice } from "../../types/configuration";
-export declare const getApplication: import("@reduxjs/toolkit").AsyncThunk<Application, void, {
+export declare const fetchApplication: import("@reduxjs/toolkit").AsyncThunk<Application, void, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -13,7 +13,7 @@ export declare const getApplication: import("@reduxjs/toolkit").AsyncThunk<Appli
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getContactInfo: import("@reduxjs/toolkit").AsyncThunk<ApplicationInformation, void, {
+export declare const fetchContactInfo: import("@reduxjs/toolkit").AsyncThunk<ApplicationInformation, void, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -25,7 +25,7 @@ export declare const getContactInfo: import("@reduxjs/toolkit").AsyncThunk<Appli
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getFeatures: import("@reduxjs/toolkit").AsyncThunk<AppFeatureResponse, void, {
+export declare const fetchAppFeatures: import("@reduxjs/toolkit").AsyncThunk<AppFeatureResponse, void, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -37,7 +37,7 @@ export declare const getFeatures: import("@reduxjs/toolkit").AsyncThunk<AppFeatu
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getIntegrationTokens: import("@reduxjs/toolkit").AsyncThunk<AppTokenResponse, void, {
+export declare const fetchAppIntegrationTokens: import("@reduxjs/toolkit").AsyncThunk<AppTokenResponse, void, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -49,7 +49,7 @@ export declare const getIntegrationTokens: import("@reduxjs/toolkit").AsyncThunk
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getOrderingStores: import("@reduxjs/toolkit").AsyncThunk<OrderingStores, GetOrderingStoresParam, {
+export declare const fetchDeploymentStores: import("@reduxjs/toolkit").AsyncThunk<OrderingStores, GetOrderingStoresParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -61,7 +61,7 @@ export declare const getOrderingStores: import("@reduxjs/toolkit").AsyncThunk<Or
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getAppStaffs: import("@reduxjs/toolkit").AsyncThunk<AppStaffResponse, GetAppStaffsParam, {
+export declare const fetchStaff: import("@reduxjs/toolkit").AsyncThunk<AppStaffResponse, GetAppStaffsParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -73,7 +73,7 @@ export declare const getAppStaffs: import("@reduxjs/toolkit").AsyncThunk<AppStaf
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getStoreDetailById: import("@reduxjs/toolkit").AsyncThunk<OrderingStore, GetStoreDetailByIdParam, {
+export declare const fetchStoreById: import("@reduxjs/toolkit").AsyncThunk<OrderingStore, GetStoreDetailByIdParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -85,7 +85,7 @@ export declare const getStoreDetailById: import("@reduxjs/toolkit").AsyncThunk<O
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const getAppCurrencies: import("@reduxjs/toolkit").AsyncThunk<AppCurrencyResponse, void, {
+export declare const fetchAppCurrencies: import("@reduxjs/toolkit").AsyncThunk<AppCurrencyResponse, void, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
