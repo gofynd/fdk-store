@@ -43,7 +43,7 @@ src/store/modules/catalog.ts:10
 
 #### Defined In
 
-src/store/modules/catalog.ts:84
+src/store/modules/catalog.ts:83
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/catalog.ts:84
 
 #### Defined In
 
-src/store/modules/catalog.ts:77
+src/store/modules/catalog.ts:76
 
 ***
 
@@ -83,13 +83,13 @@ src/store/modules/catalog.ts:77
 
 #### Defined In
 
-src/store/modules/catalog.ts:91
+src/store/modules/catalog.ts:90
 
 ***
 
 ### fetchProductBySlug
 
-> **fetchProductBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+> **fetchProductBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductVariantResponse`](../internal_/type-aliases/type-alias.ProductVariantResponse.md) \>
 
 #### Parameters
 
@@ -99,7 +99,7 @@ src/store/modules/catalog.ts:91
 
 #### Returns
 
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductVariantResponse`](../internal_/type-aliases/type-alias.ProductVariantResponse.md) \>
 
 #### Defined In
 
@@ -123,7 +123,7 @@ src/store/modules/catalog.ts:15
 
 #### Defined In
 
-src/store/modules/catalog.ts:70
+src/store/modules/catalog.ts:69
 
 ***
 
@@ -143,7 +143,7 @@ src/store/modules/catalog.ts:70
 
 #### Defined In
 
-src/store/modules/catalog.ts:73
+src/store/modules/catalog.ts:72
 
 ***
 
@@ -163,7 +163,7 @@ src/store/modules/catalog.ts:73
 
 #### Defined In
 
-src/store/modules/catalog.ts:32
+src/store/modules/catalog.ts:31
 
 ***
 
@@ -183,7 +183,7 @@ src/store/modules/catalog.ts:32
 
 #### Defined In
 
-src/store/modules/catalog.ts:88
+src/store/modules/catalog.ts:87
 
 ***
 
@@ -203,7 +203,7 @@ src/store/modules/catalog.ts:88
 
 #### Defined In
 
-src/store/modules/catalog.ts:80
+src/store/modules/catalog.ts:79
 
 ***
 
@@ -223,7 +223,7 @@ src/store/modules/catalog.ts:80
 
 #### Defined In
 
-src/store/modules/catalog.ts:94
+src/store/modules/catalog.ts:93
 
 ***
 
@@ -243,7 +243,7 @@ src/store/modules/catalog.ts:94
 
 #### Defined In
 
-src/store/modules/catalog.ts:55
+src/store/modules/catalog.ts:54
 
 ***
 
@@ -263,7 +263,7 @@ src/store/modules/catalog.ts:55
 
 #### Defined In
 
-src/store/modules/catalog.ts:44
+src/store/modules/catalog.ts:43
 
 ***
 
@@ -283,7 +283,7 @@ src/store/modules/catalog.ts:44
 
 #### Defined In
 
-src/store/modules/catalog.ts:41
+src/store/modules/catalog.ts:40
 
 ***
 
@@ -303,7 +303,7 @@ src/store/modules/catalog.ts:41
 
 #### Defined In
 
-src/store/modules/catalog.ts:35
+src/store/modules/catalog.ts:34
 
 ***
 
@@ -323,7 +323,7 @@ src/store/modules/catalog.ts:35
 
 #### Defined In
 
-src/store/modules/catalog.ts:38
+src/store/modules/catalog.ts:37
 
 ***
 
@@ -343,7 +343,7 @@ src/store/modules/catalog.ts:38
 
 #### Defined In
 
-src/store/modules/catalog.ts:58
+src/store/modules/catalog.ts:57
 
 ***
 
@@ -363,7 +363,7 @@ src/store/modules/catalog.ts:58
 
 #### Defined In
 
-src/store/modules/catalog.ts:29
+src/store/modules/catalog.ts:28
 
 ***
 
@@ -383,7 +383,7 @@ src/store/modules/catalog.ts:29
 
 #### Defined In
 
-src/store/modules/catalog.ts:62
+src/store/modules/catalog.ts:61
 
 ***
 
@@ -403,7 +403,7 @@ src/store/modules/catalog.ts:62
 
 #### Defined In
 
-src/store/modules/catalog.ts:66
+src/store/modules/catalog.ts:65
 
 ***
 
@@ -423,7 +423,7 @@ src/store/modules/catalog.ts:66
 
 #### Defined In
 
-src/store/modules/catalog.ts:26
+src/store/modules/catalog.ts:25
 
 ***
 
@@ -443,7 +443,7 @@ src/store/modules/catalog.ts:26
 
 #### Defined In
 
-src/store/modules/catalog.ts:105
+src/store/modules/catalog.ts:104
 
 ***
 
@@ -463,7 +463,7 @@ src/store/modules/catalog.ts:105
 
 #### Defined In
 
-src/store/modules/catalog.ts:101
+src/store/modules/catalog.ts:100
 
 ***
 
@@ -483,7 +483,7 @@ src/store/modules/catalog.ts:101
 
 #### Defined In
 
-src/store/modules/catalog.ts:51
+src/store/modules/catalog.ts:50
 
 ***
 
@@ -497,7 +497,7 @@ src/store/modules/catalog.ts:51
 
 #### Defined In
 
-src/store/modules/catalog.ts:97
+src/store/modules/catalog.ts:96
 
 ***
 
@@ -517,7 +517,7 @@ src/store/modules/catalog.ts:97
 
 #### Defined In
 
-src/store/modules/catalog.ts:47
+src/store/modules/catalog.ts:46
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

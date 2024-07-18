@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/content.ts:58
+src/store/modules/content.ts:61
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/content.ts:58
 
 #### Defined In
 
-src/store/modules/content.ts:78
+src/store/modules/content.ts:84
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/content.ts:78
 
 #### Defined In
 
-src/store/modules/content.ts:128
+src/store/modules/content.ts:134
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/content.ts:128
 
 #### Defined In
 
-src/store/modules/content.ts:70
+src/store/modules/content.ts:73
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/content.ts:70
 
 #### Defined In
 
-src/store/modules/content.ts:74
+src/store/modules/content.ts:77
 
 ***
 
@@ -123,7 +123,27 @@ src/store/modules/content.ts:74
 
 #### Defined In
 
-src/store/modules/content.ts:94
+src/store/modules/content.ts:100
+
+***
+
+### getCustomObject
+
+> **getCustomObject**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCustomObjectParam`](../internal_/type-aliases/type-alias.GetCustomObjectParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CustomObjectByIdSchema`](../internal_/type-aliases/type-alias.CustomObjectByIdSchema.md) \>
+
+#### Defined In
+
+src/store/modules/content.ts:81
 
 ***
 
@@ -137,7 +157,7 @@ src/store/modules/content.ts:94
 
 #### Defined In
 
-src/store/modules/content.ts:138
+src/store/modules/content.ts:144
 
 ***
 
@@ -157,7 +177,7 @@ src/store/modules/content.ts:138
 
 #### Defined In
 
-src/store/modules/content.ts:89
+src/store/modules/content.ts:95
 
 ***
 
@@ -177,7 +197,7 @@ src/store/modules/content.ts:89
 
 #### Defined In
 
-src/store/modules/content.ts:99
+src/store/modules/content.ts:105
 
 ***
 
@@ -197,7 +217,7 @@ src/store/modules/content.ts:99
 
 #### Defined In
 
-src/store/modules/content.ts:104
+src/store/modules/content.ts:110
 
 ***
 
@@ -217,7 +237,7 @@ src/store/modules/content.ts:104
 
 #### Defined In
 
-src/store/modules/content.ts:84
+src/store/modules/content.ts:90
 
 ***
 
@@ -231,7 +251,7 @@ src/store/modules/content.ts:84
 
 #### Defined In
 
-src/store/modules/content.ts:134
+src/store/modules/content.ts:140
 
 ***
 
@@ -245,7 +265,7 @@ src/store/modules/content.ts:134
 
 #### Defined In
 
-src/store/modules/content.ts:114
+src/store/modules/content.ts:120
 
 ***
 
@@ -265,7 +285,7 @@ src/store/modules/content.ts:114
 
 #### Defined In
 
-src/store/modules/content.ts:60
+src/store/modules/content.ts:63
 
 ***
 
@@ -279,7 +299,7 @@ src/store/modules/content.ts:60
 
 #### Defined In
 
-src/store/modules/content.ts:66
+src/store/modules/content.ts:69
 
 ***
 
@@ -299,7 +319,7 @@ src/store/modules/content.ts:66
 
 #### Defined In
 
-src/store/modules/content.ts:118
+src/store/modules/content.ts:124
 
 ***
 
@@ -313,7 +333,7 @@ src/store/modules/content.ts:118
 
 #### Defined In
 
-src/store/modules/content.ts:124
+src/store/modules/content.ts:130
 
 ***
 
@@ -327,7 +347,7 @@ src/store/modules/content.ts:124
 
 #### Defined In
 
-src/store/modules/content.ts:110
+src/store/modules/content.ts:116
 
 ***
 
@@ -341,7 +361,7 @@ src/store/modules/content.ts:110
 
 #### Defined In
 
-src/store/modules/content.ts:142
+src/store/modules/content.ts:148
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

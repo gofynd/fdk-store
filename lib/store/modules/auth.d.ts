@@ -1,5 +1,5 @@
 import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SessionListSuccess, VerifyEmailSuccess, VerifyForgotOtpSuccess, UserObjectSchema, VerifyMobileOTPSuccess, VerifyOtpSuccess } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
-import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetListOfActiveSessionsParam, GetLoggedInUserParam, GetPlatformConfigParam, HasPasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam, LoginWithEmailAndPasswordParam, UpdatePasswordParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
+import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetListOfActiveSessionsParam, GetLoggedInUserParam, GetPlatformConfigParam, HasPasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam, LoginWithEmailAndPasswordParam, UpdatePasswordParam, SetMobileNumberAsPrimaryParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 import { AuthSlice, LogInOTPParam, loginWithAppleIOSParam, OAuthLoginParam, ResetPasswordWithEmail, ResetPasswordWithMobile, SendEmailVerificationLink, SendOTPOnEmail, SendOTPOnMobile, SignInUserWithPassword, SignUpUserParam, UpdateProfileType, VerifyEmailOTP, VerifyMobileOTP, verifyOTPParam } from "../../types/auth";
@@ -7,6 +7,7 @@ export declare class AuthModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
     getPlatformConfig(params: GetPlatformConfigParam): AsyncThunkPromise<PlatformSchema>;
+    setMobileNumberAsPrimary(params: SetMobileNumberAsPrimaryParam): AsyncThunkPromise<LoginSuccess>;
     fetchUserData(): AsyncThunkPromise<UserObjectSchema>;
     deleteUser(params: DeleteUserParam): AsyncThunkPromise<DeleteUserSuccess>;
     updateUserData(params: AuthSlice): AuthSlice;

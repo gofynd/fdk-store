@@ -1,6 +1,6 @@
 import { Options } from "@gofynd/fdk-client-javascript/sdk/application/ApplicationAPIClient";
-import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, CustomFieldsResponseByResourceIdSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
-import { GetBlogParam, GetBlogsParam, GetCustomFieldsParam, GetFaqCategoriesParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetFaqsParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
+import { AnnouncementsResponseSchema, ApplicationLegal, BlogGetResponse, BlogSchema, CustomFieldsResponseByResourceIdSchema, CustomObjectByIdSchema, DataLoadersSchema, FaqResponseSchema, GetFaqCategoriesSchema, GetFaqCategoryBySlugSchema, GetFaqSchema, LandingPageSchema, NavigationGetResponse, PageSchema, SeoComponent, SlideshowGetResponse, Support, TagsSchema } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel";
+import { GetBlogParam, GetBlogsParam, GetCustomFieldsParam, GetCustomObjectParam, GetFaqCategoriesParam, GetFaqCategoryBySlugParam, GetFaqsByCategorySlugParam, GetFaqsParam, GetNavigationsParam, GetPageParam, GetSlideshowsParam } from "@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 export declare class ContentModule {
@@ -10,6 +10,7 @@ export declare class ContentModule {
     getSEOConfiguration(): AsyncThunkPromise<SeoComponent>;
     getBlog(params: GetBlogParam): AsyncThunkPromise<BlogSchema>;
     getBlogs(params: GetBlogsParam): AsyncThunkPromise<BlogGetResponse>;
+    getCustomObject(params: GetCustomObjectParam): AsyncThunkPromise<CustomObjectByIdSchema>;
     fetchCustomPageData(params: GetPageParam): AsyncThunkPromise<PageSchema>;
     getFaqsByCategorySlug(params: GetFaqsByCategorySlugParam): AsyncThunkPromise<GetFaqSchema>;
     getFaqCategories(params: GetFaqCategoriesParam): AsyncThunkPromise<GetFaqCategoriesSchema>;

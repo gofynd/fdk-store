@@ -1,8 +1,68 @@
 import { SerializedError } from "@reduxjs/toolkit";
 import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SendOtpResponse, SessionListSuccess, UserObjectSchema, VerifyMobileOTPSuccess, VerifyEmailSuccess, VerifyForgotOtpSuccess, VerifyOtpSuccess } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
-import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetPlatformConfigParam, LoginWithEmailAndPasswordParam, UpdatePasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
+import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetPlatformConfigParam, LoginWithEmailAndPasswordParam, SetMobileNumberAsPrimaryParam, UpdatePasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
 import { AuthSlice, LogInOTPParam, loginWithAppleIOSParam, OAuthLoginParam, ResetPasswordWithEmail, ResetPasswordWithMobile, SendEmailVerificationLink, SendOTPOnEmail, SendOTPOnMobile, SignInUserWithPassword, SignUpUserParam, UpdateProfileType, VerifyEmailOTP, VerifyMobileOTP, verifyOTPParam } from "../../types/auth";
 export declare const getPlatformConfig: import("@reduxjs/toolkit").AsyncThunk<PlatformSchema, GetPlatformConfigParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const setMobileNumberAsPrimary: import("@reduxjs/toolkit").AsyncThunk<LoginSuccess, SetMobileNumberAsPrimaryParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const verifyEmail: import("@reduxjs/toolkit").AsyncThunk<VerifyEmailSuccess, VerifyEmailParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const verifyMobile: import("@reduxjs/toolkit").AsyncThunk<VerifyEmailSuccess, VerifyMobileParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const verifyEmailForgotOTP: import("@reduxjs/toolkit").AsyncThunk<VerifyForgotOtpSuccess, VerifyEmailForgotOTPParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const verifyMobileForgotOTP: import("@reduxjs/toolkit").AsyncThunk<VerifyForgotOtpSuccess, VerifyMobileForgotOTPParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -194,55 +254,7 @@ export declare const verifyMobileOTP: import("@reduxjs/toolkit").AsyncThunk<Veri
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const verifyEmail: import("@reduxjs/toolkit").AsyncThunk<VerifyEmailSuccess, VerifyEmailParam, {
-    extra: {
-        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
 export declare const updatePassword: import("@reduxjs/toolkit").AsyncThunk<VerifyEmailSuccess, UpdatePasswordParam, {
-    extra: {
-        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
-export declare const verifyMobile: import("@reduxjs/toolkit").AsyncThunk<VerifyEmailSuccess, VerifyMobileParam, {
-    extra: {
-        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
-export declare const verifyEmailForgotOTP: import("@reduxjs/toolkit").AsyncThunk<VerifyForgotOtpSuccess, VerifyEmailForgotOTPParam, {
-    extra: {
-        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
-export declare const verifyMobileForgotOTP: import("@reduxjs/toolkit").AsyncThunk<VerifyForgotOtpSuccess, VerifyMobileForgotOTPParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
@@ -389,6 +401,18 @@ export declare const updateProfile: import("@reduxjs/toolkit").AsyncThunk<Profil
     rejectedMeta?: unknown;
 }>;
 export declare const sendVerificationLinkToEmail: import("@reduxjs/toolkit").AsyncThunk<SendEmailVerifyLinkSuccess, SendEmailVerificationLink, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const signInUserWithOtp: import("@reduxjs/toolkit").AsyncThunk<VerifyOtpSuccess, verifyOTPParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
