@@ -171,7 +171,7 @@ export declare const updateCartItems: import("@reduxjs/toolkit").AsyncThunk<Upda
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const removeCartItem: import("@reduxjs/toolkit").AsyncThunk<UpdateCartDetailResponse, UpdateCartItemsParams, {
+export declare const removeCartItem: import("@reduxjs/toolkit").AsyncThunk<UpdateCartDetailResponse, UpdateCartParam, {
     extra: {
         sdk: ApplicationClient;
     };
