@@ -14,7 +14,7 @@ export declare class CartModule {
     selectPaymentMode(params: SelectPaymentModeParam): AsyncThunkPromise<CartDetailResponse>;
     checkoutCart(params: CheckoutCartParam): AsyncThunkPromise<CartCheckoutResponse>;
     addItems(params: AddToCartParams): AsyncThunkPromise<AddCartDetailResponse>;
-    removeCartItem(params: UpdateCartParam): AsyncThunkPromise<UpdateCartDetailResponse>;
+    removeCartItem(params: UpdateCartItemsParams): AsyncThunkPromise<UpdateCartDetailResponse>;
     updateCheckoutMode(params: UpdateCheckoutModeParams): AsyncThunkPromise<CheckoutMode>;
     getItemCount(params: GetItemCountParam): AsyncThunkPromise<CartItemCountResponse>;
     getCoupons(params: GetCouponsParam): AsyncThunkPromise<GetCouponResponse>;

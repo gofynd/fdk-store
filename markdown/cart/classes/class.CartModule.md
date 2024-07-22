@@ -275,7 +275,7 @@ src/store/modules/cart.ts:85
 
 | Parameter | Type |
 | :------ | :------ |
-| `params` | [`UpdateCartParam`](../internal_/type-aliases/type-alias.UpdateCartParam.md) |
+| `params` | [`UpdateCartItemsParams`](../internal_/type-aliases/type-alias.UpdateCartItemsParams.md) |
 
 #### Returns
 
