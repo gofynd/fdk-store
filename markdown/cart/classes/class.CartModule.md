@@ -163,6 +163,26 @@ src/store/modules/cart.ts:14
 
 #### Defined In
 
+src/store/modules/cart.ts:107
+
+***
+
+### getCartSharedItems
+
+> **getCartSharedItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetCartSharedItemsParam`](../internal_/type-aliases/type-alias.GetCartSharedItemsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Defined In
+
 src/store/modules/cart.ts:101
 
 ***
@@ -404,6 +424,26 @@ src/store/modules/cart.ts:31
 #### Defined In
 
 src/store/modules/cart.ts:81
+
+***
+
+### updateCartWithSharedItems
+
+> **updateCartWithSharedItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`UpdateCartWithSharedItemsParam`](../internal_/type-aliases/type-alias.UpdateCartWithSharedItemsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`SharedCartResponse`](../internal_/type-aliases/type-alias.SharedCartResponse.md) \>
+
+#### Defined In
+
+src/store/modules/cart.ts:104
 
 ***
 

@@ -15,7 +15,7 @@
 
 ## Defined In
 
-src/types/cart.ts:47
+src/types/cart.ts:49
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

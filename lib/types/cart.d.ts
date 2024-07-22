@@ -1,12 +1,13 @@
-import type { AddProductCart, BulkPriceResponse, CartDetailResponse, CartItemCountResponse, CartShipmentsResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, UpdateProductCart } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
+import type { AddProductCart, BulkPriceResponse, CartDetailResponse, CartItemCountResponse, CartShipmentsResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, SharedCartResponse, UpdateProductCart } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
 import { AddItemsParam, ApplyRewardPointsParam, UpdateCartMetaParam } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator";
 import { GetCouponResponse } from "@gofynd/fdk-client-javascript/sdk/application/PosCart/PosCartApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
-type Mode = 'self' | 'others';
+export type Mode = 'self' | 'others';
 export type CheckoutMode = {
     mode: Mode;
 };
 export type CartItems = Partial<CartDetailResponse & CommonAsyncLoadingTypes>;
+export type ShareCartItems = Partial<SharedCartResponse & CommonAsyncLoadingTypes>;
 export type BuyNowCartItems = Partial<CartDetailResponse & CommonAsyncLoadingTypes>;
 export type Shipments = Partial<CartShipmentsResponse & CommonAsyncLoadingTypes>;
 export type LadderOffers = Partial<LadderPriceOffers & CommonAsyncLoadingTypes>;
@@ -27,6 +28,7 @@ export type CartSlice = {
     promotion_offers: PromotionOffers;
     coupons: Coupons;
     cart_share_link: CartShareLink;
+    share_cart_items: ShareCartItems;
 };
 export type AddToCartParams = {
     items: AddProductCart[];
@@ -41,4 +43,3 @@ export type UpdateCheckoutModeParams = {
 export type ApplyRewardPointsParams = {
     points: boolean;
 } & Omit<ApplyRewardPointsParam, 'body'>;
-export {};
