@@ -1,4 +1,4 @@
-import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3 } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
 import { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
@@ -6,7 +6,7 @@ import { FetchProductsOptions, FetchProductsResponse } from "../../types/product
 export declare class CatalogModule {
     private dispatch;
     constructor(dispatch: ThunkActionDispatch<any>);
-    fetchProductBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductVariantResponse>;
+    fetchProductBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     getProductSizesBySlug(params: GetProductSizesBySlugParam): AsyncThunkPromise<ProductSizes>;
     getProductDetailBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     followById(params: FollowByIdParam): AsyncThunkPromise<FollowPostResponse>;
