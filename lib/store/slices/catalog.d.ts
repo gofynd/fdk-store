@@ -1,6 +1,6 @@
 import { AnyAction, Reducer, SerializedError } from '@reduxjs/toolkit';
-import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
-import type { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, UnfollowByIdParam } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
+import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
+import type { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
 import { ProductSlice } from '../../types/product';
 import { FetchProductsOptions, FetchProductsResponse } from '../../types/products';
 export declare const getProductDetailBySlug: import("@reduxjs/toolkit").AsyncThunk<ProductDetail, GetProductDetailBySlugParam, {
@@ -28,6 +28,42 @@ export declare const fetchProductListingMeta: import("@reduxjs/toolkit").AsyncTh
     rejectedMeta?: unknown;
 }>;
 export declare const getProductVariantsBySlug: import("@reduxjs/toolkit").AsyncThunk<ProductVariantsResponse, GetProductVariantsBySlugParam | null, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getStores: import("@reduxjs/toolkit").AsyncThunk<StoreListingResponse, GetStoresParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getInStockLocations: import("@reduxjs/toolkit").AsyncThunk<ApplicationStoreListing, GetInStockLocationsParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const getLocationDetailsById: import("@reduxjs/toolkit").AsyncThunk<StoreDetails, GetLocationDetailsByIdParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };

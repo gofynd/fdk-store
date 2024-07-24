@@ -1,4 +1,4 @@
-import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductDetails, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductCompareResponse, ProductDetail, ProductDetails, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
 export type productDetails = Partial<ProductDetail & CommonAsyncLoadingTypes>;
 export type ProductVariants = Partial<ProductVariantsResponse & CommonAsyncLoadingTypes>;
@@ -30,6 +30,9 @@ export type CategoryDetail = Partial<CategoryMetaResponse & CommonAsyncLoadingTy
 export type BrandDetail = Partial<BrandDetailResponse & CommonAsyncLoadingTypes>;
 export type CollectionDetail = Partial<CollectionDetailResponse & CommonAsyncLoadingTypes>;
 export type SearchResults = Partial<AutoCompleteResponse & CommonAsyncLoadingTypes>;
+export type StoresDetails = Partial<StoreListingResponse & CommonAsyncLoadingTypes>;
+export type InStockLocations = Partial<ApplicationStoreListing & CommonAsyncLoadingTypes>;
+export type LocationDetailsById = Partial<StoreDetails & CommonAsyncLoadingTypes>;
 export type ProductSlice = {
     product_details: productDetails;
     product_variants: ProductVariants;
@@ -50,4 +53,7 @@ export type ProductSlice = {
     category_listing_meta: CategoryDetail;
     collection_listing_meta: BrandDetail;
     brand_listing_meta: CollectionDetail;
+    stores_details: StoresDetails;
+    instock_locations: InStockLocations;
+    location_details: LocationDetailsById;
 };

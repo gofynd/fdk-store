@@ -43,7 +43,7 @@ src/store/modules/catalog.ts:10
 
 #### Defined In
 
-src/store/modules/catalog.ts:84
+src/store/modules/catalog.ts:93
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/catalog.ts:84
 
 #### Defined In
 
-src/store/modules/catalog.ts:77
+src/store/modules/catalog.ts:86
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/catalog.ts:77
 
 #### Defined In
 
-src/store/modules/catalog.ts:91
+src/store/modules/catalog.ts:100
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/catalog.ts:15
 
 #### Defined In
 
-src/store/modules/catalog.ts:70
+src/store/modules/catalog.ts:79
 
 ***
 
@@ -143,7 +143,7 @@ src/store/modules/catalog.ts:70
 
 #### Defined In
 
-src/store/modules/catalog.ts:73
+src/store/modules/catalog.ts:82
 
 ***
 
@@ -183,7 +183,7 @@ src/store/modules/catalog.ts:32
 
 #### Defined In
 
-src/store/modules/catalog.ts:88
+src/store/modules/catalog.ts:97
 
 ***
 
@@ -203,7 +203,7 @@ src/store/modules/catalog.ts:88
 
 #### Defined In
 
-src/store/modules/catalog.ts:80
+src/store/modules/catalog.ts:89
 
 ***
 
@@ -223,7 +223,7 @@ src/store/modules/catalog.ts:80
 
 #### Defined In
 
-src/store/modules/catalog.ts:94
+src/store/modules/catalog.ts:103
 
 ***
 
@@ -243,7 +243,7 @@ src/store/modules/catalog.ts:94
 
 #### Defined In
 
-src/store/modules/catalog.ts:55
+src/store/modules/catalog.ts:64
 
 ***
 
@@ -263,7 +263,7 @@ src/store/modules/catalog.ts:55
 
 #### Defined In
 
-src/store/modules/catalog.ts:44
+src/store/modules/catalog.ts:53
 
 ***
 
@@ -283,7 +283,7 @@ src/store/modules/catalog.ts:44
 
 #### Defined In
 
-src/store/modules/catalog.ts:41
+src/store/modules/catalog.ts:50
 
 ***
 
@@ -307,6 +307,46 @@ src/store/modules/catalog.ts:35
 
 ***
 
+### getInStockLocations
+
+> **getInStockLocations**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationStoreListing`](../internal_/type-aliases/type-alias.ApplicationStoreListing.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetInStockLocationsParam`](../internal_/type-aliases/type-alias.GetInStockLocationsParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ApplicationStoreListing`](../internal_/type-aliases/type-alias.ApplicationStoreListing.md) \>
+
+#### Defined In
+
+src/store/modules/catalog.ts:44
+
+***
+
+### getLocationDetailsById
+
+> **getLocationDetailsById**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`StoreDetails`](../internal_/type-aliases/type-alias.StoreDetails.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetLocationDetailsByIdParam`](../internal_/type-aliases/type-alias.GetLocationDetailsByIdParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`StoreDetails`](../internal_/type-aliases/type-alias.StoreDetails.md) \>
+
+#### Defined In
+
+src/store/modules/catalog.ts:41
+
+***
+
 ### getProductBundlesBySlug
 
 > **getProductBundlesBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductBundle`](../internal_/type-aliases/type-alias.ProductBundle.md) \>
@@ -323,7 +363,7 @@ src/store/modules/catalog.ts:35
 
 #### Defined In
 
-src/store/modules/catalog.ts:38
+src/store/modules/catalog.ts:47
 
 ***
 
@@ -343,7 +383,7 @@ src/store/modules/catalog.ts:38
 
 #### Defined In
 
-src/store/modules/catalog.ts:58
+src/store/modules/catalog.ts:67
 
 ***
 
@@ -383,7 +423,7 @@ src/store/modules/catalog.ts:29
 
 #### Defined In
 
-src/store/modules/catalog.ts:62
+src/store/modules/catalog.ts:71
 
 ***
 
@@ -403,7 +443,7 @@ src/store/modules/catalog.ts:62
 
 #### Defined In
 
-src/store/modules/catalog.ts:66
+src/store/modules/catalog.ts:75
 
 ***
 
@@ -443,7 +483,7 @@ src/store/modules/catalog.ts:26
 
 #### Defined In
 
-src/store/modules/catalog.ts:105
+src/store/modules/catalog.ts:114
 
 ***
 
@@ -463,7 +503,7 @@ src/store/modules/catalog.ts:105
 
 #### Defined In
 
-src/store/modules/catalog.ts:101
+src/store/modules/catalog.ts:110
 
 ***
 
@@ -483,7 +523,27 @@ src/store/modules/catalog.ts:101
 
 #### Defined In
 
-src/store/modules/catalog.ts:51
+src/store/modules/catalog.ts:60
+
+***
+
+### getStores
+
+> **getStores**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`StoreListingResponse`](../internal_/type-aliases/type-alias.StoreListingResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetStoresParam`](../internal_/type-aliases/type-alias.GetStoresParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`StoreListingResponse`](../internal_/type-aliases/type-alias.StoreListingResponse.md) \>
+
+#### Defined In
+
+src/store/modules/catalog.ts:38
 
 ***
 
@@ -497,7 +557,7 @@ src/store/modules/catalog.ts:51
 
 #### Defined In
 
-src/store/modules/catalog.ts:97
+src/store/modules/catalog.ts:106
 
 ***
 
@@ -517,7 +577,7 @@ src/store/modules/catalog.ts:97
 
 #### Defined In
 
-src/store/modules/catalog.ts:47
+src/store/modules/catalog.ts:56
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

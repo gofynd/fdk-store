@@ -1,5 +1,5 @@
-import type { AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3 } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
-import { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
+import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 import { FetchProductsOptions, FetchProductsResponse } from "../../types/product";
@@ -11,6 +11,9 @@ export declare class CatalogModule {
     getProductDetailBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     followById(params: FollowByIdParam): AsyncThunkPromise<FollowPostResponse>;
     getFollowerCountById(params: GetFollowerCountByIdParam): AsyncThunkPromise<FollowerCountResponse>;
+    getStores(params: GetStoresParam): AsyncThunkPromise<StoreListingResponse>;
+    getLocationDetailsById(params: GetLocationDetailsByIdParam): AsyncThunkPromise<StoreDetails>;
+    getInStockLocations(params: GetInStockLocationsParam): AsyncThunkPromise<ApplicationStoreListing>;
     getProductBundlesBySlug(params: GetProductBundlesBySlugParam): AsyncThunkPromise<ProductBundle>;
     getFollowedListing(params: GetFollowedListingParam): AsyncThunkPromise<GetFollowListingResponse>;
     getFollowIds(params: GetFollowIdsParam): AsyncThunkPromise<FollowIdsResponse>;
