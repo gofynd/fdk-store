@@ -39,6 +39,6 @@ declare class ApplicationStore {
     custom: CustomModule;
     lead: LeadModule;
     constructor(sdk: ApplicationClient, initialData: any, eventEmitter?: EventEmitterFunction);
-    observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
+    observeStore(selector: Function, onChange: Function): import("redux").Unsubscribe;
 }
 export default ApplicationStore;
