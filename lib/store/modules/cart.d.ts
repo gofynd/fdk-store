@@ -13,7 +13,6 @@ export declare class CartModule {
     updateCart(params: UpdateCartParam): AsyncThunkPromise<UpdateCartDetailResponse>;
     selectPaymentMode(params: SelectPaymentModeParam): AsyncThunkPromise<CartDetailResponse>;
     checkoutCart(params: CheckoutCartParam): AsyncThunkPromise<CartCheckoutResponse>;
-    addItems(params: AddToCartParams): AsyncThunkPromise<AddCartDetailResponse>;
     removeCartItem(params: UpdateCartItemsParams): AsyncThunkPromise<UpdateCartDetailResponse>;
     updateCheckoutMode(params: UpdateCheckoutModeParams): AsyncThunkPromise<CheckoutMode>;
     getItemCount(params: GetItemCountParam): AsyncThunkPromise<CartItemCountResponse>;

@@ -1,4 +1,3 @@
-import { AnyAction, Reducer, SerializedError } from '@reduxjs/toolkit';
 import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel';
 import type { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from '@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator';
 import { ProductSlice } from '../../types/product';
@@ -7,21 +6,9 @@ export declare const getProductDetailBySlug: import("@reduxjs/toolkit").AsyncThu
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
-    serializedErrorType?: unknown;
-    pendingMeta?: unknown;
-    fulfilledMeta?: unknown;
-    rejectedMeta?: unknown;
-}>;
-export declare const fetchProductListingMeta: import("@reduxjs/toolkit").AsyncThunk<ProductDetail, GetProductDetailBySlugParam, {
-    extra: {
-        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
-    };
-    rejectValue: SerializedError;
-    state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -31,9 +18,9 @@ export declare const getProductVariantsBySlug: import("@reduxjs/toolkit").AsyncT
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -43,9 +30,9 @@ export declare const getStores: import("@reduxjs/toolkit").AsyncThunk<StoreListi
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -55,9 +42,9 @@ export declare const getInStockLocations: import("@reduxjs/toolkit").AsyncThunk<
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -67,9 +54,9 @@ export declare const getLocationDetailsById: import("@reduxjs/toolkit").AsyncThu
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -79,9 +66,9 @@ export declare const getProductSizesBySlug: import("@reduxjs/toolkit").AsyncThun
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -91,9 +78,9 @@ export declare const followById: import("@reduxjs/toolkit").AsyncThunk<FollowPos
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -103,9 +90,9 @@ export declare const getFollowerCountById: import("@reduxjs/toolkit").AsyncThunk
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -115,9 +102,9 @@ export declare const getFollowedListing: import("@reduxjs/toolkit").AsyncThunk<G
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -127,9 +114,9 @@ export declare const getFollowIds: import("@reduxjs/toolkit").AsyncThunk<FollowI
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -139,9 +126,9 @@ export declare const unfollowById: import("@reduxjs/toolkit").AsyncThunk<FollowP
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -151,9 +138,9 @@ export declare const getSimilarComparisonProductBySlug: import("@reduxjs/toolkit
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -163,9 +150,9 @@ export declare const getProductComparisonBySlugs: import("@reduxjs/toolkit").Asy
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -175,9 +162,9 @@ export declare const getComparedFrequentlyProductBySlug: import("@reduxjs/toolki
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -187,9 +174,9 @@ export declare const getProductPriceBySlug: import("@reduxjs/toolkit").AsyncThun
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -199,9 +186,9 @@ export declare const getProductBundlesBySlug: import("@reduxjs/toolkit").AsyncTh
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -211,9 +198,9 @@ export declare const getProductSellersBySlug: import("@reduxjs/toolkit").AsyncTh
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -223,9 +210,9 @@ export declare const fetchProducts: import("@reduxjs/toolkit").AsyncThunk<FetchP
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -235,9 +222,9 @@ export declare const getSearchResults: import("@reduxjs/toolkit").AsyncThunk<Aut
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -247,9 +234,9 @@ export declare const getProducts: import("@reduxjs/toolkit").AsyncThunk<ProductL
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -259,9 +246,9 @@ export declare const getCategoryDetailBySlug: import("@reduxjs/toolkit").AsyncTh
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -271,9 +258,9 @@ export declare const getBrandDetailBySlug: import("@reduxjs/toolkit").AsyncThunk
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
@@ -283,13 +270,13 @@ export declare const getCollectionDetailBySlug: import("@reduxjs/toolkit").Async
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };
-    rejectValue: SerializedError;
+    rejectValue: import("@reduxjs/toolkit").SerializedError;
     state?: unknown;
-    dispatch?: import("redux").Dispatch<AnyAction> | undefined;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
     serializedErrorType?: unknown;
     pendingMeta?: unknown;
     fulfilledMeta?: unknown;
     rejectedMeta?: unknown;
 }>;
-export declare const pdpReducer: Reducer<ProductSlice, AnyAction>;
+export declare const pdpReducer: import("redux").Reducer<ProductSlice, import("redux").AnyAction>;
 export declare const resetProductListingMeta: import("@reduxjs/toolkit").ActionCreatorWithoutPayload<"catalog/resetProductListingMeta">;

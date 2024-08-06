@@ -123,26 +123,6 @@ src/store/modules/catalog.ts:15
 
 #### Defined In
 
-src/store/modules/catalog.ts:79
-
-***
-
-### fetchProductListingMeta
-
-> **fetchProductListingMeta**(`options`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `options` | [`GetProductDetailBySlugParam`](../internal_/type-aliases/type-alias.GetProductDetailBySlugParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductDetail`](../internal_/type-aliases/type-alias.ProductDetail.md) \>
-
-#### Defined In
-
 src/store/modules/catalog.ts:82
 
 ***
@@ -163,7 +143,7 @@ src/store/modules/catalog.ts:82
 
 #### Defined In
 
-src/store/modules/catalog.ts:32
+src/store/modules/catalog.ts:35
 
 ***
 
@@ -243,7 +223,7 @@ src/store/modules/catalog.ts:103
 
 #### Defined In
 
-src/store/modules/catalog.ts:64
+src/store/modules/catalog.ts:67
 
 ***
 
@@ -263,7 +243,7 @@ src/store/modules/catalog.ts:64
 
 #### Defined In
 
-src/store/modules/catalog.ts:53
+src/store/modules/catalog.ts:56
 
 ***
 
@@ -283,7 +263,7 @@ src/store/modules/catalog.ts:53
 
 #### Defined In
 
-src/store/modules/catalog.ts:50
+src/store/modules/catalog.ts:53
 
 ***
 
@@ -303,7 +283,7 @@ src/store/modules/catalog.ts:50
 
 #### Defined In
 
-src/store/modules/catalog.ts:35
+src/store/modules/catalog.ts:38
 
 ***
 
@@ -323,7 +303,7 @@ src/store/modules/catalog.ts:35
 
 #### Defined In
 
-src/store/modules/catalog.ts:44
+src/store/modules/catalog.ts:47
 
 ***
 
@@ -343,7 +323,7 @@ src/store/modules/catalog.ts:44
 
 #### Defined In
 
-src/store/modules/catalog.ts:41
+src/store/modules/catalog.ts:44
 
 ***
 
@@ -363,7 +343,7 @@ src/store/modules/catalog.ts:41
 
 #### Defined In
 
-src/store/modules/catalog.ts:47
+src/store/modules/catalog.ts:50
 
 ***
 
@@ -383,7 +363,7 @@ src/store/modules/catalog.ts:47
 
 #### Defined In
 
-src/store/modules/catalog.ts:67
+src/store/modules/catalog.ts:70
 
 ***
 
@@ -403,7 +383,7 @@ src/store/modules/catalog.ts:67
 
 #### Defined In
 
-src/store/modules/catalog.ts:29
+src/store/modules/catalog.ts:32
 
 ***
 
@@ -423,7 +403,7 @@ src/store/modules/catalog.ts:29
 
 #### Defined In
 
-src/store/modules/catalog.ts:71
+src/store/modules/catalog.ts:74
 
 ***
 
@@ -443,7 +423,7 @@ src/store/modules/catalog.ts:71
 
 #### Defined In
 
-src/store/modules/catalog.ts:75
+src/store/modules/catalog.ts:78
 
 ***
 
@@ -464,6 +444,26 @@ src/store/modules/catalog.ts:75
 #### Defined In
 
 src/store/modules/catalog.ts:26
+
+***
+
+### getProductVariantsBySlug
+
+> **getProductVariantsBySlug**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductVariantsResponse`](../internal_/type-aliases/type-alias.ProductVariantsResponse.md) \>
+
+#### Parameters
+
+| Parameter | Type |
+| :------ | :------ |
+| `params` | [`GetProductVariantsBySlugParam`](../internal_/type-aliases/type-alias.GetProductVariantsBySlugParam.md) |
+
+#### Returns
+
+[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ProductVariantsResponse`](../internal_/type-aliases/type-alias.ProductVariantsResponse.md) \>
+
+#### Defined In
+
+src/store/modules/catalog.ts:29
 
 ***
 
@@ -523,7 +523,7 @@ src/store/modules/catalog.ts:110
 
 #### Defined In
 
-src/store/modules/catalog.ts:60
+src/store/modules/catalog.ts:63
 
 ***
 
@@ -543,7 +543,7 @@ src/store/modules/catalog.ts:60
 
 #### Defined In
 
-src/store/modules/catalog.ts:38
+src/store/modules/catalog.ts:41
 
 ***
 
@@ -577,7 +577,7 @@ src/store/modules/catalog.ts:106
 
 #### Defined In
 
-src/store/modules/catalog.ts:56
+src/store/modules/catalog.ts:59
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

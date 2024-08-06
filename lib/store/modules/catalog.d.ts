@@ -1,5 +1,5 @@
-import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
-import { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
+import type { ApplicationStoreListing, AutoCompleteResponse, BrandDetailResponse, CategoryMetaResponse, CollectionDetailResponse, FollowerCountResponse, FollowIdsResponse, FollowPostResponse, GetFollowListingResponse, ProductBundle, ProductCompareResponse, ProductDetail, ProductFrequentlyComparedSimilarResponse, ProductListingResponse, ProductSizePriceResponseV3, ProductSizes, ProductSizeSellersResponseV3, ProductVariantsResponse, StoreDetails, StoreListingResponse } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel";
+import { FollowByIdParam, GetBrandDetailBySlugParam, GetCategoryDetailBySlugParam, GetCollectionDetailBySlugParam, GetComparedFrequentlyProductBySlugParam, GetFollowedListingParam, GetFollowerCountByIdParam, GetFollowIdsParam, GetInStockLocationsParam, GetLocationDetailsByIdParam, GetProductBundlesBySlugParam, GetProductComparisonBySlugsParam, GetProductDetailBySlugParam, GetProductPriceBySlugParam, GetProductSellersBySlugParam, GetProductSizesBySlugParam, GetProductVariantsBySlugParam, GetSearchResultsParam, GetSimilarComparisonProductBySlugParam, GetStoresParam, UnfollowByIdParam } from "@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationValidator";
 import type { ThunkActionDispatch } from "redux-thunk";
 import { AsyncThunkPromise } from "../../types";
 import { FetchProductsOptions, FetchProductsResponse } from "../../types/product";
@@ -8,6 +8,7 @@ export declare class CatalogModule {
     constructor(dispatch: ThunkActionDispatch<any>);
     fetchProductBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     getProductSizesBySlug(params: GetProductSizesBySlugParam): AsyncThunkPromise<ProductSizes>;
+    getProductVariantsBySlug(params: GetProductVariantsBySlugParam): AsyncThunkPromise<ProductVariantsResponse>;
     getProductDetailBySlug(params: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     followById(params: FollowByIdParam): AsyncThunkPromise<FollowPostResponse>;
     getFollowerCountById(params: GetFollowerCountByIdParam): AsyncThunkPromise<FollowerCountResponse>;
@@ -24,7 +25,6 @@ export declare class CatalogModule {
     getProductPriceBySlug(params: GetProductPriceBySlugParam): AsyncThunkPromise<ProductSizePriceResponseV3>;
     getProductSellersBySlug(params: GetProductSellersBySlugParam): AsyncThunkPromise<ProductSizeSellersResponseV3>;
     fetchProductListing(options: FetchProductsOptions): AsyncThunkPromise<FetchProductsResponse>;
-    fetchProductListingMeta(options: GetProductDetailBySlugParam): AsyncThunkPromise<ProductDetail>;
     fetchCategoryListing(options: FetchProductsOptions): AsyncThunkPromise<FetchProductsResponse>;
     getCategoryDetailBySlug(options: GetCategoryDetailBySlugParam): AsyncThunkPromise<CategoryMetaResponse>;
     fetchBrandListing(options: FetchProductsOptions): AsyncThunkPromise<FetchProductsResponse>;

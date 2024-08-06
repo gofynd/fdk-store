@@ -47,26 +47,6 @@ src/store/modules/cart.ts:23
 
 ***
 
-### addItems
-
-> **addItems**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`AddToCartParams`](../internal_/type-aliases/type-alias.AddToCartParams.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`AddCartDetailResponse`](../internal_/type-aliases/type-alias.AddCartDetailResponse.md) \>
-
-#### Defined In
-
-src/store/modules/cart.ts:48
-
-***
-
 ### applyCoupon
 
 > **applyCoupon**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`CartDetailResponse`](../internal_/type-aliases/type-alias.CartDetailResponse.md) \>
@@ -83,7 +63,7 @@ src/store/modules/cart.ts:48
 
 #### Defined In
 
-src/store/modules/cart.ts:69
+src/store/modules/cart.ts:66
 
 ***
 
@@ -163,7 +143,7 @@ src/store/modules/cart.ts:14
 
 #### Defined In
 
-src/store/modules/cart.ts:107
+src/store/modules/cart.ts:104
 
 ***
 
@@ -183,7 +163,7 @@ src/store/modules/cart.ts:107
 
 #### Defined In
 
-src/store/modules/cart.ts:101
+src/store/modules/cart.ts:98
 
 ***
 
@@ -203,7 +183,7 @@ src/store/modules/cart.ts:101
 
 #### Defined In
 
-src/store/modules/cart.ts:65
+src/store/modules/cart.ts:62
 
 ***
 
@@ -223,7 +203,7 @@ src/store/modules/cart.ts:65
 
 #### Defined In
 
-src/store/modules/cart.ts:61
+src/store/modules/cart.ts:58
 
 ***
 
@@ -243,7 +223,7 @@ src/store/modules/cart.ts:61
 
 #### Defined In
 
-src/store/modules/cart.ts:93
+src/store/modules/cart.ts:90
 
 ***
 
@@ -263,7 +243,7 @@ src/store/modules/cart.ts:93
 
 #### Defined In
 
-src/store/modules/cart.ts:97
+src/store/modules/cart.ts:94
 
 ***
 
@@ -283,7 +263,7 @@ src/store/modules/cart.ts:97
 
 #### Defined In
 
-src/store/modules/cart.ts:85
+src/store/modules/cart.ts:82
 
 ***
 
@@ -303,7 +283,7 @@ src/store/modules/cart.ts:85
 
 #### Defined In
 
-src/store/modules/cart.ts:52
+src/store/modules/cart.ts:49
 
 ***
 
@@ -323,7 +303,7 @@ src/store/modules/cart.ts:52
 
 #### Defined In
 
-src/store/modules/cart.ts:73
+src/store/modules/cart.ts:70
 
 ***
 
@@ -343,7 +323,7 @@ src/store/modules/cart.ts:73
 
 #### Defined In
 
-src/store/modules/cart.ts:89
+src/store/modules/cart.ts:86
 
 ***
 
@@ -423,7 +403,7 @@ src/store/modules/cart.ts:31
 
 #### Defined In
 
-src/store/modules/cart.ts:81
+src/store/modules/cart.ts:78
 
 ***
 
@@ -443,7 +423,7 @@ src/store/modules/cart.ts:81
 
 #### Defined In
 
-src/store/modules/cart.ts:104
+src/store/modules/cart.ts:101
 
 ***
 
@@ -463,7 +443,7 @@ src/store/modules/cart.ts:104
 
 #### Defined In
 
-src/store/modules/cart.ts:56
+src/store/modules/cart.ts:53
 
 ***
 
@@ -483,7 +463,7 @@ src/store/modules/cart.ts:56
 
 #### Defined In
 
-src/store/modules/cart.ts:77
+src/store/modules/cart.ts:74
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
