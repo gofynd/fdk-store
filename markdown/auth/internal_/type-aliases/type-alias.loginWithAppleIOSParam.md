@@ -21,7 +21,7 @@
 
 ## Defined In
 
-src/types/auth.ts:19
+src/types/auth.ts:21
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
