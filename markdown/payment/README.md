@@ -7,6 +7,10 @@
 
 ## Index
 
+### Modules
+
+- [\<internal\>](internal_/README.md)
+
 ### Classes
 
 - [PaymentModule](classes/class.PaymentModule.md)
