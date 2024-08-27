@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/auth.ts:101
+src/store/modules/auth.ts:98
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/auth.ts:101
 
 #### Defined In
 
-src/store/modules/auth.ts:232
+src/store/modules/auth.ts:224
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/auth.ts:232
 
 #### Defined In
 
-src/store/modules/auth.ts:227
+src/store/modules/auth.ts:219
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/auth.ts:227
 
 #### Defined In
 
-src/store/modules/auth.ts:222
+src/store/modules/auth.ts:214
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/auth.ts:222
 
 #### Defined In
 
-src/store/modules/auth.ts:217
+src/store/modules/auth.ts:209
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/auth.ts:217
 
 #### Defined In
 
-src/store/modules/auth.ts:117
+src/store/modules/auth.ts:114
 
 ***
 
@@ -143,7 +143,7 @@ src/store/modules/auth.ts:117
 
 #### Defined In
 
-src/store/modules/auth.ts:173
+src/store/modules/auth.ts:165
 
 ***
 
@@ -157,7 +157,7 @@ src/store/modules/auth.ts:173
 
 #### Defined In
 
-src/store/modules/auth.ts:113
+src/store/modules/auth.ts:110
 
 ***
 
@@ -178,7 +178,7 @@ src/store/modules/auth.ts:113
 
 #### Defined In
 
-src/store/modules/auth.ts:185
+src/store/modules/auth.ts:177
 
 ***
 
@@ -198,7 +198,7 @@ src/store/modules/auth.ts:185
 
 #### Defined In
 
-src/store/modules/auth.ts:212
+src/store/modules/auth.ts:204
 
 ***
 
@@ -218,7 +218,7 @@ src/store/modules/auth.ts:212
 
 #### Defined In
 
-src/store/modules/auth.ts:126
+src/store/modules/auth.ts:123
 
 ***
 
@@ -238,7 +238,7 @@ src/store/modules/auth.ts:126
 
 #### Defined In
 
-src/store/modules/auth.ts:103
+src/store/modules/auth.ts:100
 
 ***
 
@@ -258,7 +258,7 @@ src/store/modules/auth.ts:103
 
 #### Defined In
 
-src/store/modules/auth.ts:179
+src/store/modules/auth.ts:171
 
 ***
 
@@ -278,7 +278,7 @@ src/store/modules/auth.ts:179
 
 #### Defined In
 
-src/store/modules/auth.ts:207
+src/store/modules/auth.ts:199
 
 ***
 
@@ -298,7 +298,7 @@ src/store/modules/auth.ts:207
 
 #### Defined In
 
-src/store/modules/auth.ts:202
+src/store/modules/auth.ts:194
 
 ***
 
@@ -318,7 +318,7 @@ src/store/modules/auth.ts:202
 
 #### Defined In
 
-src/store/modules/auth.ts:139
+src/store/modules/auth.ts:136
 
 ***
 
@@ -332,7 +332,7 @@ src/store/modules/auth.ts:139
 
 #### Defined In
 
-src/store/modules/auth.ts:130
+src/store/modules/auth.ts:127
 
 ***
 
@@ -352,7 +352,7 @@ src/store/modules/auth.ts:130
 
 #### Defined In
 
-src/store/modules/auth.ts:134
+src/store/modules/auth.ts:131
 
 ***
 
@@ -372,7 +372,7 @@ src/store/modules/auth.ts:134
 
 #### Defined In
 
-src/store/modules/auth.ts:191
+src/store/modules/auth.ts:183
 
 ***
 
@@ -392,7 +392,7 @@ src/store/modules/auth.ts:191
 
 #### Defined In
 
-src/store/modules/auth.ts:197
+src/store/modules/auth.ts:189
 
 ***
 
@@ -412,7 +412,7 @@ src/store/modules/auth.ts:197
 
 #### Defined In
 
-src/store/modules/auth.ts:167
+src/store/modules/auth.ts:159
 
 ***
 
@@ -432,7 +432,7 @@ src/store/modules/auth.ts:167
 
 #### Defined In
 
-src/store/modules/auth.ts:244
+src/store/modules/auth.ts:236
 
 ***
 
@@ -452,7 +452,7 @@ src/store/modules/auth.ts:244
 
 #### Defined In
 
-src/store/modules/auth.ts:238
+src/store/modules/auth.ts:230
 
 ***
 
@@ -472,7 +472,7 @@ src/store/modules/auth.ts:238
 
 #### Defined In
 
-src/store/modules/auth.ts:288
+src/store/modules/auth.ts:280
 
 ***
 
@@ -492,7 +492,7 @@ src/store/modules/auth.ts:288
 
 #### Defined In
 
-src/store/modules/auth.ts:107
+src/store/modules/auth.ts:104
 
 ***
 
@@ -512,7 +512,7 @@ src/store/modules/auth.ts:107
 
 #### Defined In
 
-src/store/modules/auth.ts:145
+src/store/modules/auth.ts:142
 
 ***
 
@@ -532,7 +532,7 @@ src/store/modules/auth.ts:145
 
 #### Defined In
 
-src/store/modules/auth.ts:161
+src/store/modules/auth.ts:153
 
 ***
 
@@ -552,7 +552,7 @@ src/store/modules/auth.ts:161
 
 #### Defined In
 
-src/store/modules/auth.ts:282
+src/store/modules/auth.ts:274
 
 ***
 
@@ -572,27 +572,7 @@ src/store/modules/auth.ts:282
 
 #### Defined In
 
-src/store/modules/auth.ts:123
-
-***
-
-### userExists
-
-> **userExists**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserExistsResponse`](../internal_/type-aliases/type-alias.UserExistsResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`UserExistsParam`](../internal_/type-aliases/type-alias.UserExistsParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`UserExistsResponse`](../internal_/type-aliases/type-alias.UserExistsResponse.md) \>
-
-#### Defined In
-
-src/store/modules/auth.ts:150
+src/store/modules/auth.ts:120
 
 ***
 
@@ -612,7 +592,7 @@ src/store/modules/auth.ts:150
 
 #### Defined In
 
-src/store/modules/auth.ts:255
+src/store/modules/auth.ts:247
 
 ***
 
@@ -632,7 +612,7 @@ src/store/modules/auth.ts:255
 
 #### Defined In
 
-src/store/modules/auth.ts:265
+src/store/modules/auth.ts:257
 
 ***
 
@@ -652,7 +632,7 @@ src/store/modules/auth.ts:265
 
 #### Defined In
 
-src/store/modules/auth.ts:276
+src/store/modules/auth.ts:268
 
 ***
 
@@ -672,7 +652,7 @@ src/store/modules/auth.ts:276
 
 #### Defined In
 
-src/store/modules/auth.ts:260
+src/store/modules/auth.ts:252
 
 ***
 
@@ -692,7 +672,7 @@ src/store/modules/auth.ts:260
 
 #### Defined In
 
-src/store/modules/auth.ts:270
+src/store/modules/auth.ts:262
 
 ***
 
@@ -712,7 +692,7 @@ src/store/modules/auth.ts:270
 
 #### Defined In
 
-src/store/modules/auth.ts:156
+src/store/modules/auth.ts:148
 
 ***
 
@@ -732,7 +712,7 @@ src/store/modules/auth.ts:156
 
 #### Defined In
 
-src/store/modules/auth.ts:250
+src/store/modules/auth.ts:242
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

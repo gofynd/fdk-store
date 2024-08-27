@@ -23,7 +23,7 @@
 
 #### Defined In
 
-src/store/modules/payment.ts:8
+src/store/modules/payment.ts:5
 
 ## Methods
 
@@ -43,7 +43,7 @@ src/store/modules/payment.ts:8
 
 #### Defined In
 
-src/store/modules/payment.ts:51
+src/store/modules/payment.ts:45
 
 ***
 
@@ -63,7 +63,7 @@ src/store/modules/payment.ts:51
 
 #### Defined In
 
-src/store/modules/payment.ts:43
+src/store/modules/payment.ts:37
 
 ***
 
@@ -83,7 +83,7 @@ src/store/modules/payment.ts:43
 
 #### Defined In
 
-src/store/modules/payment.ts:47
+src/store/modules/payment.ts:41
 
 ***
 
@@ -103,7 +103,7 @@ src/store/modules/payment.ts:47
 
 #### Defined In
 
-src/store/modules/payment.ts:27
+src/store/modules/payment.ts:21
 
 ***
 
@@ -123,7 +123,7 @@ src/store/modules/payment.ts:27
 
 #### Defined In
 
-src/store/modules/payment.ts:35
+src/store/modules/payment.ts:29
 
 ***
 
@@ -137,7 +137,7 @@ src/store/modules/payment.ts:35
 
 #### Defined In
 
-src/store/modules/payment.ts:19
+src/store/modules/payment.ts:13
 
 ***
 
@@ -157,7 +157,7 @@ src/store/modules/payment.ts:19
 
 #### Defined In
 
-src/store/modules/payment.ts:39
+src/store/modules/payment.ts:33
 
 ***
 
@@ -177,7 +177,7 @@ src/store/modules/payment.ts:39
 
 #### Defined In
 
-src/store/modules/payment.ts:12
+src/store/modules/payment.ts:9
 
 ***
 
@@ -197,27 +197,7 @@ src/store/modules/payment.ts:12
 
 #### Defined In
 
-src/store/modules/payment.ts:31
-
-***
-
-### validateVPA
-
-> **validateVPA**(`params`): [`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ValidateVPAResponse`](../internal_/type-aliases/type-alias.ValidateVPAResponse.md) \>
-
-#### Parameters
-
-| Parameter | Type |
-| :------ | :------ |
-| `params` | [`ValidateVPAParam`](../internal_/type-aliases/type-alias.ValidateVPAParam.md) |
-
-#### Returns
-
-[`AsyncThunkPromise`](../../theme/internal_/type-aliases/type-alias.AsyncThunkPromise.md)\< [`ValidateVPAResponse`](../internal_/type-aliases/type-alias.ValidateVPAResponse.md) \>
-
-#### Defined In
-
-src/store/modules/payment.ts:15
+src/store/modules/payment.ts:25
 
 ***
 
@@ -237,7 +217,7 @@ src/store/modules/payment.ts:15
 
 #### Defined In
 
-src/store/modules/payment.ts:23
+src/store/modules/payment.ts:17
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

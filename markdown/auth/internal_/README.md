@@ -84,8 +84,6 @@
 - [SocialTokens](type-aliases/type-alias.SocialTokens.md)
 - [UpdateProfileType](type-aliases/type-alias.UpdateProfileType.md)
 - [UserDataType](type-aliases/type-alias.UserDataType.md)
-- [UserExistsParam](type-aliases/type-alias.UserExistsParam.md)
-- [UserExistsResponse](type-aliases/type-alias.UserExistsResponse.md)
 - [UserObjectSchema](type-aliases/type-alias.UserObjectSchema.md)
 - [UserSchema](type-aliases/type-alias.UserSchema.md)
 - [VerifyEmailForgotOTPParam](type-aliases/type-alias.VerifyEmailForgotOTPParam.md)
@@ -102,7 +100,6 @@
 - [VerifyOtpRequestSchema](type-aliases/type-alias.VerifyOtpRequestSchema.md)
 - [VerifyOtpSuccess](type-aliases/type-alias.VerifyOtpSuccess.md)
 - [loginWithAppleIOSParam](type-aliases/type-alias.loginWithAppleIOSParam.md)
-- [user\_exist](type-aliases/type-alias.user_exist.md)
 - [verifyOTPParam](type-aliases/type-alias.verifyOTPParam.md)
 
 ### Functions
@@ -159,7 +156,6 @@
 - [SessionListSuccess](functions/function.SessionListSuccess-1.md)
 - [Social](functions/function.Social-1.md)
 - [SocialTokens](functions/function.SocialTokens-1.md)
-- [UserExistsResponse](functions/function.UserExistsResponse-1.md)
 - [UserObjectSchema](functions/function.UserObjectSchema-1.md)
 - [UserSchema](functions/function.UserSchema-1.md)
 - [VerifyEmailForgotOtpRequestSchema](functions/function.VerifyEmailForgotOtpRequestSchema-1.md)
