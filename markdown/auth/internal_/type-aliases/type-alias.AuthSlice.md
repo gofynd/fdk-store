@@ -27,13 +27,19 @@
 
 ***
 
+### `user_exist`
+
+> **user\_exist**: [`user_exist`](type-alias.user_exist.md)
+
+***
+
 ### `user_fetched`
 
 > **user\_fetched**: `boolean`
 
 ## Defined In
 
-src/types/auth.ts:8
+src/types/auth.ts:9
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

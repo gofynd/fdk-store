@@ -1,6 +1,6 @@
 import { SerializedError } from "@reduxjs/toolkit";
-import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SendOtpResponse, SessionListSuccess, UserObjectSchema, VerifyMobileOTPSuccess, VerifyEmailSuccess, VerifyForgotOtpSuccess, VerifyOtpSuccess } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
-import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetPlatformConfigParam, LoginWithEmailAndPasswordParam, SetMobileNumberAsPrimaryParam, UpdatePasswordParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
+import { AuthSuccess, DeleteUserSuccess, EmailOtpSuccess, HasPasswordSuccess, LoginSuccess, LogoutSuccess, OtpSuccess, PlatformSchema, ProfileEditSuccess, RegisterFormSuccess, ResetPasswordSuccess, SendEmailVerifyLinkSuccess, SendOtpResponse, SessionListSuccess, UserObjectSchema, VerifyMobileOTPSuccess, VerifyEmailSuccess, VerifyForgotOtpSuccess, VerifyOtpSuccess, UserExistsResponse } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
+import { AddEmailParam, AddMobileNumberParam, DeleteEmailParam, DeleteMobileNumberParam, DeleteUserParam, ForgotPasswordParam, GetPlatformConfigParam, LoginWithEmailAndPasswordParam, SendForgotOTPOnEmailParam, SendForgotOTPOnMobileParam, SetMobileNumberAsPrimaryParam, UpdatePasswordParam, UserExistsParam, VerifyEmailForgotOTPParam, VerifyEmailParam, VerifyMobileForgotOTPParam, VerifyMobileParam } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator";
 import { AuthSlice, LogInOTPParam, loginWithAppleIOSParam, OAuthLoginParam, ResetPasswordWithEmail, ResetPasswordWithMobile, SendEmailVerificationLink, SendOTPOnEmail, SendOTPOnMobile, SignInUserWithPassword, SignUpUserParam, UpdateProfileType, VerifyEmailOTP, VerifyMobileOTP, verifyOTPParam } from "../../types/auth";
 export declare const getPlatformConfig: import("@reduxjs/toolkit").AsyncThunk<PlatformSchema, GetPlatformConfigParam, {
     extra: {
@@ -51,6 +51,42 @@ export declare const verifyMobile: import("@reduxjs/toolkit").AsyncThunk<VerifyE
     rejectedMeta?: unknown;
 }>;
 export declare const verifyEmailForgotOTP: import("@reduxjs/toolkit").AsyncThunk<VerifyForgotOtpSuccess, VerifyEmailForgotOTPParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const sendForgotOTPOnMobile: import("@reduxjs/toolkit").AsyncThunk<OtpSuccess, SendForgotOTPOnMobileParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const sendForgotOTPOnEmail: import("@reduxjs/toolkit").AsyncThunk<EmailOtpSuccess, SendForgotOTPOnEmailParam, {
+    extra: {
+        sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
+    };
+    rejectValue: SerializedError;
+    state?: unknown;
+    dispatch?: import("redux").Dispatch<import("redux").AnyAction> | undefined;
+    serializedErrorType?: unknown;
+    pendingMeta?: unknown;
+    fulfilledMeta?: unknown;
+    rejectedMeta?: unknown;
+}>;
+export declare const userExists: import("@reduxjs/toolkit").AsyncThunk<UserExistsResponse, UserExistsParam, {
     extra: {
         sdk: import("@gofynd/fdk-client-javascript/sdk/application/ApplicationClient");
     };

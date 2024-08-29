@@ -1,12 +1,14 @@
-import type { EditProfileRequestSchema, FormRegisterRequestSchema, OAuthRequestAppleSchema, OAuthRequestSchema, PlatformSchema, SendEmailOtpRequestSchema, SendMobileOtpRequestSchema, UserObjectSchema, VerifyEmailOtpRequestSchema, VerifyOtpRequestSchema } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
+import type { EditProfileRequestSchema, FormRegisterRequestSchema, OAuthRequestAppleSchema, OAuthRequestSchema, PlatformSchema, SendEmailOtpRequestSchema, SendMobileOtpRequestSchema, UserExistsResponse, UserObjectSchema, VerifyEmailOtpRequestSchema, VerifyOtpRequestSchema } from "@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
 export type PlatformDataType = Partial<PlatformSchema & CommonAsyncLoadingTypes>;
 export type UserDataType = Partial<UserObjectSchema & CommonAsyncLoadingTypes>;
+export type user_exist = Partial<UserExistsResponse & CommonAsyncLoadingTypes>;
 export type AuthSlice = {
     logged_in: boolean;
     platform_data: PlatformDataType;
     user_data: UserDataType;
     user_fetched: boolean;
+    user_exist: user_exist;
 };
 export type SignUpUserParam = {
     id: string;
