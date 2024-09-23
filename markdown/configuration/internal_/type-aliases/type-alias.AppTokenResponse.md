@@ -22,7 +22,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the token
+of the token.
 
 ***
 
@@ -31,7 +31,7 @@ of the token
 > `optional` **application**: `string`
 
 - Alphanumeric ID allotted to the current
-application created within the current business account
+application created within the current business account.
 
 ***
 
@@ -39,7 +39,7 @@ application created within the current business account
 
 > `optional` **created\_at**: `string`
 
-- ISO 8601 timestamp of token creation
+- ISO 8601 timestamp of token creation.
 
 ***
 
@@ -47,7 +47,7 @@ application created within the current business account
 
 > `optional` **modified\_at**: `string`
 
-- ISO 8601 timestamp of token updation
+- ISO 8601 timestamp of token updation.
 
 ***
 
@@ -57,9 +57,9 @@ application created within the current business account
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:982
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1034
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:983
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1035
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > `optional` **blocks**: `any`[]
 
-- Blocks
+- An array having blocks of the section.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **label**: `string`
 
-- Label for the section
+- Label for the section.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **name**: `string`
 
-- Name of the section
+- Name of the section.
 
 ***
 
@@ -37,11 +37,14 @@
 
 > `optional` **props**: `any`[]
 
+- An array of objects representing properties or
+attributes of the section item.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1219
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1424
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1220
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1425
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

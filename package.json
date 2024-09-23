@@ -1,6 +1,6 @@
 {
   "name": "fdk-store",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "description": "FPI Store bridging library",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
-    "@gofynd/fdk-client-javascript": "1.4.5",
+    "@gofynd/fdk-client-javascript": "v1.4.10",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.5.9",
     "@types/qs": "^6.9.7",
@@ -36,7 +36,7 @@
     "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
-    "@gofynd/fdk-client-javascript": "1.4.5"
+    "@gofynd/fdk-client-javascript": "v1.4.10"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

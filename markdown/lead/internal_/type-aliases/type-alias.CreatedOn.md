@@ -13,13 +13,13 @@
 
 > **user\_agent**: `string`
 
-- Useragent details
+- Useragent details.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:304
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:259
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:305
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:260
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

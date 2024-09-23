@@ -13,11 +13,16 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON object for additional product data.
+
 ***
 
 ### `_custom_meta`
 
 > `optional` **\_custom\_meta**: [`CustomMetaFields`](type-alias.CustomMetaFields.md)[]
+
+- Custom metadata fields
+associated with the product.
 
 ***
 
@@ -31,6 +36,9 @@
 
 > `optional` **attributes**: `any`
 
+- Additional attributes or characteristics of
+the product.
+
 ***
 
 ### `brand`
@@ -43,6 +51,9 @@
 
 > `optional` **categories**: [`ProductBrand`](type-alias.ProductBrand.md)[]
 
+- List of product categories
+associated with the product.
+
 ***
 
 ### `category_map`
@@ -54,6 +65,8 @@
 ### `color`
 
 > `optional` **color**: `string`
+
+- Color of the product, if applicable.
 
 ***
 
@@ -73,11 +86,15 @@
 
 > `optional` **description**: `string`
 
+- Detailed description of the product.
+
 ***
 
 ### `discount`
 
 > `optional` **discount**: `string`
+
+- Discount applied to the product, if any.
 
 ***
 
@@ -85,11 +102,16 @@
 
 > `optional` **grouped\_attributes**: [`ProductDetailGroupedAttribute`](type-alias.ProductDetailGroupedAttribute.md)[]
 
+- Grouped
+attributes detailing various characteristics of the product.
+
 ***
 
 ### `has_variant`
 
 > `optional` **has\_variant**: `boolean`
+
+- Indicates whether the product has variants.
 
 ***
 
@@ -97,11 +119,16 @@
 
 > `optional` **highlights**: `string`[]
 
+- Key highlights or features of the product.
+
 ***
 
 ### `image_nature`
 
 > `optional` **image\_nature**: `string`
+
+- Type of the images associated with the
+product such as standard.
 
 ***
 
@@ -109,11 +136,16 @@
 
 > `optional` **is\_dependent**: `boolean`
 
+- Indicates whether the product can be
+sold as an individual product.
+
 ***
 
 ### `item_code`
 
 > `optional` **item\_code**: `string`
+
+- Item Code defined for the product.
 
 ***
 
@@ -121,11 +153,17 @@
 
 > `optional` **item\_type**: `string`
 
+- This field describes the type of item,
+indicating the category or nature of the product. Possible values are
+Standard, Composite, Wet, Digital.
+
 ***
 
 ### `medias`
 
 > `optional` **medias**: [`Media`](../../../brands/internal_/type-aliases/type-alias.Media.md)[]
+
+- Media files associated with the product.
 
 ***
 
@@ -138,6 +176,8 @@
 ### `name`
 
 > `optional` **name**: `string`
+
+- Name of the product.
 
 ***
 
@@ -157,11 +197,17 @@
 
 > `optional` **product\_group\_tag**: `string`[]
 
+- List of bundle/product grouping
+slugs mapped to the product.
+
 ***
 
 ### `product_online_date`
 
 > `optional` **product\_online\_date**: `string`
+
+- Date and time when the product was
+made available online.
 
 ***
 
@@ -169,11 +215,15 @@
 
 > `optional` **rating**: `number`
 
+- The rating of the product.
+
 ***
 
 ### `rating_count`
 
 > `optional` **rating\_count**: `number`
+
+- Count of ratings the product has received.
 
 ***
 
@@ -187,11 +237,15 @@
 
 > `optional` **short\_description**: `string`
 
+- Brief description of the product.
+
 ***
 
 ### `similars`
 
 > `optional` **similars**: `string`[]
+
+- List of products marked similar to given product.
 
 ***
 
@@ -199,11 +253,16 @@
 
 > **slug**: `string`
 
+- URL-friendly identifier for the product.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
+
+- Tags associated with the product for better
+categorization.
 
 ***
 
@@ -211,11 +270,17 @@
 
 > `optional` **teaser\_tag**: `string`
 
+- Teaser tag or short promotional phrase for
+the product.
+
 ***
 
 ### `tryouts`
 
 > `optional` **tryouts**: `string`[]
+
+- Identifiers or names of tryout versions of
+the product.
 
 ***
 
@@ -223,17 +288,21 @@
 
 > `optional` **type**: `string`
 
+- Product type or classification.
+
 ***
 
 ### `uid`
 
 > `optional` **uid**: `number`
 
+- Unique identifier for the product.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1141
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1367
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1142
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1368
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

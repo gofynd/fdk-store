@@ -13,7 +13,7 @@
 
 > `optional` **category**: `string`
 
-- The category of the property
+- The category of the property.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **id**: `string`
 
-- The ID of the property
+- The id of the property.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **info**: `string`
 
-- Additional information about the property
+- Additional information about the property.
 
 ***
 
@@ -37,7 +37,7 @@
 
 > `optional` **label**: `string`
 
-- The label of the property
+- The label of the property.
 
 ***
 
@@ -45,13 +45,13 @@
 
 > `optional` **type**: `string`
 
-- The type of the property
+- The type of the property.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1241
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1454
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1242
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1455
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

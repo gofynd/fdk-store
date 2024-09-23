@@ -13,7 +13,7 @@
 
 > `optional` **rootId**: `string`
 
-- ID given to the HTML element
+- ID given to the HTML element.
 
 ***
 
@@ -27,7 +27,7 @@ a blog. You can get slug value from the endpoint
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator.d.ts:137
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationValidator.d.ts:140
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

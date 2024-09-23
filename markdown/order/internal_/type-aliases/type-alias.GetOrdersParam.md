@@ -14,7 +14,7 @@
 > `optional` **allowInactive**: `boolean`
 
 - Flag indicating whether inactive
-shipments are allowed
+shipments are allowed.
 
 ***
 
@@ -23,7 +23,7 @@ shipments are allowed
 > `optional` **customMeta**: `string`
 
 - A filter and retrieve data using special
-fields included for special use-cases
+fields included for special use-cases.
 
 ***
 
@@ -31,7 +31,7 @@ fields included for special use-cases
 
 > `optional` **endDate**: `string`
 
-- UTC Start Date in ISO format
+- End date in UTC (ISO-8601 format).
 
 ***
 
@@ -65,7 +65,7 @@ Default value is 10.
 
 > `optional` **startDate**: `string`
 
-- UTC Start Date in ISO format
+- Start date in UTC (ISO-8601 format).
 
 ***
 
@@ -74,7 +74,7 @@ Default value is 10.
 > `optional` **status**: `number`
 
 - A filter to retrieve orders by their current
-status such as _placed_, _delivered_, etc.
+status such as 'placed', 'delivered' etc.
 
 ***
 
@@ -86,7 +86,7 @@ status such as _placed_, _delivered_, etc.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:144
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:145
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

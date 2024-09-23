@@ -13,7 +13,7 @@
 
 > `optional` **auto\_apply**: `boolean`
 
-- Allow automatic debit of reward points
+- Allow automatic debit of reward points.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **enabled**: `boolean`
 
-- Shows whether reward points are available for debit
+- Shows whether reward points are available for debit.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **strategy\_channel**: `string`
 
-- Strategy channel for debiting reward points
+- Strategy channel for debiting reward points.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1230
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1282
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1231
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1283
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

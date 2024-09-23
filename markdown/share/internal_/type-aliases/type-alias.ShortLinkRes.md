@@ -13,11 +13,16 @@
 
 > `optional` **\_id**: `string`
 
+- Key used to uniquely identify document that
+contains shortlink details.
+
 ***
 
 ### `active`
 
 > `optional` **active**: `boolean`
+
+- Status of the shortlink.
 
 ***
 
@@ -25,11 +30,16 @@
 
 > `optional` **app\_redirect**: `boolean`
 
+- Application redirection flag of shortlink.
+
 ***
 
 ### `application`
 
 > `optional` **application**: `string`
+
+- The ID of the sales channel associated
+with the shortlink.
 
 ***
 
@@ -49,11 +59,16 @@
 
 > `optional` **count**: `number`
 
+- Click count of shortlink.
+
 ***
 
 ### `created_at`
 
 > `optional` **created\_at**: `string`
+
+- The timestamp indicating when a record was
+initially created.
 
 ***
 
@@ -61,11 +76,15 @@
 
 > `optional` **created\_by**: `string`
 
+- Reference of the creator of the shortlink.
+
 ***
 
 ### `enable_tracking`
 
 > `optional` **enable\_tracking**: `boolean`
+
+- Flag to enable tracking of a short link.
 
 ***
 
@@ -73,11 +92,15 @@
 
 > `optional` **expire\_at**: `string`
 
+- Expiry of the shortlink.
+
 ***
 
 ### `fallback`
 
 > `optional` **fallback**: `string`
+
+- Fallback attributes of shortlink.
 
 ***
 
@@ -85,13 +108,15 @@
 
 > `optional` **meta**: `any`
 
+- Additional attributes of shortlink.
+
 ***
 
 ### `personalized`
 
 > `optional` **personalized**: `boolean`
 
-- To create personalized short links
+- To create personalized short links.
 
 ***
 
@@ -111,11 +136,16 @@
 
 > `optional` **title**: `string`
 
+- Name reference of the shortlink.
+
 ***
 
 ### `updated_at`
 
 > `optional` **updated\_at**: `string`
+
+- The timestamp indicating when a record was
+last modified or updated.
 
 ***
 
@@ -129,11 +159,13 @@
 
 > `optional` **user\_id**: `string`
 
+- Identifier which can uniquely identify the user.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:169
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:260
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:170
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Share/ShareApplicationModel.d.ts:261
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

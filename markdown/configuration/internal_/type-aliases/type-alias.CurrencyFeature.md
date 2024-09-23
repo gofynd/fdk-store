@@ -14,7 +14,7 @@
 > `optional` **default\_currency**: `string`
 
 - 3-letter code of the default currency
-used in the application. Default vaule is 'INR'.
+used in the application. Default value is 'INR'.
 
 ***
 
@@ -31,13 +31,13 @@ code with price. For explicit or all currency selection.
 
 > `optional` **value**: `string`[]
 
-- 3-letter currency code
+- 3-letter currency code.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1430
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1486
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1431
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1487
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

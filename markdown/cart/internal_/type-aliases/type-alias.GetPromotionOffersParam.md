@@ -13,7 +13,7 @@
 
 > `optional` **cartType**: `string`
 
-- The type of cart
+- The type of cart.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **pageSize**: `number`
 
-- Number of offers to be fetched to show
+- Number of offers to be fetched to show.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **promotionGroup**: `string`
 
-- Type of promotion groups
+- Type of promotion groups.
 
 ***
 
@@ -38,8 +38,7 @@
 > `optional` **slug**: `string`
 
 - A short, human-readable, URL-friendly identifier
-of a product. You can get slug value from the endpoint
-/service/application/catalog/v1.0/products/
+of a product.
 
 ***
 
@@ -47,11 +46,11 @@ of a product. You can get slug value from the endpoint
 
 > `optional` **storeId**: `number`
 
-- Store id
+- Unique identifier of a store.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:488
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:568
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

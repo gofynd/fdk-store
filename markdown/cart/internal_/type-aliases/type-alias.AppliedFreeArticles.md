@@ -13,15 +13,15 @@
 
 > `optional` **article\_id**: `string`
 
-- Free article id
+- IDs of free articles.
 
 ***
 
 ### `free_gift_item_details`
 
-> `optional` **free\_gift\_item\_details**: [`FreeGiftItem`](type-alias.FreeGiftItem.md)
+> `optional` **free\_gift\_item\_details**: [`FreeGiftItems`](type-alias.FreeGiftItems.md)
 
-- Free gift items details
+- Free gift items details.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **parent\_item\_identifier**: `string`
 
-- Parent item identifier for free article
+- Parent item identifier for free article.
 
 ***
 
@@ -37,13 +37,13 @@
 
 > `optional` **quantity**: `number`
 
-- Free article quantity
+- Quantity of free articles.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1014
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1246
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1015
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1247
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

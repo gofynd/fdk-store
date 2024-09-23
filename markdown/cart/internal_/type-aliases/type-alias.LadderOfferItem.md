@@ -13,7 +13,7 @@
 
 > `optional` **margin**: `number`
 
-- Percentage value of discount
+- Percentage value of discount.
 
 ***
 
@@ -22,7 +22,7 @@
 > `optional` **max\_quantity**: `number`
 
 - Minimum quantity upto which offer is
-applicable. If not present that offer is applicable on all quantities
+applicable. If not present that offer is applicable on all quantities.
 
 ***
 
@@ -30,7 +30,7 @@ applicable. If not present that offer is applicable on all quantities
 
 > `optional` **min\_quantity**: `number`
 
-- Minimum quantity from which offer is applicable
+- Minimum quantity from which offer is applicable.
 
 ***
 
@@ -44,13 +44,13 @@ applicable. If not present that offer is applicable on all quantities
 
 > `optional` **type**: `string`
 
-- Offer type
+- Offer type of the ladder promotion.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2189
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3913
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2190
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3914
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

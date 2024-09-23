@@ -13,17 +13,22 @@
 
 > `optional` **data**: `any`
 
+- Information about the data to be updated.
+
 ***
 
 ### `filters`
 
 > `optional` **filters**: [`ProductsDataUpdatesFilters`](type-alias.ProductsDataUpdatesFilters.md)[]
 
+- Criteria applied to
+filter the products.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1076
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:2135
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1077
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:2136
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

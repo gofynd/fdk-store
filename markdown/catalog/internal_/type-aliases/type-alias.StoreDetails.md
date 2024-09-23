@@ -13,6 +13,8 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON data for the store.
+
 ***
 
 ### `address`
@@ -31,11 +33,16 @@
 
 > `optional` **contact\_numbers**: [`SellerPhoneNumber`](type-alias.SellerPhoneNumber.md)[]
 
+- A list of contact numbers
+for the store.
+
 ***
 
 ### `departments`
 
 > `optional` **departments**: [`StoreDepartments`](type-alias.StoreDepartments.md)[]
+
+- A list of departments within the store.
 
 ***
 
@@ -49,11 +56,15 @@
 
 > `optional` **name**: `string`
 
+- The name of the store.
+
 ***
 
 ### `store_code`
 
 > `optional` **store\_code**: `string`
+
+- A unique code for identifying the store.
 
 ***
 
@@ -61,17 +72,22 @@
 
 > `optional` **timing**: [`StoreTiming`](type-alias.StoreTiming.md)[]
 
+- The opening and closing times for the
+store throughout the week.
+
 ***
 
 ### `uid`
 
 > `optional` **uid**: `number`
 
+- The unique identifier for the store.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1899
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3215
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1900
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3216
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

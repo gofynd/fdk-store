@@ -13,7 +13,7 @@
 
 > `optional` **currency**: `string`
 
-- This is destination currency of value
+- This is destination currency of value.
 
 ***
 
@@ -21,13 +21,13 @@
 
 > `optional` **value**: `number`
 
-- This is the value of amount added
+- This is the value of amount added.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1201
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1543
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1202
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1544
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

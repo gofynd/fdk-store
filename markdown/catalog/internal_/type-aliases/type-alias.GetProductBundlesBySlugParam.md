@@ -13,7 +13,7 @@
 
 > `optional` **id**: `string`
 
-- Product uid
+- Product uid.
 
 ***
 

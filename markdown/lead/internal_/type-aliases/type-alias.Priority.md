@@ -13,7 +13,7 @@
 
 > **color**: `string`
 
-- Color for priority
+- Color for priority.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **display**: `string`
 
-- Display text for priority
+- Display text for priority.
 
 ***
 
@@ -31,9 +31,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:364
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:323
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:365
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:324
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

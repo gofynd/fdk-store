@@ -13,11 +13,15 @@
 
 > `optional` **\_\_v**: `number`
 
+- Version of the document.
+
 ***
 
 ### `_id`
 
 > `optional` **\_id**: `string`
+
+- Unique document id of the platform config.
 
 ***
 
@@ -25,11 +29,16 @@
 
 > `optional` **active**: `boolean`
 
+- Is the application config active or not .
+
 ***
 
 ### `created_at`
 
 > `optional` **created\_at**: `string`
+
+- When was the application platform config
+document was created.
 
 ***
 
@@ -43,11 +52,17 @@
 
 > `optional` **delete\_account\_day**: `number`
 
+- Number of days after which the user
+account will be deleted.
+
 ***
 
 ### `delete_account_reasons`
 
 > `optional` **delete\_account\_reasons**: [`DeleteAccountReasons`](type-alias.DeleteAccountReasons.md)[]
+
+- List of reasons
+you can set to ask user when account is being deleted from application.
 
 ***
 
@@ -55,11 +70,16 @@
 
 > `optional` **desktop\_image**: `string`
 
+- Image to be shown on registration page
+for desktop devices.
+
 ***
 
 ### `display`
 
 > `optional` **display**: `string`
+
+- The display name of the platform.
 
 ***
 
@@ -72,6 +92,9 @@
 ### `forgot_password`
 
 > `optional` **forgot\_password**: `boolean`
+
+- Forgot password option to be given or
+not to application user.
 
 ***
 
@@ -97,17 +120,25 @@
 
 > `optional` **mobile\_image**: `string`
 
+- Image to be shown on registration page
+for mobile devices.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
 
+- Name of the application.
+
 ***
 
 ### `register`
 
 > `optional` **register**: `boolean`
+
+- Whether to show the registration page on
+landing page or not.
 
 ***
 
@@ -133,11 +164,15 @@
 
 > `optional` **skip\_captcha**: `boolean`
 
+- Skip the captcha or not .
+
 ***
 
 ### `skip_login`
 
 > `optional` **skip\_login**: `boolean`
+
+- Whether to skip the login or not .
 
 ***
 
@@ -157,17 +192,23 @@
 
 > `optional` **subtext**: `string`
 
+- Text to be shown at the top of the flash card
+like login to fynd, login to tira.
+
 ***
 
 ### `updated_at`
 
 > `optional` **updated\_at**: `string`
 
+- The date and time when the configuration
+was last updated.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:933
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1523
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:934
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1524
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

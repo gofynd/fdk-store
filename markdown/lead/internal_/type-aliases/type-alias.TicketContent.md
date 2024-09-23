@@ -13,7 +13,8 @@
 
 > `optional` **attachments**: [`TicketAsset`](type-alias.TicketAsset.md)[]
 
-- List of all attachments related to the ticket
+- List of all attachments related to
+the ticket.
 
 ***
 
@@ -21,7 +22,7 @@
 
 > `optional` **description**: `string`
 
-- Long description of issue
+- Long description of issue.
 
 ***
 
@@ -29,13 +30,13 @@
 
 > **title**: `string`
 
-- Title for ticket
+- Title for ticket.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:325
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:280
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:326
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:281
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

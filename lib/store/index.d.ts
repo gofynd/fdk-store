@@ -1,5 +1,6 @@
 import type ApplicationClient from "@gofynd/fdk-client-javascript/sdk/application/ApplicationClient";
 import { ToolkitStore } from "@reduxjs/toolkit/dist/configureStore";
+import type { ThunkActionDispatch } from "redux-thunk";
 import { CatalogModule } from "./modules/catalog";
 import { CartModule } from "./modules/cart";
 import { BrandsModule } from "./modules/brands";
@@ -18,7 +19,9 @@ import { CustomModule } from "./modules/custom";
 import { EventEmitterFunction } from "../types";
 import { fileStorageModule } from "./modules/fileStorage";
 import { LeadModule } from "./modules/lead";
+import { Fetcher } from "../graphql/fetcher";
 declare class ApplicationStore {
+    private graphqlFetcher;
     store: ToolkitStore;
     getters: any;
     catalog: CatalogModule;
@@ -38,7 +41,9 @@ declare class ApplicationStore {
     fileStorage: fileStorageModule;
     custom: CustomModule;
     lead: LeadModule;
-    constructor(sdk: ApplicationClient, initialData: any, eventEmitter?: EventEmitterFunction);
-    observeStore(getterKey: string, onChange: Function): import("redux").Unsubscribe;
+    dispatch: ThunkActionDispatch<any>;
+    constructor(sdk: ApplicationClient, initialData: any, graphqlFetcher: Fetcher, eventEmitter?: EventEmitterFunction);
+    observeStore(getterFunction: Function, onChange: Function, equalityFunction?: Function): import("redux").Unsubscribe;
+    executeGQL(query: string, params: unknown): Promise<any>;
 }
 export default ApplicationStore;

@@ -13,11 +13,15 @@
 
 > `optional` **count**: `number`
 
+- The store count serviceable by this seller.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
+
+- The name of the seller.
 
 ***
 
@@ -25,11 +29,13 @@
 
 > `optional` **uid**: `number`
 
+- The unique identifier for the seller.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2288
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3718
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2289
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3719
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

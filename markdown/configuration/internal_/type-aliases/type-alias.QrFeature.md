@@ -13,8 +13,8 @@
 
 > `optional` **application**: `boolean`
 
-- Shows whether sharing of mobile app via
-QR code is allowed. Default value is false.
+- Whether sharing of mobile app via QR code
+is allowed. Default value is false.
 
 ***
 
@@ -22,8 +22,8 @@ QR code is allowed. Default value is false.
 
 > `optional` **collections**: `boolean`
 
-- Shows whether sharing collection via QR
-code is allowed. Default value is false.
+- Whether sharing collection via QR code is
+allowed. Default value is false.
 
 ***
 
@@ -31,14 +31,14 @@ code is allowed. Default value is false.
 
 > `optional` **products**: `boolean`
 
-- Shows whether sharing product via QR code is
+- Whether sharing product via QR code is
 allowed. Default value is false.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1502
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1557
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1503
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1558
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

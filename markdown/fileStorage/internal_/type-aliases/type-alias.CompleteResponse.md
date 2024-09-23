@@ -13,6 +13,8 @@
 
 > **\_id**: `string`
 
+- The unique identifier of the uploaded file.
+
 ***
 
 ### `cdn`
@@ -24,6 +26,8 @@
 ### `content_type`
 
 > **content\_type**: `string`
+
+- The content type of the file.
 
 ***
 
@@ -37,11 +41,15 @@
 
 > **created\_on**: `string`
 
+- The timestamp when the file was created.
+
 ***
 
 ### `file_name`
 
 > **file\_name**: `string`
+
+- The name of the file that was uploaded.
 
 ***
 
@@ -49,11 +57,15 @@
 
 > **file\_path**: `string`
 
+- The path to the file in the storage location.
+
 ***
 
 ### `modified_on`
 
 > **modified\_on**: `string`
+
+- The timestamp when the file was last modified.
 
 ***
 
@@ -61,11 +73,15 @@
 
 > **namespace**: `string`
 
+- The namespace associated with the file.
+
 ***
 
 ### `operation`
 
 > **operation**: `string`
+
+- The operation performed on the storage service.
 
 ***
 
@@ -73,17 +89,23 @@
 
 > **size**: `number`
 
+- The size of the file in bytes.
+
 ***
 
 ### `success`
 
 > **success**: `boolean`
 
+- The success status of the upload operation.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
+
+- Tags associated with the file.
 
 ***
 
@@ -93,9 +115,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:129
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:186
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:130
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:187
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

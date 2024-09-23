@@ -13,6 +13,9 @@
 
 > `optional` **alt**: `string`
 
+- Alternative text for the media, used for
+accessibility and SEO purposes.
+
 ***
 
 ### `meta`
@@ -25,17 +28,21 @@
 
 > `optional` **type**: `string`
 
+- The type of media, such as image, video.
+
 ***
 
 ### `url`
 
 > `optional` **url**: `string`
 
+- Absolute url for Media.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:994
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1163
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:995
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1164
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

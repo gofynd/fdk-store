@@ -13,11 +13,16 @@
 
 > `optional` **amount**: `number`
 
+- The discount amount provided by the promotion.
+
 ***
 
 ### `applied_free_articles`
 
 > `optional` **applied\_free\_articles**: [`AppliedFreeArticles`](type-alias.AppliedFreeArticles.md)[]
+
+- An array
+containing details of free articles applied under the promotion.
 
 ***
 
@@ -25,11 +30,16 @@
 
 > `optional` **article\_quantity**: `number`
 
+- The quantity of articles required to
+qualify for the promotion.
+
 ***
 
 ### `mrp_promotion`
 
 > `optional` **mrp\_promotion**: `boolean`
+
+- Indicates if the promotion is applied to the MRP.
 
 ***
 
@@ -37,11 +47,15 @@
 
 > `optional` **promo\_id**: `string`
 
+- The unique identifier for the promotion.
+
 ***
 
 ### `promotion_name`
 
 > `optional` **promotion\_name**: `string`
+
+- The name of the promotion .
 
 ***
 
@@ -49,11 +63,13 @@
 
 > `optional` **promotion\_type**: `string`
 
+- The type of promotion.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:708
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1154
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:709
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1155
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

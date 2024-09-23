@@ -17,31 +17,61 @@
 <li><a href="../modules/cart._internal_.html">&lt;internal&gt;</a></li>
 <li><a href="cart._internal_.CartMetaRequest.html">CartMetaRequest</a></li></ul>
 <h1>Type alias CartMetaRequest</h1></div>
-<div class="tsd-signature"><span class="tsd-kind-type-alias">Cart<wbr/>Meta<wbr/>Request</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span><span class="tsd-kind-property">checkout_mode</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">comment</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">delivery_slots</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">gift_details</span><span class="tsd-signature-symbol">?: </span><a href="cart._internal_.ArticleGiftDetail.html" class="tsd-signature-type tsd-kind-type-alias">ArticleGiftDetail</a><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">gstin</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">pick_up_customer_details</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
+<div class="tsd-signature"><span class="tsd-kind-type-alias">Cart<wbr/>Meta<wbr/>Request</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span><span class="tsd-kind-property">checkout_mode</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">comment</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">custom_cart_meta</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">delivery_slots</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">gift_details</span><span class="tsd-signature-symbol">?: </span><a href="cart._internal_.ArticleGiftDetail.html" class="tsd-signature-type tsd-kind-type-alias">ArticleGiftDetail</a><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">gstin</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">pick_up_customer_details</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
 <div class="tsd-type-declaration">
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">checkout_<wbr/>mode</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">checkout_<wbr/>mode</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><ul>
+<li>Checkout mode of user cart.</li>
+</ul>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">comment</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">comment</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><ul>
+<li>Comment message to be added in user cart.</li>
+</ul>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">delivery_<wbr/>slots</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">custom_<wbr/>cart_<wbr/>meta</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span></h5>
+<div class="tsd-comment tsd-typography"><ul>
+<li>Custom cart meta json to be added in
+order meta which can be further received in cart API response and order
+meta in order detail API or webhook.</li>
+</ul>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
+<li class="tsd-parameter">
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">delivery_<wbr/>slots</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span></h5>
+<div class="tsd-comment tsd-typography"><ul>
+<li>Delivery slots details includes article
+level time slot when the shipment can be delivered.</li>
+</ul>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">gift_<wbr/>details</span><span class="tsd-signature-symbol">?: </span><a href="cart._internal_.ArticleGiftDetail.html" class="tsd-signature-type tsd-kind-type-alias">ArticleGiftDetail</a></h5></li>
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">gstin</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">gstin</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><ul>
+<li>GSTIN number to be added in user cart.</li>
+</ul>
+</div>
+<div class="tsd-comment tsd-typography"></div></li>
 <li class="tsd-parameter">
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">pick_<wbr/>up_<wbr/>customer_<wbr/>details</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span></h5>
 <div class="tsd-comment tsd-typography"><ul>
 <li>Customer contact details for
-customer pickup at store</li>
+customer pickup at store.</li>
 </ul>
 </div>
 <div class="tsd-comment tsd-typography"></div></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1989</li>
-<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1990</li></ul></aside></div>
+<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3510</li>
+<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3511</li></ul></aside></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -117,7 +147,6 @@ customer pickup at store</li>
 <li><a href="cart._internal_.DiscountRulesApp.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Discount<wbr/>Rules<wbr/>App</span></a></li>
 <li><a href="cart._internal_.DisplayBreakup.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Display<wbr/>Breakup</span></a></li>
 <li><a href="cart._internal_.Exclude.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Exclude</span></a></li>
-<li><a href="cart._internal_.FreeGiftItem.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Free<wbr/>Gift<wbr/>Item</span></a></li>
 <li><a href="cart._internal_.FreeGiftItems.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Free<wbr/>Gift<wbr/>Items</span></a></li>
 <li><a href="cart._internal_.GetCartParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Cart<wbr/>Param</span></a></li>
 <li><a href="cart._internal_.GetCartShareLinkParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Cart<wbr/>Share<wbr/>Link<wbr/>Param</span></a></li>
@@ -131,6 +160,7 @@ customer pickup at store</li>
 <li><a href="cart._internal_.GetShareCartLinkResponse.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Response</span></a></li>
 <li><a href="cart._internal_.GetShipmentsParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Shipments<wbr/>Param</span></a></li>
 <li><a href="cart._internal_.GiftDetail.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Gift<wbr/>Detail</span></a></li>
+<li><a href="cart._internal_.ItemPriceDetails.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Item<wbr/>Price<wbr/>Details</span></a></li>
 <li><a href="cart._internal_.LadderOfferItem.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Offer<wbr/>Item</span></a></li>
 <li><a href="cart._internal_.LadderPrice.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Price</span></a></li>
 <li><a href="cart._internal_.LadderPriceOffer.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Price<wbr/>Offer</span></a></li>
@@ -142,6 +172,7 @@ customer pickup at store</li>
 <li><a href="cart._internal_.PageCoupon.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Page<wbr/>Coupon</span></a></li>
 <li><a href="cart._internal_.PaymentSelectionLock.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Payment<wbr/>Selection<wbr/>Lock</span></a></li>
 <li><a href="cart._internal_.Pick.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Pick</span></a></li>
+<li><a href="cart._internal_.PriceMinMax.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Price<wbr/>Min<wbr/>Max</span></a></li>
 <li><a href="cart._internal_.ProductAction.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Action</span></a></li>
 <li><a href="cart._internal_.ProductArticle.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Article</span></a></li>
 <li><a href="cart._internal_.ProductAvailability.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Availability</span></a></li>
@@ -219,12 +250,12 @@ customer pickup at store</li>
 <li><a href="../functions/cart._internal_.DeliveryChargesConfig-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Delivery<wbr/>Charges<wbr/>Config</span></a></li>
 <li><a href="../functions/cart._internal_.DiscountRulesApp-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Discount<wbr/>Rules<wbr/>App</span></a></li>
 <li><a href="../functions/cart._internal_.DisplayBreakup-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Display<wbr/>Breakup</span></a></li>
-<li><a href="../functions/cart._internal_.FreeGiftItem-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Free<wbr/>Gift<wbr/>Item</span></a></li>
 <li><a href="../functions/cart._internal_.FreeGiftItems-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Free<wbr/>Gift<wbr/>Items</span></a></li>
 <li><a href="../functions/cart._internal_.GetCouponResponse-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Coupon<wbr/>Response</span></a></li>
 <li><a href="../functions/cart._internal_.GetShareCartLinkRequest-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Request</span></a></li>
 <li><a href="../functions/cart._internal_.GetShareCartLinkResponse-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Response</span></a></li>
 <li><a href="../functions/cart._internal_.GiftDetail-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Gift<wbr/>Detail</span></a></li>
+<li><a href="../functions/cart._internal_.ItemPriceDetails-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Item<wbr/>Price<wbr/>Details</span></a></li>
 <li><a href="../functions/cart._internal_.LadderOfferItem-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Offer<wbr/>Item</span></a></li>
 <li><a href="../functions/cart._internal_.LadderPrice-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Price</span></a></li>
 <li><a href="../functions/cart._internal_.LadderPriceOffer-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Price<wbr/>Offer</span></a></li>
@@ -233,6 +264,7 @@ customer pickup at store</li>
 <li><a href="../functions/cart._internal_.Ownership-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ownership</span></a></li>
 <li><a href="../functions/cart._internal_.PageCoupon-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Page<wbr/>Coupon</span></a></li>
 <li><a href="../functions/cart._internal_.PaymentSelectionLock-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Payment<wbr/>Selection<wbr/>Lock</span></a></li>
+<li><a href="../functions/cart._internal_.PriceMinMax-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Price<wbr/>Min<wbr/>Max</span></a></li>
 <li><a href="../functions/cart._internal_.ProductAction-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Action</span></a></li>
 <li><a href="../functions/cart._internal_.ProductArticle-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Article</span></a></li>
 <li><a href="../functions/cart._internal_.ProductAvailability-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Availability</span></a></li>

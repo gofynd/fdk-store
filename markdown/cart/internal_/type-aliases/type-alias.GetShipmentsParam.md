@@ -13,7 +13,7 @@
 
 > `optional` **addressId**: `string`
 
-- ID allotted to the selected address
+- ID allotted to the selected address.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **areaCode**: `string`
 
-- The PIN Code of the destination address, e.g. 400059
+- The PIN Code of the destination address, e.g. 400059.
 
 ***
 
@@ -29,13 +29,15 @@
 
 > `optional` **buyNow**: `boolean`
 
+- This is boolean to get buy_now cart.
+
 ***
 
 ### `id`
 
 > `optional` **id**: `string`
 
-- The unique identifier of the cart
+- The unique identifier of the cart.
 
 ***
 
@@ -46,7 +48,7 @@
 - The order type of shipment HomeDelivery - If
 the customer wants the order home-delivered PickAtStore - If the customer
 wants the handover of an order at the store itself. Digital - If the
-customer wants to buy digital voucher ( for jiogames )
+customer wants to buy digital voucher ( for jiogames ).
 
 ***
 
@@ -54,12 +56,11 @@ customer wants to buy digital voucher ( for jiogames )
 
 > `optional` **p**: `boolean`
 
-- This is a boolean value. Select `true` for getting
-a payment option in response.
+- Select `true` for getting a payment option in response.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:512
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:601
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

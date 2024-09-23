@@ -13,6 +13,8 @@
 
 > `optional` **buyNow**: `boolean`
 
+- Boolean value to get buy_now cart.
+
 ***
 
 ### `id`
@@ -23,7 +25,7 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:459
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:537
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,11 +13,16 @@
 
 > `optional` **display\_type**: `string`
 
+- The type of display for the product
+variant (e.g., image, text, image, color).
+
 ***
 
 ### `header`
 
 > `optional` **header**: `string`
+
+- Header or title for the product variant section.
 
 ***
 
@@ -25,11 +30,16 @@
 
 > `optional` **items**: [`ProductVariantItemResponse`](type-alias.ProductVariantItemResponse.md)[]
 
+- List of Upto 5 product
+variant items.
+
 ***
 
 ### `key`
 
 > `optional` **key**: `string`
+
+- Attribute identifier of the variant.
 
 ***
 
@@ -37,11 +47,13 @@
 
 > `optional` **total**: `number`
 
+- The total number of product variants available.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1437
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2016
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1438
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2017
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

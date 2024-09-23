@@ -1,6 +1,6 @@
 import type { AddProductCart, BulkPriceResponse, CartDetailResponse, CartItemCountResponse, CartShipmentsResponse, GetShareCartLinkResponse, LadderPriceOffers, PromotionOffersResponse, SharedCartResponse, UpdateProductCart } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
 import { AddItemsParam, ApplyRewardPointsParam, UpdateCartMetaParam } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator";
-import { GetCouponResponse } from "@gofynd/fdk-client-javascript/sdk/application/PosCart/PosCartApplicationModel";
+import { GetCouponResponse } from "@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel";
 import { CommonAsyncLoadingTypes } from ".";
 export type Mode = 'self' | 'others';
 export type CheckoutMode = {

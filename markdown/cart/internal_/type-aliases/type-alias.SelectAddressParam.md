@@ -13,6 +13,8 @@
 
 > `optional` **b**: `boolean`
 
+- Select `true` to retrieve the price breakup of cart items.
+
 ***
 
 ### `body`
@@ -25,11 +27,15 @@
 
 > `optional` **buyNow**: `boolean`
 
+- Whether to get buy_now cart.
+
 ***
 
 ### `cartId`
 
 > `optional` **cartId**: `string`
+
+- The unique identifier of the cart.
 
 ***
 
@@ -37,9 +43,11 @@
 
 > `optional` **i**: `boolean`
 
+- Select `true` to retrieve all the items added in the cart.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:555
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:646
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

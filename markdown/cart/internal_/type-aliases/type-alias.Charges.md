@@ -13,8 +13,7 @@
 
 > `optional` **allow\_refund**: `boolean`
 
-- This boolean value defines that refund
-is allowed or not for the charge
+- Whether refund is allowed or not for the charge.
 
 ***
 
@@ -28,7 +27,7 @@ is allowed or not for the charge
 
 > `optional` **code**: `string`
 
-- This is the code of the charge applied
+- Code of the charge applied.
 
 ***
 
@@ -36,8 +35,7 @@ is allowed or not for the charge
 
 > `optional` **meta**: `any`
 
-- This object contains the meta data realted to
-charges price adjustment
+- Meta data realted to charges price adjustment.
 
 ***
 
@@ -45,7 +43,7 @@ charges price adjustment
 
 > `optional` **name**: `string`
 
-- This is the name of the charge applied
+- Name of the charge applied.
 
 ***
 
@@ -53,13 +51,13 @@ charges price adjustment
 
 > `optional` **type**: `string`
 
-- This is the type of the charge applied
+- Type of the charge applied.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1213
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1555
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1214
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1556
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

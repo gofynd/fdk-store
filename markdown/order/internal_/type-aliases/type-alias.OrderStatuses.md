@@ -13,11 +13,16 @@
 
 > `optional` **display**: `string`
 
+- The text to display .
+
 ***
 
 ### `is_selected`
 
 > `optional` **is\_selected**: `boolean`
+
+- Indicates whether this option is
+currently selected.
 
 ***
 
@@ -25,11 +30,13 @@
 
 > `optional` **value**: `number`
 
+- The value representing the selection.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:896
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1753
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:897
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1754
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

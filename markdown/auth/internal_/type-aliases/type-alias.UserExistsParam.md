@@ -13,7 +13,7 @@
 
 > **q**: `string`
 
-- Email id or phone number of user
+- Email id or phone number of user.
 
 ## Defined In
 

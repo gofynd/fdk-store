@@ -13,7 +13,7 @@
 
 > `optional` **\_custom\_json**: `any`
 
-- Custom json relevant to the ticket
+- Custom json relevant to the ticket.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **\_id**: `string`
 
-- Unique identifier for the ticket
+- Unique identifier for the ticket.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **assigned\_to**: `any`
 
-- Details of support staff to whom ticket is assigned
+- Details of support staff to whom ticket is assigned.
 
 ***
 
@@ -55,7 +55,7 @@
 
 > `optional` **created\_at**: `string`
 
-- Time when the ticket was created
+- Time when the ticket was created.
 
 ***
 
@@ -63,7 +63,7 @@
 
 > `optional` **created\_by**: `any`
 
-- User details of ticket creator
+- User details of ticket creator.
 
 ***
 
@@ -77,7 +77,7 @@
 
 > `optional` **integration**: `any`
 
-- Integration type and its details of the ticket
+- Integration type and its details of the ticket.
 
 ***
 
@@ -85,8 +85,8 @@
 
 > `optional` **is\_feedback\_pending**: `boolean`
 
-- Denotes if feedback submission is
-pending for the ticket
+- If feedback submission is pending
+for the ticket.
 
 ***
 
@@ -100,8 +100,8 @@ pending for the ticket
 
 > `optional` **response\_id**: `string`
 
-- Details of company and application
-realated to the ticket
+- Details of company and application related
+to the ticket.
 
 ***
 
@@ -121,7 +121,7 @@ realated to the ticket
 
 > `optional` **sub\_category**: `string`
 
-- Sub-category assigned to the ticket
+- Sub-category assigned to the ticket.
 
 ***
 
@@ -129,7 +129,7 @@ realated to the ticket
 
 > `optional` **tags**: `string`[]
 
-- Tags relevant to ticket
+- Tags relevant to ticket.
 
 ***
 
@@ -137,13 +137,13 @@ realated to the ticket
 
 > `optional` **updated\_at**: `string`
 
-- Time when the ticket was last updated
+- Time when the ticket was last updated.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:547
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:507
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:548
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:508
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

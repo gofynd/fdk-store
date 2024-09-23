@@ -6,3 +6,4 @@ export declare function getCookie(key: string): any | null;
 export declare function setCookie(key: string, value: any, exp: number, domain?: string, path?: string): void;
 export declare function removeCookie(name: string): void;
 export declare function cartItemsCount(cart: CartDetailResponse): number;
+export declare function isStoreEqual(oldValue: unknown, newValue: unknown): boolean;

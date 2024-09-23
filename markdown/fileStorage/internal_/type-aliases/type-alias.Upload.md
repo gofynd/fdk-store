@@ -13,17 +13,21 @@
 
 > **expiry**: `number`
 
+- The expiration time for the signed URL.
+
 ***
 
 ### `url`
 
 > **url**: `string`
 
+- The signed URL for uploading the file.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:87
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:98
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:88
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:99
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

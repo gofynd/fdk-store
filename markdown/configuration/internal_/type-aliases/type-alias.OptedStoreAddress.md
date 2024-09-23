@@ -13,7 +13,7 @@
 
 > `optional` **address1**: `string`
 
-- Address of the opted store
+- Address of the opted store.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **address2**: `string`
 
-- Address of the opted store
+- Address of the opted store.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **city**: `string`
 
-- City of the opted store, e.g. Mumbai
+- City of the opted store, e.g. Mumbai.
 
 ***
 
@@ -37,7 +37,7 @@
 
 > `optional` **country**: `string`
 
-- Country of the opted store, e.g. India
+- Country of the opted store, e.g. India.
 
 ***
 
@@ -51,7 +51,7 @@
 
 > `optional` **pincode**: `number`
 
-- 6-digit PIN code of the opted store location
+- 6-digit PIN code of the opted store location.
 
 ***
 
@@ -59,13 +59,13 @@
 
 > `optional` **state**: `string`
 
-- State of the opted store, e.g. Maharashtra
+- State of the opted store, e.g. Maharashtra.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2269
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2444
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2270
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2445
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

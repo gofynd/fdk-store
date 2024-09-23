@@ -32,7 +32,7 @@ set of results.
 
 - A string indicating the size of the product, e.g.
 S, M, XL. You can get slug value from the endpoint
-/service/application/catalog/v1.0/products/sizes
+/service/application/catalog/v1.0/products/sizes.
 
 ***
 
@@ -42,7 +42,7 @@ S, M, XL. You can get slug value from the endpoint
 
 - A short, human-readable, URL-friendly identifier of
 a product. You can get slug value from the endpoint
-/service/application/catalog/v1.0/products/
+/service/application/catalog/v1.0/products/.
 
 ***
 

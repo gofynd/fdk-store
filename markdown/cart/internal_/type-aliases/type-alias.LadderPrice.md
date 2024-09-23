@@ -13,7 +13,7 @@
 
 > `optional` **currency\_code**: `string`
 
-- Currency code for all amounts
+- Currency code for all amounts.
 
 ***
 
@@ -21,7 +21,8 @@
 
 > `optional` **currency\_symbol**: `string`
 
-- Currency symbol for currency
+- Currency symbol for currency of ladder
+price product.
 
 ***
 
@@ -30,7 +31,7 @@
 > `optional` **effective**: `number`
 
 - Current per unit price of product after
-existing deductions
+existing deductions.
 
 ***
 
@@ -38,7 +39,7 @@ existing deductions
 
 > `optional` **marked**: `number`
 
-- Original price of product
+- Original price of product.
 
 ***
 
@@ -46,13 +47,13 @@ existing deductions
 
 > `optional` **offer\_price**: `number`
 
-- Discounted per unit price for current offer object
+- Discounted per unit price for current offer object.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2164
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3887
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2165
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3888
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

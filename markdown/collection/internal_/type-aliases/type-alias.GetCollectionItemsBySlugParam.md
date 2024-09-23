@@ -16,7 +16,7 @@
 - The search filter parameters. Filter parameters will
 be passed in f parameter as shown in the example below. Double Pipe (||)
 denotes the OR condition, whereas Triple-colon (:::) indicates a new filter
-paramater applied as an AND condition.
+parameter applied as an AND condition.
 
 ***
 
@@ -24,8 +24,8 @@ paramater applied as an AND condition.
 
 > `optional` **filters**: `boolean`
 
-- This is a boolean value, True for fetching
-all filter parameters and False for disabling the filter parameters.
+- True for fetching all filter parameters and
+False for disabling the filter parameters.
 
 ***
 

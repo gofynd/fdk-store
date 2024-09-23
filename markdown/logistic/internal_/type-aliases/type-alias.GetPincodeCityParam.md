@@ -13,11 +13,11 @@
 
 > **pincode**: `string`
 
-- A `pincode` contains a specific address of a location.
+- Postal code or PIN code of the address area.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator.d.ts:236
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationValidator.d.ts:229
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

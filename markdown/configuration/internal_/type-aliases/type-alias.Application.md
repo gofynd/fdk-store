@@ -22,7 +22,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the sales channel
+of the sales channel.
 
 ***
 
@@ -51,7 +51,7 @@ of the sales channel
 > `optional` **cache\_ttl**: `number`
 
 - An integer value that specifies the number
-of seconds until the key expires
+of seconds until the key expires.
 
 ***
 
@@ -60,7 +60,7 @@ of seconds until the key expires
 > `optional` **channel\_type**: `string`
 
 - It indicates different channel types like
-store, website-and-mobile-apps. Default value is store
+store, website-and-mobile-apps. Default value is store.
 
 ***
 
@@ -69,7 +69,7 @@ store, website-and-mobile-apps. Default value is store
 > `optional` **company\_id**: `number`
 
 - Numeric ID allotted to a business account
-where the sales channel exists
+where the sales channel exists.
 
 ***
 
@@ -83,7 +83,7 @@ where the sales channel exists
 
 > `optional` **created\_at**: `string`
 
-- ISO 8601 timestamp of sales channel creation
+- ISO 8601 timestamp of sales channel creation.
 
 ***
 
@@ -106,6 +106,8 @@ sales channel.
 
 > `optional` **domains**: [`Domain`](type-alias.Domain.md)[]
 
+- List of domains associated with the sales channel.
+
 ***
 
 ### `favicon`
@@ -118,7 +120,7 @@ sales channel.
 
 > `optional` **is\_active**: `boolean`
 
-- Indicates sales channel is active or not active
+- Indicates sales channel is active or not active.
 
 ***
 
@@ -127,7 +129,7 @@ sales channel.
 > `optional` **is\_internal**: `boolean`
 
 - Indicates whether a sales channel is
-internal or not
+internal or not.
 
 ***
 
@@ -141,6 +143,8 @@ internal or not
 
 > `optional` **meta**: [`ApplicationMeta`](type-alias.ApplicationMeta.md)[]
 
+- List of meta information for the sales channel.
+
 ***
 
 ### `mobile_logo`
@@ -153,13 +157,15 @@ internal or not
 
 > `optional` **mode**: `string`
 
+- Application mode.
+
 ***
 
 ### `modified_at`
 
 > `optional` **modified\_at**: `string`
 
-- ISO 8601 timestamp of sales channel updation
+- ISO 8601 timestamp of sales channel updation.
 
 ***
 
@@ -167,7 +173,7 @@ internal or not
 
 > `optional` **name**: `string`
 
-- Name of the sales channel, e.g. Zenz Fashion
+- Name of the sales channel, e.g. Zenz Fashion.
 
 ***
 
@@ -176,7 +182,7 @@ internal or not
 > `optional` **owner**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of owner who owns the application
+of owner who owns the application.
 
 ***
 
@@ -184,17 +190,24 @@ of owner who owns the application
 
 > `optional` **redirections**: [`ApplicationRedirections`](type-alias.ApplicationRedirections.md)[]
 
+- List of redirections
+for the sales channel.
+
 ***
 
 ### `slug`
 
 > `optional` **slug**: `string`
 
+- Slug identifier.
+
 ***
 
 ### `status`
 
 > `optional` **status**: `string`
+
+- Current status of the application.
 
 ***
 
@@ -211,6 +224,8 @@ channel. It is required and auto-generated.
 
 > `optional` **tokens**: [`TokenSchema`](type-alias.TokenSchema.md)[]
 
+- List of tokens associated with the sales channel.
+
 ***
 
 ### `website`
@@ -219,9 +234,9 @@ channel. It is required and auto-generated.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1680
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1747
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1681
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1748
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

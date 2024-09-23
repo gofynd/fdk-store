@@ -13,7 +13,8 @@
 
 > `optional` **item\_brand\_name**: `string`
 
-- Item brand name
+- Item brand name of the free gift item
+promotion applied on cart.
 
 ***
 
@@ -21,7 +22,7 @@
 
 > `optional` **item\_id**: `number`
 
-- Item id
+- Item id of the free gift item.
 
 ***
 
@@ -29,7 +30,7 @@
 
 > `optional` **item\_images\_url**: `string`[]
 
-- Item images URL
+- Images URLs for free gift items.
 
 ***
 
@@ -37,15 +38,14 @@
 
 > `optional` **item\_name**: `string`
 
-- Item name
+- Name of the free gift item received via free
+gift promotion.
 
 ***
 
 ### `item_price_details`
 
-> `optional` **item\_price\_details**: `any`
-
-- Item price details
+> `optional` **item\_price\_details**: [`ItemPriceDetails`](type-alias.ItemPriceDetails.md)
 
 ***
 
@@ -53,13 +53,13 @@
 
 > `optional` **item\_slug**: `string`
 
-- Item slug
+- Slug for an item.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2089
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3721
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2090
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3722
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

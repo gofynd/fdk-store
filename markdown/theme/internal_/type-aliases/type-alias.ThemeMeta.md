@@ -13,7 +13,7 @@
 
 > `optional` **description**: `string`
 
-- The description of the theme
+- The description of the theme.
 
 ***
 
@@ -27,7 +27,7 @@
 
 > `optional` **industry**: `string`[]
 
-- An array of industries associated with the theme
+- An array of industries associated with the theme.
 
 ***
 
@@ -35,7 +35,7 @@
 
 > `optional` **name**: `string`
 
-- The name of the theme
+- The name of the theme.
 
 ***
 
@@ -55,13 +55,13 @@
 
 > `optional` **slug**: `string`
 
-- The slug of the theme
+- The slug of the theme.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1138
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1333
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1139
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1334
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

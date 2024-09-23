@@ -22,7 +22,7 @@
 > `optional` **\_id**: `string`
 
 - Unique identifier (24-digit Mongo Object ID) of
-the application information
+the application information.
 
 ***
 
@@ -37,13 +37,16 @@ the application information
 > `optional` **application**: `string`
 
 - Alphanumeric ID allotted to a sales
-channel application created within a business account
+channel application created within a business account.
 
 ***
 
 ### `business_highlights`
 
 > `optional` **business\_highlights**: [`BusinessHighlights`](type-alias.BusinessHighlights.md)[]
+
+- Array of notable
+business highlights with icons and descriptions.
 
 ***
 
@@ -52,7 +55,7 @@ channel application created within a business account
 > `optional` **copyright\_text**: `string`
 
 - Copyright statement usually seen at the
-site's footer
+site's footer.
 
 ***
 
@@ -61,13 +64,16 @@ site's footer
 > `optional` **created\_at**: `string`
 
 - ISO 8601 timestamp of creation of the
-application information
+application information.
 
 ***
 
 ### `links`
 
 > `optional` **links**: [`Links`](type-alias.Links.md)[]
+
+- Array of additional relevant web links related
+to the application.
 
 ***
 
@@ -76,7 +82,7 @@ application information
 > `optional` **modified\_at**: `string`
 
 - ISO 8601 timestamp of updation of the
-application information
+application information.
 
 ***
 
@@ -92,9 +98,9 @@ application information
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1894
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2013
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1895
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2014
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

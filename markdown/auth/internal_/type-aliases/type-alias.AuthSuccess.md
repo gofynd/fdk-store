@@ -13,6 +13,8 @@
 
 > `optional` **register\_token**: `string`
 
+- Unique registration token for user.
+
 ***
 
 ### `user`
@@ -25,11 +27,13 @@
 
 > `optional` **user\_exists**: `boolean`
 
+- Boolean which specifies if user is registered.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:724
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1015
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:725
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1016
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

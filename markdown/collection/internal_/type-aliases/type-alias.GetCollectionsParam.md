@@ -30,7 +30,7 @@ set of results.
 
 > `optional` **q**: `string`
 
-- Name of the collection to filter collection
+- Name of the collection to filter collection.
 
 ***
 
@@ -38,7 +38,7 @@ set of results.
 
 > `optional` **tag**: `string`[]
 
-- List of tags to filter collections
+- List of tags to filter collections.
 
 ## Defined In
 

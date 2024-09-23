@@ -13,11 +13,16 @@
 
 > `optional` **is\_custom\_order**: `boolean`
 
+- A boolean flag indicating whether MTO
+(Make to Order) is enabled or not.
+
 ***
 
 ### `manufacturing_time`
 
 > `optional` **manufacturing\_time**: `number`
+
+- The unit of time taken for manufacturing.
 
 ***
 
@@ -25,11 +30,14 @@
 
 > `optional` **manufacturing\_time\_unit**: `string`
 
+- The unit of time required for
+manufacturing is defined in hours or days.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:982
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1136
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:983
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1137
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

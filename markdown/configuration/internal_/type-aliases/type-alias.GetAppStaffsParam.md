@@ -13,8 +13,8 @@
 
 > `optional` **orderIncent**: `boolean`
 
-- This is a boolean value. Select `true` to
-retrieve the staff members eligible for getting incentives on orders.
+- Select `true` to retrieve the staff
+members eligible for getting incentives on orders.
 
 ***
 
@@ -31,12 +31,12 @@ retrieving staff members working at a particular ordering store.
 
 > `optional` **user**: `string`
 
-- Mongo ID of the staff. Helps in retrieving the
-details of a particular staff member.
+- ID of the staff. Helps in retrieving the details
+of a particular staff member.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationValidator.d.ts:113
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationValidator.d.ts:121
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > **display**: `string`
 
-- Category display value identifier
+- Category display value identifier.
 
 ***
 
@@ -27,7 +27,7 @@
 
 > `optional` **group\_id**: `number`
 
-- Group id of category releted data
+- Group id of category related data.
 
 ***
 
@@ -35,7 +35,7 @@
 
 > **key**: `string`
 
-- Category key value identifier
+- Category key value identifier.
 
 ***
 
@@ -45,9 +45,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:496
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:456
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:497
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:457
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

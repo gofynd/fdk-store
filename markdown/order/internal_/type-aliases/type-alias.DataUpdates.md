@@ -13,17 +13,21 @@
 
 > `optional` **entities**: [`EntitiesDataUpdates`](type-alias.EntitiesDataUpdates.md)[]
 
+- Data updates for shipments.
+
 ***
 
 ### `products`
 
 > `optional` **products**: [`ProductsDataUpdates`](type-alias.ProductsDataUpdates.md)[]
 
+- Data updates for bags.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1088
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:2160
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1089
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:2161
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

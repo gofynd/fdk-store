@@ -13,7 +13,7 @@
 
 > **\_id**: `string`
 
-- Unique identifier of the history event
+- Unique identifier of the history event.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **created\_at**: `string`
 
-- Time of creation of the history event
+- Time of creation of the history event.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **created\_by**: `any`
 
-- User who created the history event
+- User who created the history event.
 
 ***
 
@@ -43,7 +43,7 @@
 
 > **ticket\_id**: `string`
 
-- Readable ticket number
+- Readable ticket number.
 
 ***
 
@@ -51,7 +51,7 @@
 
 > **type**: `string`
 
-- Type of the history event
+- Type of the history event.
 
 ***
 
@@ -59,7 +59,7 @@
 
 > `optional` **updated\_at**: `string`
 
-- Time of last update of the history event
+- Time of last update of the history event.
 
 ***
 
@@ -67,13 +67,13 @@
 
 > **value**: `any`
 
-- Data of the history event
+- Data of the history event.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:514
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:474
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:515
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:475
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

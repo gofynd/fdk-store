@@ -14,7 +14,7 @@
 > `optional` **code**: `string`
 
 - 3-character code of the default currency, e.g.
-INR, EUR, USD
+INR, EUR, USD.
 
 ***
 
@@ -23,13 +23,13 @@ INR, EUR, USD
 > `optional` **ref**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the default currency
+of the default currency.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2232
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2389
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2233
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2390
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

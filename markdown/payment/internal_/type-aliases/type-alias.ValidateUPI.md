@@ -13,7 +13,7 @@
 
 > **customer\_name**: `string`
 
-- Customer Bank
+- Customer Bank.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > **status**: `string`
 
-- VALID or INVALID
+- VALID or INVALID.
 
 ***
 
@@ -37,13 +37,13 @@
 
 > **upi\_vpa**: `string`
 
-- UPI ID
+- UPI ID.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2187
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2226
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2188
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2227
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

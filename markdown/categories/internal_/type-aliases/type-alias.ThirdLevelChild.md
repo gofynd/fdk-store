@@ -13,6 +13,9 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON data related to the L3
+category, allowing for additional metadata.
+
 ***
 
 ### `action`
@@ -31,11 +34,15 @@
 
 > `optional` **childs**: `any`[]
 
+- List of categories under the L3 category.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
+
+- Name of the L3 category.
 
 ***
 
@@ -43,17 +50,21 @@
 
 > `optional` **slug**: `string`
 
+- Slug or URL-friendly identifier for the L3 category.
+
 ***
 
 ### `uid`
 
 > `optional` **uid**: `number`
 
+- Unique identifier for the L3 category.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1578
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2407
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1579
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2408
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

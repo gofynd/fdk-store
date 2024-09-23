@@ -19,11 +19,16 @@
 
 > `optional` **display**: `string`
 
+- Display name of the product size.
+
 ***
 
 ### `is_available`
 
 > `optional` **is\_available**: `boolean`
+
+- Indicates whether the product size is
+available for purchase.
 
 ***
 
@@ -31,17 +36,24 @@
 
 > `optional` **quantity**: `number`
 
+- The quantity of the product size available.
+
 ***
 
 ### `seller_identifiers`
 
 > `optional` **seller\_identifiers**: `string`[]
 
+- List of identifiers used by
+sellers for the product size.
+
 ***
 
 ### `value`
 
 > `optional` **value**: `string`
+
+- The value or label representing the product size.
 
 ***
 
@@ -51,9 +63,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1249
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1575
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1250
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1576
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

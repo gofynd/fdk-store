@@ -13,7 +13,7 @@
 
 > `optional` **aggregator**: `string`
 
-- Aggregator slug
+- Aggregator slug.
 
 ***
 
@@ -21,13 +21,13 @@
 
 > **upi\_vpa**: `string`
 
-- UPI ID
+- UPI ID.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2175
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2214
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2176
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Payment/PaymentApplicationModel.d.ts:2215
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

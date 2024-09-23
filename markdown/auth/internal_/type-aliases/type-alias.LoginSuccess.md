@@ -13,11 +13,16 @@
 
 > `optional` **register\_token**: `string`
 
+- A token used for registration purposes.
+
 ***
 
 ### `request_id`
 
 > `optional` **request\_id**: `string`
+
+- A random uuid string used to track the send
+OTP response.
 
 ***
 
@@ -27,9 +32,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:772
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1163
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:773
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1164
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

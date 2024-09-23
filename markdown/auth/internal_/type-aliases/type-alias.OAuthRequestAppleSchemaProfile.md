@@ -13,11 +13,15 @@
 
 > `optional` **first\_name**: `string`
 
+- The first name of the user.
+
 ***
 
 ### `full_name`
 
 > `optional` **full\_name**: `string`
+
+- The full name of the user.
 
 ***
 
@@ -25,11 +29,13 @@
 
 > `optional` **last\_name**: `string`
 
+- The last name of the user.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:926
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1507
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:927
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1508
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

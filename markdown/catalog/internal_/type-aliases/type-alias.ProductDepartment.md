@@ -19,11 +19,15 @@
 
 > `optional` **name**: `string`
 
+- Name of the product department.
+
 ***
 
 ### `slug`
 
 > `optional` **slug**: `string`
+
+- URL-friendly identifier for the product department.
 
 ***
 
@@ -31,11 +35,13 @@
 
 > `optional` **uid**: `number`
 
+- Unique identifier for the product department.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1024
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1225
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1025
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1226
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

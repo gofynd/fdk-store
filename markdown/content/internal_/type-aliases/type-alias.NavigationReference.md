@@ -19,6 +19,9 @@
 
 > `optional` **acl**: `string`[]
 
+- Details regarding the authorization level to
+access the navigation item.
+
 ***
 
 ### `action`
@@ -31,11 +34,15 @@
 
 > `optional` **active**: `boolean`
 
+- Whether navigation is active or not.
+
 ***
 
 ### `display`
 
 > `optional` **display**: `string`
+
+- Display name of the navigation link.
 
 ***
 
@@ -43,11 +50,15 @@
 
 > `optional` **image**: `string`
 
+- URL of an image associated with a navigation link.
+
 ***
 
 ### `sort_order`
 
 > `optional` **sort\_order**: `number`
+
+- Number denoting the position of navigation link.
 
 ***
 
@@ -55,11 +66,16 @@
 
 > `optional` **sub\_navigation**: [`NavigationReference`](type-alias.NavigationReference.md)[]
 
+- List of sub links and
+details under a navigation.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
+
+- List of tags under a navigation link.
 
 ***
 
@@ -67,11 +83,13 @@
 
 > `optional` **type**: `string`
 
+- Type of action to be taken e.g, page.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:801
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1132
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:802
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1133
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

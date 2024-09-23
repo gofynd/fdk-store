@@ -13,7 +13,7 @@
 
 > `optional` **buy\_rules**: `any`
 
-- Buy rules of promotions
+- Buy rules of promotion which is available on product.
 
 ***
 
@@ -21,7 +21,8 @@
 
 > `optional` **description**: `string`
 
-- Offer details including T&C
+- Offer details including T&C of the
+promotion which is avaiable on product.
 
 ***
 
@@ -29,7 +30,8 @@
 
 > `optional` **discount\_rules**: `any`[]
 
-- Discount rules of promotions
+- Discount rules of promotions which is
+avaiable on product.
 
 ***
 
@@ -38,6 +40,8 @@
 > `optional` **free\_gift\_items**: [`FreeGiftItems`](type-alias.FreeGiftItems.md)[]
 
 - Details of free gift items
+which included item id, brand name, item name, item slug, item price and
+item image url.
 
 ***
 
@@ -45,7 +49,7 @@
 
 > `optional` **id**: `string`
 
-- Promotion id
+- Promotion id of the promotion which is available on product.
 
 ***
 
@@ -53,7 +57,8 @@
 
 > `optional` **offer\_text**: `string`
 
-- Offer title
+- Offer title of the promotion which is
+available on product.
 
 ***
 
@@ -61,7 +66,26 @@
 
 > `optional` **promotion\_group**: `string`
 
-- Group of promotion belongs to
+- Group of the promotion which is
+available on product.
+
+***
+
+### `promotion_name`
+
+> `optional` **promotion\_name**: `string`
+
+- Name of the promotion which is
+available on product.
+
+***
+
+### `promotion_type`
+
+> `optional` **promotion\_type**: `string`
+
+- Promotion type of the promotion which
+is availalbe on product.
 
 ***
 
@@ -69,13 +93,14 @@
 
 > `optional` **valid\_till**: `string`
 
-- Datetime ISOString for promotion end date
+- Datetime ISO String for promotion end date
+which is available on product.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2117
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3748
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2118
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3749
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

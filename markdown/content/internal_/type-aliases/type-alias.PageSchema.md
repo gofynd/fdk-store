@@ -13,11 +13,15 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON object for specific use cases.
+
 ***
 
 ### `_id`
 
 > `optional` **\_id**: `string`
+
+- Unique identifier of an entry.
 
 ***
 
@@ -31,11 +35,15 @@
 
 > `optional` **application**: `string`
 
+- Application ID - Identifier for a Sales channel.
+
 ***
 
 ### `archived`
 
 > `optional` **archived**: `boolean`
+
+- Flag denoting whether the page is archived or not.
 
 ***
 
@@ -44,7 +52,7 @@
 > `optional` **component\_ids**: `string`[]
 
 - Components can be used to store
-multiple components
+multiple components.
 
 ***
 
@@ -52,11 +60,16 @@ multiple components
 
 > `optional` **content**: `any`[]
 
+- Contents of a custom page.
+
 ***
 
 ### `content_path`
 
 > `optional` **content\_path**: `string`
+
+- A CDN URL at which the entire html
+content can be fetched from.
 
 ***
 
@@ -76,6 +89,8 @@ multiple components
 
 > `optional` **description**: `string`
 
+- Description about the page.
+
 ***
 
 ### `feature_image`
@@ -88,11 +103,16 @@ multiple components
 
 > `optional` **orientation**: `string`
 
+- Orientation for Custom Pages - Landscape
+or portrait.
+
 ***
 
 ### `page_meta`
 
 > `optional` **page\_meta**: `any`[]
+
+- List of Custom JSON object for specific use cases.
 
 ***
 
@@ -100,11 +120,15 @@ multiple components
 
 > `optional` **platform**: `string`
 
+- Platform for Custom Pages - Denotes the device type.
+
 ***
 
 ### `published`
 
 > `optional` **published**: `boolean`
+
+- Whether page is active or not on website.
 
 ***
 
@@ -118,11 +142,15 @@ multiple components
 
 > `optional` **slug**: `string`
 
+- A short, human-readable, URL-friendly identifier.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
+
+- Tags under a page.
 
 ***
 
@@ -130,11 +158,16 @@ multiple components
 
 > `optional` **title**: `string`
 
+- The title of the page.
+
 ***
 
 ### `type`
 
 > `optional` **type**: `string`
+
+- Type of editor through which the page was created
+so appropriate rendering engine is used.
 
 ***
 
@@ -142,11 +175,13 @@ multiple components
 
 > `optional` **visibility**: `any`
 
+- Visibility of Page.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1010
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1639
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1011
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1640
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

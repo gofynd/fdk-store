@@ -19,11 +19,15 @@
 
 > **content\_type**: `string`
 
+- The content type of the file.
+
 ***
 
 ### `file_name`
 
 > **file\_name**: `string`
+
+- The name of the file that was uploaded.
 
 ***
 
@@ -31,11 +35,15 @@
 
 > **file\_path**: `string`
 
+- The path to the file in the storage location.
+
 ***
 
 ### `method`
 
 > `optional` **method**: `string`
+
+- The HTTP method to be used for uploading the file.
 
 ***
 
@@ -43,11 +51,15 @@
 
 > **namespace**: `string`
 
+- The namespace associated with the file.
+
 ***
 
 ### `operation`
 
 > **operation**: `string`
+
+- The operation to be performed on the storage service.
 
 ***
 
@@ -55,11 +67,15 @@
 
 > **size**: `number`
 
+- The size of the file in bytes.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
+
+- Tags associated with the file.
 
 ***
 
@@ -69,9 +85,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:93
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:110
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:94
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:111
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

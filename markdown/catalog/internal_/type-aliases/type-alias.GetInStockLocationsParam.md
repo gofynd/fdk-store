@@ -22,7 +22,7 @@
 > `optional` **latitude**: `number`
 
 - Latitude of the location from where one wants
-to retreive the nearest stores, e.g. 72.8691788
+to retrieve the nearest stores, e.g. 72.8691788.
 
 ***
 
@@ -31,7 +31,7 @@ to retreive the nearest stores, e.g. 72.8691788
 > `optional` **longitude**: `number`
 
 - Longitude of the location from where one
-wants to retreive the nearest stores, e.g. 19.1174114
+wants to retrieve the nearest stores, e.g. 19.1174114.
 
 ***
 
@@ -65,7 +65,7 @@ set of results.
 > `optional` **range**: `number`
 
 - Use this to retrieve stores within a particular
-range in meters, e.g. 10000, to indicate a 10km range
+range in meters, e.g. 10000, to indicate a 10km range.
 
 ## Defined In
 

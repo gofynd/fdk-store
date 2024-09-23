@@ -14,7 +14,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the ordering store
+of the ordering store.
 
 ***
 
@@ -28,7 +28,7 @@ of the ordering store
 
 > `optional` **code**: `string`
 
-- Code of the ordering store (usually same as Store Code)
+- Code of the ordering store (usually same as Store Code).
 
 ***
 
@@ -36,7 +36,7 @@ of the ordering store
 
 > `optional` **display\_name**: `string`
 
-- Display name of the ordering store
+- Display name of the ordering store.
 
 ***
 
@@ -44,7 +44,7 @@ of the ordering store
 
 > `optional` **name**: `string`
 
-- Store name of the ordering store
+- Store name of the ordering store.
 
 ***
 
@@ -52,7 +52,7 @@ of the ordering store
 
 > `optional` **pincode**: `number`
 
-- 6-digit PIN Code of the ordering store, e.g. 400001
+- 6-digit PIN Code of the ordering store, e.g. 400001.
 
 ***
 
@@ -60,7 +60,7 @@ of the ordering store
 
 > `optional` **store\_code**: `string`
 
-- Store code of the ordering store, e.g. MUM-102
+- Store code of the ordering store, e.g. MUM-102.
 
 ***
 
@@ -69,7 +69,7 @@ of the ordering store
 > `optional` **store\_type**: `string`
 
 - Store type of the ordering store, e.g.
-high_street, mall, warehouse
+high_street, mall, warehouse.
 
 ***
 
@@ -77,13 +77,13 @@ high_street, mall, warehouse
 
 > `optional` **uid**: `number`
 
-- Ordering store UID
+- Ordering store UID.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2298
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2473
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2299
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2474
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

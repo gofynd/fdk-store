@@ -13,7 +13,7 @@
 
 > **height**: `number`
 
-- The height of the product
+- The height of the product.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **is\_default**: `boolean`
 
-- Whether the dimension is the default one or not
+- Whether the dimension is the default one or not.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > **length**: `number`
 
-- The length of the product
+- The length of the product.
 
 ***
 
@@ -37,7 +37,7 @@
 
 > **unit**: `string`
 
-- The unit of dimension
+- The unit of dimension.
 
 ***
 
@@ -45,13 +45,13 @@
 
 > **width**: `number`
 
-- The width of the product
+- The width of the product.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1187
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1513
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1188
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1514
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

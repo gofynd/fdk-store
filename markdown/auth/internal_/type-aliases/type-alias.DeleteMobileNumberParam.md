@@ -14,7 +14,7 @@
 > **active**: `boolean`
 
 - This is a boolean value to check if mobile
-number is active 1.True - Number is active 2. False - Number is inactive
+number is active 1.True - number is active 2. False - number is inactive.
 
 ***
 
@@ -22,7 +22,7 @@ number is active 1.True - Number is active 2. False - Number is inactive
 
 > **countryCode**: `string`
 
-- Country code of the phone number, e.g. 91
+- Country code of the phone number, e.g. 91.
 
 ***
 
@@ -30,7 +30,7 @@ number is active 1.True - Number is active 2. False - Number is inactive
 
 > **phone**: `string`
 
-- Phone number
+- Phone number.
 
 ***
 
@@ -38,7 +38,7 @@ number is active 1.True - Number is active 2. False - Number is inactive
 
 > `optional` **platform**: `string`
 
-- ID of the application
+- ID of the application.
 
 ***
 
@@ -47,8 +47,8 @@ number is active 1.True - Number is active 2. False - Number is inactive
 > **primary**: `boolean`
 
 - This is a boolean value to check if mobile
-number is primary number (main number) 1. True - Number is primary 2. False
-- Number is not primary
+number is primary number (main number) 1. True - number is primary 2. False
+- number is not primary.
 
 ***
 
@@ -57,11 +57,12 @@ number is primary number (main number) 1. True - Number is primary 2. False
 > **verified**: `boolean`
 
 - This is a boolean value to check if mobile
-number is verified 1. True - Number is verified 2.False - Number is not verified yet
+number is verified 1. True - number is verified 2.False - number is not
+verified yet.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:332
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationValidator.d.ts:331
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

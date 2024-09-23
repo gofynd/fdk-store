@@ -13,11 +13,11 @@
 
 > **id**: `string`
 
-- ID of ticket to be retrieved
+- ID of ticket to be retrieved.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationValidator.d.ts:73
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationValidator.d.ts:55
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

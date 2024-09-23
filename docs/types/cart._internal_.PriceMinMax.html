@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>FreeGiftItem | fdk-store</title><meta name="description" content="Documentation for fdk-store"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>PriceMinMax | fdk-store</title><meta name="description" content="Documentation for fdk-store"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -15,57 +15,29 @@
 <li><a href="../index.html">fdk-store</a></li>
 <li><a href="../modules/cart.html">cart</a></li>
 <li><a href="../modules/cart._internal_.html">&lt;internal&gt;</a></li>
-<li><a href="cart._internal_.FreeGiftItem.html">FreeGiftItem</a></li></ul>
-<h1>Type alias FreeGiftItem</h1></div>
-<div class="tsd-signature"><span class="tsd-kind-type-alias">Free<wbr/>Gift<wbr/>Item</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span><span class="tsd-kind-property">item_brand_name</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">item_id</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">item_images_url</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">item_name</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">item_price_details</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">item_slug</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
+<li><a href="cart._internal_.PriceMinMax.html">PriceMinMax</a></li></ul>
+<h1>Type alias PriceMinMax</h1></div>
+<div class="tsd-signature"><span class="tsd-kind-type-alias">Price<wbr/>Min<wbr/>Max</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span><span class="tsd-kind-property">max</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span><br/><span>    </span><span class="tsd-kind-property">min</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
 <div class="tsd-type-declaration">
 <h4>Type declaration</h4>
 <ul class="tsd-parameters">
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>brand_<wbr/>name</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">max</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
 <div class="tsd-comment tsd-typography"><ul>
-<li>Item brand name</li>
+<li>Max price of article added in user cart.</li>
 </ul>
 </div>
 <div class="tsd-comment tsd-typography"></div></li>
 <li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>id</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">min</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
 <div class="tsd-comment tsd-typography"><ul>
-<li>Item id</li>
-</ul>
-</div>
-<div class="tsd-comment tsd-typography"></div></li>
-<li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>images_<wbr/>url</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
-<div class="tsd-comment tsd-typography"><ul>
-<li>Item images URL</li>
-</ul>
-</div>
-<div class="tsd-comment tsd-typography"></div></li>
-<li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>name</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
-<div class="tsd-comment tsd-typography"><ul>
-<li>Item name</li>
-</ul>
-</div>
-<div class="tsd-comment tsd-typography"></div></li>
-<li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>price_<wbr/>details</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span></h5>
-<div class="tsd-comment tsd-typography"><ul>
-<li>Item price details</li>
-</ul>
-</div>
-<div class="tsd-comment tsd-typography"></div></li>
-<li class="tsd-parameter">
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-property">item_<wbr/>slug</span><span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
-<div class="tsd-comment tsd-typography"><ul>
-<li>Item slug</li>
+<li>Min price of article added in user cart.</li>
 </ul>
 </div>
 <div class="tsd-comment tsd-typography"></div></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:986</li>
-<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:987</li></ul></aside></div>
+<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3699</li>
+<li>Defined in node_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3700</li></ul></aside></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -141,7 +113,6 @@
 <li><a href="cart._internal_.DiscountRulesApp.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Discount<wbr/>Rules<wbr/>App</span></a></li>
 <li><a href="cart._internal_.DisplayBreakup.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Display<wbr/>Breakup</span></a></li>
 <li><a href="cart._internal_.Exclude.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Exclude</span></a></li>
-<li><a href="cart._internal_.FreeGiftItem.html" class="current tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Free<wbr/>Gift<wbr/>Item</span></a></li>
 <li><a href="cart._internal_.FreeGiftItems.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Free<wbr/>Gift<wbr/>Items</span></a></li>
 <li><a href="cart._internal_.GetCartParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Cart<wbr/>Param</span></a></li>
 <li><a href="cart._internal_.GetCartShareLinkParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Cart<wbr/>Share<wbr/>Link<wbr/>Param</span></a></li>
@@ -155,6 +126,7 @@
 <li><a href="cart._internal_.GetShareCartLinkResponse.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Response</span></a></li>
 <li><a href="cart._internal_.GetShipmentsParam.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Get<wbr/>Shipments<wbr/>Param</span></a></li>
 <li><a href="cart._internal_.GiftDetail.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Gift<wbr/>Detail</span></a></li>
+<li><a href="cart._internal_.ItemPriceDetails.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Item<wbr/>Price<wbr/>Details</span></a></li>
 <li><a href="cart._internal_.LadderOfferItem.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Offer<wbr/>Item</span></a></li>
 <li><a href="cart._internal_.LadderPrice.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Price</span></a></li>
 <li><a href="cart._internal_.LadderPriceOffer.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Ladder<wbr/>Price<wbr/>Offer</span></a></li>
@@ -166,6 +138,7 @@
 <li><a href="cart._internal_.PageCoupon.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Page<wbr/>Coupon</span></a></li>
 <li><a href="cart._internal_.PaymentSelectionLock.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Payment<wbr/>Selection<wbr/>Lock</span></a></li>
 <li><a href="cart._internal_.Pick.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Pick</span></a></li>
+<li><a href="cart._internal_.PriceMinMax.html" class="current tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Price<wbr/>Min<wbr/>Max</span></a></li>
 <li><a href="cart._internal_.ProductAction.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Action</span></a></li>
 <li><a href="cart._internal_.ProductArticle.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Article</span></a></li>
 <li><a href="cart._internal_.ProductAvailability.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4194304"></use></svg><span>Product<wbr/>Availability</span></a></li>
@@ -243,12 +216,12 @@
 <li><a href="../functions/cart._internal_.DeliveryChargesConfig-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Delivery<wbr/>Charges<wbr/>Config</span></a></li>
 <li><a href="../functions/cart._internal_.DiscountRulesApp-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Discount<wbr/>Rules<wbr/>App</span></a></li>
 <li><a href="../functions/cart._internal_.DisplayBreakup-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Display<wbr/>Breakup</span></a></li>
-<li><a href="../functions/cart._internal_.FreeGiftItem-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Free<wbr/>Gift<wbr/>Item</span></a></li>
 <li><a href="../functions/cart._internal_.FreeGiftItems-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Free<wbr/>Gift<wbr/>Items</span></a></li>
 <li><a href="../functions/cart._internal_.GetCouponResponse-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Coupon<wbr/>Response</span></a></li>
 <li><a href="../functions/cart._internal_.GetShareCartLinkRequest-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Request</span></a></li>
 <li><a href="../functions/cart._internal_.GetShareCartLinkResponse-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Get<wbr/>Share<wbr/>Cart<wbr/>Link<wbr/>Response</span></a></li>
 <li><a href="../functions/cart._internal_.GiftDetail-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Gift<wbr/>Detail</span></a></li>
+<li><a href="../functions/cart._internal_.ItemPriceDetails-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Item<wbr/>Price<wbr/>Details</span></a></li>
 <li><a href="../functions/cart._internal_.LadderOfferItem-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Offer<wbr/>Item</span></a></li>
 <li><a href="../functions/cart._internal_.LadderPrice-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Price</span></a></li>
 <li><a href="../functions/cart._internal_.LadderPriceOffer-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ladder<wbr/>Price<wbr/>Offer</span></a></li>
@@ -257,6 +230,7 @@
 <li><a href="../functions/cart._internal_.Ownership-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Ownership</span></a></li>
 <li><a href="../functions/cart._internal_.PageCoupon-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Page<wbr/>Coupon</span></a></li>
 <li><a href="../functions/cart._internal_.PaymentSelectionLock-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Payment<wbr/>Selection<wbr/>Lock</span></a></li>
+<li><a href="../functions/cart._internal_.PriceMinMax-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Price<wbr/>Min<wbr/>Max</span></a></li>
 <li><a href="../functions/cart._internal_.ProductAction-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Action</span></a></li>
 <li><a href="../functions/cart._internal_.ProductArticle-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Article</span></a></li>
 <li><a href="../functions/cart._internal_.ProductAvailability-1.html" class="tsd-is-external"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>Product<wbr/>Availability</span></a></li>

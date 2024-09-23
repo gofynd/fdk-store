@@ -13,11 +13,15 @@
 
 > `optional` **\_id**: `string`
 
+- Unique identifier of an entry.
+
 ***
 
 ### `answer`
 
 > `optional` **answer**: `string`
+
+- The contents of a answer of a FAQ.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **application**: `string`
 
+- Application ID - Identifier for a Sales channel.
+
 ***
 
 ### `question`
 
 > `optional` **question**: `string`
+
+- The contents of a question of a FAQ.
 
 ***
 
@@ -37,11 +45,13 @@
 
 > `optional` **slug**: `string`
 
+- A short, human-readable, URL-friendly identifier.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:906
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1388
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:907
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1389
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

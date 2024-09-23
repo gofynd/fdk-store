@@ -13,11 +13,15 @@
 
 > `optional` **params**: `any`
 
+- Parameters that should be considered in path.
+
 ***
 
 ### `query`
 
 > `optional` **query**: `any`
+
+- Query parameter if any to be added to the action.
 
 ***
 
@@ -25,11 +29,14 @@
 
 > `optional` **type**: `string`
 
+- The type of action such as product, products,
+category, brand.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1002
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1181
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1003
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1182
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

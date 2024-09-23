@@ -13,7 +13,7 @@
 
 > `optional` **active**: `boolean`
 
-- Is the phone number active
+- Is the phone number active.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **country\_code**: `number`
 
-- Country code
+- Country code for mobile number.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **phone**: `string`
 
-- Phone number
+- Phone number of the user.
 
 ***
 
@@ -37,7 +37,7 @@
 
 > `optional` **primary**: `boolean`
 
-- Is it a primary phone number
+- Is it a primary phone number.
 
 ***
 
@@ -45,13 +45,13 @@
 
 > `optional` **verified**: `boolean`
 
-- Is the phone number verified
+- Is the phone number verified.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1094
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1901
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1095
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1902
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,17 +13,23 @@
 
 > `optional` **\_id**: `string`
 
+- Unique identifier of an entry.
+
 ***
 
 ### `application`
 
 > `optional` **application**: `string`
 
+- Application ID - Identifier for a Sales channel.
+
 ***
 
 ### `archived`
 
 > `optional` **archived**: `boolean`
+
+- Whether navigation is archived or not.
 
 ***
 
@@ -43,11 +49,16 @@
 
 > `optional` **name**: `string`
 
+- Name of the navigation link.
+
 ***
 
 ### `navigation`
 
 > `optional` **navigation**: [`NavigationReference`](type-alias.NavigationReference.md)[]
+
+- List of all navigations
+links and relevant details.
 
 ***
 
@@ -61,11 +72,16 @@
 
 > `optional` **platform**: `string`[]
 
+- Details regarding the platforms for which
+this navigation is to applied on.
+
 ***
 
 ### `slug`
 
 > `optional` **slug**: `string`
+
+- A short, human-readable, URL-friendly identifier.
 
 ***
 
@@ -73,11 +89,14 @@
 
 > `optional` **version**: `number`
 
+- A hardcoded key for internally managing
+navigation versions.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:989
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1588
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:990
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1589
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

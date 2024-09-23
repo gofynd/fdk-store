@@ -13,8 +13,8 @@
 
 > **active**: `boolean`
 
-- This is a boolean value to check if email ID is
-active 1. True - Email ID is active 2.False - Email ID is inactive
+- Boolean value to check if email id is active 1.
+True - email id is active 2.False - email id is inactive.
 
 ***
 
@@ -22,7 +22,7 @@ active 1. True - Email ID is active 2.False - Email ID is inactive
 
 > **email**: `string`
 
-- The email ID to delete
+- The email id to delete.
 
 ***
 
@@ -30,7 +30,7 @@ active 1. True - Email ID is active 2.False - Email ID is inactive
 
 > `optional` **platform**: `string`
 
-- ID of the application
+- ID of the application.
 
 ***
 
@@ -38,9 +38,8 @@ active 1. True - Email ID is active 2.False - Email ID is inactive
 
 > **primary**: `boolean`
 
-- This is a boolean value to check if email ID is
-primary (main email ID) 1. True - Email ID is primary 2.False - Email ID is
-not primary
+- Boolean value to check if email id is primary
+(main email id) 1. True - email id is primary 2.False - email id is not primary.
 
 ***
 
@@ -48,8 +47,8 @@ not primary
 
 > **verified**: `boolean`
 
-- This is a boolean value to check if email ID
-is verified 1. True - Email ID is verified 2.False - Email ID is not verified yet
+- Boolean value to check if email id is verified
+1. True - email id is verified 2.False - email id is not verified yet.
 
 ## Defined In
 

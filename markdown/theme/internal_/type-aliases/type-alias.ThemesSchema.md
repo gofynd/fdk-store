@@ -13,7 +13,7 @@
 
 > `optional` **\_id**: `string`
 
-- The unique identifier of the theme
+- The unique identifier of the theme.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **application\_id**: `string`
 
-- The ID of the application
+- The id of the application.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **applied**: `boolean`
 
-- Whether the theme has been applied or not
+- Whether the theme has been applied or not.
 
 ***
 
@@ -43,7 +43,7 @@
 
 > `optional` **available\_sections**: [`SectionItem`](type-alias.SectionItem.md)[]
 
-- Available sections information
+- Available sections information.
 
 ***
 
@@ -51,7 +51,7 @@
 
 > `optional` **company\_id**: `number`
 
-- The company id in which sales channel exists
+- The company id in which sales channel exists.
 
 ***
 
@@ -65,7 +65,7 @@
 
 > `optional` **created\_at**: `string`
 
-- The creation timestamp of the theme
+- The creation timestamp of the theme.
 
 ***
 
@@ -79,7 +79,7 @@
 
 > `optional` **is\_private**: `boolean`
 
-- Whether the theme is private or not
+- Whether the theme is private or not.
 
 ***
 
@@ -87,7 +87,7 @@
 
 > `optional` **marketplace\_theme\_id**: `string`
 
-- The ID of the theme in the marketplace
+- The id of the theme in the marketplace.
 
 ***
 
@@ -101,7 +101,7 @@
 
 > `optional` **name**: `string`
 
-- The name of the theme
+- The name of the theme.
 
 ***
 
@@ -109,7 +109,7 @@
 
 > `optional` **styles**: `any`
 
-- The styles associated with the theme
+- The styles associated with the theme.
 
 ***
 
@@ -117,7 +117,7 @@
 
 > `optional` **tags**: `string`[]
 
-- An array of tags associated with the theme
+- An array of tags associated with the theme.
 
 ***
 
@@ -125,7 +125,7 @@
 
 > `optional` **template\_theme\_id**: `string`
 
-- The ID of the template theme
+- The id of the template theme.
 
 ***
 
@@ -133,13 +133,15 @@
 
 > `optional` **theme\_type**: `string`
 
+- The theme or category type associated with the page.
+
 ***
 
 ### `updated_at`
 
 > `optional` **updated\_at**: `string`
 
-- The last update timestamp of the theme
+- The last update timestamp of the theme.
 
 ***
 
@@ -147,13 +149,13 @@
 
 > `optional` **version**: `string`
 
-- The version of the theme
+- The version of the theme.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:641
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:828
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:642
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:829
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

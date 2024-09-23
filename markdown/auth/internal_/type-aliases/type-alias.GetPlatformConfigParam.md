@@ -13,7 +13,7 @@
 
 > `optional` **name**: `string`
 
-- Name of the application, e.g. Fynd
+- Name of the application, e.g. Fynd.
 
 ## Defined In
 

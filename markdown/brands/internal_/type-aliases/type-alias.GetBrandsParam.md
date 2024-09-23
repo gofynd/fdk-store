@@ -16,7 +16,7 @@
 - The name of the department. Use this
 parameter to filter products by a particular department. See the list of
 available departments below. Also, you can get available departments from
-the endpoint /service/application/catalog/v1.0/departments/
+the endpoint /service/application/catalog/v1.0/departments/.
 
 ***
 

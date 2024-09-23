@@ -13,7 +13,7 @@
 
 > `optional` **pageSize**: `number`
 
-- Number of offers to be fetched to show
+- Number of offers to be fetched to show.
 
 ***
 
@@ -22,7 +22,7 @@
 > `optional` **promotionId**: `string`
 
 - Get ladder information of given promotion
-id explicitely
+id explicitely.
 
 ***
 
@@ -31,8 +31,7 @@ id explicitely
 > **slug**: `string`
 
 - A short, human-readable, URL-friendly identifier of
-a product. You can get slug value from the endpoint
-/service/application/catalog/v1.0/products/
+a product.
 
 ***
 
@@ -41,11 +40,11 @@ a product. You can get slug value from the endpoint
 > `optional` **storeId**: `string`
 
 - Store uid of assigned store on PDP page. If
-not passed default first created ladder will be returned
+not passed default first created ladder will be returned.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:466
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:547
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

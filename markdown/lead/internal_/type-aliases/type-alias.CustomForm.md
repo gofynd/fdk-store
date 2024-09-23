@@ -13,7 +13,7 @@
 
 > **\_id**: `string`
 
-- Unique identifier for the form
+- Unique identifier for the form.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **application\_id**: `string`
 
-- Application ID for form
+- Application ID - Identifier for a Sales channel.
 
 ***
 
@@ -35,7 +35,7 @@
 
 > `optional` **description**: `string`
 
-- Form description that will be shown to the user
+- Form description that will be shown to the user.
 
 ***
 
@@ -43,7 +43,7 @@
 
 > `optional` **header\_image**: `string`
 
-- Form header image that will be shown to the user
+- Form header image that will be shown to the user.
 
 ***
 
@@ -51,7 +51,7 @@
 
 > **inputs**: `any`[]
 
-- List of all the form fields
+- List of all the form fields.
 
 ***
 
@@ -59,8 +59,8 @@
 
 > **login\_required**: `boolean`
 
-- Denotes if login is required to make a
-form response submission
+- If login is required to make a form
+response submission.
 
 ***
 
@@ -80,8 +80,8 @@ form response submission
 
 > **should\_notify**: `boolean`
 
-- Denotes if new response submission for
-the form should be notified to the assignees
+- If new response submission for the form
+should be notified to the assignees.
 
 ***
 
@@ -89,7 +89,8 @@ the form should be notified to the assignees
 
 > **slug**: `string`
 
-- Slug for the form, which is to be used for accessing the form
+- Slug for the form, which is to be used for
+accessing the form.
 
 ***
 
@@ -104,7 +105,7 @@ the form should be notified to the assignees
 > `optional` **success\_message**: `string`
 
 - Message that is to be shown on
-succesfull form response submission
+successful form response submission.
 
 ***
 
@@ -112,13 +113,13 @@ succesfull form response submission
 
 > **title**: `string`
 
-- Form title that will be shown to the user
+- Form title that will be shown to the user.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:429
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:388
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:430
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:389
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

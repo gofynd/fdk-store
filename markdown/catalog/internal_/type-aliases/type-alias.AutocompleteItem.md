@@ -13,6 +13,9 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON data related to the
+autocomplete item, allowing for additional metadata.
+
 ***
 
 ### `action`
@@ -24,6 +27,8 @@
 ### `display`
 
 > `optional` **display**: `string`
+
+- Text or value displayed for the autocomplete item.
 
 ***
 
@@ -37,11 +42,14 @@
 
 > `optional` **type**: `string`
 
+- The type of action such as product, products,
+category, brand.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1669
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2611
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1670
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2612
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

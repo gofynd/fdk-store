@@ -13,7 +13,7 @@
 
 > `optional` **icon**: `string`
 
-- Hosted URL of social icon image shown on the website
+- Hosted URL of social icon image shown on the website.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **link**: `string`
 
-- Web URL of brand's YouTube channel
+- Web URL of brand's YouTube channel.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **title**: `string`
 
-- Name of the social media platform, e.g. YouTube
+- Name of the social media platform, e.g. YouTube.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2103
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2246
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2104
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2247
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

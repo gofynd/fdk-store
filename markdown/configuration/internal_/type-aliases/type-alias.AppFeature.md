@@ -13,7 +13,7 @@
 
 > `optional` **\_\_v**: `number`
 
-- Version key for tracking revisions. Default value is zero
+- Version key for tracking revisions. Default value is zero.
 
 ***
 
@@ -22,7 +22,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-for the sales channel features
+for the sales channel features.
 
 ***
 
@@ -30,7 +30,7 @@ for the sales channel features
 
 > `optional` **app**: `string`
 
-- Application ID of the sales channel
+- Application ID of the sales channel.
 
 ***
 
@@ -51,7 +51,7 @@ for the sales channel features
 > `optional` **created\_at**: `string`
 
 - ISO 8601 timestamp showing the date when
-the features were configured
+the features were configured.
 
 ***
 
@@ -72,7 +72,7 @@ the features were configured
 > `optional` **modified\_at**: `string`
 
 - ISO 8601 timestamp of last known
-modifications to the sales channel feature configuration
+modifications to the sales channel feature configuration.
 
 ***
 
@@ -106,9 +106,9 @@ modifications to the sales channel feature configuration
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1320
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1372
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1321
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1373
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

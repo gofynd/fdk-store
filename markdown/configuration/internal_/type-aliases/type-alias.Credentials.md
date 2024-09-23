@@ -29,7 +29,7 @@ route requests to your Firebase project when interacting with Firebase.
 > `optional` **application\_id**: `string`
 
 - Alphanumeric ID allotted to the current
-application created within the current business account
+application created within the current business account.
 
 ***
 
@@ -58,9 +58,9 @@ Project ID is a unique identifier for a project and is used only within the cons
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1031
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1083
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1032
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1084
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

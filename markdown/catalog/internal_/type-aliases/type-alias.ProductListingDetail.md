@@ -13,11 +13,16 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON object for additional product data.
+
 ***
 
 ### `_custom_meta`
 
 > `optional` **\_custom\_meta**: [`CustomMetaFields`](type-alias.CustomMetaFields.md)[]
+
+- Custom metadata fields
+associated with the product.
 
 ***
 
@@ -31,6 +36,9 @@
 
 > `optional` **attributes**: `any`
 
+- Additional attributes or characteristics of
+the product.
+
 ***
 
 ### `brand`
@@ -42,6 +50,9 @@
 ### `categories`
 
 > `optional` **categories**: [`ProductBrand`](type-alias.ProductBrand.md)[]
+
+- List of product categories
+associated with the product.
 
 ***
 
@@ -55,6 +66,8 @@
 
 > `optional` **color**: `string`
 
+- Color of the product, if applicable.
+
 ***
 
 ### `custom_order`
@@ -67,11 +80,15 @@
 
 > `optional` **description**: `string`
 
+- Detailed description of the product.
+
 ***
 
 ### `discount`
 
 > `optional` **discount**: `string`
+
+- Discount details or percentage applied to the product.
 
 ***
 
@@ -79,11 +96,16 @@
 
 > `optional` **grouped\_attributes**: [`ProductDetailGroupedAttribute`](type-alias.ProductDetailGroupedAttribute.md)[]
 
+- Grouped
+attributes detailing various characteristics of the product.
+
 ***
 
 ### `has_variant`
 
 > `optional` **has\_variant**: `boolean`
+
+- Indicates whether the product has variants.
 
 ***
 
@@ -91,11 +113,15 @@
 
 > `optional` **highlights**: `string`[]
 
+- Key highlights or features of the product.
+
 ***
 
 ### `identifiers`
 
 > `optional` **identifiers**: `string`[]
+
+- List of seller identifiers for the product.
 
 ***
 
@@ -103,11 +129,17 @@
 
 > `optional` **image\_nature**: `string`
 
+- Type of the images associated with the
+product such as standard.
+
 ***
 
 ### `is_dependent`
 
 > `optional` **is\_dependent**: `boolean`
+
+- Indicates whether the product can be
+sold as an individual product.
 
 ***
 
@@ -115,17 +147,25 @@
 
 > `optional` **item\_code**: `string`
 
+- Item Code defined for the product.
+
 ***
 
 ### `item_type`
 
 > `optional` **item\_type**: `string`
 
+- This field describes the type of item,
+indicating the category or nature of the product. Possible values are
+Standard, Composite, Wet, Digital.
+
 ***
 
 ### `medias`
 
 > `optional` **medias**: [`Media`](../../../brands/internal_/type-aliases/type-alias.Media.md)[]
+
+- Media files associated with the product.
 
 ***
 
@@ -138,6 +178,8 @@
 ### `name`
 
 > `optional` **name**: `string`
+
+- Name of the product.
 
 ***
 
@@ -157,11 +199,17 @@
 
 > `optional` **product\_group\_tag**: `string`[]
 
+- List of bundle/product grouping
+slugs mapped to the product.
+
 ***
 
 ### `product_online_date`
 
 > `optional` **product\_online\_date**: `string`
+
+- Date and time when the product was
+made available online.
 
 ***
 
@@ -169,17 +217,23 @@
 
 > `optional` **rating**: `number`
 
+- Rating of the product.
+
 ***
 
 ### `rating_count`
 
 > `optional` **rating\_count**: `number`
 
+- The number of ratings the product has received.
+
 ***
 
 ### `sellable`
 
 > `optional` **sellable**: `boolean`
+
+- Indicates whether the product is available for sale.
 
 ***
 
@@ -193,11 +247,15 @@
 
 > `optional` **short\_description**: `string`
 
+- Brief description of the product.
+
 ***
 
 ### `similars`
 
 > `optional` **similars**: `string`[]
+
+- List of products marked similar to given product.
 
 ***
 
@@ -205,11 +263,15 @@
 
 > `optional` **sizes**: `string`[]
 
+- Available sizes for the product.
+
 ***
 
 ### `slug`
 
 > **slug**: `string`
+
+- URL-friendly identifier for the product.
 
 ***
 
@@ -217,11 +279,17 @@
 
 > `optional` **tags**: `string`[]
 
+- Tags associated with the product for better
+categorization.
+
 ***
 
 ### `teaser_tag`
 
 > `optional` **teaser\_tag**: `string`
+
+- Teaser tag or short promotional phrase for
+the product.
 
 ***
 
@@ -229,11 +297,15 @@
 
 > `optional` **tryouts**: `string`[]
 
+- List of tryout options available for the product.
+
 ***
 
 ### `type`
 
 > `optional` **type**: `string`
+
+- Product type or classification.
 
 ***
 
@@ -241,17 +313,22 @@
 
 > `optional` **uid**: `number`
 
+- Unique identifier for the product.
+
 ***
 
 ### `variants`
 
 > `optional` **variants**: [`ProductVariantListingResponse`](type-alias.ProductVariantListingResponse.md)[]
 
+- List of product
+variants available for the product.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1446
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2042
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1447
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2043
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

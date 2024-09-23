@@ -13,11 +13,16 @@
 
 > `optional` **access\_token**: `string`
 
+- The access token issued by the oauth2 provider.
+
 ***
 
 ### `expiry`
 
 > `optional` **expiry**: `number`
+
+- The expiry time of the access token in
+milliseconds since epoch.
 
 ***
 
@@ -25,11 +30,13 @@
 
 > `optional` **refresh\_token**: `string`
 
+- The refresh token issued by the oauth2 provider.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:904
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1454
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:905
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1455
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

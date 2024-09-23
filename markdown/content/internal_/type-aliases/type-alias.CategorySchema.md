@@ -13,11 +13,15 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON object for specific use cases.
+
 ***
 
 ### `_id`
 
 > `optional` **\_id**: `string`
+
+- Unique identifier of an entry.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **application**: `string`
 
+- Application ID - Identifier for a Sales channel.
+
 ***
 
 ### `children`
 
 > `optional` **children**: `string`[]
+
+- List of FAQs.
 
 ***
 
@@ -37,11 +45,15 @@
 
 > `optional` **description**: `string`
 
+- Details of the FAQ category.
+
 ***
 
 ### `icon_url`
 
 > `optional` **icon\_url**: `string`
+
+- URL of the image associated with FAQ Category.
 
 ***
 
@@ -49,11 +61,15 @@
 
 > `optional` **index**: `number`
 
+- Order of FAQ Category.
+
 ***
 
 ### `slug`
 
 > `optional` **slug**: `string`
+
+- A short, human-readable, URL-friendly identifier.
 
 ***
 
@@ -61,11 +77,13 @@
 
 > `optional` **title**: `string`
 
+- Title of the FAQ category.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:893
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1348
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:894
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1349
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

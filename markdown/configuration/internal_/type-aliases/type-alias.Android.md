@@ -13,7 +13,7 @@
 
 > `optional` **api\_key**: `string`
 
-- Firebase secret credential API key for Android
+- Firebase secret credential API key for Android.
 
 ***
 
@@ -22,13 +22,13 @@
 > `optional` **application\_id**: `string`
 
 - Alphanumeric ID allotted to a sales
-channel application created within a business account
+channel application created within a business account.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1071
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1123
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1072
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1124
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > `optional` **active**: `boolean`
 
-- Is the email active
+- Is the email active.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **email**: `string`
 
-- Email address
+- Email address.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **primary**: `boolean`
 
-- Is it a primary email
+- Is it a primary email.
 
 ***
 
@@ -37,13 +37,13 @@
 
 > `optional` **verified**: `boolean`
 
-- Is the email verified
+- Is the email verified.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1118
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1925
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1119
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1926
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

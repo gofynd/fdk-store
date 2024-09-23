@@ -13,11 +13,15 @@
 
 > `optional` **email**: `string`
 
+- Email address of the user.
+
 ***
 
 ### `first_name`
 
 > `optional` **first\_name**: `string`
+
+- First name of the user.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **gender**: `string`
 
+- Gender of the user.
+
 ***
 
 ### `last_name`
 
 > `optional` **last\_name**: `string`
+
+- Last name of the user.
 
 ***
 
@@ -37,17 +45,21 @@
 
 > `optional` **mobile**: `string`
 
+- Mobile number of the user.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
 
+- Full name of the user (including first and last names).
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:551
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:668
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:552
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:669
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

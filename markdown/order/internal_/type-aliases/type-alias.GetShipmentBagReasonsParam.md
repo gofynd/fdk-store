@@ -13,8 +13,8 @@
 
 > **bagId**: `string`
 
-- ID of the bag. An order may contain multiple items
-and may get divided into one or more shipment, each having its own ID.
+- ID of the bag. An shipment may contain multiple
+items and may get divided into one or more bags, each having its own ID.
 
 ***
 
@@ -22,12 +22,13 @@ and may get divided into one or more shipment, each having its own ID.
 
 > **shipmentId**: `string`
 
-- ID of the bag. An order may contain multiple
-items and may get divided into one or more shipment, each having its own ID.
+- ID of the shipment. An order may contain
+multiple items and may get divided into one or more shipment, each having
+its own ID.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:187
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:188
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > `optional` **inputs**: `any`
 
-- Input details for the feed back form
+- Input details for the feedback form.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **timestamps**: `any`
 
-- Gives details of category releted data
+- Timestamp details of feedback form.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **title**: `string`
 
-- Title for the feed back form
+- Title for the feedback form.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:480
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:440
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:481
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:441
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

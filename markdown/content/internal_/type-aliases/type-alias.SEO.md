@@ -13,17 +13,24 @@
 
 > `optional` **breadcrumb**: [`SEObreadcrumb`](type-alias.SEObreadcrumb.md)[]
 
+- List of action objects which can
+power breadcrumbs on website.
+
 ***
 
 ### `canonical_url`
 
 > `optional` **canonical\_url**: `string`
 
+- The canonical URL for canonical link element.
+
 ***
 
 ### `description`
 
 > `optional` **description**: `string`
+
+- The contents of og:description.
 
 ***
 
@@ -37,6 +44,8 @@
 
 > `optional` **meta\_tags**: [`SEOMetaItem`](type-alias.SEOMetaItem.md)[]
 
+- List of meta tags.
+
 ***
 
 ### `sitemap`
@@ -49,11 +58,13 @@
 
 > `optional` **title**: `string`
 
+- The contents of og:title.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:736
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1012
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:737
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1013
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

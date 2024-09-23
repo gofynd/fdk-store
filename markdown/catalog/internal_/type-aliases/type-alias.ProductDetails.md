@@ -13,7 +13,7 @@
 
 > `optional` **attributes**: `any`
 
-- A dictionary of product attributes
+- A dictionary of product attributes.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **brand\_uid**: `number`
 
-- The unique ID of the product's brand
+- The unique ID of the product's brand.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **country\_of\_origin**: `any`
 
-- The country of origin for the product
+- The country of origin for the product.
 
 ***
 
@@ -37,7 +37,7 @@
 
 > `optional` **description**: `any`
 
-- The long description of the product
+- The long description of the product.
 
 ***
 
@@ -45,7 +45,7 @@
 
 > `optional` **grouped\_attributes**: `any`
 
-- A dictionary of grouped product attributes
+- A dictionary of grouped product attributes.
 
 ***
 
@@ -53,7 +53,7 @@
 
 > `optional` **has\_variant**: `boolean`
 
-- Whether or not the product has a variant
+- Whether or not the product has a variant.
 
 ***
 
@@ -61,7 +61,7 @@
 
 > `optional` **highlights**: `any`[]
 
-- A list of highlights for the product
+- A list of highlights for the product.
 
 ***
 
@@ -69,7 +69,7 @@
 
 > `optional` **hsn\_code**: `number`
 
-- The HSN code of the product
+- The HSN code of the product.
 
 ***
 
@@ -77,7 +77,7 @@
 
 > `optional` **identifier**: `any`
 
-- A dictionary of product identifiers
+- A dictionary of product identifiers.
 
 ***
 
@@ -85,7 +85,7 @@
 
 > `optional` **image\_nature**: `any`
 
-- The nature of the product's images
+- The nature of the product's images.
 
 ***
 
@@ -93,7 +93,7 @@
 
 > `optional` **images**: `any`[]
 
-- A list of image URLs for the product
+- A list of image URLs for the product.
 
 ***
 
@@ -101,7 +101,7 @@
 
 > `optional` **is\_set**: `boolean`
 
-- Whether or not the product is a set of items
+- Whether or not the product is a set of items.
 
 ***
 
@@ -109,7 +109,7 @@
 
 > `optional` **item\_code**: `any`
 
-- The item code of the product
+- The item code of the product.
 
 ***
 
@@ -117,7 +117,7 @@
 
 > `optional` **media**: `any`[]
 
-- A list of media objects for the product
+- A list of media objects for the product.
 
 ***
 
@@ -125,7 +125,7 @@
 
 > `optional` **name**: `any`
 
-- The name of the product
+- The name of the product.
 
 ***
 
@@ -133,7 +133,7 @@
 
 > `optional` **out\_of\_stock**: `boolean`
 
-- Whether or not the product is out of stock
+- Whether or not the product is out of stock.
 
 ***
 
@@ -141,7 +141,7 @@
 
 > `optional` **rating**: `number`
 
-- The rating of the product
+- The rating of the product.
 
 ***
 
@@ -149,7 +149,7 @@
 
 > `optional` **rating\_count**: `number`
 
-- The number of ratings the product has received
+- The number of ratings the product has received.
 
 ***
 
@@ -157,7 +157,7 @@
 
 > `optional` **short\_description**: `any`
 
-- The short description of the product
+- The short description of the product.
 
 ***
 
@@ -165,7 +165,7 @@
 
 > `optional` **slug**: `any`
 
-- The slug of the product
+- The slug of the product.
 
 ***
 
@@ -173,13 +173,13 @@
 
 > `optional` **template\_tag**: `any`
 
-- The template tag of the product
+- The template tag of the product.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1977
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3316
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1978
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3317
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

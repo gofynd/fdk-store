@@ -13,7 +13,7 @@
 
 > `optional` **\_id**: `string`
 
-- The unique identifier for the sales channel staff member
+- The unique identifier for the sales channel staff member.
 
 ***
 
@@ -22,7 +22,7 @@
 > `optional` **application**: `string`
 
 - The unique identifier (24-digit Mongo
-Object ID) of the current sales channel
+Object ID) of the current sales channel.
 
 ***
 
@@ -39,7 +39,7 @@ member. It has unique value.
 
 > `optional` **first\_name**: `string`
 
-- First name the staff member
+- First name the staff member.
 
 ***
 
@@ -47,7 +47,7 @@ member. It has unique value.
 
 > `optional` **last\_name**: `string`
 
-- Last name the staff member
+- Last name the staff member.
 
 ***
 
@@ -64,7 +64,7 @@ retrieve the staff members eligible for getting incentives on orders.
 
 > `optional` **profile\_pic\_url**: `string`
 
-- Profile image hosted url of the staff member
+- Profile image hosted url of the staff member.
 
 ***
 
@@ -72,13 +72,16 @@ retrieve the staff members eligible for getting incentives on orders.
 
 > `optional` **stores**: `number`[]
 
+- List of IDs of the ordering stores where the
+staff member works.
+
 ***
 
 ### `title`
 
 > `optional` **title**: `string`
 
-- Tittle for the staff member like owner, staff.
+- Title for the staff member like owner, staff.
 
 ***
 
@@ -91,9 +94,9 @@ details of a particular staff member.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:937
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:985
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:938
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:986
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > **background\_color**: `string`
 
-- Color for submit button
+- Color for submit button.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **title**: `string`
 
-- Title for submit button
+- Title for submit button.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > **title\_color**: `string`
 
-- Title color submit button
+- Title color submit button.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:393
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:352
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:394
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:353
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

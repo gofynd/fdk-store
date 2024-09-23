@@ -14,7 +14,7 @@
 > `optional` **\_id**: `string`
 
 - Unique identifier (24-digit Mongo Object ID) of
-the related business
+the related business.
 
 ***
 
@@ -23,7 +23,7 @@ the related business
 > `optional` **icon**: `string`
 
 - Hosted URL of icon image representing the
-business highlight
+business highlight.
 
 ***
 
@@ -31,7 +31,7 @@ business highlight
 
 > `optional` **sub\_title**: `string`
 
-- Detailed information about the highlight
+- Detailed information about the highlight.
 
 ***
 
@@ -39,13 +39,13 @@ business highlight
 
 > `optional` **title**: `string`
 
-- Title of the business highlight, e.g. Superfast Delivery
+- Title of the business highlight, e.g. Superfast Delivery.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2179
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2322
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2180
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2323
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

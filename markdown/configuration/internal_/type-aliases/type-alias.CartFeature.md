@@ -21,8 +21,8 @@
 
 > `optional` **gst\_input**: `boolean`
 
-- Shows whether customer is allowed to enter
-GST on the cart page for claiming input credits
+- Whether customer is allowed to enter GST on
+the cart page for claiming input credits.
 
 ***
 
@@ -30,8 +30,8 @@ GST on the cart page for claiming input credits
 
 > `optional` **placing\_for\_customer**: `boolean`
 
-- Shows whether the staff is
-placing order on behalf of customer. Default value is true.
+- Whether the staff is placing
+order on behalf of customer. Default value is true.
 
 ***
 
@@ -48,14 +48,14 @@ together. Default value is false.
 
 > `optional` **staff\_selection**: `boolean`
 
-- Shows whether staff selection is
-enabled on cart page
+- Whether staff selection is enabled on
+cart page.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1474
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1529
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1475
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1530
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

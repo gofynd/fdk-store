@@ -13,11 +13,15 @@
 
 > `optional` **country**: `string`
 
+- Country of the customer.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
+
+- Customer's name.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **order\_id**: `string`
 
+- Unique identifier of the order.
+
 ***
 
 ### `phone`
 
 > `optional` **phone**: `string`
+
+- Customer's phone number.
 
 ***
 
@@ -37,11 +45,13 @@
 
 > `optional` **shipment\_id**: `string`
 
+- Unique identifier of the shipment.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:956
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1877
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:957
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:1878
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

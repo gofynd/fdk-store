@@ -13,11 +13,15 @@
 
 > `optional` **col\_1**: `string`
 
+- Value for column 1.
+
 ***
 
 ### `col_2`
 
 > `optional` **col\_2**: `string`
+
+- Value for column 2.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **col\_3**: `string`
 
+- Value for column 3.
+
 ***
 
 ### `col_4`
 
 > `optional` **col\_4**: `string`
+
+- Value for column 4.
 
 ***
 
@@ -37,17 +45,21 @@
 
 > `optional` **col\_5**: `string`
 
+- Value for column 5.
+
 ***
 
 ### `col_6`
 
 > `optional` **col\_6**: `string`
 
+- Value for column 6.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1260
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1603
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1261
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1604
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

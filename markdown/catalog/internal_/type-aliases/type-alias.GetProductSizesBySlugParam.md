@@ -15,7 +15,7 @@
 
 - A short, human-readable, URL-friendly identifier of
 a product. You can get slug value from the endpoint
-/service/application/catalog/v1.0/products/
+/service/application/catalog/v1.0/products/.
 
 ***
 

@@ -13,11 +13,15 @@
 
 > **content\_type**: `string`
 
+- The name of the file to be uploaded.
+
 ***
 
 ### `file_name`
 
 > **file\_name**: `string`
+
+- The name of the file to be uploaded.
 
 ***
 
@@ -31,17 +35,21 @@
 
 > **size**: `number`
 
+- The size of the file in bytes.
+
 ***
 
 ### `tags`
 
 > `optional` **tags**: `string`[]
 
+- Tags associated with the file.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:115
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:157
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:116
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/FileStorage/FileStorageApplicationModel.d.ts:158
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,7 +13,7 @@
 
 > **color**: `string`
 
-- Color for status
+- Color for status.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **display**: `string`
 
-- Display text for status
+- Display text for status.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > **key**: `string`
 
-- Key for status
+- Key for status.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:377
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:336
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:378
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:337
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,11 +13,17 @@
 
 > `optional` **is\_current**: `boolean`
 
+- Indicates whether the tracking event is
+the current or active status.
+
 ***
 
 ### `is_passed`
 
 > `optional` **is\_passed**: `boolean`
+
+- Indicates whether the tracking event has
+passed or occurred.
 
 ***
 
@@ -25,17 +31,21 @@
 
 > `optional` **status**: `string`
 
+- The status of the tracking event.
+
 ***
 
 ### `time`
 
 > `optional` **time**: `string`
 
+- The time associated with the tracking event.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:613
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:875
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:614
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationModel.d.ts:876
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

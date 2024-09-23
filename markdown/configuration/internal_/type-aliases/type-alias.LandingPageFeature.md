@@ -14,7 +14,7 @@
 > `optional` **continue\_as\_guest**: `boolean`
 
 - Shows whether a guest can checkout
-from cart without logging in
+from cart without logging in.
 
 ***
 
@@ -28,7 +28,7 @@ from cart without logging in
 
 > `optional` **login\_btn\_text**: `string`
 
-- Shows the text displayed over the login button
+- Shows the text displayed over the login button.
 
 ***
 
@@ -37,7 +37,7 @@ from cart without logging in
 > `optional` **show\_domain\_textbox**: `boolean`
 
 - Shows whether a textbox for
-entering domain is available
+entering domain is available.
 
 ***
 
@@ -46,13 +46,13 @@ entering domain is available
 > `optional` **show\_register\_btn**: `boolean`
 
 - Shows whether register button is
-available in the login/landing page
+available in the login/landing page.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1287
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1339
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1288
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1340
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

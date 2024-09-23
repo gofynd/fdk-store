@@ -13,7 +13,7 @@
 
 > `optional` **android**: `boolean`
 
-- Section visibility on android platform
+- Section visibility on android platform.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **ios**: `boolean`
 
-- Section visibility on ios platform
+- Section visibility on ios platform.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **web**: `boolean`
 
-- Section visibility on web platform
+- Section visibility on web platform.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1430
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1657
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1431
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:1658
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

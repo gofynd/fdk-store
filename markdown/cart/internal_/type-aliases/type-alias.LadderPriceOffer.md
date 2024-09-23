@@ -13,7 +13,8 @@
 
 > `optional` **buy\_rules**: `any`
 
-- Buy rules of promotions
+- Buy rules of ladder price promotion
+applicable on product.
 
 ***
 
@@ -22,7 +23,7 @@
 > `optional` **calculate\_on**: `string`
 
 - If this ladder offer is to be calculated
-on MRP or ESP price
+on MRP or ESP price.
 
 ***
 
@@ -30,7 +31,8 @@ on MRP or ESP price
 
 > `optional` **description**: `string`
 
-- Offer details including T&C
+- Offer details including T&C of ladder
+price promotion applicable on product.
 
 ***
 
@@ -38,7 +40,8 @@ on MRP or ESP price
 
 > `optional` **discount\_rules**: `any`[]
 
-- Discount rules of promotions
+- Discount rules of ladder price
+promotion applicable on product.
 
 ***
 
@@ -46,7 +49,7 @@ on MRP or ESP price
 
 > `optional` **free\_gift\_items**: [`FreeGiftItems`](type-alias.FreeGiftItems.md)[]
 
-- Details of free gift items
+- Details of free gift items list.
 
 ***
 
@@ -54,7 +57,7 @@ on MRP or ESP price
 
 > `optional` **id**: `string`
 
-- Promotion id
+- ID of the promotion.
 
 ***
 
@@ -62,13 +65,17 @@ on MRP or ESP price
 
 > `optional` **offer\_prices**: [`LadderOfferItem`](type-alias.LadderOfferItem.md)[]
 
+- Offer prices for ladder price
+promotion applicable on product.
+
 ***
 
 ### `offer_text`
 
 > `optional` **offer\_text**: `string`
 
-- Offer title
+- Offer title of ladder price promotion
+applicable on product.
 
 ***
 
@@ -76,7 +83,8 @@ on MRP or ESP price
 
 > `optional` **promotion\_group**: `string`
 
-- Group of promotion belongs to
+- Group of ladder price promotion
+applicable on product.
 
 ***
 
@@ -84,13 +92,13 @@ on MRP or ESP price
 
 > `optional` **valid\_till**: `string`
 
-- Datetime ISOString for promotion end date
+- Datetime ISO String for promotion end date.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2211
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3935
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2212
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3936
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

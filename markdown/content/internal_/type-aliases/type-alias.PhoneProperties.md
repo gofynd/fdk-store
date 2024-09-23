@@ -13,11 +13,15 @@
 
 > `optional` **code**: `string`
 
+- International dial Code.
+
 ***
 
 ### `key`
 
 > `optional` **key**: `string`
+
+- Name of the Contact SPOC.
 
 ***
 
@@ -25,11 +29,21 @@
 
 > `optional` **number**: `string`
 
+- Phone Number.
+
+***
+
+### `phone_type`
+
+> `optional` **phone\_type**: `string`
+
+- Denotes the type of phone number.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1084
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1802
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1085
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1803
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

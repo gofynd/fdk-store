@@ -13,17 +13,23 @@
 
 > `optional` **is\_required**: `boolean`
 
+- Is mobile mandatory for user to register
+on a application or not.
+
 ***
 
 ### `level`
 
 > `optional` **level**: `string`
 
+- Level of mobile mandatory hard is mandatory and
+soft is optional.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1000
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1686
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1001
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:1687
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

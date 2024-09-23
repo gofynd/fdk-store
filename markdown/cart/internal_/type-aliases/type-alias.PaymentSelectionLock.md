@@ -13,11 +13,15 @@
 
 > `optional` **default\_options**: `string`
 
+- Default Selection Payment Mode.
+
 ***
 
 ### `enabled`
 
 > `optional` **enabled**: `boolean`
+
+- Denotes if default payment selection is enable.
 
 ***
 
@@ -25,11 +29,13 @@
 
 > `optional` **payment\_identifier**: `string`
 
+- Identifier for Payment Mode.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1097
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1329
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1098
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1330
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

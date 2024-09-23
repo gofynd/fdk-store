@@ -13,7 +13,7 @@
 
 > `optional` **code**: `string`
 
-- Country code for contact number, e.g. +91 (for India)
+- Country code for contact number, e.g. +91 (for India).
 
 ***
 
@@ -21,13 +21,13 @@
 
 > `optional` **number**: `string`
 
-- 10-digit mobile number
+- 10-digit mobile number.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1954
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2084
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1955
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2085
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

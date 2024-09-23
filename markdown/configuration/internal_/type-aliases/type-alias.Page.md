@@ -13,11 +13,15 @@
 
 > `optional` **current**: `number`
 
+- The current page number.
+
 ***
 
 ### `has_next`
 
 > `optional` **has\_next**: `boolean`
+
+- Indicates whether there is a next page.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **has\_previous**: `boolean`
 
+- Indicates whether there is a previous page.
+
 ***
 
 ### `item_total`
 
 > `optional` **item\_total**: `number`
+
+- The total number of items on the page.
 
 ***
 
@@ -37,11 +45,15 @@
 
 > `optional` **next\_id**: `string`
 
+- The identifier for the next page.
+
 ***
 
 ### `size`
 
 > `optional` **size**: `number`
+
+- The number of items per page.
 
 ***
 
@@ -49,11 +61,13 @@
 
 > **type**: `string`
 
+- The type of the page, such as 'PageType'.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1883
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1981
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1884
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1982
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

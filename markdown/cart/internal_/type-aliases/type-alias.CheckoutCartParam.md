@@ -19,7 +19,7 @@
 
 > `optional` **buyNow**: `boolean`
 
-- This indicates the type of cart to checkout
+- This indicates the type of cart to checkout.
 
 ***
 
@@ -27,11 +27,11 @@
 
 > `optional` **cartType**: `string`
 
-- The type of cart
+- The type of cart.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:342
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:363
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

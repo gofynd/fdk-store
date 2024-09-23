@@ -14,7 +14,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the current sales channel supported currency
+of the current sales channel supported currency.
 
 ***
 
@@ -30,11 +30,15 @@ of the current sales channel supported currency
 
 > `optional` **country\_code**: `string`
 
+- Country code.
+
 ***
 
 ### `country_name`
 
 > `optional` **country\_name**: `string`
+
+- Country name.
 
 ***
 
@@ -43,7 +47,7 @@ of the current sales channel supported currency
 > `optional` **created\_at**: `string`
 
 - ISO 8601 timestamp of sales channel support
-currency creation
+currency creation.
 
 ***
 
@@ -62,7 +66,7 @@ value of a currency.
 > `optional` **is\_active**: `boolean`
 
 - Shows currency is enabled or not in current
-sales channel
+sales channel.
 
 ***
 
@@ -71,7 +75,7 @@ sales channel
 > `optional` **modified\_at**: `string`
 
 - ISO 8601 timestamp of sales channel
-support currency updation
+support currency updation.
 
 ***
 
@@ -79,7 +83,7 @@ support currency updation
 
 > `optional` **name**: `string`
 
-- Name of the currency, e.g Indian Rupee
+- Name of the currency, e.g Indian Rupee.
 
 ***
 
@@ -87,13 +91,13 @@ support currency updation
 
 > `optional` **symbol**: `string`
 
-- Unique symbol for identifying the currency, e.g. ₹
+- Unique symbol for identifying the currency, e.g. ₹.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1543
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1598
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1544
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1599
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,11 +13,17 @@
 
 > `optional` **display\_name**: `string`
 
+- User-friendly version of the geographical
+data, which may be more descriptive or formatted differently.
+
 ***
 
 ### `is_active`
 
 > `optional` **is\_active**: `boolean`
+
+- Whether the country entity is currently
+active or not.
 
 ***
 
@@ -37,11 +43,15 @@
 
 > `optional` **name**: `string`
 
+- Country name.
+
 ***
 
 ### `parent_id`
 
 > `optional` **parent\_id**: `string`
+
+- Identifier for the parent of the current locality.
 
 ***
 
@@ -49,11 +59,17 @@
 
 > `optional` **sub\_type**: `string`
 
+- Specific type of locality hierarchy the
+pincode belongs to (e.g., city, state, country).
+
 ***
 
 ### `type`
 
 > `optional` **type**: `string`
+
+- Specifies the type of geographical feature or
+data, typically "Point" for coordinates in geographic data systems.
 
 ***
 
@@ -61,11 +77,13 @@
 
 > `optional` **uid**: `string`
 
+- Unique identifier for the country.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel.d.ts:631
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel.d.ts:1082
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel.d.ts:632
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Logistic/LogisticApplicationModel.d.ts:1083
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

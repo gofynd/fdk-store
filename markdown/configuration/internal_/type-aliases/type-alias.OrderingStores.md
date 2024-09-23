@@ -23,7 +23,7 @@ value is zero.
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the ordering store
+of the ordering store.
 
 ***
 
@@ -31,7 +31,7 @@ of the ordering store
 
 > `optional` **all\_stores**: `boolean`
 
-- Allow all stores of the ordering stores
+- Allow all stores of the ordering stores.
 
 ***
 
@@ -40,7 +40,7 @@ of the ordering store
 > `optional` **app**: `string`
 
 - Alphanumeric ID allotted to an application (sales
-channel website) created within a business account
+channel website) created within a business account.
 
 ***
 
@@ -48,19 +48,23 @@ channel website) created within a business account
 
 > `optional` **deployed\_stores**: `number`[]
 
+- List of all deployed stores.
+
 ***
 
 ### `enabled`
 
 > `optional` **enabled**: `boolean`
 
-- Allow ordering stores for current sales channel
+- Allow ordering stores for current sales channel.
 
 ***
 
 ### `items`
 
 > `optional` **items**: [`OrderingStore`](type-alias.OrderingStore.md)[]
+
+- List of ordering stores.
 
 ***
 
@@ -79,9 +83,9 @@ compulsory. For soft type, delivery store selection is optional.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2337
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2512
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2338
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2513
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

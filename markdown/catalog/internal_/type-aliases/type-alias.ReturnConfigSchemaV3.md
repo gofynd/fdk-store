@@ -13,11 +13,15 @@
 
 > `optional` **returnable**: `boolean`
 
+- Indicates if the item is returnable.
+
 ***
 
 ### `time`
 
 > `optional` **time**: `number`
+
+- The time duration for the return policy.
 
 ***
 
@@ -25,11 +29,13 @@
 
 > `optional` **unit**: `string`
 
+- The unit for the return configuration.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2223
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3613
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2224
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3614
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

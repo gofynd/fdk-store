@@ -13,7 +13,7 @@
 
 > `optional` **amount**: `number`
 
-- Per unit discount amount applied with current promotion
+- Per unit discount amount applied with current promotion.
 
 ***
 
@@ -22,7 +22,7 @@
 > `optional` **applied\_free\_articles**: [`AppliedFreeArticles`](type-alias.AppliedFreeArticles.md)[]
 
 - Applied free
-article for free gift item promotions
+article for free gift item promotions.
 
 ***
 
@@ -31,7 +31,7 @@ article for free gift item promotions
 > `optional` **article\_quantity**: `number`
 
 - Quantity of article on which
-promotion is applicable
+promotion is applicable.
 
 ***
 
@@ -39,7 +39,7 @@ promotion is applicable
 
 > `optional` **buy\_rules**: [`BuyRules`](type-alias.BuyRules.md)[]
 
-- Buy rules for promotions
+- Buy rules for promotions.
 
 ***
 
@@ -47,7 +47,7 @@ promotion is applicable
 
 > `optional` **code**: `string`
 
-- Promotion code
+- Promotion code.
 
 ***
 
@@ -55,7 +55,7 @@ promotion is applicable
 
 > `optional` **discount\_rules**: [`DiscountRulesApp`](type-alias.DiscountRulesApp.md)[]
 
-- Discount rules for promotions
+- Discount rules for promotions.
 
 ***
 
@@ -63,7 +63,7 @@ promotion is applicable
 
 > `optional` **meta**: `any`
 
-- Meta object for extra data
+- Meta object for extra data.
 
 ***
 
@@ -72,7 +72,7 @@ promotion is applicable
 > `optional` **mrp\_promotion**: `boolean`
 
 - If applied promotion is applied on
-product MRP or ESP
+product MRP or ESP.
 
 ***
 
@@ -80,7 +80,7 @@ product MRP or ESP
 
 > `optional` **offer\_text**: `string`
 
-- Offer text of current promotion
+- Offer text of current promotion.
 
 ***
 
@@ -88,7 +88,7 @@ product MRP or ESP
 
 > `optional` **ownership**: [`Ownership`](type-alias.Ownership.md)
 
-- Ownership of promotion
+- Ownership of promotion.
 
 ***
 
@@ -96,7 +96,7 @@ product MRP or ESP
 
 > `optional` **promo\_id**: `string`
 
-- Promotion id
+- Promotion id.
 
 ***
 
@@ -104,7 +104,7 @@ product MRP or ESP
 
 > `optional` **promotion\_group**: `string`
 
-- Promotion group for the promotion
+- Promotion group for the promotion.
 
 ***
 
@@ -112,7 +112,7 @@ product MRP or ESP
 
 > `optional` **promotion\_name**: `string`
 
-- Promotion name of current promotion
+- Promotion name of current promotion.
 
 ***
 
@@ -120,13 +120,13 @@ product MRP or ESP
 
 > `optional` **promotion\_type**: `string`
 
-- Promotion type of current promotion
+- Promotion type of current promotion.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1034
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1266
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1035
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1267
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

@@ -13,17 +13,15 @@
 
 > `optional` **\_id**: `string`
 
+- Unique identifier of an entry.
+
 ***
 
 ### `application`
 
 > `optional` **application**: `string`
 
-***
-
-### `config_type`
-
-> `optional` **config\_type**: `string`
+- Application ID - Identifier for a Sales channel.
 
 ***
 
@@ -37,11 +35,16 @@
 
 > `optional` **created**: `boolean`
 
+- Whether support contact details are created or not.
+
 ***
 
 ### `created_at`
 
 > `optional` **created\_at**: `string`
+
+- Timestamp which represent the time when
+data was created.
 
 ***
 
@@ -49,11 +52,14 @@
 
 > `optional` **updated\_at**: `string`
 
+- Timestamp which represent when was the last
+time when data was updated.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1073
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1775
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1074
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1776
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

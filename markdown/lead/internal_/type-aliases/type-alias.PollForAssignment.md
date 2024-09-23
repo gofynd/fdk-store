@@ -13,7 +13,7 @@
 
 > **duration**: `number`
 
-- Duration for polling of staff
+- Duration for polling of staff.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > **failure\_message**: `string`
 
-- Message if polling failed
+- Message if polling failed.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > **message**: `string`
 
-- Message for polling
+- Message for polling.
 
 ***
 
@@ -37,13 +37,13 @@
 
 > **success\_message**: `string`
 
-- Message for successful polling
+- Message for successful polling.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:409
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:368
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:410
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Lead/LeadApplicationModel.d.ts:369
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

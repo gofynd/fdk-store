@@ -13,11 +13,15 @@
 
 > `optional` **currency\_code**: `string`
 
+- Currency code for the price .
+
 ***
 
 ### `currency_symbol`
 
 > `optional` **currency\_symbol**: `string`
+
+- Currency symbol for the price.
 
 ***
 
@@ -25,11 +29,15 @@
 
 > `optional` **display**: `string`
 
+- Display key field that to be shown against the value.
+
 ***
 
 ### `key`
 
 > `optional` **key**: `string`
+
+- Key of the price like total_mrp, total, subtotal etc.
 
 ***
 
@@ -37,11 +45,16 @@
 
 > `optional` **message**: `string`[]
 
+- List of message at price level to be displayed.
+
 ***
 
 ### `preset`
 
 > `optional` **preset**: `number`
+
+- Value for the price which is set from platform
+if applicable.
 
 ***
 
@@ -49,11 +62,13 @@
 
 > `optional` **value**: `number`
 
+- Numeric value of the price.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1379
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1904
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1380
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1905
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

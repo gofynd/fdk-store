@@ -13,6 +13,8 @@
 
 > `optional` **\_id**: `any`
 
+- Unique identifier of the product grouping.
+
 ***
 
 ### `choice`
@@ -35,7 +37,7 @@
 
 > `optional` **created\_by**: [`UserDetail`](type-alias.UserDetail.md)
 
-- User details of the creator of the document
+- User details of the creator of the document.
 
 ***
 
@@ -43,7 +45,7 @@
 
 > **created\_on**: `string`
 
-- Timestamp of the creation of the document
+- Timestamp of the creation of the document.
 
 ***
 
@@ -59,7 +61,7 @@
 
 > `optional` **logo**: `string`
 
-- The URL for the logo of the product grouping.
+- The URL for the logo of the product group.
 
 ***
 
@@ -76,7 +78,7 @@
 > `optional` **modified\_by**: [`UserDetail`](type-alias.UserDetail.md)
 
 - User details of the last modifier of
-the document
+the document.
 
 ***
 
@@ -84,7 +86,7 @@ the document
 
 > **modified\_on**: `string`
 
-- Timestamp of the last modification of the document
+- Timestamp of the last modification of the document.
 
 ***
 
@@ -135,7 +137,7 @@ assigned to the same store.
 > `optional` **verified\_by**: [`UserDetail`](type-alias.UserDetail.md)
 
 - User details of the verifier of the
-document, if applicable
+document, if applicable.
 
 ***
 
@@ -144,13 +146,13 @@ document, if applicable
 > `optional` **verified\_on**: `string`
 
 - Timestamp of when the document was
-verified, if applicable
+verified, if applicable.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2110
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3448
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2111
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3449
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

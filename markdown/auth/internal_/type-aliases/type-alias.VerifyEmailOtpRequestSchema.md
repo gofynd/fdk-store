@@ -13,11 +13,15 @@
 
 > `optional` **action**: `string`
 
+- Action to verify the send or resent OTP.
+
 ***
 
 ### `email`
 
 > `optional` **email**: `string`
+
+- Email of a user to verify OTP.
 
 ***
 
@@ -25,17 +29,21 @@
 
 > `optional` **otp**: `string`
 
+- OTP for verification.
+
 ***
 
 ### `register_token`
 
 > `optional` **register\_token**: `string`
 
+- Unique temporary registration of the user.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:594
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:753
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:595
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/User/UserApplicationModel.d.ts:754
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

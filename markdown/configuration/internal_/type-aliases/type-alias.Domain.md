@@ -14,7 +14,7 @@
 > `optional` **\_id**: `string`
 
 - The unique identifier (24-digit Mongo Object ID)
-of the sales channel domain
+of the sales channel domain.
 
 ***
 
@@ -39,13 +39,15 @@ is the default/main domain.
 
 > `optional` **is\_shortlink**: `boolean`
 
-- Shortlink is present or not for the domain
+- Shortlink is present or not for the domain.
 
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
+
+- Domain name.
 
 ***
 
@@ -58,9 +60,9 @@ should propagate correctly.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1587
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1648
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1588
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1649
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

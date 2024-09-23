@@ -13,7 +13,7 @@
 
 > `optional` **areaCode**: `string`
 
-- Customer servicable area_code
+- Customer servicable area_code.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **assignCardId**: `number`
 
-- Token of user's debit or credit card
+- Token of user's debit or credit card.
 
 ***
 
@@ -29,8 +29,7 @@
 
 > `optional` **b**: `boolean`
 
-- This is a boolean value. Select `true` to retrieve
-the price breakup of cart items.
+- Select `true` to retrieve the price breakup of cart items.
 
 ***
 
@@ -38,8 +37,7 @@ the price breakup of cart items.
 
 > `optional` **buyNow**: `boolean`
 
-- This is a boolen value. Select `true` to
-set/initialize buy now cart
+- Select `true` to set/initialize buy now cart.
 
 ***
 
@@ -47,8 +45,8 @@ set/initialize buy now cart
 
 > `optional` **c**: `boolean`
 
-- This is a boolean value. Select `true` to retrieve
-the cod charges in breakup of cart items.
+- Select `true` to retrieve the cod charges in
+breakup of cart items.
 
 ***
 
@@ -56,8 +54,7 @@ the cod charges in breakup of cart items.
 
 > `optional` **i**: `boolean`
 
-- This is a boolean value. Select `true` to retrieve
-all the items added in the cart.
+- Select `true` to retrieve all the items added in the cart.
 
 ***
 
@@ -65,11 +62,21 @@ all the items added in the cart.
 
 > `optional` **id**: `string`
 
-- The unique identifier of the cart
+- The unique identifier of the cart.
+
+***
+
+### `orderType`
+
+> `optional` **orderType**: `string`
+
+- The order type of shipment HomeDelivery - If
+the customer wants the order home-delivered PickAtStore - If the customer
+wants the handover of an order at the store itself.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:407
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:467
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

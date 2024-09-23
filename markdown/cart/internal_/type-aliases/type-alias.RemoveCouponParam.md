@@ -13,7 +13,7 @@
 
 > `optional` **buyNow**: `boolean`
 
-- This is boolean to get buy_now cart
+- Wheter to get buy_now cart.
 
 ***
 
@@ -21,11 +21,11 @@
 
 > `optional` **id**: `string`
 
-- The unique identifier of the cart
+- The unique identifier of the cart.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:545
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationValidator.d.ts:636
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

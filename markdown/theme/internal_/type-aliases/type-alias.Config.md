@@ -13,7 +13,7 @@
 
 > **current**: `string`
 
-- The current configuration
+- The current configuration.
 
 ***
 
@@ -27,7 +27,7 @@
 
 > **list**: [`ThemeConfiguration`](type-alias.ThemeConfiguration.md)[]
 
-- A list of configurations
+- A list of configurations.
 
 ***
 
@@ -37,9 +37,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:736
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:926
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:737
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Theme/ThemeApplicationModel.d.ts:927
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

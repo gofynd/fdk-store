@@ -13,7 +13,7 @@
 
 > `optional` **icon**: `string`
 
-- Hosted URL of icon image shown on the website
+- Hosted URL of icon image shown on the website.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **link**: `string`
 
-- Web URL of brand's blog page
+- Web URL of brand's blog page.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **title**: `string`
 
-- Name of the brand's blog page
+- Name of the brand's blog page.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2151
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2294
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2152
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2295
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

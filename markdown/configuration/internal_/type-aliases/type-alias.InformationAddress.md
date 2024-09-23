@@ -13,7 +13,7 @@
 
 > `optional` **address\_line**: `string`[]
 
-- Contact address of the sales channel
+- Contact address of the sales channel.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **city**: `string`
 
-- Name of the city, e.g. Mumbai
+- Name of the city, e.g. Mumbai.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **country**: `string`
 
-- Name of the country, e.g. India
+- Name of the country, e.g. India.
 
 ***
 
@@ -43,19 +43,21 @@
 
 > `optional` **phone**: [`InformationPhone`](type-alias.InformationPhone.md)[]
 
+- Phone numbers with country codes.
+
 ***
 
 ### `pincode`
 
 > `optional` **pincode**: `number`
 
-- 6-digit PIN Code of the city, e.g. 400001
+- 6-digit PIN Code of the city, e.g. 400001.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1932
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2059
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:1933
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2060
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

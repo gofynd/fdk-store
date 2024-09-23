@@ -13,7 +13,7 @@
 
 > `optional` **cart\_conditions**: `any`
 
-- Cart conditions details for promotion
+- Cart conditions details for promotion.
 
 ***
 
@@ -21,13 +21,13 @@
 
 > `optional` **item\_criteria**: `any`
 
-- Item criteria of promotion
+- Item criteria of promotion.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:942
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1202
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:943
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:1203
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

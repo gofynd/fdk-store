@@ -13,6 +13,9 @@
 
 > `optional` **\_custom\_json**: `any`
 
+- Custom JSON data related to the brand,
+allowing for additional metadata.
+
 ***
 
 ### `banners`
@@ -24,6 +27,9 @@
 ### `description`
 
 > `optional` **description**: `string`
+
+- Detailed description of the brand,
+including its history, values, product offerings, and other relevant information.
 
 ***
 
@@ -37,17 +43,21 @@
 
 > `optional` **name**: `string`
 
+- Name of the brand.
+
 ***
 
 ### `uid`
 
 > `optional` **uid**: `number`
 
+- The unique identifier for the brand.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1562
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2377
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1563
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2378
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

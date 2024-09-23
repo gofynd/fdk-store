@@ -13,7 +13,7 @@
 
 > `optional` **icon**: `string`
 
-- Hosted URL of social icon image shown on the website
+- Hosted URL of social icon image shown on the website.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **link**: `string`
 
-- Web URL of brand's Facebook page
+- Web URL of brand's Facebook page.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **title**: `string`
 
-- Name of the social media platform, e.g. Facebook
+- Name of the social media platform, e.g. Facebook.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2023
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2166
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2024
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2167
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

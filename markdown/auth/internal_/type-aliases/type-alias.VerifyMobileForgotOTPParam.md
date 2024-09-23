@@ -19,7 +19,7 @@
 
 > `optional` **platform**: `string`
 
-- ID of the application
+- ID of the application.
 
 ## Defined In
 

@@ -13,7 +13,7 @@
 
 > `optional` **icon**: `string`
 
-- Hosted URL of social icon image shown on the website
+- Hosted URL of social icon image shown on the website.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **link**: `string`
 
-- Web URL of brand's Vimeo channel
+- Web URL of brand's Vimeo channel.
 
 ***
 
@@ -29,13 +29,13 @@
 
 > `optional` **title**: `string`
 
-- Name of the video hosting platform, e.g. Vimeo
+- Name of the video hosting platform, e.g. Vimeo.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2135
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2278
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2136
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Configuration/ConfigurationApplicationModel.d.ts:2279
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

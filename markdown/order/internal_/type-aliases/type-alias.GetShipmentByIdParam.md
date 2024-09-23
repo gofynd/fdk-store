@@ -13,7 +13,7 @@
 
 > `optional` **allowInactive**: `boolean`
 
-- Flag to allow inactive shipments
+- Flag to allow inactive shipments.
 
 ***
 
@@ -27,7 +27,7 @@ its own ID.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:199
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Order/OrderApplicationValidator.d.ts:201
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

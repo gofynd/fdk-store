@@ -13,7 +13,7 @@
 
 > `optional` **display**: `any`
 
-- The display string for the size
+- The display string for the size.
 
 ***
 
@@ -21,7 +21,7 @@
 
 > `optional` **is\_available**: `boolean`
 
-- Whether or not this size is available
+- Whether or not this size is available.
 
 ***
 
@@ -29,7 +29,7 @@
 
 > `optional` **quantity**: `number`
 
-- The quantity of this size available
+- The quantity of this size available.
 
 ***
 
@@ -37,13 +37,13 @@
 
 > `optional` **value**: `any`
 
-- The value of the size
+- The value of the size.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1933
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3272
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1934
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3273
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

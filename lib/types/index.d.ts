@@ -58,3 +58,4 @@ export type CustomAction<T> = {
     type: string;
     payload: T;
 };
+export type GraphQLFetcher = (query: string, variables: unknown) => Promise<any>;

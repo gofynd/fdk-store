@@ -9,6 +9,7 @@
 
 ### Type Aliases
 
+- [Address](type-aliases/type-alias.Address.md)
 - [AppliedFreeArticles](type-aliases/type-alias.AppliedFreeArticles.md)
 - [AppliedPromos](type-aliases/type-alias.AppliedPromos.md)
 - [Article](type-aliases/type-alias.Article.md)
@@ -21,7 +22,6 @@
 - [CurrentStatus](type-aliases/type-alias.CurrentStatus.md)
 - [CustomerDetailsResponse](type-aliases/type-alias.CustomerDetailsResponse.md)
 - [DataUpdates](type-aliases/type-alias.DataUpdates.md)
-- [DeliveryAddress](type-aliases/type-alias.DeliveryAddress.md)
 - [EntitiesDataUpdates](type-aliases/type-alias.EntitiesDataUpdates.md)
 - [EntitiesReasons](type-aliases/type-alias.EntitiesReasons.md)
 - [EntityReasonData](type-aliases/type-alias.EntityReasonData.md)
@@ -64,6 +64,7 @@
 - [ShipmentBagReasons](type-aliases/type-alias.ShipmentBagReasons.md)
 - [ShipmentById](type-aliases/type-alias.ShipmentById.md)
 - [ShipmentPayment](type-aliases/type-alias.ShipmentPayment.md)
+- [ShipmentPaymentInfo](type-aliases/type-alias.ShipmentPaymentInfo.md)
 - [ShipmentReason](type-aliases/type-alias.ShipmentReason.md)
 - [ShipmentReasons](type-aliases/type-alias.ShipmentReasons.md)
 - [ShipmentStatus](type-aliases/type-alias.ShipmentStatus.md)
@@ -87,6 +88,7 @@
 
 ### Functions
 
+- [Address](functions/function.Address-1.md)
 - [AppliedFreeArticles](functions/function.AppliedFreeArticles-1.md)
 - [AppliedPromos](functions/function.AppliedPromos-1.md)
 - [Article](functions/function.Article-1.md)
@@ -99,7 +101,6 @@
 - [CurrentStatus](functions/function.CurrentStatus-1.md)
 - [CustomerDetailsResponse](functions/function.CustomerDetailsResponse-1.md)
 - [DataUpdates](functions/function.DataUpdates-1.md)
-- [DeliveryAddress](functions/function.DeliveryAddress-1.md)
 - [EntitiesDataUpdates](functions/function.EntitiesDataUpdates-1.md)
 - [EntitiesReasons](functions/function.EntitiesReasons-1.md)
 - [EntityReasonData](functions/function.EntityReasonData-1.md)
@@ -134,6 +135,7 @@
 - [ShipmentBagReasons](functions/function.ShipmentBagReasons-1.md)
 - [ShipmentById](functions/function.ShipmentById-1.md)
 - [ShipmentPayment](functions/function.ShipmentPayment-1.md)
+- [ShipmentPaymentInfo](functions/function.ShipmentPaymentInfo-1.md)
 - [ShipmentReason](functions/function.ShipmentReason-1.md)
 - [ShipmentReasons](functions/function.ShipmentReasons-1.md)
 - [ShipmentStatus](functions/function.ShipmentStatus-1.md)

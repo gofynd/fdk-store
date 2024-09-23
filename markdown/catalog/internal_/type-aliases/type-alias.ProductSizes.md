@@ -13,6 +13,8 @@
 
 > `optional` **discount**: `string`
 
+- Discount information applicable to the product sizes.
+
 ***
 
 ### `discount_meta`
@@ -25,6 +27,8 @@
 
 > `optional` **multi\_size**: `boolean`
 
+- Whether the product supports multiple sizes.
+
 ***
 
 ### `price`
@@ -33,9 +37,17 @@
 
 ***
 
+### `price_per_piece`
+
+> `optional` **price\_per\_piece**: [`ProductSizesPrice`](type-alias.ProductSizesPrice.md)
+
+***
+
 ### `sellable`
 
 > `optional` **sellable**: `boolean`
+
+- Whether the product sizes are available for sale.
 
 ***
 
@@ -49,6 +61,8 @@
 
 > `optional` **sizes**: [`ProductSize`](type-alias.ProductSize.md)[]
 
+- List of available sizes for the product.
+
 ***
 
 ### `stores`
@@ -57,9 +71,9 @@
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1302
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1691
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1303
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:1692
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

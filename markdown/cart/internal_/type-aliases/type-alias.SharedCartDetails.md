@@ -13,13 +13,15 @@
 
 > `optional` **created\_on**: `string`
 
+- Created on timestamp of user cart.
+
 ***
 
 ### `meta`
 
 > `optional` **meta**: `any`
 
-- Meta data sent while generating share cart link
+- Meta data sent while generating share cart link.
 
 ***
 
@@ -27,7 +29,7 @@
 
 > `optional` **source**: `any`
 
-- Share link device and other source information
+- Share link device and other source information.
 
 ***
 
@@ -35,7 +37,7 @@
 
 > `optional` **token**: `string`
 
-- Short link id
+- Short link id of the user cart that needs to be shared.
 
 ***
 
@@ -43,13 +45,13 @@
 
 > `optional` **user**: `any`
 
-- User details of who generated share link
+- User details of who generated share link.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2039
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3590
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:2040
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Cart/CartApplicationModel.d.ts:3591
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

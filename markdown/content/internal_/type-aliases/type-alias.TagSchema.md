@@ -19,11 +19,15 @@
 
 > `optional` **\_id**: `string`
 
+- Unique identifier of an entry.
+
 ***
 
 ### `attributes`
 
 > `optional` **attributes**: `any`
+
+- Custom JSON object for specific use cases.
 
 ***
 
@@ -31,11 +35,15 @@
 
 > `optional` **content**: `string`
 
+- Content of tag.
+
 ***
 
 ### `name`
 
 > `optional` **name**: `string`
+
+- Name of the html tag.
 
 ***
 
@@ -43,11 +51,15 @@
 
 > `optional` **pages**: `any`[]
 
+- List of all the page where tag is to be added.
+
 ***
 
 ### `position`
 
 > `optional` **position**: `string`
+
+- Position where Tag is so to be placed.
 
 ***
 
@@ -55,11 +67,15 @@
 
 > `optional` **sub\_type**: `string`
 
+- Whether js/css is external or inline.
+
 ***
 
 ### `type`
 
 > `optional` **type**: `string`
+
+- Whether Tag is JS or CSS.
 
 ***
 
@@ -67,11 +83,13 @@
 
 > `optional` **url**: `string`
 
+- URL at which css or js might be hosted.
+
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1122
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1880
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1123
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Content/ContentApplicationModel.d.ts:1881
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)

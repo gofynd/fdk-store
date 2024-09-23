@@ -13,8 +13,7 @@
 
 > `optional` **allow\_remove**: `boolean`
 
-- A flag indicating whether the product
-can be removed from the cart.
+- Whether the product can be removed from the cart.
 
 ***
 
@@ -22,8 +21,8 @@ can be removed from the cart.
 
 > `optional` **auto\_add\_to\_cart**: `boolean`
 
-- A flag indicating whether the
-product should be automatically added to the cart.
+- Whether the product should be
+automatically added to the cart.
 
 ***
 
@@ -31,8 +30,8 @@ product should be automatically added to the cart.
 
 > `optional` **auto\_select**: `boolean`
 
-- A flag indicating whether the product
-should be automatically selected.
+- Whether the product should be
+automatically selected.
 
 ***
 
@@ -58,7 +57,7 @@ can be added to the cart.
 
 > `optional` **price**: [`ProductGroupPrice`](type-alias.ProductGroupPrice.md)
 
-- The price details for the product group.
+- The price details for the product.
 
 ***
 
@@ -86,9 +85,9 @@ can be added to the cart.
 
 ## Defined In
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2065
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3404
 
-node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:2066
+node\_modules/@gofynd/fdk-client-javascript/sdk/application/Catalog/CatalogApplicationModel.d.ts:3405
 
 ***
 Generated using [TypeDoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown)
