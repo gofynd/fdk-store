@@ -38,7 +38,10 @@ export type UpdateCartItemsParams = {
     items: UpdateProductCart[];
 };
 export type UpdateCheckoutModeParams = {
-    checkout_mode: Mode;
+    body: {
+        checkout_mode: Mode;
+    };
+    id: string;
 } & Omit<UpdateCartMetaParam, 'body'>;
 export type ApplyRewardPointsParams = {
     points: boolean;

@@ -5,11 +5,23 @@
 
 # Type alias: UpdateCheckoutModeParams
 
-> **UpdateCheckoutModeParams**: \{`checkout_mode`: [`Mode`](type-alias.Mode.md);} & [`Omit`](type-alias.Omit.md)\< [`UpdateCartMetaParam`](type-alias.UpdateCartMetaParam.md), `"body"` \>
+> **UpdateCheckoutModeParams**: \{`body`: \{`checkout_mode`: [`Mode`](type-alias.Mode.md);}; `id`: `string`;} & [`Omit`](type-alias.Omit.md)\< [`UpdateCartMetaParam`](type-alias.UpdateCartMetaParam.md), `"body"` \>
 
-> ## `UpdateCheckoutModeParams.checkout_mode`
+> ## `UpdateCheckoutModeParams.body`
 >
-> > **checkout\_mode**: [`Mode`](type-alias.Mode.md)
+> > **body**: `object`
+>
+> ### Type declaration
+>
+> > #### `body.checkout_mode`
+> >
+> > > **checkout\_mode**: [`Mode`](type-alias.Mode.md)
+> >
+> >
+>
+> ## `UpdateCheckoutModeParams.id`
+>
+> > **id**: `string`
 >
 >
 
